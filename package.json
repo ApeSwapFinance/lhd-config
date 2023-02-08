@@ -1,0 +1,61 @@
+{
+  "name": "lhd-config",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ApeSwapFinance/apeswap-lists.git"
+  },
+  "license": "MIT",
+  "module": "dist/apeswap-lists.esm.js",
+  "scripts": {
+    "build": "rimraf ./index.ts && tsc",
+    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "start": "rimraf ./config && mkdir config && yarn run build && node build/index.js && yarn run format:write",
+    "postinstall": "yarn run start && yarn run format:write",
+    "prepare": "husky install",
+    "test": "jest",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json}\"",
+    "format:check:staged": "pretty-quick --staged --check",
+    "format:write": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\""
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.2",
+    "ethers": "^5.6.9",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "eslint": "^8.20.0",
+    "husky": "^6.0.0",
+    "jest": "^28.1.3",
+    "prettier": "^2.7.1",
+    "pretty-quick": "^3.1.3",
+    "rimraf": "^3.0.0",
+    "run-func": "^3.0.0",
+    "ts-jest": "^28.0.7",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "description": "## How to Manage this Repo",
+  "bugs": {
+    "url": "https://github.com/ApeSwapFinance/apeswap-lists/issues"
+  },
+  "homepage": "https://github.com/ApeSwapFinance/apeswap-lists#readme",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": ""
+}
