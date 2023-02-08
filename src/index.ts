@@ -1,6 +1,6 @@
 import path from 'path'
 import fs from 'fs'
-import { addressMappingWhitelist, hardAssetList } from '/constants'
+import { addressMappingWhitelist, hardAssetList } from './constants'
 
 const listMap: [any, string][] = [
   [addressMappingWhitelist, 'addressMappingWhitelist'],
