@@ -2,7 +2,7 @@
   {
     "tokenSymbol": "UNI",
     "tokenName": "UniSwap",
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/12504/large/uniswap-uni.png?1600306604",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/uniswap.png?v=023",
     "tokenAddresses": [
       {
         "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
@@ -17,7 +17,7 @@
   {
     "tokenSymbol": "APE",
     "tokenName": "ApeCoin",
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/14338/large/ape.png?1615897749",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/apecoin-ape.png?v=023",
     "tokenAddresses": [
       {
         "address": "0x4d224452801aced8b2f0aebe155379bb5d594381",
@@ -32,7 +32,7 @@
   {
     "tokenSymbol": "NEAR",
     "tokenName": "Near Protocol",
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/10365/large/near_icon.png?1601358691",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/near-protocol.png?v=023",
     "tokenAddresses": [
       {
         "address": "0x85f17cf997934a597031b2e18a9ab6ebd4b9f6a4",
@@ -55,7 +55,7 @@
   {
     "tokenSymbol": "AAVE",
     "tokenName": "Aave Token",
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/12645/large/aave.png?1601374119",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/aave.png?v=023",
     "tokenAddresses": [
       {
         "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
@@ -70,7 +70,7 @@
   {
     "tokenSymbol": "WCRO",
     "tokenName": "Wrapped CRO",
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/11849/large/wrapped_cro.png?1599625480",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/cronos.png?v=023",
     "tokenAddresses": [
       {
         "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
@@ -85,7 +85,7 @@
   {
     "tokenSymbol": "USDC",
     "tokenName": "USDC",
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png?1547042389",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/usd-coin.png?v=023",
     "tokenAddresses": [
       {
         "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",

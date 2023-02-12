@@ -7,7 +7,7 @@
         "chainId": "1"
       }
     ],
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png?1547042389",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin"
   },
   {
@@ -18,7 +18,7 @@
         "chainId": "1"
       }
     ],
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/325/large/Tether-logo.png?1598003707",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/tether-usdt-logo.png?v=024",
     "tokenName": "Tether"
   },
   {
@@ -29,7 +29,7 @@
         "chainId": "1"
       }
     ],
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/9576/large/BUSD.png?1568947762",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/binance-usd.png?v=023",
     "tokenName": "Binance USD"
   },
   {
@@ -40,7 +40,7 @@
         "chainId": "1"
       }
     ],
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/9956/large/dai-multi-collateral-mcd.png?1574218774",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/multi-collateral-dai.png?v=023",
     "tokenName": "Dai"
   },
   {
@@ -51,7 +51,7 @@
         "chainId": "1"
       }
     ],
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png?1548822744",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/bitcoin.png?v=023",
     "tokenName": "Wrapped Bitcoin"
   },
   {
@@ -62,7 +62,7 @@
         "chainId": "1"
       }
     ],
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/279/large/weth.png?20170116",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/ethereum.png?v=023",
     "tokenName": "Wrapped Ether"
   },
   {
@@ -73,7 +73,7 @@
         "chainId": "56"
       }
     ],
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/825/large/binance-coin-logo.png?1547034615",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/bnb.png?v=023",
     "tokenName": "Binance Coin"
   },
   {
@@ -84,7 +84,7 @@
         "chainId": "137"
       }
     ],
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/4713/large/matic-token-icon.png?1548386115",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/polygon.png?v=023",
     "tokenName": "Matic"
   },
   {
@@ -95,7 +95,7 @@
         "chainId": "2000"
       }
     ],
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/5/large/dogecoin.png",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/dogecoin.png?v=023",
     "tokenName": "Dogecoin"
   },
   {
@@ -106,7 +106,7 @@
         "chainId": "56"
       }
     ],
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/975/large/cardano.png",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/cardano.png?v=023",
     "tokenName": "Cardano"
   },
   {
@@ -117,7 +117,7 @@
         "chainId": "1"
       }
     ],
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/11849/large/cro.png",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/cronos.png?v=023",
     "tokenName": "Crypto.com Coin"
   },
   {
@@ -128,7 +128,7 @@
         "chainId": "1"
       }
     ],
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/8778/large/Fantom.png",
+    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/fantom.png?v=023",
     "tokenName": "Fantom"
   }
 ]
