@@ -4,6 +4,17 @@ import { AddressMapping } from '../types'
 
 const addressMappingWhitelist: AddressMapping[] = [
   {
+    tokenSymbol: 'TLOS',
+    tokenName: 'Telos',
+    tokenLogoUrl:
+      'https://assets-global.website-files.com/60ae1fd65f7b76f18ddd0bec/61044a5f70f5bbeb24b995ea_Symbol%202%402x.png',
+    tokenAddresses: [
+      { address: '0x7825e833d495f3d1c28872415a4aee339d26ac88', chainId: '1' },
+      { address: '0xd102ce6a4db07d247fcc28f366a623df0938ca9e', chainId: '40' },
+      { address: '0xb6c53431608e626ac81a9776ac3e999c5556717c', chainId: '56' },
+    ],
+  },
+  {
     tokenSymbol: 'UNI',
     tokenName: 'UniSwap',
     tokenLogoUrl: 'https://cryptologos.cc/logos/thumbs/uniswap.png?v=023',
