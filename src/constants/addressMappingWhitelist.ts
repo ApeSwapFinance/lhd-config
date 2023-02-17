@@ -4,6 +4,17 @@ import { AddressMapping } from '../types'
 
 const addressMappingWhitelist: AddressMapping[] = [
   {
+    tokenSymbol: 'WBNB',
+    tokenName: 'Wrapped BNB',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1644979850',
+    tokenAddresses: [
+      {
+        chainId: '1',
+        address: '0xb8c77482e45f1f44de1745f52c74426c631bdd52',
+      },
+    ],
+  },
+  {
     tokenSymbol: 'TLOS',
     tokenName: 'Telos',
     tokenLogoUrl:
@@ -30,6 +41,7 @@ const addressMappingWhitelist: AddressMapping[] = [
     tokenAddresses: [
       { address: '0x4d224452801aced8b2f0aebe155379bb5d594381', chainId: '1' },
       { address: '0xc762043e211571eb34f1ef377e5e8e76914962f9', chainId: '56' },
+      { address: '0x0b079b33b6e72311c6be245f9f660cc385029fc3', chainId: '56' },
     ],
   },
   {

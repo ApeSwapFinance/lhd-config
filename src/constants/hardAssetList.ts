@@ -1310,6 +1310,10 @@ const hardAssetList: AddressMapping[] = [
         address: '0xe0a592353e81a94db6e3226fd4a99f881751776a',
         chainId: '420',
       },
+      {
+        address: '0x152b9d0fdc40c096757f570a51e494bd4b943e50',
+        chainId: '43114',
+      },
     ],
   },
   {
