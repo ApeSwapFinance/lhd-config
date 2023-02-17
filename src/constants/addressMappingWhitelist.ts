@@ -12,6 +12,10 @@ const addressMappingWhitelist: AddressMapping[] = [
         chainId: '1',
         address: '0xb8c77482e45f1f44de1745f52c74426c631bdd52',
       },
+      {
+        address: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+        chainId: '56',
+      },
     ],
   },
   {
