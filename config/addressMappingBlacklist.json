@@ -2258,5 +2258,475 @@
         "address": "0x07327a00ba28d413f745c931bbe6be053b0ad2a6"
       }
     ]
+  },
+  {
+    "tokenSymbol": "ACX",
+    "tokenName": "Across Protocol",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/28161/large/across-200x200.png?1668168201",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "HOTCROSS",
+    "tokenName": "Hot Cross",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/15706/large/Hotcross.png?1632197570",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0x4297394c20800e8a38a619a243e9bbe7681ff24e"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "CWS",
+    "tokenName": "Seascape Crowns",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/13835/large/crowns_logo.png?1612176905",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0xac0104cca91d167873b8601d2e71eb3d4d8c33e0"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "CROID",
+    "tokenName": "Cronos ID",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/28498/large/Cronos_ID_Logo.png?1671110157",
+    "tokenAddresses": [
+      {
+        "chainId": "25",
+        "address": "0xcbf0adea24fd5f32c6e7f0474f0d1b94ace4e2e7"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "CROWD",
+    "tokenName": "CrowdSwap",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/23928/large/icon_192.png?1645690364",
+    "tokenAddresses": [
+      {
+        "chainId": "137",
+        "address": "0x483dd3425278c1f79f377f1034d9d2cae55648b6"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "SCROOGE",
+    "tokenName": "Scrooge",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/21510/large/top-hat-200x200.png?1668344782",
+    "tokenAddresses": [
+      {
+        "chainId": "56",
+        "address": "0xfa1ba18067ac6884fb26e329e60273488a247fc3"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "VATRENI",
+    "tokenName": "Croatian FF Fan Token",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/28295/large/Vatreni.png?1669792199",
+    "tokenAddresses": [
+      {
+        "chainId": "137",
+        "address": "0xd60deba014459f07bbcc077a5b817f31dafd5229"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "CBX",
+    "tokenName": "CropBytes",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/19907/large/cbx.png?1647698560",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0x37fc4b48ce93469dbea9918468993c735049642a"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "CWT",
+    "tokenName": "CrossWallet",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/16460/large/AAoUhOw.png?1624259013",
+    "tokenAddresses": [
+      {
+        "chainId": "56",
+        "address": "0x5a726a26edb0df8fd55f03cc30af8a7cea81e78d"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "LCR",
+    "tokenName": "Lucro",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/27335/large/LCR_logo_200x200-1.png?1663483321",
+    "tokenAddresses": [
+      {
+        "chainId": "56",
+        "address": "0x988f7c894e4001eeb7b570cde80dffe21cf7b6b9"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "PETS",
+    "tokenName": "MicroPets",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/19175/large/pets.png?1644048894",
+    "tokenAddresses": [
+      {
+        "chainId": "56",
+        "address": "0xa77346760341460b42c230ca6d21d4c8e743fa9c"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "MMF",
+    "tokenName": "MMFinance (Cronos)",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/22273/large/MMF200X200.png?1650448869",
+    "tokenAddresses": [
+      {
+        "chainId": "25",
+        "address": "0x97749c9b61f878a880dfe312d2594ae07aed7656"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "GIV",
+    "tokenName": "Giveth",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/21792/large/GIVToken_200x200.png?1640055088",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0x900db999074d9277c5da2a43f252d74366230da0"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "SFTMX",
+    "tokenName": "Stader sFTMX",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/26586/large/Fantom_Light.png.png?1658900076",
+    "tokenAddresses": [
+      {
+        "chainId": "250",
+        "address": "0xd7028092c830b5c8fce061af2e593413ebbc1fc1"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "QUARTZ",
+    "tokenName": "Sandclock",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/19368/large/sandclock.jpg?1635132501",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0xba8a621b4a54e61c442f5ec623687e2a942225ef"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "GHST",
+    "tokenName": "Aavegotchi",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/12467/large/ghst_200.png?1600750321",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0x3f382dbd960e3a9bbceae22651e88158d2791550"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "LEND",
+    "tokenName": "Aave [OLD]",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/1365/large/ethlend.png?1547394586",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0x80fb784b7ed66730e8b1dbd9820afd29931aab03"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "HFT",
+    "tokenName": "Hashflow",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/26136/large/hashflow-icon-cmc.png?1668345672",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0xb3999f658c0391d94a37f7ff328f3fec942bcadc"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "TFLOW",
+    "tokenName": "TradeFlow",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/27843/large/photo_2022-10-17_12-17-44.jpg?1666061785",
+    "tokenAddresses": [
+      {
+        "chainId": "56",
+        "address": "0x00ee89f7f21b60b72dd5d4070a4310f796c38c32"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "NCR",
+    "tokenName": "Neos Credits",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/17935/large/s4C4tVi.png?1629860208",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0xdb5c3c46e28b53a39c255aa39a411dd64e5fed9c"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "DLTA",
+    "tokenName": "delta.theta",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/15697/large/logo-DT-square.png?1621570627",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0x0000000de40dfa9b17854cbc7869d80f9f98d823"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "THG",
+    "tokenName": "Thetan Gem",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/THG.png",
+    "tokenAddresses": [
+      {
+        "address": "0x9fd87aefe02441b123c3c32466cd9db4c578618f",
+        "chainId": "56"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "FXS",
+    "tokenName": "Frax Share",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/13423/large/ethCanonicalFXS.png?1669276861",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "FRXETH",
+    "tokenName": "Frax Ether",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/28284/large/JjqQ9ROz_400x400.jpeg?1669170320",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0x5e8422345238f34275888049021821e8e08caa1f"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "FPIS",
+    "tokenName": "Frax Price Index Share",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/24944/large/fpis.png?1649485832",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0xc2544a32872a91f4a553b404c6950e89de901fdb"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "SFRXETH",
+    "tokenName": "Staked Frax Ether",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/28285/large/JjqQ9ROz_400x400.jpeg?1669170466",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0xac3e018457b222d93114458476f3e3416abbe38f"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "PLS",
+    "tokenName": "PlutusDAO",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/25326/large/M6nUndNU_400x400.jpg?1651233987",
+    "tokenAddresses": [
+      {
+        "chainId": "42161",
+        "address": "0x51318b7d00db7acc4026c88c3952b66278b6a67f"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "AIMX",
+    "tokenName": "Aimedis",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/21316/large/photo_2023-01-09_13-07-02.jpg?1676272231",
+    "tokenAddresses": [
+      {
+        "chainId": "56",
+        "address": "0xced1492ea4d59f4e83409f26752a784c3f8709ca"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "CVXCRV",
+    "tokenName": "Convex CRV",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/15586/large/convex-crv.png?1621255952",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0x62b9c7356a2dc64a1969e19c23e4f579f9810aa7"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "YVE-CRVDAO",
+    "tokenName": "veCRV-DAO yVault",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/13065/large/yearn_veCRV.png?1612862859",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0xc5bddf9843308380375a611c18b50fb9341f502a"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "SNX",
+    "tokenName": "Snx Token",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/SNX.svg",
+    "tokenAddresses": [
+      {
+        "address": "0x9ac983826058b8a9c7aa1c9171441191232e8404",
+        "chainId": "56"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "USDP",
+    "tokenName": "USDP Stablecoin",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/13234/large/USDP.png?1606579598",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0x1456688345527be1f37e9e627da0837d6f08c925"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "LZ",
+    "tokenName": "LaunchZone",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/17761/large/icon_%287%29.png?1629187241",
+    "tokenAddresses": [
+      {
+        "chainId": "56",
+        "address": "0x3b78458981eb7260d1f781cb8be2caac7027dbe2"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "MONSTA",
+    "tokenName": "Cake Monster",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/16441/large/Monster-Icon-CG200x200transparent.png?1656392071",
+    "tokenAddresses": [
+      {
+        "chainId": "56",
+        "address": "0x8a5d7fcd4c90421d21d30fcc4435948ac3618b2f"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "NCR",
+    "tokenName": "Neos Credits",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/17935/large/s4C4tVi.png?1629860208",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0xdb5c3c46e28b53a39c255aa39a411dd64e5fed9c"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "BABYDOGE",
+    "tokenName": "BabyDoge ETH",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/17166/large/logo_256px_%281%29.png?1626684127",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0xac8e13ecc30da7ff04b842f21a62a1fb0f10ebd5"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "CWBTC",
+    "tokenName": "cWBTC",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/10823/large/cwbtc.png?1584331700",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0xccf4429db6322d5c611ee964527d42e5d685dd6a"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "IWBTC",
+    "tokenName": "Instadapp WBTC",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/25784/large/iWBTC-100x100.png?1654055142",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0xec363faa5c4dd0e51f3d9b5d0101263760e7cdeb"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "XRUNE",
+    "tokenName": "Thorstarter",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/16835/large/thorstarter.jpg?1625279004",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0x69fa0fee221ad11012bab0fdb45d444d3d2ce71c"
+      },
+      {
+        "chainId": "250",
+        "address": "0xe1e6b01ae86ad82b1f1b4eb413b219ac32e17bf6"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "ZILLIONXO",
+    "tokenName": "Zillion Aakar XO",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/26515/large/tg_image_4289710331.jpeg?1658450397",
+    "tokenAddresses": [
+      {
+        "chainId": "56",
+        "address": "0x9a2478c4036548864d96a97fbf93f6a3341fedac"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "EXRD",
+    "tokenName": "e-Radix",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/13145/large/exrd_logo.png?1605662677",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0x6468e79a80c0eab0f9a2b574c8d5bc374af59414"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "EJS",
+    "tokenName": "Enjinstarter",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/18732/large/l-R1nYA0_400x400.jpg?1633297242",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0x96610186f3ab8d73ebee1cf950c750f3b1fb79c2"
+      },
+      {
+        "chainId": "56",
+        "address": "0x09f423ac3c9babbff6f94d372b16e4206e71439f"
+      }
+    ]
   }
 ]
