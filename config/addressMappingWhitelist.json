@@ -28,7 +28,7 @@
     "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/BANANA.svg",
     "tokenAddresses": [
       {
-        "address": "0xb6c53431608e626ac81a9776ac3e999c5556717c",
+        "address": "0x603c7f932ed1fc6575303d8fb018fdcbb0f39a95",
         "chainId": "56"
       }
     ],

@@ -17,7 +17,7 @@ const addressMappingWhitelist: AddressMapping[] = [
     tokenSymbol: 'BANANA',
     tokenName: 'ApeSwap BANANA',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/BANANA.svg',
-    tokenAddresses: [{ address: '0xb6c53431608e626ac81a9776ac3e999c5556717c', chainId: '56' }],
+    tokenAddresses: [{ address: '0x603c7f932ed1fc6575303d8fb018fdcbb0f39a95', chainId: '56' }],
     knownOwners: [
       '0x944694417a6ca0a70963d644a11d42c10e3af042',
       '0xAbD7853b79e488bC1BD9e238A870167B074eb714',
