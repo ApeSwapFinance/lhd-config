@@ -3,6 +3,7 @@ export interface AddressMapping {
   tokenAddresses: TokenAddress[]
   tokenName: string
   tokenLogoUrl: string
+  knownOwners?: string[]
 }
 
 export interface TokenAddress {
