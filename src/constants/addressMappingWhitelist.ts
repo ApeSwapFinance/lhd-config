@@ -1,8 +1,37 @@
 import { AddressMapping } from '../types'
 
-// The list of address mappings
-
 const addressMappingWhitelist: AddressMapping[] = [
+  {
+    tokenSymbol: 'TLOS',
+    tokenName: 'Telos',
+    tokenLogoUrl:
+      'https://assets-global.website-files.com/60ae1fd65f7b76f18ddd0bec/61044a5f70f5bbeb24b995ea_Symbol%202%402x.png',
+    tokenAddresses: [
+      { address: '0x7825e833d495f3d1c28872415a4aee339d26ac88', chainId: '1' },
+      { address: '0xd102ce6a4db07d247fcc28f366a623df0938ca9e', chainId: '40' },
+      { address: '0xb6c53431608e626ac81a9776ac3e999c5556717c', chainId: '56' },
+    ],
+    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042', '0x6c905b4108A87499CEd1E0498721F2B831c6Ab13'],
+  },
+  {
+    tokenSymbol: 'BANANA',
+    tokenName: 'ApeSwap BANANA',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/BANANA.svg',
+    tokenAddresses: [{ address: '0xb6c53431608e626ac81a9776ac3e999c5556717c', chainId: '56' }],
+    knownOwners: [
+      '0x944694417a6ca0a70963d644a11d42c10e3af042',
+      '0xAbD7853b79e488bC1BD9e238A870167B074eb714',
+      '0x71c0c1001520e1568e17836cc8a19d0dbdb2bd5f',
+    ],
+  },
+  {
+    tokenSymbol: 'RADAR',
+    tokenName: 'Dapp Radar',
+    tokenLogoUrl:
+      'https://assets-global.website-files.com/60ae1fd65f7b76f18ddd0bec/61044a5f70f5bbeb24b995ea_Symbol%202%402x.png',
+    tokenAddresses: [{ address: '0xb6c53431608e626ac81a9776ac3e999c5556717c', chainId: '56' }],
+    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
+  },
   {
     tokenSymbol: 'WBNB',
     tokenName: 'Wrapped BNB',
@@ -16,17 +45,6 @@ const addressMappingWhitelist: AddressMapping[] = [
         address: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
         chainId: '56',
       },
-    ],
-  },
-  {
-    tokenSymbol: 'TLOS',
-    tokenName: 'Telos',
-    tokenLogoUrl:
-      'https://assets-global.website-files.com/60ae1fd65f7b76f18ddd0bec/61044a5f70f5bbeb24b995ea_Symbol%202%402x.png',
-    tokenAddresses: [
-      { address: '0x7825e833d495f3d1c28872415a4aee339d26ac88', chainId: '1' },
-      { address: '0xd102ce6a4db07d247fcc28f366a623df0938ca9e', chainId: '40' },
-      { address: '0xb6c53431608e626ac81a9776ac3e999c5556717c', chainId: '56' },
     ],
   },
   {

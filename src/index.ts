@@ -1,18 +1,11 @@
 import path from 'path'
 import fs from 'fs'
-import {
-  addressMappingBlacklist,
-  addressMappingWhitelist,
-  hardAssetList,
-  ownershipBlacklist,
-  ownershipWhitelist,
-} from './constants'
+import { addressMappingBlacklist, addressMappingWhitelist, hardAssetList, ownershipBlacklist } from './constants'
 
 const listMap = [
   [addressMappingWhitelist, 'addressMappingWhitelist'],
   [addressMappingBlacklist, 'addressMappingBlacklist'],
   [ownershipBlacklist, 'ownershipBlacklist'],
-  [ownershipWhitelist, 'ownershipWhitelist'],
   [hardAssetList, 'hardAssetList'],
 ]
 
