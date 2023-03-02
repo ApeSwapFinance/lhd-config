@@ -26,10 +26,9 @@ const addressMappingWhitelist: AddressMapping[] = [
   },
   {
     tokenSymbol: 'RADAR',
-    tokenName: 'Dapp Radar',
-    tokenLogoUrl:
-      'https://assets-global.website-files.com/60ae1fd65f7b76f18ddd0bec/61044a5f70f5bbeb24b995ea_Symbol%202%402x.png',
-    tokenAddresses: [{ address: '0xb6c53431608e626ac81a9776ac3e999c5556717c', chainId: '56' }],
+    tokenName: 'DappRadar',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/RADAR.png',
+    tokenAddresses: [{ address: '0x489580eb70a50515296ef31e8179ff3e77e24965', chainId: '56' }],
     knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
   },
   {
