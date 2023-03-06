@@ -302,17 +302,6 @@ const addressMappingBlacklist: AddressMapping[] = [
     ],
   },
   {
-    tokenSymbol: 'BABYDOGE',
-    tokenName: 'Baby Doge Coin',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/16125/large/babydoge.jpg?1676303229',
-    tokenAddresses: [
-      {
-        chainId: '56',
-        address: '0xc748673057861a797275cd8a068abb95a902e8de',
-      },
-    ],
-  },
-  {
     tokenSymbol: 'CNHT',
     tokenName: 'CNH Tether',
     tokenLogoUrl: 'https://assets.coingecko.com/coins/images/5251/large/cny-tether-logo.png?1547040741',
