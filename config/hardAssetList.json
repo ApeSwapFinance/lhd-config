@@ -73,10 +73,6 @@
         "chainId": "269"
       },
       {
-        "address": "0xce37d81713a25373e92475c5b9bd2c4980dfab76",
-        "chainId": "288"
-      },
-      {
         "address": "0x5d9ab5522c64e1f6ef5e3627eccc093f56167818",
         "chainId": "311"
       },
@@ -378,10 +374,6 @@
       {
         "address": "0x765277eebeca2e31912c9946eae1021199b39c61",
         "chainId": "269"
-      },
-      {
-        "address": "0x5de1677344d3cb0d7d465c10b72a8f60699c062d",
-        "chainId": "288"
       },
       {
         "address": "0x7c598c96d02398d89fbcb9d41eab3df0c16f227d",
@@ -1394,10 +1386,6 @@
       {
         "address": "0xb44a9b6905af7c801311e8f4e76932ee959c663c",
         "chainId": "269"
-      },
-      {
-        "address": "0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000",
-        "chainId": "288"
       },
       {
         "address": "0x2c78f1b70ccf63cdee49f9233e9faa99d43aa07e",
