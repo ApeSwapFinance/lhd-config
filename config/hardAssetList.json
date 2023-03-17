@@ -1876,40 +1876,6 @@
     ]
   },
   {
-    "tokenSymbol": "DOGE",
-    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/dogecoin.png?v=023",
-    "tokenName": "Dogecoin",
-    "tokenAddresses": [
-      {
-        "address": "0xba2ae424d960c26247dd6c32edc70b295c744c43",
-        "chainId": "56"
-      },
-      {
-        "address": "0xb7ddc6414bf4f5515b52d8bdd69973ae205ff101",
-        "chainId": "2000"
-      },
-      {
-        "address": "0x80a16016cc4a2e6a2caca8a4a498b1699ff0f844",
-        "chainId": "32520"
-      }
-    ]
-  },
-  {
-    "tokenSymbol": "ADA",
-    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/cardano.png?v=023",
-    "tokenName": "Cardano",
-    "tokenAddresses": [
-      {
-        "address": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
-        "chainId": "56"
-      },
-      {
-        "address": "0xae83571000af4499798d1e3b0fa0070eb3a3e3f9",
-        "chainId": "2001"
-      }
-    ]
-  },
-  {
     "tokenSymbol": "WCRO",
     "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/cronos.png?v=023",
     "tokenName": "Crypto.com Coin",
@@ -2020,6 +1986,166 @@
       {
         "address": "0xd42785d323e608b9e99fa542bd8b1000d4c2df37",
         "chainId": "42161"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "FRAX",
+    "tokenName": "Frax",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/13422/large/ethCanonicalFRAX.png?1669277108",
+    "tokenAddresses": [
+      {
+        "chainId": "1",
+        "address": "0x853d955acef822db058eb8505911ed77f175b99e"
+      },
+      {
+        "chainId": "10",
+        "address": "0x2e3d870790dc77a83dd1d18184acc7439a53f475"
+      },
+      {
+        "chainId": "56",
+        "address": "0x90c97f71e18723b0cf0dfa30ee176ab653e89f40"
+      },
+      {
+        "chainId": "43114",
+        "address": "0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64"
+      },
+      {
+        "chainId": "137",
+        "address": "0x45c32fa6df82ead1e2ef74d17b76547eddfaff89"
+      },
+      {
+        "chainId": "250",
+        "address": "0xdc301622e621166bd8e82f2ca0a26c13ad0be355"
+      },
+      {
+        "chainId": "1666600000",
+        "address": "0xfa7191d292d5633f702b0bd7e3e3bccc0e633200"
+      },
+      {
+        "chainId": "42161",
+        "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f"
+      },
+      {
+        "chainId": "1285",
+        "address": "0x1a93b23281cc1cde4c4741353f3064709a16197d"
+      },
+      {
+        "address": "0xea129ae043c4cb73dcb241aaa074f9e667641ba0",
+        "chainId": "10"
+      },
+      {
+        "address": "0xb5df797468e6e8f2cb293cd6e32939366e0f8733",
+        "chainId": "56"
+      },
+      {
+        "address": "0x5427fefa711eff984124bfbb1ab6fbf5e3da1820",
+        "chainId": "137"
+      },
+      {
+        "address": "0xb0d8cf9560ef31b8fe6d9727708d19b31f7c90dc",
+        "chainId": "250"
+      },
+      {
+        "address": "0xb0d8cf9560ef31b8fe6d9727708d19b31f7c90dc",
+        "chainId": "288"
+      },
+      {
+        "address": "0xc5ef662b833de914b9ba7a3532c6bb008a9b23a6",
+        "chainId": "1284"
+      },
+      {
+        "address": "0x8c75adb1d9f38f6c2af54be8120f598b9dba446c",
+        "chainId": "1285"
+      },
+      {
+        "address": "0xf5a178cf150216449630ead9d0fdaee09e06187b",
+        "chainId": "9001"
+      },
+      {
+        "address": "0x330066cf308cea289f74585e85fa001048e8a5c0",
+        "chainId": "42161"
+      },
+      {
+        "address": "0x693b47a7fc3d33ae9ebec15e5f42f2db480066f3",
+        "chainId": "43114"
+      },
+      {
+        "address": "0x22953af8b73f4f876fc09e836a14a1f64b209fef",
+        "chainId": "1313161554"
+      },
+      {
+        "address": "0xa8961be06550c09c1bc14c483f3932b969eff5e0",
+        "chainId": "1666600000"
+      },
+      {
+        "address": "0x7468a5d8e02245b00e8c0217fce021c70bc51305",
+        "chainId": "42161"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "SOL",
+    "tokenName": "SOL (WormHole)",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/SOL.svg",
+    "tokenAddresses": [
+      {
+        "address": "0xd93f7e271cb87c23aaa73edc008a79646d1f9912",
+        "chainId": "137"
+      },
+      {
+        "address": "0xd31a59c85ae9d8edefec411d448f90841571b89c",
+        "chainId": "1"
+      },
+      {
+        "address": "0x570a5d26f7765ecb712c0924e4de545b89fd43df",
+        "chainId": "56"
+      },
+      {
+        "address": "0xfe6b19286885a4f7f55adad09c3cd1f906d2478f",
+        "chainId": "43114"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "AVAX",
+    "tokenName": "Avax Token",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/AVAX.svg",
+    "tokenAddresses": [
+      {
+        "address": "0xe7e12f436ae05ce6623efb68b28ca4b83a953600",
+        "chainId": "25"
+      },
+      {
+        "address": "0x85f138bfee4ef8e540890cfb48f620571d67eda3",
+        "chainId": "1"
+      },
+      {
+        "address": "0x511d35c52a3c244e7b8bd92c0c297755fbd89212",
+        "chainId": "250"
+      },
+      {
+        "address": "0x1ce0c2827e2ef14d5c4f29a091d735a204794041",
+        "chainId": "56"
+      },
+      {
+        "address": "0x2c89bbc92bd86f8075d1decc58c7f4e0107f286b",
+        "chainId": "137"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "OP",
+    "tokenName": "Optimism",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/25244/large/Optimism.png?1660904599",
+    "tokenAddresses": [
+      {
+        "chainId": "10",
+        "address": "0x4200000000000000000000000000000000000042"
+      },
+      {
+        "address": "0x4200000000000000000000000000000000000042",
+        "chainId": "69"
       }
     ]
   }

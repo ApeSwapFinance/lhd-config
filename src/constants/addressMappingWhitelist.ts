@@ -336,20 +336,6 @@ const addressMappingWhitelist: AddressMapping[] = [
     ],
   },
   {
-    tokenSymbol: 'NEAR',
-    tokenName: 'Near Protocol',
-    tokenLogoUrl: 'https://cryptologos.cc/logos/thumbs/near-protocol.png?v=023',
-    tokenAddresses: [
-      { address: '0x85f17cf997934a597031b2e18a9ab6ebd4b9f6a4', chainId: '1' },
-      { address: '0x1fa4a73a3f0133f0025378af00236f3abdee5d63', chainId: '56' },
-      { address: '0x72bd80445b0db58ebe3e8db056529d4c5faf6f2f', chainId: '137' },
-      {
-        address: '0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-        chainId: '1313161554',
-      },
-    ],
-  },
-  {
     tokenSymbol: 'AAVE',
     tokenName: 'Aave Token',
     tokenLogoUrl: 'https://cryptologos.cc/logos/thumbs/aave.png?v=023',
@@ -381,6 +367,814 @@ const addressMappingWhitelist: AddressMapping[] = [
       },
       {
         address: '0x8ea3156f834a0dfc78f1a5304fac2cda676f354c',
+        chainId: '42161',
+      },
+    ],
+  },
+  {
+    tokenSymbol: 'WBTC',
+    tokenLogoUrl: 'https://cryptologos.cc/logos/thumbs/bitcoin.png?v=023',
+    tokenName: 'Wrapped Bitcoin',
+    tokenAddresses: [
+      {
+        address: '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599',
+        chainId: '1',
+      },
+      {
+        address: '0x68f180fcce6836688e9084f035309e29bf0a2095',
+        chainId: '10',
+      },
+      {
+        address: '0xe3f5a90f9cb311505cd691a46596599aa1a0ad7d',
+        chainId: '24',
+      },
+      {
+        address: '0x062e66477faf219f25d27dced647bf57c3107d52',
+        chainId: '25',
+      },
+      {
+        address: '0x80a16016cc4a2e6a2caca8a4a498b1699ff0f844',
+        chainId: '30',
+      },
+      {
+        address: '0xf390830df829cf22c53c8840554b98eafc5dcbc2',
+        chainId: '40',
+      },
+      {
+        address: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
+        chainId: '56',
+      },
+      {
+        address: '0xc9baa8cfdde8e328787e29b4b078abf2dadc2055',
+        chainId: '57',
+      },
+      {
+        address: '0x332730a4f6e03d9c55829435f10360e13cfa41ff',
+        chainId: '61',
+      },
+      {
+        address: '0x54e4622dc504176b3bb432dccaf504569699a7ff',
+        chainId: '66',
+      },
+      {
+        address: '0x59676af932247d48755aab7a7b94f8bb4bea2a6e',
+        chainId: '100',
+      },
+      {
+        address: '0x639a647fbe20b6c8ac19e48e2de44ea792c62c5c',
+        chainId: '106',
+      },
+      {
+        address: '0x66a79d23e58475d2738179ca52cd0b41d73f0bea',
+        chainId: '128',
+      },
+      {
+        address: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6',
+        chainId: '137',
+      },
+      {
+        address: '0x321162cd933e2be498cd2267a90534a804051b11',
+        chainId: '250',
+      },
+      {
+        address: '0xe3f5a90f9cb311505cd691a46596599aa1a0ad7d',
+        chainId: '269',
+      },
+      {
+        address: '0x218c3c3d49d0e7b37aff0d8bb079de36ae61a4c0',
+        chainId: '311',
+      },
+      {
+        address: '0xfa93c12cd345c658bc4644d1d4e1b9615952258c',
+        chainId: '321',
+      },
+      {
+        address: '0x922d641a426dcffaef11680e5358f34d97d112e1',
+        chainId: '336',
+      },
+      {
+        address: '0xfa9343c3897324496a05fc75abed6bac29f8a40f',
+        chainId: '877',
+      },
+      {
+        address: '0x30bebbc0b6b357945ac30660e025c1532b9c7804',
+        chainId: '1024',
+      },
+      {
+        address: '0x1f545487c62e5acfea45dcadd9c627361d1616d8',
+        chainId: '1030',
+      },
+      {
+        address: '0x2c78f1b70ccf63cdee49f9233e9faa99d43aa07e',
+        chainId: '1111',
+      },
+      {
+        address: '0xb44a9b6905af7c801311e8f4e76932ee959c663c',
+        chainId: '1234',
+      },
+      {
+        address: '0x922d641a426dcffaef11680e5358f34d97d112e1',
+        chainId: '1284',
+      },
+      {
+        address: '0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8',
+        chainId: '1285',
+      },
+      {
+        address: '0xfa9343c3897324496a05fc75abed6bac29f8a40f',
+        chainId: '2000',
+      },
+      {
+        address: '0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8',
+        chainId: '2001',
+      },
+      {
+        address: '0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b',
+        chainId: '2002',
+      },
+      {
+        address: '0xb44a9b6905af7c801311e8f4e76932ee959c663c',
+        chainId: '2025',
+      },
+      {
+        address: '0xfa9343c3897324496a05fc75abed6bac29f8a40f',
+        chainId: '2109',
+      },
+      {
+        address: '0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b',
+        chainId: '2222',
+      },
+      {
+        address: '0x765277eebeca2e31912c9946eae1021199b39c61',
+        chainId: '2611',
+      },
+      {
+        address: '0x332730a4f6e03d9c55829435f10360e13cfa41ff',
+        chainId: '9001',
+      },
+      {
+        address: '0x5df101f56ea643e06066392d266e9f4366b9186d',
+        chainId: '10001',
+      },
+      {
+        address: '0x67f44cb704884e0eb53c48fec8f1b1e7f8a63729',
+        chainId: '24734',
+      },
+      {
+        address: '0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f',
+        chainId: '42161',
+      },
+      {
+        address: '0x338726dd694db9e2230ec2bb8624a2d7f566c96d',
+        chainId: '42220',
+      },
+      {
+        address: '0x5d9ab5522c64e1f6ef5e3627eccc093f56167818',
+        chainId: '42262',
+      },
+      {
+        address: '0x50b7545627a5162f82a992c33b87adc75187b218',
+        chainId: '43114',
+      },
+      {
+        address: '0x8059e671be1e76f8db5155bf4520f86acfdc5561',
+        chainId: '47805',
+      },
+      {
+        address: '0xb44a9b6905af7c801311e8f4e76932ee959c663c',
+        chainId: '71402',
+      },
+      {
+        address: '0x5d9ab5522c64e1f6ef5e3627eccc093f56167818',
+        chainId: '1666600000',
+      },
+      {
+        address: '0x218c3c3d49d0e7b37aff0d8bb079de36ae61a4c0',
+        chainId: '321',
+      },
+      {
+        address: '0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b',
+        chainId: '592',
+      },
+      {
+        address: '0x4384d5a9d7354c65ce3aee411337bd40493ad1bc',
+        chainId: '58',
+      },
+      {
+        address: '0xaeb14dec3d7b387997e8f543acac093d5b5d404e',
+        chainId: '416',
+      },
+      {
+        address: '0xad543f18cff85c77e140e3e5e3c3392f6ba9d5ca',
+        chainId: '592',
+      },
+      {
+        address: '0x7f27352d5f83db87a5a3e00f4b07cc2138d8ee52',
+        chainId: '1024',
+      },
+      {
+        address: '0x8a4b4c2acadeaa7206df96f00052e41d74a015ce',
+        chainId: '1284',
+      },
+      {
+        address: '0x8d50a024b2f5593605d3ce8183ca8969226fcbf8',
+        chainId: '2001',
+      },
+      {
+        address: '0x22d23e80193d7a77ef6177a2d0c79af0f4a68790',
+        chainId: '2002',
+      },
+      {
+        address: '0xaea7d9bc694a92ad0effff0f30b700f7c4b23ba6',
+        chainId: '2222',
+      },
+      {
+        address: '0x1c428a6539a40ec5bb481631266a51cd19b233b1',
+        chainId: '8217',
+      },
+      {
+        address: '0xb98e169c37ce30dd47fdad1f9726fb832191e60b',
+        chainId: '9001',
+      },
+      {
+        address: '0x1c428a6539a40ec5bb481631266a51cd19b233b1',
+        chainId: '71402',
+      },
+      {
+        address: '0x7f27352d5f83db87a5a3e00f4b07cc2138d8ee52',
+        chainId: '210425',
+      },
+      {
+        address: 'a.231cc0dbbcffc4b7.cewbtc.vault',
+        chainId: '12340001',
+      },
+      {
+        address: '0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::wbtccoin',
+        chainId: '12360001',
+      },
+      {
+        address: '0x68f180fcce6836688e9084f035309e29bf0a2095',
+        chainId: '42',
+      },
+      {
+        address: '0x2382a8f65b9120e554d1836a504808ac864e169d',
+        chainId: '69',
+      },
+      {
+        address: '0xc04b0d3107736c32e19f1c62b2af67be61d63a05',
+        chainId: '5',
+      },
+      {
+        address: '0xe0a592353e81a94db6e3226fd4a99f881751776a',
+        chainId: '420',
+      },
+      {
+        address: '0x152b9d0fdc40c096757f570a51e494bd4b943e50',
+        chainId: '43114',
+      },
+    ],
+  },
+  {
+    tokenSymbol: 'ETH',
+    tokenLogoUrl: 'https://cryptologos.cc/logos/thumbs/ethereum.png?v=023',
+    tokenName: 'Ether',
+    tokenAddresses: [
+      {
+        address: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
+        chainId: '1',
+      },
+      {
+        address: '0x4200000000000000000000000000000000000006',
+        chainId: '10',
+      },
+      {
+        address: '0xfa9343c3897324496a05fc75abed6bac29f8a40f',
+        chainId: '24',
+      },
+      {
+        address: '0xe44fd7fcb2b1581822d0c862b68222998a0c299a',
+        chainId: '25',
+      },
+      {
+        address: '0xe3f5a90f9cb311505cd691a46596599aa1a0ad7d',
+        chainId: '30',
+      },
+      {
+        address: '0xfa9343c3897324496a05fc75abed6bac29f8a40f',
+        chainId: '40',
+      },
+      {
+        address: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
+        chainId: '56',
+      },
+      {
+        address: '0x7c598c96d02398d89fbcb9d41eab3df0c16f227d',
+        chainId: '57',
+      },
+      {
+        address: '0x218c3c3d49d0e7b37aff0d8bb079de36ae61a4c0',
+        chainId: '61',
+      },
+      {
+        address: '0xef71ca2ee68f45b9ad6f72fbdb33d707b872315c',
+        chainId: '66',
+      },
+      {
+        address: '0xa1ff8559646a79e47ecdfaca60272f3081998569',
+        chainId: '88',
+      },
+      {
+        address: '0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8',
+        chainId: '106',
+      },
+      {
+        address: '0x765277eebeca2e31912c9946eae1021199b39c61',
+        chainId: '122',
+      },
+      {
+        address: '0x64ff637fb478863b7468bc97d30a5bf3a428a1fd',
+        chainId: '128',
+      },
+      {
+        address: '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619',
+        chainId: '137',
+      },
+      {
+        address: '0x74b23882a30290451a17c44f4f05243b6b58c76d',
+        chainId: '250',
+      },
+      {
+        address: '0xb44a9b6905af7c801311e8f4e76932ee959c663c',
+        chainId: '269',
+      },
+      {
+        address: '0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000',
+        chainId: '288',
+      },
+      {
+        address: '0x2c78f1b70ccf63cdee49f9233e9faa99d43aa07e',
+        chainId: '311',
+      },
+      {
+        address: '0xf55af137a98607f7ed2efefa4cd2dfe70e4253b1',
+        chainId: '321',
+      },
+      {
+        address: '0x765277eebeca2e31912c9946eae1021199b39c61',
+        chainId: '336',
+      },
+      {
+        address: '0xb44a9b6905af7c801311e8f4e76932ee959c663c',
+        chainId: '877',
+      },
+      {
+        address: '0xa1c3767c93e7b51ecb445fdbae1494dfc654e524',
+        chainId: '1024',
+      },
+      {
+        address: '0xa47f43de2f9623acb395ca4905746496d2014d57',
+        chainId: '1030',
+      },
+      {
+        address: '0x765277eebeca2e31912c9946eae1021199b39c61',
+        chainId: '1111',
+      },
+      {
+        address: '0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b',
+        chainId: '1234',
+      },
+      {
+        address: '0xfa9343c3897324496a05fc75abed6bac29f8a40f',
+        chainId: '1284',
+      },
+      {
+        address: '0x639a647fbe20b6c8ac19e48e2de44ea792c62c5c',
+        chainId: '1285',
+      },
+      {
+        address: '0xb44a9b6905af7c801311e8f4e76932ee959c663c',
+        chainId: '2000',
+      },
+      {
+        address: '0xe3f5a90f9cb311505cd691a46596599aa1a0ad7d',
+        chainId: '2001',
+      },
+      {
+        address: '0x765277eebeca2e31912c9946eae1021199b39c61',
+        chainId: '2002',
+      },
+      {
+        address: '0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b',
+        chainId: '2020',
+      },
+      {
+        address: '0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b',
+        chainId: '2025',
+      },
+      {
+        address: '0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b',
+        chainId: '2109',
+      },
+      {
+        address: '0xe3f5a90f9cb311505cd691a46596599aa1a0ad7d',
+        chainId: '2222',
+      },
+      {
+        address: '0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b',
+        chainId: '2611',
+      },
+      {
+        address: '0xe3f5a90f9cb311505cd691a46596599aa1a0ad7d',
+        chainId: '7363',
+      },
+      {
+        address: '0x7c598c96d02398d89fbcb9d41eab3df0c16f227d',
+        chainId: '9001',
+      },
+      {
+        address: '0xe3f5a90f9cb311505cd691a46596599aa1a0ad7d',
+        chainId: '10000',
+      },
+      {
+        address: '0xaf3ccfd9b59b36628cc2f659a09d6440795b2520',
+        chainId: '10001',
+      },
+      {
+        address: '0x818938a83036b18a44f2ddf43d47454f6ae49bd6',
+        chainId: '24734',
+      },
+      {
+        address: '0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8',
+        chainId: '32520',
+      },
+      {
+        address: '0x5e12290c7e7eda58d092632a53bbbc717996c732',
+        chainId: '32659',
+      },
+      {
+        address: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
+        chainId: '42161',
+      },
+      {
+        address: '0x722e8bdd2ce80a4422e880164f2079488e115365',
+        chainId: '42170',
+      },
+      {
+        address: '0x9610b01aaa57ec026001f7ec5cface51bfea0ba6',
+        chainId: '42220',
+      },
+      {
+        address: '0xb44a9b6905af7c801311e8f4e76932ee959c663c',
+        chainId: '42262',
+      },
+      {
+        address: '0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab',
+        chainId: '43114',
+      },
+      {
+        address: '0x7a5313468c1c1a3afb2cf5ec46558a7d0fc2884a',
+        chainId: '47805',
+      },
+      {
+        address: '0x639a647fbe20b6c8ac19e48e2de44ea792c62c5c',
+        chainId: '71402',
+      },
+      {
+        address: '0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b',
+        chainId: '420420',
+      },
+      {
+        address: '0x639a647fbe20b6c8ac19e48e2de44ea792c62c5c',
+        chainId: '5',
+      },
+      {
+        address: '0x2bf9b864cdc97b08b6d79ad4663e71b8ab65c45c',
+        chainId: '1666600000',
+      },
+      {
+        address: '0xc6bc09a723f2314ad22642b6e33ad2ed6bba3c9c',
+        chainId: '58',
+      },
+      {
+        address: '0xa173954cc4b1810c0dbdb007522adbc182dab380',
+        chainId: '416',
+      },
+      {
+        address: '0x81ecac0d6be0550a00ff064a4f9dd2400585fe9c',
+        chainId: '592',
+      },
+      {
+        address: '0x81ecac0d6be0550a00ff064a4f9dd2400585fe9c',
+        chainId: '1024',
+      },
+      {
+        address: '0x6959027f7850adf4916ff5fdc898d958819e5375',
+        chainId: '1284',
+      },
+      {
+        address: '0x81ecac0d6be0550a00ff064a4f9dd2400585fe9c',
+        chainId: '2001',
+      },
+      {
+        address: '0x592786e04c47844aa3b343b19ef2f50a255a477f',
+        chainId: '2002',
+      },
+      {
+        address: '0x9591865d9d4bbd3b5fa8a8e2400fd530d1a16191',
+        chainId: '2222',
+      },
+      {
+        address: '0xb66954619363145a05ef835547449eb9050d82f6',
+        chainId: '8217',
+      },
+      {
+        address: '0x153a59d48aceabedbdcf7a13f67ae52b434b810b',
+        chainId: '9001',
+      },
+      {
+        address: '0x6a2d262d56735dba19dd70682b39f6be9a931d98',
+        chainId: '42262',
+      },
+      {
+        address: '0xb66954619363145a05ef835547449eb9050d82f6',
+        chainId: '71402',
+      },
+      {
+        address: '0x4bf769b05e832fcdc9053fffbc78ca889acb5e1e',
+        chainId: '210425',
+      },
+      {
+        address: 'a.231cc0dbbcffc4b7.ceweth.vault',
+        chainId: '12340001',
+      },
+      {
+        address: '0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::wethcoin',
+        chainId: '12360001',
+      },
+      {
+        address: '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
+        chainId: '1',
+      },
+    ],
+  },
+  {
+    tokenSymbol: 'BNB',
+    tokenLogoUrl: 'https://cryptologos.cc/logos/thumbs/bnb.png?v=023',
+    tokenName: 'Binance Coin',
+    tokenAddresses: [
+      {
+        address: '0xb44a9b6905af7c801311e8f4e76932ee959c663c',
+        chainId: '24',
+      },
+      {
+        address: '0xfa9343c3897324496a05fc75abed6bac29f8a40f',
+        chainId: '25',
+      },
+      {
+        address: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+        chainId: '56',
+      },
+      {
+        address: '0x0dcb0cb0120d355cde1ce56040be57add0185baa',
+        chainId: '61',
+      },
+      {
+        address: '0x60f46cb1c0fa3fcc5943667110de5f1e5fcb8408',
+        chainId: '1024',
+      },
+      {
+        address: '0xc1be9a4d5d45beeacae296a7bd5fadbfc14602c4',
+        chainId: '1111',
+      },
+      {
+        address: '0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73',
+        chainId: '1234',
+      },
+      {
+        address: '0xa649325aa7c5093d12d6f98eb4378deae68ce23f',
+        chainId: '2000',
+      },
+      {
+        address: '0x80a16016cc4a2e6a2caca8a4a498b1699ff0f844',
+        chainId: '2002',
+      },
+      {
+        address: '0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73',
+        chainId: '2109',
+      },
+      {
+        address: '0xabd380327fe66724ffda91a87c772fb8d00be488',
+        chainId: '2222',
+      },
+      {
+        address: '0x89456efa718884f48b51f4790557b4981ffc0aa2',
+        chainId: '24734',
+      },
+      {
+        address: '0x922d641a426dcffaef11680e5358f34d97d112e1',
+        chainId: '32520',
+      },
+      {
+        address: '0x2c78f1b70ccf63cdee49f9233e9faa99d43aa07e',
+        chainId: '40',
+      },
+      {
+        address: '0xf27ee99622c3c9b264583dacb2cce056e194494f',
+        chainId: '57',
+      },
+      {
+        address: '0x65e66a61d0a8f1e686c2d6083ad611a10d84d97a',
+        chainId: '106',
+      },
+      {
+        address: '0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b',
+        chainId: '288',
+      },
+      {
+        address: '0x94bd7a37d2ce24cc597e158facaa8d601083ffec',
+        chainId: '1030',
+      },
+      {
+        address: '0xe3f5a90f9cb311505cd691a46596599aa1a0ad7d',
+        chainId: '1088',
+      },
+      {
+        address: '0xfbdd194376de19a88118e84e279b977f165d01b8',
+        chainId: '2001',
+      },
+      {
+        address: '0xa649325aa7c5093d12d6f98eb4378deae68ce23f',
+        chainId: '42220',
+      },
+      {
+        address: '0x2bf9b864cdc97b08b6d79ad4663e71b8ab65c45c',
+        chainId: '1313161554',
+      },
+      {
+        address: '0x6ab6d61428fde76768d7b45d8bfeec19c6ef91a8',
+        chainId: '30',
+      },
+      {
+        address: '0x218c3c3d49d0e7b37aff0d8bb079de36ae61a4c0',
+        chainId: '66',
+      },
+      {
+        address: '0x471e265ab5b8513032721acef0a53b79185ae6f9',
+        chainId: '128',
+      },
+      {
+        address: '0xa649325aa7c5093d12d6f98eb4378deae68ce23f',
+        chainId: '137',
+      },
+      {
+        address: '0xd67de0e0a0fd7b15dc8348bb9be742f3c5850454',
+        chainId: '250',
+      },
+      {
+        address: '0x639a647fbe20b6c8ac19e48e2de44ea792c62c5c',
+        chainId: '321',
+      },
+      {
+        address: '0x332730a4f6e03d9c55829435f10360e13cfa41ff',
+        chainId: '336',
+      },
+      {
+        address: '0xc9baa8cfdde8e328787e29b4b078abf2dadc2055',
+        chainId: '1284',
+      },
+      {
+        address: '0x2bf9b864cdc97b08b6d79ad4663e71b8ab65c45c',
+        chainId: '1285',
+      },
+      {
+        address: '0xb44a9b6905af7c801311e8f4e76932ee959c663c',
+        chainId: '7363',
+      },
+      {
+        address: '0xe3f5a90f9cb311505cd691a46596599aa1a0ad7d',
+        chainId: '42262',
+      },
+      {
+        address: '0x264c1383ea520f73dd837f915ef3a732e204a493',
+        chainId: '43114',
+      },
+      {
+        address: '0x7f27352d5f83db87a5a3e00f4b07cc2138d8ee52',
+        chainId: '592',
+      },
+      {
+        address: '0x7f27352d5f83db87a5a3e00f4b07cc2138d8ee52',
+        chainId: '2001',
+      },
+      {
+        address: '0xbc0990862515f95e01d16c2c1afd1104c279d48d',
+        chainId: '2002',
+      },
+      {
+        address: '0x75364d4f779d0bd0facd9a218c67f87dd9aff3b4',
+        chainId: '9001',
+      },
+      {
+        address: '0x3795c36e7d12a8c252a20c5a7b455f7c57b60283',
+        chainId: '42262',
+      },
+      {
+        address: 'a.231cc0dbbcffc4b7.cebnb.vault',
+        chainId: '12340001',
+      },
+      {
+        address: '0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::bnbcoin',
+        chainId: '12360001',
+      },
+      {
+        address: '0xc6bc09a723f2314ad22642b6e33ad2ed6bba3c9c',
+        chainId: '1313161554',
+      },
+    ],
+  },
+  {
+    tokenSymbol: 'FTM',
+    tokenLogoUrl: 'https://cryptologos.cc/logos/thumbs/fantom.png?v=023',
+    tokenName: 'Fantom',
+    tokenAddresses: [
+      {
+        address: '0x4e15361fd6b4bb609fa63c81a2be19d873717870',
+        chainId: '1',
+      },
+      {
+        address: '0xb44a9b6905af7c801311e8f4e76932ee959c663c',
+        chainId: '25',
+      },
+      {
+        address: '0xc1be9a4d5d45beeacae296a7bd5fadbfc14602c4',
+        chainId: '40',
+      },
+      {
+        address: '0xad29abb318791d579433d831ed122afeaf29dcfe',
+        chainId: '56',
+      },
+      {
+        address: '0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73',
+        chainId: '288',
+      },
+      {
+        address: '0xcf8cfb06a444df78063ce60792100c53167b9382',
+        chainId: '1030',
+      },
+      {
+        address: '0xc19281f22a075e0f10351cd5d6ea9f0ac63d4327',
+        chainId: '1284',
+      },
+      {
+        address: '0x332730a4f6e03d9c55829435f10360e13cfa41ff',
+        chainId: '2001',
+      },
+      {
+        address: '0x218c3c3d49d0e7b37aff0d8bb079de36ae61a4c0',
+        chainId: '42220',
+      },
+      {
+        address: '0xb44a9b6905af7c801311e8f4e76932ee959c663c',
+        chainId: '1313161554',
+      },
+      {
+        address: '0x735abe48e8782948a37c7765ecb76b98cde97b0f',
+        chainId: '1666600000',
+      },
+      {
+        address: '0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83',
+        chainId: '250',
+      },
+      {
+        address: '0xc3fec6f18ddb7583da572374ca8d11c6f0590dae',
+        chainId: '2001',
+      },
+      {
+        address: '0x353b7134a88085129cbde051f04b0edb03a3b83b',
+        chainId: '2002',
+      },
+      {
+        address: '0x729416b1f442f204989f1c9f0d58321f878808ed',
+        chainId: '9001',
+      },
+      {
+        address: '0x7f27352d5f83db87a5a3e00f4b07cc2138d8ee52',
+        chainId: '42262',
+      },
+      {
+        address: 'a.231cc0dbbcffc4b7.ceftm.vault',
+        chainId: '12340001',
+      },
+      {
+        address: '0x1fe622e91e54d6ad00b01917351ea6081426764a',
+        chainId: '1313161554',
+      },
+      {
+        address: '0xc9c1c1c20b3658f8787cc2fd702267791f224ce1',
+        chainId: '137',
+      },
+      {
+        address: '0xd42785d323e608b9e99fa542bd8b1000d4c2df37',
         chainId: '42161',
       },
     ],
@@ -1196,40 +1990,6 @@ const addressMappingWhitelist: AddressMapping[] = [
     ],
   },
   {
-    tokenSymbol: 'DOGE',
-    tokenName: 'DogeCoin',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/DOGE.svg',
-    tokenAddresses: [
-      {
-        address: '0xba2ae424d960c26247dd6c32edc70b295c744c43',
-        chainId: '56',
-      },
-      {
-        address: '0xb7ddc6414bf4f5515b52d8bdd69973ae205ff101',
-        chainId: '2000',
-      },
-      {
-        address: '0x80a16016cc4a2e6a2caca8a4a498b1699ff0f844',
-        chainId: '32520',
-      },
-    ],
-  },
-  {
-    tokenSymbol: 'ADA',
-    tokenName: 'Cardano Token',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ADA.svg',
-    tokenAddresses: [
-      {
-        address: '0x3ee2200efb3400fabb9aacf31297cbdd1d435d47',
-        chainId: '56',
-      },
-      {
-        address: '0xae83571000af4499798d1e3b0fa0070eb3a3e3f9',
-        chainId: '2001',
-      },
-    ],
-  },
-  {
     tokenSymbol: 'MATIC',
     tokenName: 'Polygon',
     tokenLogoUrl: 'https://assets.coingecko.com/coins/images/4713/large/matic-token-icon.png?1624446912',
@@ -1273,6 +2033,18 @@ const addressMappingWhitelist: AddressMapping[] = [
         address: '0xd93f7e271cb87c23aaa73edc008a79646d1f9912',
         chainId: '137',
       },
+      {
+        address: '0xd31a59c85ae9d8edefec411d448f90841571b89c',
+        chainId: '1',
+      },
+      {
+        address: '0x570a5d26f7765ecb712c0924e4de545b89fd43df',
+        chainId: '56',
+      },
+      {
+        address: '0xfe6b19286885a4f7f55adad09c3cd1f906d2478f',
+        chainId: '43114',
+      },
     ],
   },
   {
@@ -1299,40 +2071,6 @@ const addressMappingWhitelist: AddressMapping[] = [
       {
         address: '0x2c89bbc92bd86f8075d1decc58c7f4e0107f286b',
         chainId: '137',
-      },
-    ],
-  },
-  {
-    tokenSymbol: 'ATOM',
-    tokenName: 'Cosmos Hub',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/1481/large/cosmos_hub.png?1555657960',
-    tokenAddresses: [
-      {
-        chainId: '56',
-        address: '0x0eb3a705fc54725037cc9e008bdede697f62f335',
-      },
-    ],
-  },
-  {
-    tokenSymbol: 'NEAR',
-    tokenName: 'Near Protocol',
-    tokenLogoUrl: 'https://cryptologos.cc/logos/thumbs/near-protocol.png?v=023',
-    tokenAddresses: [
-      {
-        address: '0x85f17cf997934a597031b2e18a9ab6ebd4b9f6a4',
-        chainId: '1',
-      },
-      {
-        address: '0x1fa4a73a3f0133f0025378af00236f3abdee5d63',
-        chainId: '56',
-      },
-      {
-        address: '0x72bd80445b0db58ebe3e8db056529d4c5faf6f2f',
-        chainId: '137',
-      },
-      {
-        address: '0xc42c30ac6cc15fac9bd938618bcaa1a1fae8501d',
-        chainId: '1313161554',
       },
     ],
   },
@@ -1432,76 +2170,17 @@ const addressMappingWhitelist: AddressMapping[] = [
     ],
   },
   {
-    tokenSymbol: 'LTC',
-    tokenName: 'Litecoin Token',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/LTC.svg',
+    tokenSymbol: 'OP',
+    tokenName: 'Optimism',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/25244/large/Optimism.png?1660904599',
     tokenAddresses: [
-      {
-        address: '0x4338665cbb7b2485a8855a139b75d5e34ab0db94',
-        chainId: '56',
-      },
-    ],
-  },
-  {
-    tokenSymbol: 'LINK',
-    tokenName: 'Chainlink',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/877/large/chainlink-new-logo.png?1547034700',
-    tokenAddresses: [
-      {
-        chainId: '1',
-        address: '0x514910771af9ca656af840dff83e8264ecf986ca',
-      },
-      {
-        chainId: '100',
-        address: '0xe2e73a1c69ecf83f464efce6a5be353a37ca09b2',
-      },
-      {
-        chainId: '56',
-        address: '0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd',
-      },
-      {
-        chainId: '137',
-        address: '0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39',
-      },
-      {
-        chainId: '128',
-        address: '0x9e004545c59d359f6b7bfb06a26390b087717b42',
-      },
       {
         chainId: '10',
-        address: '0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6',
+        address: '0x4200000000000000000000000000000000000042',
       },
       {
-        chainId: '1666600000',
-        address: '0x218532a12a389a4a92fc0c5fb22901d1c19198aa',
-      },
-      {
-        chainId: '43114',
-        address: '0x5947bb275c521040051d82396192181b413227a3',
-      },
-      {
-        chainId: '42161',
-        address: '0xf97f4df75117a78c1a5a0dbb814af92458539fb4',
-      },
-      {
-        chainId: '250',
-        address: '0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8',
-      },
-      {
-        address: '0xa36085f69e2889c224210f603d836748e7dc0088',
-        chainId: '42',
-      },
-      {
-        address: '0x4911b761993b9c8c0d14ba2d86902af6b0074f5b',
         chainId: '69',
-      },
-      {
-        address: '0x326c977e6efc84e512bb9c30f76e30c160ed06fb',
-        chainId: '5',
-      },
-      {
-        address: '0xdc2cc710e42857672e7907cf474a69b63b93089f',
-        chainId: '420',
+        address: '0x4200000000000000000000000000000000000042',
       },
     ],
   },
