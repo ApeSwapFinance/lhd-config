@@ -2086,7 +2086,7 @@
   },
   {
     "tokenSymbol": "SOL",
-    "tokenName": "SOL (WormHole)",
+    "tokenName": "Solana",
     "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/SOL.svg",
     "tokenAddresses": [
       {
@@ -2131,21 +2131,6 @@
       {
         "address": "0x2c89bbc92bd86f8075d1decc58c7f4e0107f286b",
         "chainId": "137"
-      }
-    ]
-  },
-  {
-    "tokenSymbol": "OP",
-    "tokenName": "Optimism",
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/25244/large/Optimism.png?1660904599",
-    "tokenAddresses": [
-      {
-        "chainId": "10",
-        "address": "0x4200000000000000000000000000000000000042"
-      },
-      {
-        "address": "0x4200000000000000000000000000000000000042",
-        "chainId": "69"
       }
     ]
   }

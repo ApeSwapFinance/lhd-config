@@ -2026,7 +2026,7 @@ const addressMappingWhitelist: AddressMapping[] = [
   },
   {
     tokenSymbol: 'SOL',
-    tokenName: 'SOL (WormHole)',
+    tokenName: 'Solana',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/SOL.svg',
     tokenAddresses: [
       {
@@ -2166,21 +2166,6 @@ const addressMappingWhitelist: AddressMapping[] = [
       {
         address: '0x7468a5d8e02245b00e8c0217fce021c70bc51305',
         chainId: '42161',
-      },
-    ],
-  },
-  {
-    tokenSymbol: 'OP',
-    tokenName: 'Optimism',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/25244/large/Optimism.png?1660904599',
-    tokenAddresses: [
-      {
-        chainId: '10',
-        address: '0x4200000000000000000000000000000000000042',
-      },
-      {
-        chainId: '69',
-        address: '0x4200000000000000000000000000000000000042',
       },
     ],
   },
