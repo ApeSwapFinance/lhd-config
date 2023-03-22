@@ -2115,6 +2115,10 @@ const hardAssetList: AddressMapping[] = [
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/AVAX.svg',
     tokenAddresses: [
       {
+        address: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+        chainId: '43114',
+      },
+      {
         address: '0xe7e12f436ae05ce6623efb68b28ca4b83a953600',
         chainId: '25',
       },
