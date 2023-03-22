@@ -19,7 +19,7 @@
     ],
     "knownOwners": [
       "0x944694417a6ca0a70963d644a11d42c10e3af042",
-      "0x6c905b4108A87499CEd1E0498721F2B831c6Ab13"
+      "0x6c905b4108a87499ced1e0498721f2b831c6ab13"
     ]
   },
   {
@@ -30,11 +30,15 @@
       {
         "address": "0x603c7f932ed1fc6575303d8fb018fdcbb0f39a95",
         "chainId": "56"
+      },
+      {
+        "address": "0xd978f8489e1245568704407a479a71fcce2afe8f",
+        "chainId": "42161"
       }
     ],
     "knownOwners": [
       "0x944694417a6ca0a70963d644a11d42c10e3af042",
-      "0xAbD7853b79e488bC1BD9e238A870167B074eb714",
+      "0xabd7853b79e488bc1bd9e238a870167b074eb714",
       "0x71c0c1001520e1568e17836cc8a19d0dbdb2bd5f"
     ]
   },

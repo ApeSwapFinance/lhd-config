@@ -17,7 +17,10 @@ const addressMappingWhitelist: AddressMapping[] = [
     tokenSymbol: 'BANANA',
     tokenName: 'ApeSwap BANANA',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/BANANA.svg',
-    tokenAddresses: [{ address: '0x603c7f932ed1fc6575303d8fb018fdcbb0f39a95', chainId: '56' }],
+    tokenAddresses: [
+      { address: '0x603c7f932ed1fc6575303d8fb018fdcbb0f39a95', chainId: '56' },
+      { address: '0xd978f8489e1245568704407a479a71fcce2afe8f', chainId: '42161' },
+    ],
     knownOwners: [
       '0x944694417a6ca0a70963d644a11d42c10e3af042',
       '0xAbD7853b79e488bC1BD9e238A870167B074eb714',
@@ -2052,6 +2055,10 @@ const addressMappingWhitelist: AddressMapping[] = [
     tokenName: 'Avax Token',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/AVAX.svg',
     tokenAddresses: [
+      {
+        address: '0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7',
+        chainId: '43114',
+      },
       {
         address: '0xe7e12f436ae05ce6623efb68b28ca4b83a953600',
         chainId: '25',
