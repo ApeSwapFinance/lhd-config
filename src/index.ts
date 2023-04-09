@@ -1,13 +1,6 @@
 import path from 'path'
 import fs from 'fs'
-import { addressMappingBlacklist, addressMappingWhitelist, hardAssetList, ownershipBlacklist } from './constants'
-
-const listMap = [
-  [addressMappingWhitelist, 'addressMappingWhitelist'],
-  [addressMappingBlacklist, 'addressMappingBlacklist'],
-  [ownershipBlacklist, 'ownershipBlacklist'],
-  [hardAssetList, 'hardAssetList'],
-]
+import { addressMappingBlacklist, addressMappingWhitelist, ownershipBlacklist } from './constants'
 
 const buildList = (list: any, listName: any) => {
   const tokenListPath = path.resolve(`./config/${listName}.json`)
@@ -38,6 +31,39 @@ const buildList = (list: any, listName: any) => {
   })
 }
 
-listMap.forEach(([list, listName]) => {
-  buildList(list, listName)
-})
+buildList(addressMappingBlacklist, 'addressMappingBlacklist')
+buildList(ownershipBlacklist, 'ownershipBlacklist')
+
+const hardAssetListWithIsHardAsset = addressMappingWhitelist.filter((item: any) => item.isHardAsset === true)
+
+if (hardAssetListWithIsHardAsset.length > 0) {
+  const hardAssetList = hardAssetListWithIsHardAsset.map((item: any) => ({
+    ...item,
+    isHardAsset: true,
+  }))
+  const hardAssetListPath = path.resolve('./config/hardAssetList.json')
+  const stringifiedList = JSON.stringify(hardAssetList, null, 2)
+  fs.writeFile(hardAssetListPath, stringifiedList, (err) => {
+    if (err) {
+      console.error(err)
+    } else {
+      console.info('✅ hardAssetList complete')
+    }
+  })
+}
+
+const addressMappingWhiteListWithoutIsHardAsset = addressMappingWhitelist.filter(
+  (item: any) => item.isHardAsset === undefined || item.isHardAsset === false,
+)
+
+if (addressMappingWhiteListWithoutIsHardAsset.length > 0) {
+  const addressMappingWhiteListPath = path.resolve('./config/addressMappingWhiteList.json')
+  const stringifiedList = JSON.stringify(addressMappingWhiteListWithoutIsHardAsset, null, 2)
+  fs.writeFile(addressMappingWhiteListPath, stringifiedList, (err) => {
+    if (err) {
+      console.error(err)
+    } else {
+      console.info('✅ addressMappingWhiteList complete')
+    }
+  })
+}
