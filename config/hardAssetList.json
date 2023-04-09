@@ -3,6 +3,7 @@
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
+    "isHardAsset": true,
     "tokenAddresses": [
       {
         "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
@@ -310,6 +311,7 @@
     "tokenSymbol": "USDT",
     "tokenLogoUrl": "https://cryptologos.cc/logos/tether-usdt-logo.png?v=024",
     "tokenName": "Tether",
+    "isHardAsset": true,
     "tokenAddresses": [
       {
         "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
@@ -613,6 +615,7 @@
     "tokenSymbol": "BUSD",
     "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/binance-usd.png?v=023",
     "tokenName": "Binance USD",
+    "isHardAsset": true,
     "tokenAddresses": [
       {
         "address": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
@@ -820,6 +823,7 @@
     "tokenSymbol": "DAI",
     "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/multi-collateral-dai.png?v=023",
     "tokenName": "Maker DAI",
+    "isHardAsset": true,
     "tokenAddresses": [
       {
         "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
@@ -1063,6 +1067,7 @@
     "tokenSymbol": "WBTC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/bitcoin.png?v=023",
     "tokenName": "Wrapped Bitcoin",
+    "isHardAsset": true,
     "tokenAddresses": [
       {
         "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
@@ -1326,6 +1331,7 @@
     "tokenSymbol": "ETH",
     "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/ethereum.png?v=023",
     "tokenName": "Ether",
+    "isHardAsset": true,
     "tokenAddresses": [
       {
         "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
@@ -1609,6 +1615,7 @@
     "tokenSymbol": "BNB",
     "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/bnb.png?v=023",
     "tokenName": "Binance Coin",
+    "isHardAsset": true,
     "tokenAddresses": [
       {
         "address": "0xb44a9b6905af7c801311e8f4e76932ee959c663c",
@@ -1784,6 +1791,7 @@
     "tokenSymbol": "MATIC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/polygon.png?v=023",
     "tokenName": "Polygon Matic",
+    "isHardAsset": true,
     "tokenAddresses": [
       {
         "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
@@ -1879,6 +1887,7 @@
     "tokenSymbol": "WCRO",
     "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/cronos.png?v=023",
     "tokenName": "Crypto.com Coin",
+    "isHardAsset": true,
     "tokenAddresses": [
       {
         "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
@@ -1906,6 +1915,7 @@
     "tokenSymbol": "FTM",
     "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/fantom.png?v=023",
     "tokenName": "Fantom",
+    "isHardAsset": true,
     "tokenAddresses": [
       {
         "address": "0x4e15361fd6b4bb609fa63c81a2be19d873717870",
@@ -1993,6 +2003,7 @@
     "tokenSymbol": "FRAX",
     "tokenName": "Frax",
     "tokenLogoUrl": "https://assets.coingecko.com/coins/images/13422/large/ethCanonicalFRAX.png?1669277108",
+    "isHardAsset": true,
     "tokenAddresses": [
       {
         "chainId": "1",
@@ -2088,6 +2099,7 @@
     "tokenSymbol": "SOL",
     "tokenName": "Solana",
     "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/SOL.svg",
+    "isHardAsset": true,
     "tokenAddresses": [
       {
         "address": "0xd93f7e271cb87c23aaa73edc008a79646d1f9912",
@@ -2111,6 +2123,7 @@
     "tokenSymbol": "AVAX",
     "tokenName": "Avax Token",
     "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/AVAX.svg",
+    "isHardAsset": true,
     "tokenAddresses": [
       {
         "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",

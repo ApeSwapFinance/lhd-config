@@ -2445,5 +2445,33 @@
         "chainId": "42161"
       }
     ]
+  },
+  {
+    "tokenSymbol": "ORBS",
+    "tokenName": "Orbs",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ORBS.svg",
+    "isHardAsset": false,
+    "tokenAddresses": [
+      {
+        "address": "0xebd49b26169e1b52c04cfd19fcf289405df55f80",
+        "chainId": "56"
+      },
+      {
+        "address": "0x614389eaae0a6821dc49062d56bda3d9d45fa2ff",
+        "chainId": "137"
+      },
+      {
+        "address": "0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa",
+        "chainId": "1"
+      },
+      {
+        "address": "0x3e01b7e242d5af8064cb9a8f9468ac0f8683617c",
+        "chainId": "250"
+      },
+      {
+        "address": "0x340fe1d898eccaad394e2ba0fc1f93d27c7b717a",
+        "chainId": "43114"
+      }
+    ]
   }
 ]
