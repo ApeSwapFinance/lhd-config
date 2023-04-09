@@ -2,6 +2,11 @@ import path from 'path'
 import fs from 'fs'
 import { addressMappingBlacklist, addressMappingWhitelist, ownershipBlacklist } from './constants'
 
+const hardAssetListWithIsHardAsset = addressMappingWhitelist.filter((item: any) => item.isHardAsset === true)
+const addressMappingWhiteListWithoutIsHardAsset = addressMappingWhitelist.filter(
+  (item: any) => item.isHardAsset === undefined || item.isHardAsset === false,
+)
+
 const buildList = (list: any, listName: any) => {
   const tokenListPath = path.resolve(`./config/${listName}.json`)
 
@@ -31,39 +36,39 @@ const buildList = (list: any, listName: any) => {
   })
 }
 
+const buildHardAssetList = () => {
+  if (hardAssetListWithIsHardAsset.length > 0) {
+    const hardAssetList = hardAssetListWithIsHardAsset.map((item: any) => ({
+      ...item,
+      isHardAsset: true,
+    }))
+    const hardAssetListPath = path.resolve('./config/hardAssetList.json')
+    const stringifiedList = JSON.stringify(hardAssetList, null, 2)
+    fs.writeFile(hardAssetListPath, stringifiedList, (err) => {
+      if (err) {
+        console.error(err)
+      } else {
+        console.info('✅ hardAssetList complete')
+      }
+    })
+  }
+}
+
+const buildAddressMappingWhiteList = () => {
+  if (addressMappingWhiteListWithoutIsHardAsset.length > 0) {
+    const addressMappingWhiteListPath = path.resolve('./config/addressMappingWhiteList.json')
+    const stringifiedList = JSON.stringify(addressMappingWhiteListWithoutIsHardAsset, null, 2)
+    fs.writeFile(addressMappingWhiteListPath, stringifiedList, (err) => {
+      if (err) {
+        console.error(err)
+      } else {
+        console.info('✅ addressMappingWhiteList complete')
+      }
+    })
+  }
+}
+
 buildList(addressMappingBlacklist, 'addressMappingBlacklist')
 buildList(ownershipBlacklist, 'ownershipBlacklist')
-
-const hardAssetListWithIsHardAsset = addressMappingWhitelist.filter((item: any) => item.isHardAsset === true)
-
-if (hardAssetListWithIsHardAsset.length > 0) {
-  const hardAssetList = hardAssetListWithIsHardAsset.map((item: any) => ({
-    ...item,
-    isHardAsset: true,
-  }))
-  const hardAssetListPath = path.resolve('./config/hardAssetList.json')
-  const stringifiedList = JSON.stringify(hardAssetList, null, 2)
-  fs.writeFile(hardAssetListPath, stringifiedList, (err) => {
-    if (err) {
-      console.error(err)
-    } else {
-      console.info('✅ hardAssetList complete')
-    }
-  })
-}
-
-const addressMappingWhiteListWithoutIsHardAsset = addressMappingWhitelist.filter(
-  (item: any) => item.isHardAsset === undefined || item.isHardAsset === false,
-)
-
-if (addressMappingWhiteListWithoutIsHardAsset.length > 0) {
-  const addressMappingWhiteListPath = path.resolve('./config/addressMappingWhiteList.json')
-  const stringifiedList = JSON.stringify(addressMappingWhiteListWithoutIsHardAsset, null, 2)
-  fs.writeFile(addressMappingWhiteListPath, stringifiedList, (err) => {
-    if (err) {
-      console.error(err)
-    } else {
-      console.info('✅ addressMappingWhiteList complete')
-    }
-  })
-}
+buildHardAssetList()
+buildAddressMappingWhiteList()
