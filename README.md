@@ -6,12 +6,12 @@ We're excited to have you on board as we strive to provide smooth and seamless l
 
 ## Table of Contents
 
-- [Overview](https://github.com/efeDaniels/lhd-readme-example#overview)
-- [Getting Started](https://github.com/efeDaniels/lhd-readme-example#getting-started)
-- [How to Sumbit a Change?](https://github.com/efeDaniels/lhd-readme-example#how-to-submit-a-pr-)
-- [Deployment Example](https://github.com/efeDaniels/lhd-readme-example#deployment-example)
-- [FAQs](https://github.com/efeDaniels/lhd-readme-example#faq)
-- [Support](https://github.com/efeDaniels/lhd-readme-example#support)
+- [Overview](https://github.com/ApeSwapFinance/lhd-config#overview)
+- [Getting Started](https://github.com/ApeSwapFinance/lhd-config#getting-started)
+- [How to Sumbit a Change?](https://github.com/ApeSwapFinance/lhd-config#how-to-submit-a-change)
+- [Deployment Example](https://github.com/ApeSwapFinance/lhd-config#deployment-example)
+- [FAQs](https://github.com/ApeSwapFinance/lhd-config#faq)
+- [Support](https://github.com/ApeSwapFinance/lhd-config#support)
 
 ## Overview
 
