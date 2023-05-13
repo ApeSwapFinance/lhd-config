@@ -2003,6 +2003,10 @@ const addressMappingWhitelist: AddressMapping[] = [
       },
       {
         chainId: '137',
+        address: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
+      },
+      {
+        chainId: '137',
         address: '0x0000000000000000000000000000000000001010',
       },
       {
