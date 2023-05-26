@@ -1,3 +1,4 @@
-export { default as addressMappingWhitelist } from './addressMappingWhitelist'
-export { default as addressMappingBlacklist } from './addressMappingBlacklist'
-export { default as ownershipBlacklist } from './ownershipBlacklist'
+export { default as verifiedAssets } from './verifiedAssets'
+export { default as blacklistedAssets } from './blacklistedAssets'
+export { default as exemptedAssets } from './exemptedAssets'
+export { default as hardAssets } from './hardAssets'

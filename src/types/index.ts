@@ -7,6 +7,7 @@ export interface AddressMapping {
   tags?: string[]
   profileLinks?: TokenProfileLinks
   isHardAsset?: boolean
+  isExempted?: boolean
 }
 
 export interface TokenAddress {

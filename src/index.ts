@@ -1,6 +1,8 @@
 import path from 'path'
 import fs from 'fs'
-import { addressMappingBlacklist, addressMappingWhitelist, ownershipBlacklist } from './constants'
+import { verifiedAssets, blacklistedAssets, hardAssets, exemptedAssets } from './constants'
+
+const addressMappingWhitelist = verifiedAssets.concat(hardAssets)
 
 const hardAssetListWithIsHardAsset = addressMappingWhitelist.filter((item: any) => item.isHardAsset === true)
 const addressMappingWhiteListWithoutIsHardAsset = addressMappingWhitelist.filter(
@@ -68,7 +70,6 @@ const buildAddressMappingWhiteList = () => {
   }
 }
 
-buildList(addressMappingBlacklist, 'addressMappingBlacklist')
-buildList(ownershipBlacklist, 'ownershipBlacklist')
+buildList(blacklistedAssets, 'addressMappingBlacklist')
 buildHardAssetList()
 buildAddressMappingWhiteList()

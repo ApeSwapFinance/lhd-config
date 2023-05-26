@@ -11,16 +11,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ApeSwapFinance/apeswap-lists.git"
+    "url": "git+https://github.com/ApeSwapFinance/lhd-config.git"
   },
   "license": "MIT",
-  "module": "dist/apeswap-lists.esm.js",
+  "module": "dist/lhd-config.esm.js",
   "scripts": {
-    "configure": "ts-node ./src/index.ts"
+    "configure": "ts-node ./src/index.ts",
+    "clean": "ts-node ./src/utilities/clean.ts"
   },
   "dependencies": {
-    "bignumber.js": "^9.0.2",
-    "ethers": "^5.6.9",
     "path": "^0.12.7",
     "ts-node": "^10.9.1"
   },
@@ -41,11 +40,11 @@
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
   },
-  "description": "## How to Manage this Repo",
+  "description": "A repo for managing ",
   "bugs": {
-    "url": "https://github.com/ApeSwapFinance/apeswap-lists/issues"
+    "url": "https://github.com/ApeSwapFinance/lhd-config/issues"
   },
-  "homepage": "https://github.com/ApeSwapFinance/apeswap-lists#readme",
+  "homepage": "https://github.com/ApeSwapFinance/lhd-config#readme",
   "directories": {
     "test": "test"
   },

@@ -1,6 +1,6 @@
 import { AddressMapping } from '../types'
 
-const addressMappingBlacklist: AddressMapping[] = [
+const blacklistedAssets: AddressMapping[] = [
   //BTC
   {
     tokenSymbol: 'RENBTC',
@@ -711,4 +711,4 @@ const addressMappingBlacklist: AddressMapping[] = [
   },
 ]
 
-export default addressMappingBlacklist
+export default blacklistedAssets

@@ -1,478 +1,6 @@
 import { AddressMapping } from '../types'
 
-const addressMappingWhitelist: AddressMapping[] = [
-  {
-    tokenSymbol: 'TLOS',
-    tokenName: 'Telos',
-    tokenLogoUrl:
-      'https://assets-global.website-files.com/60ae1fd65f7b76f18ddd0bec/61044a5f70f5bbeb24b995ea_Symbol%202%402x.png',
-    tokenAddresses: [
-      { address: '0x7825e833d495f3d1c28872415a4aee339d26ac88', chainId: '1' },
-      { address: '0xd102ce6a4db07d247fcc28f366a623df0938ca9e', chainId: '40' },
-      { address: '0xb6c53431608e626ac81a9776ac3e999c5556717c', chainId: '56' },
-    ],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042', '0x6c905b4108a87499ced1e0498721f2b831c6ab13'],
-  },
-  {
-    tokenSymbol: 'BANANA',
-    tokenName: 'ApeSwap BANANA',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/BANANA.svg',
-    tokenAddresses: [
-      { address: '0x603c7f932ed1fc6575303d8fb018fdcbb0f39a95', chainId: '56' },
-      { address: '0xd978f8489e1245568704407a479a71fcce2afe8f', chainId: '42161' },
-    ],
-    knownOwners: [
-      '0x944694417a6ca0a70963d644a11d42c10e3af042',
-      '0xabd7853b79e488bc1bd9e238a870167b074eb714',
-      '0x71c0c1001520e1568e17836cc8a19d0dbdb2bd5f',
-    ],
-  },
-  {
-    tokenSymbol: 'RADAR',
-    tokenName: 'DappRadar',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/RADAR.png',
-    tokenAddresses: [{ address: '0x489580eb70a50515296ef31e8179ff3e77e24965', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'CGG',
-    tokenName: 'ChainGuardians Governance Token',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/CGG.svg',
-    tokenAddresses: [
-      { address: '0x1613957159e9b0ac6c80e824f7eea748a32a0ae2', chainId: '56' },
-      { address: '0x2ab4f9ac80f33071211729e45cfc346c1f8446d5', chainId: '137' },
-    ],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042', '0x60dc928548b92b681beba07fc2551c5e5967a8e6'],
-  },
-  {
-    tokenSymbol: 'LGC',
-    tokenName: 'LiveGreen Coin',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/LGC.svg',
-    tokenAddresses: [{ address: '0x3496212ec43cc49f5151ec4405efd4975e036f89', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'OATH',
-    tokenName: 'Oath Token',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/OATH.svg',
-    tokenAddresses: [{ address: '0xd3c6ceedd1cc7bd4304f72b011d53441d631e662', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'TOKO',
-    tokenName: 'Tokoin',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/TOKO.png',
-    tokenAddresses: [{ address: '0x45f7967926e95fd161e56ed66b663c9114c5226f', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'CVL',
-    tokenName: 'Civilization',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/CVL.svg',
-    tokenAddresses: [{ address: '0x9ae0290cd677dc69a5f2a1e435ef002400da70f5', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'TRIVIA',
-    tokenName: 'Trivian Token',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/TRIVIA.svg',
-    tokenAddresses: [{ address: '0xb465f3cb6aba6ee375e12918387de1eac2301b05', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'XTAL',
-    tokenName: 'XTALToken',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/XTAL.png',
-    tokenAddresses: [{ address: '0xd23eae3926431c794e2a04e1622a9446d61174a4', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'WCFLT',
-    tokenName: 'Wrapped Coinflect',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/WCFLT.svg',
-    tokenAddresses: [{ address: '0xc73d9b9616e855df4a0b32c3f1ef2ed5dc9c1990', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'AVAN',
-    tokenName: 'AVANA Token',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/AVAN.png',
-    tokenAddresses: [{ address: '0xf84c55e79858b448c3015c3a1a55efed9edf69c7', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'MONSTA',
-    tokenName: 'Cake Monster',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/MONSTA.svg',
-    tokenAddresses: [{ address: '0x8a5d7fcd4c90421d21d30fcc4435948ac3618b2f', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'LEAP',
-    tokenName: 'LEAP',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/LEAP.svg',
-    tokenAddresses: [{ address: '0x6eed9140f80f9e989cb23aecbd20b97a29ffc80f', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: '3AIR',
-    tokenName: '3AIR',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/3AIR.svg',
-    tokenAddresses: [{ address: '0x596834746b5b78f31a089ee7853fa595682824b7', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'CHRP',
-    tokenName: 'Chirpley Token',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/CHRP.svg',
-    tokenAddresses: [{ address: '0xed00fc7d48b57b81fe65d1ce71c0985e4cf442cb', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'LIQ',
-    tokenName: 'Liquidus',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/LIQ.svg',
-    tokenAddresses: [{ address: '0xc7981767f644c7f8e483dabdc413e8a371b83079', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'IHC',
-    tokenName: 'Inflation Hedging Coin',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/IHC.png',
-    tokenAddresses: [{ address: '0x86a53fcd199212fea44fa7e16eb1f28812be911d', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'PSTN',
-    tokenName: 'PISTON',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/PSTN.svg',
-    tokenAddresses: [{ address: '0xbfacd29427ff376ff3bc22dffb29866277ca5fb4', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'GQ',
-    tokenName: 'Galactic Quadrant',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/GQ.png',
-    tokenAddresses: [{ address: '0xf700d4c708c2be1463e355f337603183d20e0808', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'NFTY',
-    tokenName: 'NFTY Token',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/NFTY.png',
-    tokenAddresses: [{ address: '0x5774b2fc3e91af89f89141eacf76545e74265982', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'COC',
-    tokenName: 'Coin of the champions',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/COC.svg',
-    tokenAddresses: [{ address: '0xbdc3b3639f7aa19e623a4d603a3fb7ab20115a91', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'GMR',
-    tokenName: 'GAMER',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/GMR.svg',
-    tokenAddresses: [{ address: '0xadca52302e0a6c2d5d68edcdb4ac75deb5466884', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'XCUR',
-    tokenName: 'Curate',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/XCUR.svg',
-    tokenAddresses: [{ address: '0xd52669712f253cd6b2fe8a8638f66ed726cb770c', chainId: '56' }],
-    knownOwners: ['0x7c138583a199b30693173c3c62f104a658dc5c42'],
-  },
-  {
-    tokenSymbol: 'XWIN',
-    tokenName: 'xWIN Token',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/XWIN.svg',
-    tokenAddresses: [{ address: '0xd88ca08d8eec1e9e09562213ae83a7853ebb5d28', chainId: '56' }],
-    knownOwners: ['0x7e81f91b2c3ba470c9e603a744cd6d53573b2511'],
-  },
-  {
-    tokenSymbol: 'FROYO',
-    tokenName: 'FROYO',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/FROYO.png',
-    tokenAddresses: [{ address: '0xe369fec23380f9f14ffd07a1dc4b7c1a9fdd81c9', chainId: '56' }],
-    knownOwners: ['0x9ff2db8821bd61ba348975c3ebe04acdefd0ae4b'], //ASK THIS TO OBIE
-  },
-  {
-    tokenSymbol: 'BLID',
-    tokenName: 'Bolide',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/BLID.svg',
-    tokenAddresses: [{ address: '0x766afcf83fd5eaf884b3d529b432ca27a6d84617', chainId: '56' }],
-    knownOwners: ['0xc9f833b514825dec2d11d291fb3d960054e0e169'],
-  },
-  {
-    tokenSymbol: 'HEC',
-    tokenName: 'Hector',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/HEC.svg',
-    tokenAddresses: [{ address: '0x638eebe886b0e9e7c6929e69490064a6c94d204d', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042', '0x11587da834e3d9f25ad14fc28f6dd670e22f08f9'],
-  },
-  {
-    tokenSymbol: 'FLOKI',
-    tokenName: 'FLOKI',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/FLOKI.svg',
-    tokenAddresses: [{ address: '0xfb5b838b6cfeedc2873ab27866079ac55363d37e', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'STARS',
-    tokenName: 'Mogul Stars',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/STARS.svg',
-    tokenAddresses: [{ address: '0xbd83010eb60f12112908774998f65761cf9f6f9a', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'CEEK',
-    tokenName: 'CEEK',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/CEEK.png',
-    tokenAddresses: [{ address: '0xe0f94ac5462997d2bc57287ac3a3ae4c31345d66', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'HOTCROSS',
-    tokenName: 'Hot Cross Token',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/HOTCROSS.svg',
-    tokenAddresses: [{ address: '0x4fa7163e153419e0e1064e418dd7a99314ed27b6', chainId: '56' }],
-    knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
-  },
-  {
-    tokenSymbol: 'AXN',
-    tokenName: 'Axion',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/AXN.png',
-    tokenAddresses: [{ address: '0x839f1a22a59eaaf26c85958712ab32f80fea23d9', chainId: '137' }],
-    knownOwners: ['0x60dc928548b92b681beba07fc2551c5e5967a8e6'],
-  },
-  {
-    tokenSymbol: 'TRAXX',
-    tokenName: 'TRAXX',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/TRAXX.svg',
-    tokenAddresses: [{ address: '0xd43be54c1aedf7ee4099104f2dae4ea88b18a249', chainId: '137' }],
-    knownOwners: ['0x60dc928548b92b681beba07fc2551c5e5967a8e6'],
-  },
-  {
-    tokenSymbol: 'DOGIRA',
-    tokenName: 'Dogira',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/DOGIRA.svg',
-    tokenAddresses: [{ address: '0xdda40cdfe4a0090f42ff49f264a831402adb801a', chainId: '137' }],
-    knownOwners: ['0x60dc928548b92b681beba07fc2551c5e5967a8e6'],
-  },
-  {
-    tokenSymbol: 'WBNB',
-    tokenName: 'Wrapped BNB',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1644979850',
-    tokenAddresses: [
-      {
-        chainId: '1',
-        address: '0xb8c77482e45f1f44de1745f52c74426c631bdd52',
-      },
-      {
-        address: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
-        chainId: '56',
-      },
-      {
-        address: '0x7400793aad94c8ca801aa036357d10f5fd0ce08f',
-        chainId: '324',
-      },
-      {
-        address: '0x7f27352d5f83db87a5a3e00f4b07cc2138d8ee52',
-        chainId: '592',
-      },
-      {
-        address: '0x7f27352d5f83db87a5a3e00f4b07cc2138d8ee52',
-        chainId: '2001',
-      },
-      {
-        address: '0xbc0990862515f95e01d16c2c1afd1104c279d48d',
-        chainId: '2002',
-      },
-      {
-        address: '0x75364d4f779d0bd0facd9a218c67f87dd9aff3b4',
-        chainId: '9001',
-      },
-      {
-        address: '0x3795c36e7d12a8c252a20c5a7b455f7c57b60283',
-        chainId: '42262',
-      },
-      {
-        address: 'a.231cc0dbbcffc4b7.cebnb.vault',
-        chainId: '12340001',
-      },
-      {
-        address: '0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::bnbcoin',
-        chainId: '12360001',
-      },
-      {
-        address: '0xc6bc09a723f2314ad22642b6e33ad2ed6bba3c9c',
-        chainId: '1313161554',
-      },
-      {
-        address: '0x20865e63b111b2649ef829ec220536c82c58ad7b',
-        chainId: '42161',
-      },
-    ],
-  },
-  {
-    tokenSymbol: 'UNI',
-    tokenName: 'UniSwap',
-    tokenLogoUrl: 'https://cryptologos.cc/logos/thumbs/uniswap.png?v=023',
-    tokenAddresses: [
-      { address: '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984', chainId: '1' },
-      { address: '0xbf5140a22578168fd562dccf235e5d43a02ce9b1', chainId: '56' },
-    ],
-  },
-  {
-    tokenSymbol: 'APE',
-    tokenName: 'ApeCoin',
-    tokenLogoUrl: 'https://cryptologos.cc/logos/thumbs/apecoin-ape.png?v=023',
-    tokenAddresses: [
-      { address: '0x4d224452801aced8b2f0aebe155379bb5d594381', chainId: '1' },
-      { address: '0xc762043e211571eb34f1ef377e5e8e76914962f9', chainId: '56' },
-      { address: '0x0b079b33b6e72311c6be245f9f660cc385029fc3', chainId: '56' },
-    ],
-  },
-  {
-    tokenSymbol: 'AAVE',
-    tokenName: 'Aave Token',
-    tokenLogoUrl: 'https://cryptologos.cc/logos/thumbs/aave.png?v=023',
-    tokenAddresses: [
-      { address: '0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9', chainId: '1' },
-      { address: '0xfb6115445bff7b52feb98650c87f44907e58f802', chainId: '56' },
-    ],
-  },
-  {
-    tokenSymbol: 'WETH',
-    tokenName: 'Wrapped Ether',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ETH.svg',
-    tokenAddresses: [
-      {
-        address: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
-        chainId: '1',
-      },
-      {
-        address: '0xc6bc09a723f2314ad22642b6e33ad2ed6bba3c9c',
-        chainId: '58',
-      },
-      {
-        address: '0xa173954cc4b1810c0dbdb007522adbc182dab380',
-        chainId: '416',
-      },
-      {
-        address: '0x81ecac0d6be0550a00ff064a4f9dd2400585fe9c',
-        chainId: '592',
-      },
-      {
-        address: '0x81ecac0d6be0550a00ff064a4f9dd2400585fe9c',
-        chainId: '1024',
-      },
-      {
-        address: '0xa47f43de2f9623acb395ca4905746496d2014d57',
-        chainId: '1030',
-      },
-      {
-        address: '0x6959027f7850adf4916ff5fdc898d958819e5375',
-        chainId: '1284',
-      },
-      {
-        address: '0x81ecac0d6be0550a00ff064a4f9dd2400585fe9c',
-        chainId: '2001',
-      },
-      {
-        address: '0x592786e04c47844aa3b343b19ef2f50a255a477f',
-        chainId: '2002',
-      },
-      {
-        address: '0x9591865d9d4bbd3b5fa8a8e2400fd530d1a16191',
-        chainId: '2222',
-      },
-      {
-        address: '0xb66954619363145a05ef835547449eb9050d82f6',
-        chainId: '8217',
-      },
-      {
-        address: '0x153a59d48aceabedbdcf7a13f67ae52b434b810b',
-        chainId: '9001',
-      },
-      {
-        address: '0x6a2d262d56735dba19dd70682b39f6be9a931d98',
-        chainId: '42262',
-      },
-      {
-        address: '0x7a5313468c1c1a3afb2cf5ec46558a7d0fc2884a',
-        chainId: '47805',
-      },
-      {
-        address: '0xb66954619363145a05ef835547449eb9050d82f6',
-        chainId: '71402',
-      },
-      {
-        address: '0x4bf769b05e832fcdc9053fffbc78ca889acb5e1e',
-        chainId: '210425',
-      },
-      {
-        address: 'a.231cc0dbbcffc4b7.ceweth.vault',
-        chainId: '12340001',
-      },
-      {
-        address: '0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::wethcoin',
-        chainId: '12360001',
-      },
-      {
-        address: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
-        chainId: '42161',
-      },
-    ],
-  },
-  {
-    tokenSymbol: 'XRP',
-    tokenName: 'Ripple Token',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/XRP.svg',
-    tokenAddresses: [
-      {
-        address: '0x39fbbabf11738317a448031930706cd3e612e1b9',
-        chainId: '1',
-      },
-      {
-        address: '0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe',
-        chainId: '56',
-      },
-    ],
-  },
-  {
-    tokenSymbol: 'ORBS',
-    tokenName: 'Orbs',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ORBS.svg',
-    isHardAsset: false,
-    tokenAddresses: [
-      {
-        address: '0xebd49b26169e1b52c04cfd19fcf289405df55f80',
-        chainId: '56',
-      },
-      {
-        address: '0x614389eaae0a6821dc49062d56bda3d9d45fa2ff',
-        chainId: '137',
-      },
-      {
-        address: '0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa',
-        chainId: '1',
-      },
-      {
-        address: '0x3e01b7e242d5af8064cb9a8f9468ac0f8683617c',
-        chainId: '250',
-      },
-      {
-        address: '0x340fe1d898eccaad394e2ba0fc1f93d27c7b717a',
-        chainId: '43114',
-      },
-    ],
-  },
-  /*
-  HARD ASSETS START HERE
-  */
+const hardAssets: AddressMapping[] = [
   {
     tokenSymbol: 'USDC',
     tokenLogoUrl: 'https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024',
@@ -1687,14 +1215,7 @@ const addressMappingWhitelist: AddressMapping[] = [
         address: '0xe0a592353e81a94db6e3226fd4a99f881751776a',
         chainId: '420',
       },
-    ],
-  },
-  {
-    tokenSymbol: 'WBTC',
-    tokenLogoUrl: 'https://cryptologos.cc/logos/thumbs/bitcoin.png?v=023',
-    tokenName: 'Wrapped Bitcoin',
-    isHardAsset: true,
-    tokenAddresses: [
+
       {
         address: '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599',
         chainId: '1',
@@ -1959,6 +1480,83 @@ const addressMappingWhitelist: AddressMapping[] = [
     tokenName: 'Ether',
     isHardAsset: true,
     tokenAddresses: [
+      {
+        address: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
+        chainId: '1',
+      },
+      {
+        address: '0xc6bc09a723f2314ad22642b6e33ad2ed6bba3c9c',
+        chainId: '58',
+      },
+      {
+        address: '0xa173954cc4b1810c0dbdb007522adbc182dab380',
+        chainId: '416',
+      },
+      {
+        address: '0x81ecac0d6be0550a00ff064a4f9dd2400585fe9c',
+        chainId: '592',
+      },
+      {
+        address: '0x81ecac0d6be0550a00ff064a4f9dd2400585fe9c',
+        chainId: '1024',
+      },
+      {
+        address: '0xa47f43de2f9623acb395ca4905746496d2014d57',
+        chainId: '1030',
+      },
+      {
+        address: '0x6959027f7850adf4916ff5fdc898d958819e5375',
+        chainId: '1284',
+      },
+      {
+        address: '0x81ecac0d6be0550a00ff064a4f9dd2400585fe9c',
+        chainId: '2001',
+      },
+      {
+        address: '0x592786e04c47844aa3b343b19ef2f50a255a477f',
+        chainId: '2002',
+      },
+      {
+        address: '0x9591865d9d4bbd3b5fa8a8e2400fd530d1a16191',
+        chainId: '2222',
+      },
+      {
+        address: '0xb66954619363145a05ef835547449eb9050d82f6',
+        chainId: '8217',
+      },
+      {
+        address: '0x153a59d48aceabedbdcf7a13f67ae52b434b810b',
+        chainId: '9001',
+      },
+      {
+        address: '0x6a2d262d56735dba19dd70682b39f6be9a931d98',
+        chainId: '42262',
+      },
+      {
+        address: '0x7a5313468c1c1a3afb2cf5ec46558a7d0fc2884a',
+        chainId: '47805',
+      },
+      {
+        address: '0xb66954619363145a05ef835547449eb9050d82f6',
+        chainId: '71402',
+      },
+      {
+        address: '0x4bf769b05e832fcdc9053fffbc78ca889acb5e1e',
+        chainId: '210425',
+      },
+      {
+        address: 'a.231cc0dbbcffc4b7.ceweth.vault',
+        chainId: '12340001',
+      },
+      {
+        address: '0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::wethcoin',
+        chainId: '12360001',
+      },
+      {
+        address: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
+        chainId: '42161',
+      },
+
       {
         address: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
         chainId: '1',
@@ -2243,6 +1841,54 @@ const addressMappingWhitelist: AddressMapping[] = [
     tokenName: 'Binance Coin',
     isHardAsset: true,
     tokenAddresses: [
+      {
+        chainId: '1',
+        address: '0xb8c77482e45f1f44de1745f52c74426c631bdd52',
+      },
+      {
+        address: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+        chainId: '56',
+      },
+      {
+        address: '0x7400793aad94c8ca801aa036357d10f5fd0ce08f',
+        chainId: '324',
+      },
+      {
+        address: '0x7f27352d5f83db87a5a3e00f4b07cc2138d8ee52',
+        chainId: '592',
+      },
+      {
+        address: '0x7f27352d5f83db87a5a3e00f4b07cc2138d8ee52',
+        chainId: '2001',
+      },
+      {
+        address: '0xbc0990862515f95e01d16c2c1afd1104c279d48d',
+        chainId: '2002',
+      },
+      {
+        address: '0x75364d4f779d0bd0facd9a218c67f87dd9aff3b4',
+        chainId: '9001',
+      },
+      {
+        address: '0x3795c36e7d12a8c252a20c5a7b455f7c57b60283',
+        chainId: '42262',
+      },
+      {
+        address: 'a.231cc0dbbcffc4b7.cebnb.vault',
+        chainId: '12340001',
+      },
+      {
+        address: '0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::bnbcoin',
+        chainId: '12360001',
+      },
+      {
+        address: '0xc6bc09a723f2314ad22642b6e33ad2ed6bba3c9c',
+        chainId: '1313161554',
+      },
+      {
+        address: '0x20865e63b111b2649ef829ec220536c82c58ad7b',
+        chainId: '42161',
+      },
       {
         address: '0xb44a9b6905af7c801311e8f4e76932ee959c663c',
         chainId: '24',
@@ -2779,4 +2425,4 @@ const addressMappingWhitelist: AddressMapping[] = [
   },
 ]
 
-export default addressMappingWhitelist
+export default hardAssets
