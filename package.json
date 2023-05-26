@@ -16,8 +16,7 @@
   "license": "MIT",
   "module": "dist/lhd-config.esm.js",
   "scripts": {
-    "configure": "ts-node ./src/index.ts",
-    "clean": "ts-node ./src/utilities/clean.ts"
+    "configure": "ts-node ./src/index.ts"
   },
   "dependencies": {
     "path": "^0.12.7",
