@@ -99,6 +99,8 @@ Please don't forget to use `Prettier` before comitting your code.
 
 Once you finish the code, run `yarn configure` to convert your TypeScript entry into a consumable JSON file and create a new pull request in our main repository.
 
+And finally, please make sure to add `project-requests` label to your PR for making tracking progrees easier for us.
+
 ## FAQ
 
 #### Q: What if I encounter issues during the PR process?
