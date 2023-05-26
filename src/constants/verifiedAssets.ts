@@ -293,7 +293,6 @@ const verifiedAssets: AddressMapping[] = [
     tokenSymbol: 'ORBS',
     tokenName: 'Orbs',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ORBS.svg',
-    isHardAsset: false,
     tokenAddresses: [
       { address: '0xebd49b26169e1b52c04cfd19fcf289405df55f80', chainId: '56' },
       { address: '0x614389eaae0a6821dc49062d56bda3d9d45fa2ff', chainId: '137' },

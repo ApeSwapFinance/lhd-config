@@ -26,7 +26,7 @@ const buildList = (list: any, listName: any) => {
     if (err) {
       console.error(err)
     } else {
-      console.info(`✅ ${listName} complete`)
+      console.info(`✅ Creation of ${listName} complete!`)
     }
   })
 }
