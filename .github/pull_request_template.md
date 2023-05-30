@@ -13,12 +13,17 @@ Project Website:
 
 ```
 Point of Contact Telegram:
+Did you add @__ as a contact?:
+Did you send a message to the Liquidity Monkey?:
 ```
 
-**Additional Details (Optional):**
-
+**Data Updates:**
 ```
 Proof of ownership addresses (docs links, on-chain info, etc):
+Is this locked?:
+
+Would you like to apply for a tag?: 
+Which tag?: 
 
 Anything else?:
 ```
