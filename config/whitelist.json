@@ -2323,26 +2323,6 @@
     "isExempted": true
   },
   {
-    "tokenSymbol": "SOL",
-    "tokenName": "Solana",
-    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/SOL.svg",
-    "tokenAddresses": [
-      {
-        "address": "0xd93f7e271cb87c23aaa73edc008a79646d1f9912",
-        "chainId": "137"
-      },
-      {
-        "address": "0xd31a59c85ae9d8edefec411d448f90841571b89c",
-        "chainId": "1"
-      },
-      {
-        "address": "0x570a5d26f7765ecb712c0924e4de545b89fd43df",
-        "chainId": "56"
-      }
-    ],
-    "isExempted": true
-  },
-  {
     "tokenSymbol": "DOT",
     "tokenName": "Polkadot Token",
     "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/DOT.svg",
@@ -2502,6 +2482,134 @@
       {
         "address": "0xedf53026aea60f8f75fca25f8830b7e2d6200662",
         "chainId": "199"
+      }
+    ],
+    "isExempted": true
+  },
+  {
+    "tokenSymbol": "CELO",
+    "tokenName": "Celo",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/CELO.svg",
+    "tokenAddresses": [
+      {
+        "address": "0x471ece3750da237f93b8e339c536989b8978a438",
+        "chainId": "42220"
+      }
+    ],
+    "isExempted": true
+  },
+  {
+    "tokenSymbol": "ONT",
+    "tokenName": "Ontology",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ONT.svg",
+    "tokenAddresses": [
+      {
+        "address": "0xfd7b3a77848f1c2d67e05e54d78d174a0c850335",
+        "chainId": "56"
+      },
+      {
+        "address": "0xd4814770065f634003a8d8d70b4743e0c3f334ad",
+        "chainId": "137"
+      }
+    ],
+    "isExempted": true
+  },
+  {
+    "tokenSymbol": "QTUM",
+    "tokenName": "Qtum",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/QTUM.png",
+    "tokenAddresses": [
+      {
+        "address": "0x32529346958711b3bef92b96507c14821e50c9c8",
+        "chainId": "25"
+      },
+      {
+        "address": "0xafb4942f45a01c67c83d969ea83129926e05f6fe",
+        "chainId": "39797"
+      }
+    ],
+    "isExempted": true
+  },
+  {
+    "tokenSymbol": "XVG",
+    "tokenName": "Verge",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/DASH.png",
+    "tokenAddresses": [
+      {
+        "address": "0xc559e9bf45d772d8049577555af4098ca62db03c",
+        "chainId": "56"
+      }
+    ],
+    "isExempted": true
+  },
+  {
+    "tokenSymbol": "XMR",
+    "tokenName": "Monero",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/XMR.png",
+    "tokenAddresses": [
+      {
+        "address": "0xf5ff4201b1dfe13bba301e71ccc4880e5c3f96bf",
+        "chainId": "369"
+      },
+      {
+        "address": "0x3451a78205a02fe9df6b5c3bbcff40c4c296f939",
+        "chainId": "1116"
+      },
+      {
+        "address": "0xbc4081a8b192a50bd58ac6c595d766e59a56c37e",
+        "chainId": "56"
+      },
+      {
+        "address": "0x465e07d6028830124be2e4aa551fbe12805db0f5",
+        "chainId": "1"
+      }
+    ],
+    "isExempted": true
+  },
+  {
+    "tokenSymbol": "FIL",
+    "tokenName": "Filecoin",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/FIL.png",
+    "tokenAddresses": [
+      {
+        "address": "0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153",
+        "chainId": "56"
+      },
+      {
+        "address": "0x7d7130b0b4733d603cea12628b52067ce8458058",
+        "chainId": "25"
+      }
+    ],
+    "isExempted": true
+  },
+  {
+    "tokenSymbol": "THETA",
+    "tokenName": "Theta Network",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/.png",
+    "tokenAddresses": [
+      {
+        "address": "0x73b6fcf8ed6daefe3775bc38949f115305047c0d",
+        "chainId": "25"
+      },
+      {
+        "address": "0x6d4a34328263771bfdf80ff19b1b343c2ee6e85f",
+        "chainId": "56"
+      }
+    ],
+    "isExempted": true
+  },
+  {
+    "tokenSymbol": "FLOW",
+    "tokenName": "Flow",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/FLOW.svg",
+    "tokenAddresses": [
+      {
+        "address": "0x5c147e74d63b1d31aa3fd78eb229b65161983b2b",
+        "chainId": "1"
+      },
+      {
+        "address": "0xc943c5320b9c18c153d1e2d12cc3074bebfb31a2",
+        "chainId": "56"
       }
     ],
     "isExempted": true
