@@ -1005,7 +1005,7 @@
   },
   {
     "tokenSymbol": "ETH",
-    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/ethereum.png?v=023",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ETH.svg",
     "tokenName": "Ether",
     "isHardAsset": true,
     "tokenAddresses": [
@@ -1706,12 +1706,12 @@
     "isHardAsset": true,
     "tokenAddresses": [
       {
-        "address": "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb",
-        "chainId": "10"
-      },
-      {
         "address": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
         "chainId": "1"
+      },
+      {
+        "address": "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb",
+        "chainId": "10"
       },
       {
         "address": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",

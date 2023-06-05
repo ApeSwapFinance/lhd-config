@@ -1,7 +1,6 @@
 import { AddressMapping } from '../types'
 
 const exemptedAssets: AddressMapping[] = [
-  // XRP, ADA etc. are exempted from the blacklist
   {
     tokenSymbol: 'XRP',
     tokenName: 'Ripple Token',
@@ -17,8 +16,8 @@ const exemptedAssets: AddressMapping[] = [
     tokenName: 'Cardano Token',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ADA.svg',
     tokenAddresses: [
-      { address: '0x3611fbfb06ffbcef9afb210f6ace86742e6c14a4', chainId: '106' },
       { address: '0x3ee2200efb3400fabb9aacf31297cbdd1d435d47', chainId: '56' },
+      { address: '0x3611fbfb06ffbcef9afb210f6ace86742e6c14a4', chainId: '106' },
       { address: '0x0e517979c2c1c1522ddb0c73905e0d39b3f990c0', chainId: '25' },
     ],
     isExempted: true,
@@ -37,13 +36,12 @@ const exemptedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'ATOM',
     tokenName: 'Cosmos Hub',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/1481/small/cosmos_hub.png?1555657960',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/1481/large/cosmos_hub.png?1555657960',
     tokenAddresses: [
       { address: '0x0eb3a705fc54725037cc9e008bdede697f62f335', chainId: '56' },
       { address: '0xb888d8dd1733d72681b30c00ee76bde93ae7aa93', chainId: '25' },
       { address: '0xc5e00d3b04563950941f7137b5afa3a534f0d6d6', chainId: '9001' },
       { address: '0xeceeefcee421d8062ef8d6b4d814efe4dc898265', chainId: '7700' },
-      { address: '', chainId: '' },
     ],
     isExempted: true,
   },
@@ -52,15 +50,15 @@ const exemptedAssets: AddressMapping[] = [
     tokenName: 'Tezos Token',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/XTZ.png',
     tokenAddresses: [
-      { address: '0x16939ef78684453bfdfb47825f8a5f714f12623a', chainId: '56' },
       { address: '0x2a69655c22eda32ff48d315bb26ed45f150700b4', chainId: '1' },
+      { address: '0x16939ef78684453bfdfb47825f8a5f714f12623a', chainId: '56' },
     ],
     isExempted: true,
   },
   {
     tokenSymbol: 'ALGO',
     tokenName: 'Algorand',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/4380/small/download.png?1547039725',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/4380/large/download.png?1547039725',
     tokenAddresses: [
       { address: '0x2fefe47989214c2e74a6319076c138d395681407', chainId: '25' },
       { address: '0x99690611d2b5698ebc27cbf51ba89e4c22eb341c', chainId: '56' },
@@ -92,7 +90,7 @@ const exemptedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'XLM',
     tokenName: 'Stellar',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/100/small/Stellar_symbol_black_RGB.png?1552356157',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/100/large/Stellar_symbol_black_RGB.png?1552356157',
     tokenAddresses: [
       { address: '0x747d6c858168b8cd6e537160320b5de58fd3367c', chainId: '25' },
       { address: '0x43c934a845205f0b514417d757d7235b8f53f1b9', chainId: '56' },
@@ -109,7 +107,7 @@ const exemptedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'TRX',
     tokenName: 'Tron',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/1094/small/tron-logo.png?1547035066',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/1094/large/tron-logo.png?1547035066',
     tokenAddresses: [
       { address: '0xce7de646e7208a4ef112cb6ed5038fa6cc6b12e3', chainId: '56' },
       { address: '0xedf53026aea60f8f75fca25f8830b7e2d6200662', chainId: '199' },
@@ -119,7 +117,7 @@ const exemptedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'CELO',
     tokenName: 'Celo',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/11090/small/InjXBNx9_400x400.jpg?1674707499',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/11090/large/InjXBNx9_400x400.jpg?1674707499',
     tokenAddresses: [{ address: '0x471ece3750da237f93b8e339c536989b8978a438', chainId: '42220' }],
     isExempted: true,
   },
@@ -136,7 +134,7 @@ const exemptedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'QTUM',
     tokenName: 'Qtum',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/684/small/Qtum_Logo_blue_CG.png?1637155875',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/684/large/Qtum_Logo_blue_CG.png?1637155875',
     tokenAddresses: [
       { address: '0x32529346958711b3bef92b96507c14821e50c9c8', chainId: '25' },
       { address: '0xafb4942f45a01c67c83d969ea83129926e05f6fe', chainId: '39797' },
@@ -146,14 +144,14 @@ const exemptedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'XVG',
     tokenName: 'Verge',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/203/small/verge-symbol-color_logo.png?1561543281',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/203/large/verge-symbol-color_logo.png?1561543281',
     tokenAddresses: [{ address: '0xc559e9bf45d772d8049577555af4098ca62db03c', chainId: '56' }],
     isExempted: true,
   },
   {
     tokenSymbol: 'XMR',
     tokenName: 'Monero',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/69/small/monero_logo.png?1547033729',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/69/large/monero_logo.png?1547033729',
     tokenAddresses: [
       { address: '0xf5ff4201b1dfe13bba301e71ccc4880e5c3f96bf', chainId: '369' },
       { address: '0x3451a78205a02fe9df6b5c3bbcff40c4c296f939', chainId: '1116' },
@@ -175,7 +173,7 @@ const exemptedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'THETA',
     tokenName: 'Theta Network',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/2538/small/theta-token-logo.png?1548387191',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/2538/large/theta-token-logo.png?1548387191',
     tokenAddresses: [
       { address: '0x73b6fcf8ed6daefe3775bc38949f115305047c0d', chainId: '25' },
       { address: '0x6d4a34328263771bfdf80ff19b1b343c2ee6e85f', chainId: '56' },
@@ -186,7 +184,7 @@ const exemptedAssets: AddressMapping[] = [
     tokenSymbol: 'FLOW',
     tokenName: 'Flow',
     tokenLogoUrl:
-      'https://assets.coingecko.com/coins/images/13446/small/5f6294c0c7a8cda55cb1c936_Flow_Wordmark.png?1631696776',
+      'https://assets.coingecko.com/coins/images/13446/large/5f6294c0c7a8cda55cb1c936_Flow_Wordmark.png?1631696776',
     tokenAddresses: [
       { address: '0x5c147e74d63b1d31aa3fd78eb229b65161983b2b', chainId: '1' },
       { address: '0xc943c5320b9c18c153d1e2d12cc3074bebfb31a2', chainId: '56' },
