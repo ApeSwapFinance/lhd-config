@@ -39,7 +39,7 @@
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
   },
-  "description": "A repo for managing ",
+  "description": "A repo for managing the liquidity health dashboard config",
   "bugs": {
     "url": "https://github.com/ApeSwapFinance/lhd-config/issues"
   },
