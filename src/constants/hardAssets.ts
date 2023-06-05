@@ -305,7 +305,7 @@ const hardAssets: AddressMapping[] = [
   },
   {
     tokenSymbol: 'ETH',
-    tokenLogoUrl: 'https://cryptologos.cc/logos/thumbs/ethereum.png?v=023',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ETH.svg',
     tokenName: 'Ether',
     isHardAsset: true,
     tokenAddresses: [
@@ -529,6 +529,19 @@ const hardAssets: AddressMapping[] = [
       { address: '0xd31a59c85ae9d8edefec411d448f90841571b89c', chainId: '1' },
       { address: '0x570a5d26f7765ecb712c0924e4de545b89fd43df', chainId: '56' },
       { address: '0xfe6b19286885a4f7f55adad09c3cd1f906d2478f', chainId: '43114' },
+    ],
+  },
+  {
+    tokenSymbol: 'stETH',
+    tokenName: 'Lido Staked Ether',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/13442/small/steth_logo.png?1608607546',
+    isHardAsset: true,
+    tokenAddresses: [
+      { address: '0xae7ab96520de3a18e5e111b5eaab095312d7fe84', chainId: '1' },
+      { address: '0x1f32b1c2345538c0c6f582fcb022739c4a194ebb', chainId: '10' },
+      { address: '0xae7ab96520de3a18e5e111b5eaab095312d7fe84', chainId: '369' },
+      { address: '0x3c037849a8ffcf19886e2f5b04f293b7847d0377', chainId: '100' },
+      { address: '0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd', chainId: '137' },
     ],
   },
 ]
