@@ -2287,6 +2287,34 @@
     ]
   },
   {
+    "tokenSymbol": "stETH",
+    "tokenName": "Lido Staked Ether",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/13442/small/steth_logo.png?1608607546",
+    "isHardAsset": true,
+    "tokenAddresses": [
+      {
+        "address": "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb",
+        "chainId": "10"
+      },
+      {
+        "address": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+        "chainId": "1"
+      },
+      {
+        "address": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+        "chainId": "369"
+      },
+      {
+        "address": "0x3c037849a8ffcf19886e2f5b04f293b7847d0377",
+        "chainId": "100"
+      },
+      {
+        "address": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
+        "chainId": "137"
+      }
+    ]
+  },
+  {
     "tokenSymbol": "XRP",
     "tokenName": "Ripple Token",
     "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/XRP.svg",
@@ -2345,7 +2373,7 @@
   {
     "tokenSymbol": "ATOM",
     "tokenName": "Cosmos Hub",
-    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ATOM.svg",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/1481/small/cosmos_hub.png?1555657960",
     "tokenAddresses": [
       {
         "address": "0x0eb3a705fc54725037cc9e008bdede697f62f335",
@@ -2389,7 +2417,7 @@
   {
     "tokenSymbol": "ALGO",
     "tokenName": "Algorand",
-    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ALGO.svg",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/4380/small/download.png?1547039725",
     "tokenAddresses": [
       {
         "address": "0x2fefe47989214c2e74a6319076c138d395681407",
@@ -2445,7 +2473,7 @@
   {
     "tokenSymbol": "XLM",
     "tokenName": "Stellar",
-    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/XLM.svg",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/100/small/Stellar_symbol_black_RGB.png?1552356157",
     "tokenAddresses": [
       {
         "address": "0x747d6c858168b8cd6e537160320b5de58fd3367c",
@@ -2473,7 +2501,7 @@
   {
     "tokenSymbol": "TRX",
     "tokenName": "Tron",
-    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/TRX.png",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/1094/small/tron-logo.png?1547035066",
     "tokenAddresses": [
       {
         "address": "0xce7de646e7208a4ef112cb6ed5038fa6cc6b12e3",
@@ -2489,7 +2517,7 @@
   {
     "tokenSymbol": "CELO",
     "tokenName": "Celo",
-    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/CELO.svg",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/11090/small/InjXBNx9_400x400.jpg?1674707499",
     "tokenAddresses": [
       {
         "address": "0x471ece3750da237f93b8e339c536989b8978a438",
@@ -2517,7 +2545,7 @@
   {
     "tokenSymbol": "QTUM",
     "tokenName": "Qtum",
-    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/QTUM.png",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/684/small/Qtum_Logo_blue_CG.png?1637155875",
     "tokenAddresses": [
       {
         "address": "0x32529346958711b3bef92b96507c14821e50c9c8",
@@ -2533,7 +2561,7 @@
   {
     "tokenSymbol": "XVG",
     "tokenName": "Verge",
-    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/DASH.png",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/203/small/verge-symbol-color_logo.png?1561543281",
     "tokenAddresses": [
       {
         "address": "0xc559e9bf45d772d8049577555af4098ca62db03c",
@@ -2545,7 +2573,7 @@
   {
     "tokenSymbol": "XMR",
     "tokenName": "Monero",
-    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/XMR.png",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/69/small/monero_logo.png?1547033729",
     "tokenAddresses": [
       {
         "address": "0xf5ff4201b1dfe13bba301e71ccc4880e5c3f96bf",
@@ -2585,7 +2613,7 @@
   {
     "tokenSymbol": "THETA",
     "tokenName": "Theta Network",
-    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/.png",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/2538/small/theta-token-logo.png?1548387191",
     "tokenAddresses": [
       {
         "address": "0x73b6fcf8ed6daefe3775bc38949f115305047c0d",
@@ -2601,7 +2629,7 @@
   {
     "tokenSymbol": "FLOW",
     "tokenName": "Flow",
-    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/FLOW.svg",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/13446/small/5f6294c0c7a8cda55cb1c936_Flow_Wordmark.png?1631696776",
     "tokenAddresses": [
       {
         "address": "0x5c147e74d63b1d31aa3fd78eb229b65161983b2b",

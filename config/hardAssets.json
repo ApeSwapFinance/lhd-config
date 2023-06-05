@@ -1698,5 +1698,33 @@
         "chainId": "43114"
       }
     ]
+  },
+  {
+    "tokenSymbol": "stETH",
+    "tokenName": "Lido Staked Ether",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/13442/small/steth_logo.png?1608607546",
+    "isHardAsset": true,
+    "tokenAddresses": [
+      {
+        "address": "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb",
+        "chainId": "10"
+      },
+      {
+        "address": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+        "chainId": "1"
+      },
+      {
+        "address": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+        "chainId": "369"
+      },
+      {
+        "address": "0x3c037849a8ffcf19886e2f5b04f293b7847d0377",
+        "chainId": "100"
+      },
+      {
+        "address": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
+        "chainId": "137"
+      }
+    ]
   }
 ]

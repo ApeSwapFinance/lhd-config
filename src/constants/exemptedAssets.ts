@@ -37,7 +37,7 @@ const exemptedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'ATOM',
     tokenName: 'Cosmos Hub',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ATOM.svg',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/1481/small/cosmos_hub.png?1555657960',
     tokenAddresses: [
       { address: '0x0eb3a705fc54725037cc9e008bdede697f62f335', chainId: '56' },
       { address: '0xb888d8dd1733d72681b30c00ee76bde93ae7aa93', chainId: '25' },
@@ -60,7 +60,7 @@ const exemptedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'ALGO',
     tokenName: 'Algorand',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ALGO.svg',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/4380/small/download.png?1547039725',
     tokenAddresses: [
       { address: '0x2fefe47989214c2e74a6319076c138d395681407', chainId: '25' },
       { address: '0x99690611d2b5698ebc27cbf51ba89e4c22eb341c', chainId: '56' },
@@ -92,7 +92,7 @@ const exemptedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'XLM',
     tokenName: 'Stellar',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/XLM.svg',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/100/small/Stellar_symbol_black_RGB.png?1552356157',
     tokenAddresses: [
       { address: '0x747d6c858168b8cd6e537160320b5de58fd3367c', chainId: '25' },
       { address: '0x43c934a845205f0b514417d757d7235b8f53f1b9', chainId: '56' },
@@ -109,7 +109,7 @@ const exemptedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'TRX',
     tokenName: 'Tron',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/TRX.png',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/1094/small/tron-logo.png?1547035066',
     tokenAddresses: [
       { address: '0xce7de646e7208a4ef112cb6ed5038fa6cc6b12e3', chainId: '56' },
       { address: '0xedf53026aea60f8f75fca25f8830b7e2d6200662', chainId: '199' },
@@ -119,7 +119,7 @@ const exemptedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'CELO',
     tokenName: 'Celo',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/CELO.svg',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/11090/small/InjXBNx9_400x400.jpg?1674707499',
     tokenAddresses: [{ address: '0x471ece3750da237f93b8e339c536989b8978a438', chainId: '42220' }],
     isExempted: true,
   },
@@ -136,7 +136,7 @@ const exemptedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'QTUM',
     tokenName: 'Qtum',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/QTUM.png',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/684/small/Qtum_Logo_blue_CG.png?1637155875',
     tokenAddresses: [
       { address: '0x32529346958711b3bef92b96507c14821e50c9c8', chainId: '25' },
       { address: '0xafb4942f45a01c67c83d969ea83129926e05f6fe', chainId: '39797' },
@@ -146,14 +146,14 @@ const exemptedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'XVG',
     tokenName: 'Verge',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/DASH.png',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/203/small/verge-symbol-color_logo.png?1561543281',
     tokenAddresses: [{ address: '0xc559e9bf45d772d8049577555af4098ca62db03c', chainId: '56' }],
     isExempted: true,
   },
   {
     tokenSymbol: 'XMR',
     tokenName: 'Monero',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/XMR.png',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/69/small/monero_logo.png?1547033729',
     tokenAddresses: [
       { address: '0xf5ff4201b1dfe13bba301e71ccc4880e5c3f96bf', chainId: '369' },
       { address: '0x3451a78205a02fe9df6b5c3bbcff40c4c296f939', chainId: '1116' },
@@ -175,7 +175,7 @@ const exemptedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'THETA',
     tokenName: 'Theta Network',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/.png',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/2538/small/theta-token-logo.png?1548387191',
     tokenAddresses: [
       { address: '0x73b6fcf8ed6daefe3775bc38949f115305047c0d', chainId: '25' },
       { address: '0x6d4a34328263771bfdf80ff19b1b343c2ee6e85f', chainId: '56' },
@@ -185,7 +185,8 @@ const exemptedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'FLOW',
     tokenName: 'Flow',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/FLOW.svg',
+    tokenLogoUrl:
+      'https://assets.coingecko.com/coins/images/13446/small/5f6294c0c7a8cda55cb1c936_Flow_Wordmark.png?1631696776',
     tokenAddresses: [
       { address: '0x5c147e74d63b1d31aa3fd78eb229b65161983b2b', chainId: '1' },
       { address: '0xc943c5320b9c18c153d1e2d12cc3074bebfb31a2', chainId: '56' },
