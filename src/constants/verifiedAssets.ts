@@ -34,7 +34,6 @@ const verifiedAssets: AddressMapping[] = [
     tokenAddresses: [
       { address: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82', chainId: '56' },
       { address: '0x152649ea73beab28c5b49b26eb48f7ead6d4c898', chainId: '1' },
-      { address: '', chainId: '' },
     ],
     knownOwners: [
       '0x14b2e8329b8e06bcd524eb114e23fabd21910109',
