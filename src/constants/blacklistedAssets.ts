@@ -147,12 +147,6 @@ const blacklistedAssets: AddressMapping[] = [
     tokenAddresses: [{ chainId: '1', address: '0xfe2e637202056d30016725477c5da089ab0a043a' }],
   },
   {
-    tokenSymbol: 'STETH',
-    tokenName: 'Lido Staked Ether',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/13442/large/steth_logo.png?1608607546',
-    tokenAddresses: [{ chainId: '1', address: '0xae7ab96520de3a18e5e111b5eaab095312d7fe84' }],
-  },
-  {
     tokenSymbol: 'SFRXETH',
     tokenName: 'Staked Frax Ether',
     tokenLogoUrl: 'https://assets.coingecko.com/coins/images/28285/large/JjqQ9ROz_400x400.jpeg?1669170466',
