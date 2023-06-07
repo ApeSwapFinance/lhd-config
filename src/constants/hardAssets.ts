@@ -240,7 +240,7 @@ const hardAssets: AddressMapping[] = [
   {
     tokenSymbol: 'BTC',
     tokenName: 'Bitcoin',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png?1548822744',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png',
     isHardAsset: true,
     tokenAddresses: [
       { chainId: '1', address: '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599' },
@@ -479,7 +479,7 @@ const hardAssets: AddressMapping[] = [
   {
     tokenSymbol: 'FRAX',
     tokenName: 'Frax',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/13422/large/ethCanonicalFRAX.png?1669277108',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/13422/large/ethCanonicalFRAX.png',
     isHardAsset: true,
     tokenAddresses: [
       { chainId: '1', address: '0x853d955acef822db058eb8505911ed77f175b99e' },
@@ -534,9 +534,10 @@ const hardAssets: AddressMapping[] = [
   {
     tokenSymbol: 'stETH',
     tokenName: 'Lido Staked Ether',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/13442/small/steth_logo.png?1608607546',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/13442/large/steth_logo.png',
     isHardAsset: true,
     tokenAddresses: [
+      { address: '0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0', chainId: '1' },
       { address: '0xae7ab96520de3a18e5e111b5eaab095312d7fe84', chainId: '1' },
       { address: '0x1f32b1c2345538c0c6f582fcb022739c4a194ebb', chainId: '10' },
       { address: '0xae7ab96520de3a18e5e111b5eaab095312d7fe84', chainId: '369' },

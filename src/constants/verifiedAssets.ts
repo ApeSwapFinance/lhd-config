@@ -53,7 +53,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: '1INCH',
     tokenName: '1INCH Token',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/13469/small/1inch-token.png?1608803028',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/13469/large/1inch-token.png',
     tokenAddresses: [
       { address: '0x111111111117dc0aa78b770fa6a738034120c302', chainId: '1' },
       { address: '0x111111111117dc0aa78b770fa6a738034120c302', chainId: '56' },
@@ -125,7 +125,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'BETS',
     tokenName: 'BetSwirl',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/26618/small/icon_200.png?1659073275',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/26618/large/icon_200.png',
     tokenAddresses: [
       { address: '0x9246a5f10a79a5a939b0c2a75a3ad196aafdb43b', chainId: '137' },
       { address: '0x3e0a7c7db7bb21bda290a80c9811de6d47781671', chainId: '56' },
@@ -165,28 +165,28 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'KAINET',
     tokenName: 'KAINET',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/19071/small/kaiinu.1d3b6110.png?1675593102',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/19071/large/kaiinu.1d3b6110.png',
     tokenAddresses: [{ address: '0xb097dd6a23175c10eaa45a1f410d7eb4cfdafc8a', chainId: '1' }],
     knownOwners: ['0xe2fe530c047f2d85298b07d9333c05737f1435fb', '0xcd496d70411e98a9b69c572f6ee53086528fa3bc'],
   },
   {
     tokenSymbol: 'ALGB',
     tokenName: 'Algebra',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/19580/small/13211.png?1635469023',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/19580/large/13211.png',
     tokenAddresses: [{ address: '0x0169ec1f8f639b32eec6d923e24c2a2ff45b9dd6', chainId: '137' }],
     knownOwners: ['0x1d8b6fa722230153be08c4fa4aa4b4c7cd01a95a'],
   },
   {
     tokenSymbol: 'SAVG',
     tokenName: 'SAVAGE',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/22750/small/savg_logo.jpg?1642562253',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/22750/large/savg_logo.jpg',
     tokenAddresses: [{ address: '0x981aecc6eb4d382b96a02b75e931900705e95a31', chainId: '137' }],
     knownOwners: ['0xcbd081cf30e2de8df209365a478055104ecda9d9'],
   },
   {
     tokenSymbol: 'ARRAY',
     tokenName: 'Array',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/29950/small/array_png.png?1682328408',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/29950/large/array_png.png',
     tokenAddresses: [
       { address: '0x164731cd270daa4a94bc70761e53320e48367b8b', chainId: '42161' },
       { address: '0x6068ad384b4d330d4de77f47041885956c9f32a3', chainId: '324' },
