@@ -778,7 +778,7 @@
   {
     "tokenSymbol": "BTC",
     "tokenName": "Bitcoin",
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png?1548822744",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png",
     "isHardAsset": true,
     "tokenAddresses": [
       {
@@ -1554,7 +1554,7 @@
   {
     "tokenSymbol": "FRAX",
     "tokenName": "Frax",
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/13422/large/ethCanonicalFRAX.png?1669277108",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/13422/large/ethCanonicalFRAX.png",
     "isHardAsset": true,
     "tokenAddresses": [
       {
@@ -1702,9 +1702,13 @@
   {
     "tokenSymbol": "stETH",
     "tokenName": "Lido Staked Ether",
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/13442/small/steth_logo.png?1608607546",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/13442/large/steth_logo.png",
     "isHardAsset": true,
     "tokenAddresses": [
+      {
+        "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+        "chainId": "1"
+      },
       {
         "address": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
         "chainId": "1"
