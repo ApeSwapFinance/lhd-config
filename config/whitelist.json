@@ -22,7 +22,7 @@
   {
     "tokenSymbol": "TLOS",
     "tokenName": "Telos",
-    "tokenLogoUrl": "https://assets-global.website-files.com/60ae1fd65f7b76f18ddd0bec/61044a5f70f5bbeb24b995ea_Symbol%202%402x.png",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/TLOS.svg",
     "tokenAddresses": [
       {
         "address": "0x7825e833d495f3d1c28872415a4aee339d26ac88",
@@ -44,8 +44,8 @@
   },
   {
     "tokenSymbol": "CAKE",
-    "tokenName": "PancakeSwap Token",
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/12632/small/pancakeswap-cake-logo_%281%29.png?1629359065",
+    "tokenName": "PancakeSwap",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/CAKE.png",
     "tokenAddresses": [
       {
         "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
@@ -65,7 +65,7 @@
   {
     "tokenSymbol": "OHM",
     "tokenName": "Olympus",
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/14483/small/token_OHM_%281%29.png?1628311611",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/OHM.png",
     "tokenAddresses": [
       {
         "address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
@@ -118,7 +118,7 @@
   {
     "tokenSymbol": "SNX",
     "tokenName": "Synthetix Network",
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/3406/large/SNX.png?1598631139",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/SNX.svg",
     "tokenAddresses": [
       {
         "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
@@ -172,7 +172,7 @@
   {
     "tokenSymbol": "UNI",
     "tokenName": "UniSwap",
-    "tokenLogoUrl": "https://cryptologos.cc/logos/thumbs/uniswap.png?v=023",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/UNI.png",
     "tokenAddresses": [
       {
         "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
@@ -226,7 +226,7 @@
   {
     "tokenSymbol": "LINK",
     "tokenName": "Chainlink",
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/877/large/chainlink-new-logo.png?1547034700",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/LINK.png",
     "tokenAddresses": [
       {
         "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
@@ -284,7 +284,7 @@
   },
   {
     "tokenSymbol": "BETS",
-    "tokenName": "BetSwirl Token",
+    "tokenName": "BetSwirl",
     "tokenLogoUrl": "https://assets.coingecko.com/coins/images/26618/small/icon_200.png?1659073275",
     "tokenAddresses": [
       {
@@ -313,7 +313,7 @@
   {
     "tokenSymbol": "GMEE",
     "tokenName": "GAMEE",
-    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/14716/small/gmee-200x200.png?1621827468",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/GMEE.svg",
     "tokenAddresses": [
       {
         "address": "0xcf32822ff397ef82425153a9dcb726e5ff61dca7",
@@ -333,16 +333,8 @@
       "0x72571d815dd31fbde52be0b9d7ffc8344aede616",
       "0xcf9452950912fd96385846ca978cc2f98e8feb77",
       "0xb5b39b50637fe5a6cf64fa29027ceb5fecca0745",
-      "0xa62b87cd634fceab940361e6c9584d620e904e11",
-      "0xf3286e361bd292fedfbf0918cf094ff7de3b5ab3",
       "0x0f26d1f7af65a06693e2ad907d4767051e517ca4",
-      "0x38143a27af08935e3629232de8da513be301a694",
-      "0xb8c2d25fc999b9079883e0a34e3a6628258f9579",
-      "0x12be5eefa84219d646e864a94fb884ccc1143f5d",
       "0x6ed8c61786cc23af318e0c52ca7d9f61fbf23346",
-      "0xba046c1dca0408a0bef9a4da10911eacbe5d2e93",
-      "0x91c1d2684a84494f14eb7b40746e93cd5cfa41fa",
-      "0x0e43245f7af3cfb1d4838e6704f27d09a8b4b072",
       "0x49a042793b00e091ad66b5a64481030078125528",
       "0xe11fc0b43ab98eb91e9836129d1ee7c3bc95df50",
       "0xe4d19680dff89fb45eddadd538772556f9c26548"
@@ -425,7 +417,7 @@
   },
   {
     "tokenSymbol": "CGG",
-    "tokenName": "ChainGuardians Governance Token",
+    "tokenName": "ChainGuardians",
     "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/CGG.svg",
     "tokenAddresses": [
       {
@@ -444,7 +436,7 @@
   },
   {
     "tokenSymbol": "LGC",
-    "tokenName": "LiveGreen Coin",
+    "tokenName": "LiveGreen",
     "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/LGC.svg",
     "tokenAddresses": [
       {

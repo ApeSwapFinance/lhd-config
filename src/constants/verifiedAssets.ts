@@ -18,8 +18,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'TLOS',
     tokenName: 'Telos',
-    tokenLogoUrl:
-      'https://assets-global.website-files.com/60ae1fd65f7b76f18ddd0bec/61044a5f70f5bbeb24b995ea_Symbol%202%402x.png',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/TLOS.svg',
     tokenAddresses: [
       { address: '0x7825e833d495f3d1c28872415a4aee339d26ac88', chainId: '1' },
       { address: '0xd102ce6a4db07d247fcc28f366a623df0938ca9e', chainId: '40' },
@@ -29,8 +28,8 @@ const verifiedAssets: AddressMapping[] = [
   },
   {
     tokenSymbol: 'CAKE',
-    tokenName: 'PancakeSwap Token',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/12632/small/pancakeswap-cake-logo_%281%29.png?1629359065',
+    tokenName: 'PancakeSwap',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/CAKE.png',
     tokenAddresses: [
       { address: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82', chainId: '56' },
       { address: '0x152649ea73beab28c5b49b26eb48f7ead6d4c898', chainId: '1' },
@@ -44,7 +43,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'OHM',
     tokenName: 'Olympus',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/14483/small/token_OHM_%281%29.png?1628311611',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/OHM.png',
     tokenAddresses: [
       { address: '0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5', chainId: '1' },
       { address: '0xf0cb2dc0db5e6c66b9a70ac27b06b878da017028', chainId: '42161' },
@@ -68,7 +67,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'SNX',
     tokenName: 'Synthetix Network',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/3406/large/SNX.png?1598631139',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/SNX.svg',
     tokenAddresses: [
       { address: '0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f', chainId: '1' },
       { address: '0x777850281719d5a96c29812ab72f822e0e09f3da', chainId: '128' },
@@ -87,7 +86,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'UNI',
     tokenName: 'UniSwap',
-    tokenLogoUrl: 'https://cryptologos.cc/logos/thumbs/uniswap.png?v=023',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/UNI.png',
     tokenAddresses: [
       { address: '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984', chainId: '1' },
       { address: '0xbf5140a22578168fd562dccf235e5d43a02ce9b1', chainId: '56' },
@@ -106,7 +105,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'LINK',
     tokenName: 'Chainlink',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/877/large/chainlink-new-logo.png?1547034700',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/LINK.png',
     tokenAddresses: [
       { address: '0x514910771af9ca656af840dff83e8264ecf986ca', chainId: '1' },
       { address: '0xe2e73a1c69ecf83f464efce6a5be353a37ca09b2', chainId: '100' },
@@ -125,7 +124,7 @@ const verifiedAssets: AddressMapping[] = [
   },
   {
     tokenSymbol: 'BETS',
-    tokenName: 'BetSwirl Token',
+    tokenName: 'BetSwirl',
     tokenLogoUrl: 'https://assets.coingecko.com/coins/images/26618/small/icon_200.png?1659073275',
     tokenAddresses: [
       { address: '0x9246a5f10a79a5a939b0c2a75a3ad196aafdb43b', chainId: '137' },
@@ -145,7 +144,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'GMEE',
     tokenName: 'GAMEE',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/14716/small/gmee-200x200.png?1621827468',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/GMEE.svg',
     tokenAddresses: [
       { address: '0xcf32822ff397ef82425153a9dcb726e5ff61dca7', chainId: '137' },
       { address: '0xd9016a907dc0ecfa3ca425ab20b6b785b42f2373', chainId: '1' },
@@ -156,16 +155,8 @@ const verifiedAssets: AddressMapping[] = [
       '0x72571d815dd31fbde52be0b9d7ffc8344aede616',
       '0xcf9452950912fd96385846ca978cc2f98e8feb77',
       '0xb5b39b50637fe5a6cf64fa29027ceb5fecca0745',
-      '0xa62b87cd634fceab940361e6c9584d620e904e11',
-      '0xf3286e361bd292fedfbf0918cf094ff7de3b5ab3',
       '0x0f26d1f7af65a06693e2ad907d4767051e517ca4',
-      '0x38143a27af08935e3629232de8da513be301a694',
-      '0xb8c2d25fc999b9079883e0a34e3a6628258f9579',
-      '0x12be5eefa84219d646e864a94fb884ccc1143f5d',
       '0x6ed8c61786cc23af318e0c52ca7d9f61fbf23346',
-      '0xba046c1dca0408a0bef9a4da10911eacbe5d2e93',
-      '0x91c1d2684a84494f14eb7b40746e93cd5cfa41fa',
-      '0x0e43245f7af3cfb1d4838e6704f27d09a8b4b072',
       '0x49a042793b00e091ad66b5a64481030078125528',
       '0xe11fc0b43ab98eb91e9836129d1ee7c3bc95df50',
       '0xe4d19680dff89fb45eddadd538772556f9c26548',
@@ -211,7 +202,7 @@ const verifiedAssets: AddressMapping[] = [
   },
   {
     tokenSymbol: 'CGG',
-    tokenName: 'ChainGuardians Governance Token',
+    tokenName: 'ChainGuardians',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/CGG.svg',
     tokenAddresses: [
       { address: '0x1613957159e9b0ac6c80e824f7eea748a32a0ae2', chainId: '56' },
@@ -221,7 +212,7 @@ const verifiedAssets: AddressMapping[] = [
   },
   {
     tokenSymbol: 'LGC',
-    tokenName: 'LiveGreen Coin',
+    tokenName: 'LiveGreen',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/LGC.svg',
     tokenAddresses: [{ address: '0x3496212ec43cc49f5151ec4405efd4975e036f89', chainId: '56' }],
     knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
