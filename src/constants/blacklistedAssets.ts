@@ -14,6 +14,12 @@ const blacklistedAssets: AddressMapping[] = [
     tokenAddresses: [{ chainId: '1', address: '0x0316eb71485b0ab14103307bf65a021042c6d380' }],
   },
   {
+    tokenSymbol: 'BTC.B',
+    tokenName: 'Bitcoin Avalanche Bridged (BTC.b)',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/26115/large/btcb.png?1655921693',
+    tokenAddresses: [{ chainId: '43114', address: '0x152b9d0fdc40c096757f570a51e494bd4b943e50' }],
+  },
+  {
     tokenSymbol: 'OBTC',
     tokenName: 'BoringDAO BTC',
     tokenLogoUrl: 'https://assets.coingecko.com/coins/images/13525/large/gWzm2dr.png?1609390713',
