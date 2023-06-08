@@ -17,6 +17,7 @@ const verifiedAssets: AddressMapping[] = [
     tags: ['banana-lover'],
     profileLinks: {
       siteUrl: 'https://apeswap.finance/bonds',
+      auditUrls: ['https://paladinsec.co/projects/apeswap/'],
     },
   },
   {

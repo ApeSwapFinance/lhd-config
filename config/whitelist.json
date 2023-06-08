@@ -22,7 +22,10 @@
       "banana-lover"
     ],
     "profileLinks": {
-      "siteUrl": "https://apeswap.finance/bonds"
+      "siteUrl": "https://apeswap.finance/bonds",
+      "auditUrls": [
+        "https://paladinsec.co/projects/apeswap/"
+      ]
     }
   },
   {
