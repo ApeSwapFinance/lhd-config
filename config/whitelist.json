@@ -17,7 +17,13 @@
       "0x944694417a6ca0a70963d644a11d42c10e3af042",
       "0xabd7853b79e488bc1bd9e238a870167b074eb714",
       "0x71c0c1001520e1568e17836cc8a19d0dbdb2bd5f"
-    ]
+    ],
+    "tags": [
+      "banana-lover"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://apeswap.finance/bonds"
+    }
   },
   {
     "tokenSymbol": "TLOS",
