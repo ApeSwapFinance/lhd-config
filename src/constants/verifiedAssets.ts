@@ -330,6 +330,12 @@ const verifiedAssets: AddressMapping[] = [
     knownOwners: ['0x944694417a6ca0a70963d644a11d42c10e3af042'],
   },
   {
+    tokenSymbol: 'MOONLIGHT',
+    tokenName: 'Moonlight',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/MOONLIGHT.svg',
+    tokenAddresses: [{ address: '0xb1ced2e320e3f4c8e3511b1dc59203303493f382', chainId: '56' }],
+  },
+  {
     tokenSymbol: 'COC',
     tokenName: 'Coin of the champions',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/COC.svg',
