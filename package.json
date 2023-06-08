@@ -9,6 +9,12 @@
   "files": [
     "dist"
   ],
+  
+    "husky": {
+      "hooks": {
+        "pre-commit": "yarn configure"
+      }
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ApeSwapFinance/lhd-config.git"
@@ -49,4 +55,6 @@
   },
   "keywords": [],
   "author": ""
+  
+  
 }
