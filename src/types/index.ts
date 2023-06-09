@@ -4,7 +4,28 @@ export interface AddressMapping {
   tokenLogoUrl: string
   tokenAddresses: TokenAddress[]
   knownOwners?: string[]
-  tags?: string[]
+  tags?: [
+    | 'DEX'
+    | 'Bond'
+    | 'Lending'
+    | 'Liquid_Staking'
+    | 'Yield'
+    | 'Stablecoin'
+    | 'Yield_Aggregator'
+    | 'Derivatives'
+    | 'Synthetics'
+    | 'Insurance/Security'
+    | 'Metaverse'
+    | 'GameFi_(Play_to_Earn)'
+    | 'X-2-Earn'
+    | 'Wallets'
+    | 'Indexes'
+    | 'NFT_Marketplace'
+    | 'Oracle'
+    | 'Blockchains'
+    | 'Gambling'
+    | 'Memecoins',
+  ]
   profileLinks?: TokenProfileLinks
   isHardAsset?: boolean
   isExempted?: boolean
