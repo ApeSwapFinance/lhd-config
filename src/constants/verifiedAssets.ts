@@ -473,6 +473,24 @@ const verifiedAssets: AddressMapping[] = [
       { address: '0x340fe1d898eccaad394e2ba0fc1f93d27c7b717a', chainId: '43114' },
     ],
   },
+  {
+    tokenSymbol: 'SHIBA',
+    tokenName: 'BitShiba',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/SHIBA.svg',
+    tokenAddresses: [{ address: '0xb84cbbf09b3ed388a45cd875ebba41a20365e6e7', chainId: '56' }],
+  },
+  {
+    tokenSymbol: 'STZ',
+    tokenName: '99Starz',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/STZ.svg',
+    tokenAddresses: [{ address: '0x7fe378c5e0b5c32af2ecc8829bedf02245a0e4ef', chainId: '56' }],
+  },
+  {
+    tokenSymbol: 'LGX',
+    tokenName: 'LegionX',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/STZ.svg',
+    tokenAddresses: [{ address: '0x7fe378c5e0b5c32af2ecc8829bedf02245a0e4ef', chainId: '56' }],
+  },
 ]
 
 export default verifiedAssets
