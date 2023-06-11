@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "scripts": {
-    "prepare": "husky install"
-  },
   "publishConfig": {
     "access": "public"
   },
@@ -19,7 +16,9 @@
   "license": "MIT",
   "module": "dist/lhd-config.esm.js",
   "scripts": {
-    "configure": "ts-node ./src/index.ts"
+    "configure": "ts-node ./src/index.ts",
+    "prepare": "husky install",
+    "postinstall": "husky install"
   },
   "dependencies": {
     "path": "^0.12.7",
