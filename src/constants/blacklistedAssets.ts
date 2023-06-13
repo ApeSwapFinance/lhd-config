@@ -321,12 +321,6 @@ const blacklistedAssets: AddressMapping[] = [
     tokenAddresses: [{ chainId: '1', address: '0x5e8422345238f34275888049021821e8e08caa1f' }],
   },
   {
-    tokenSymbol: 'FPIS',
-    tokenName: 'Frax Price Index Share',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/24944/large/fpis.png?1649485832',
-    tokenAddresses: [{ chainId: '1', address: '0xc2544a32872a91f4a553b404c6950e89de901fdb' }],
-  },
-  {
     tokenSymbol: 'SFRXETH',
     tokenName: 'Staked Frax Ether',
     tokenLogoUrl: 'https://assets.coingecko.com/coins/images/28285/large/JjqQ9ROz_400x400.jpeg?1669170466',
