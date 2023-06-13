@@ -171,6 +171,12 @@ const blacklistedAssets: AddressMapping[] = [
     tokenAddresses: [{ chainId: '1', address: '0x68749665ff8d2d112fa859aa293f07a622782f38' }],
   },
   {
+    tokenSymbol: 'ETC',
+    tokenName: 'Binance-Peg Ethereum Classic',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ETC.svg',
+    tokenAddresses: [{ address: '0x3d6545b08693dae087e957cb1180ee38b9e3c25e', chainId: '56' }],
+  },
+  {
     tokenSymbol: 'CUSDT',
     tokenName: 'cUSDT',
     tokenLogoUrl: 'https://assets.coingecko.com/coins/images/11621/large/cUSDT.png?1592113270',
@@ -313,12 +319,6 @@ const blacklistedAssets: AddressMapping[] = [
     tokenName: 'Frax Ether',
     tokenLogoUrl: 'https://assets.coingecko.com/coins/images/28284/large/JjqQ9ROz_400x400.jpeg?1669170320',
     tokenAddresses: [{ chainId: '1', address: '0x5e8422345238f34275888049021821e8e08caa1f' }],
-  },
-  {
-    tokenSymbol: 'FPIS',
-    tokenName: 'Frax Price Index Share',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/24944/large/fpis.png?1649485832',
-    tokenAddresses: [{ chainId: '1', address: '0xc2544a32872a91f4a553b404c6950e89de901fdb' }],
   },
   {
     tokenSymbol: 'SFRXETH',
