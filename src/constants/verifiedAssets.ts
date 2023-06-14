@@ -4,7 +4,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'BANANA',
     tokenName: 'ApeSwap BANANA',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/BANANA.svg',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BANANA.svg',
     tokenAddresses: [
       { address: '0x603c7f932ed1fc6575303d8fb018fdcbb0f39a95', chainId: '56' },
       { address: '0xd978f8489e1245568704407a479a71fcce2afe8f', chainId: '42161' },
@@ -14,11 +14,19 @@ const verifiedAssets: AddressMapping[] = [
       '0xabd7853b79e488bc1bd9e238a870167b074eb714',
       '0x71c0c1001520e1568e17836cc8a19d0dbdb2bd5f',
     ],
+    tags: ['DEX', 'Yield'],
+    profileLinks: {
+      siteUrl: 'https://apeswap.finance/',
+      twitterUrl: 'https://twitter.com/ape_swap',
+      telegramUrl: 'https://t.me/ape_swap',
+      discordUrl: 'https://discord.com/invite/ape-swap',
+      auditUrls: ['https://paladinsec.co/projects/apeswap/', 'https://de.fi/audit-database/ApeSwap%20Finance'],
+    },
   },
   {
     tokenSymbol: 'TLOS',
     tokenName: 'Telos',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/TLOS.svg',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/TLOS.svg',
     tokenAddresses: [
       { address: '0x7825e833d495f3d1c28872415a4aee339d26ac88', chainId: '1' },
       { address: '0xd102ce6a4db07d247fcc28f366a623df0938ca9e', chainId: '40' },
@@ -29,7 +37,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'CAKE',
     tokenName: 'PancakeSwap',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/CAKE.png',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/CAKE.png',
     tokenAddresses: [
       { address: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82', chainId: '56' },
       { address: '0x152649ea73beab28c5b49b26eb48f7ead6d4c898', chainId: '1' },
@@ -43,7 +51,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'OHM',
     tokenName: 'Olympus',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/OHM.png',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinancelhd-config/main/logos/OHM.png',
     tokenAddresses: [
       { address: '0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5', chainId: '1' },
       { address: '0xf0cb2dc0db5e6c66b9a70ac27b06b878da017028', chainId: '42161' },
@@ -67,7 +75,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'SNX',
     tokenName: 'Synthetix Network',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/SNX.svg',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SNX.svg',
     tokenAddresses: [
       { address: '0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f', chainId: '1' },
       { address: '0x777850281719d5a96c29812ab72f822e0e09f3da', chainId: '128' },
@@ -86,7 +94,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'UNI',
     tokenName: 'UniSwap',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/UNI.png',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/UNI.png',
     tokenAddresses: [
       { address: '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984', chainId: '1' },
       { address: '0xbf5140a22578168fd562dccf235e5d43a02ce9b1', chainId: '56' },
@@ -105,7 +113,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'LINK',
     tokenName: 'Chainlink',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/LINK.png',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LINK.png',
     tokenAddresses: [
       { address: '0x514910771af9ca656af840dff83e8264ecf986ca', chainId: '1' },
       { address: '0xe2e73a1c69ecf83f464efce6a5be353a37ca09b2', chainId: '100' },
@@ -144,7 +152,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'GMEE',
     tokenName: 'GAMEE',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/GMEE.svg',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/GMEE.svg',
     tokenAddresses: [
       { address: '0xcf32822ff397ef82425153a9dcb726e5ff61dca7', chainId: '137' },
       { address: '0xd9016a907dc0ecfa3ca425ab20b6b785b42f2373', chainId: '1' },
@@ -476,19 +484,19 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'SHIBA',
     tokenName: 'BitShiba',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/SHIBA.svg',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SHIBA.svg',
     tokenAddresses: [{ address: '0xb84cbbf09b3ed388a45cd875ebba41a20365e6e7', chainId: '56' }],
   },
   {
     tokenSymbol: 'STZ',
     tokenName: '99Starz',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/STZ.svg',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/STZ.svg',
     tokenAddresses: [{ address: '0x7fe378c5e0b5c32af2ecc8829bedf02245a0e4ef', chainId: '56' }],
   },
   {
     tokenSymbol: 'LGX',
     tokenName: 'LegionX',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/STZ.svg',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/STZ.svg',
     tokenAddresses: [{ address: '0x7fe378c5e0b5c32af2ecc8829bedf02245a0e4ef', chainId: '56' }],
   },
 ]

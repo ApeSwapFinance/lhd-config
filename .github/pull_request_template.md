@@ -6,7 +6,7 @@ _Before creating a pull request, please make sure read our [instructions](https:
 
 ```
 Project Name:
-Project Website:
+Twitter Handle:
 ```
 
 **Contact Information:**

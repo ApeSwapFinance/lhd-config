@@ -65,6 +65,14 @@ In that example, we'll add our native token BANANA to the repo! We'll need to go
       '',
       '',
     ],
+    tags: [''],
+    profileLinks: {
+      siteUrl: '',
+      twitterUrl: '',
+      telegramUrl: '',
+      discordUrl: '',
+      auditUrls: [''],
+    },
 },
 ```
 
@@ -84,6 +92,14 @@ Once you finish filling, it should look like that:
       '0xabd7853b79e488bc1bd9e238a870167b074eb714',
       '0x71c0c1001520e1568e17836cc8a19d0dbdb2bd5f',
     ],
+    tags: ['DEX', 'Yield'],
+    profileLinks: {
+      siteUrl: 'https://apeswap.finance/',
+      twitterUrl: 'https://twitter.com/ape_swap',
+      telegramUrl: 'https://t.me/ape_swap',
+      discordUrl: 'https://discord.com/invite/ape-swap',
+      auditUrls: ['https://paladinsec.co/projects/apeswap/', 'https://de.fi/audit-database/ApeSwap%20Finance'],
+    },
   },
 ```
 
@@ -115,12 +131,14 @@ A: We aim to review and merge PRs as quickly as possible. Please allow our team 
 
 A: Congratulations! Your project is now integrated with our liquidity tracking product. You can start monitoring your liquidity and leveraging our tools to make informed decisions for your project.
 
+## Q:  Where do I find the ApeSwap tags to pick from? 
+ A: You can see a complete list of tags with their definitions in our docs here and also at `src/types/index.ts`!
 ## Support
 
 We're committed to providing you with the best support possible. If you have any questions, issues, or concerns, feel free to reach out to us through the following channels:
 
 - [Discord](https://discord.com/invite/ApeSwap)
 
-- [Telegram](https://t.me/ape_swap)
+- [Telegram](https://t.me/liquiditymonkey)
 
 Thank you for choosing ApeSwap! We're looking forward to working with you and helping your project thrive.
