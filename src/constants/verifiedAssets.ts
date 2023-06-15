@@ -56,7 +56,12 @@ const verifiedAssets: AddressMapping[] = [
       { address: '0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5', chainId: '1' },
       { address: '0xf0cb2dc0db5e6c66b9a70ac27b06b878da017028', chainId: '42161' },
     ],
-    knownOwners: ['0x245cc372c84b3645bf0ffe6538620b04a217988b'],
+    knownOwners: [
+      '0x245cc372c84b3645bf0ffe6538620b04a217988b',
+      '0x012bbf0481b97170577745d2167ee14f63e2ad4c',
+      '0x31f8cc382c9898b273eff4e0b7626a6987c846e8',
+      '0x9a315bdf513367c0377fb36545857d12e85813ef',
+    ],
   },
   {
     tokenSymbol: '1INCH',
@@ -449,6 +454,26 @@ const verifiedAssets: AddressMapping[] = [
       { address: '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984', chainId: '1' },
       { address: '0xbf5140a22578168fd562dccf235e5d43a02ce9b1', chainId: '56' },
     ],
+  },
+  {
+    tokenSymbol: 'RPL',
+    tokenName: 'Rocket Protocol',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/RPL.png',
+    tokenAddresses: [
+      { address: '0xd33526068d116ce69f19a9ee46f0bd304f21a51f', chainId: '1' },
+      { address: '0xb766039cc6db368759c1e56b79affe831d0cc507', chainId: '42161' },
+    ],
+    knownOwners: ['0xb867ea3bbc909954d737019fef5ab25dfdb38cb9'],
+  },
+  {
+    tokenSymbol: 'GMX',
+    tokenName: 'GMX',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/GMX.png',
+    tokenAddresses: [
+      { address: '0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a', chainId: '42161' },
+      { address: '0x62edc0692bd897d2295872a9ffcac5425011c661', chainId: '43114' },
+    ],
+    knownOwners: ['0x4e29d2ee6973e5bd093df40ef9d0b28bd56c9e4e'],
   },
   {
     tokenSymbol: 'APE',

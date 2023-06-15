@@ -39,11 +39,13 @@ Submitting a PR is as simple as following these steps:
 
 3. **Edit the `.ts` file:** Locate and edit the applicable `.ts` file inside the `config` folder. Make sure to provide all the necessary information about your project.
 
-4. **Run configuration:** Run `yarn configure` to convert your TypeScript entry into a consumable JSON file.
+4. **Add your logo** Add your token's logo in .svg or .png format. The size of your logo should be 200 x 200 pixels, less than 50 KB and in the form of a circle.
 
-5. **Commit and push:** Commit your changes and push them to your forked repository.
+5. **Run configuration:** Run `yarn configure` to convert your TypeScript entry into a consumable JSON file.
 
-6. **Submit a PR:** Create a new pull request in our `main` repository, targeting the main branch.
+6. **Commit and push:** Commit your changes and push them to your forked repository.
+
+7. **Submit a PR:** Create a new pull request in our `main` repository, targeting the main branch.
 
 And voilà! Your PR is submitted, and our team will review and merge it as soon as possible.
 
@@ -82,7 +84,7 @@ Once you finish filling, it should look like that:
  {
     tokenSymbol: 'BANANA',
     tokenName: 'ApeSwap BANANA',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/BANANA.svg',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BANANA.svg',
     tokenAddresses: [
       { address: '0x603c7f932ed1fc6575303d8fb018fdcbb0f39a95', chainId: '56' },
       { address: '0xd978f8489e1245568704407a479a71fcce2afe8f', chainId: '42161' },
@@ -103,9 +105,17 @@ Once you finish filling, it should look like that:
   },
 ```
 
+Lastly upload your logo and locate it into `logos` folder and make sure it's 200 x 200 pixels,has less than 50 KB size and in the form of a circle. Please name your logo's image with all uppercase letters and update the last part of `tokenLogoUrl`.
+
+```typescript
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/YOURLOGONAME.svg',
+```
+
 **Be Aware Of Those Importnat Details:**
 
 `tokenSymbol` has to be always uppercase.
+
+Logo image's name has to be always uppercase, 200 x 200 px, and less than 50 KB.
 
 All contract addresses should be lowercase at contract address needed variables such as `tokenAddresses`, `knownOwners`.
 
