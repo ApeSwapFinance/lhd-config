@@ -2,6 +2,54 @@ import { AddressMapping } from '../types'
 
 const blacklistedAssets: AddressMapping[] = [
   {
+    tokenSymbol: 'FTS',
+    tokenName: 'FootballStars',
+    tokenLogoUrl: '',
+    tokenAddresses: [{ chainId: '56', address: '0x6507458bb53aec6be863161641ec28739c41cc97' }],
+  },
+  {
+    tokenSymbol: 'UNISTAKE',
+    tokenName: 'Unistake',
+    tokenLogoUrl: '',
+    tokenAddresses: [{ chainId: '1', address: '0x9ed8e7c9604790f7ec589f99b94361d8aab64e5e' }],
+  },
+  {
+    tokenSymbol: 'KUMA',
+    tokenName: 'Kuma Inu',
+    tokenLogoUrl: '',
+    tokenAddresses: [{ chainId: '1', address: '0x48c276e8d03813224bb1e55f953adb6d02fd3e02' }],
+  },
+  {
+    tokenSymbol: 'BGVT',
+    tokenName: 'Bit Game Verse Token',
+    tokenLogoUrl: '',
+    tokenAddresses: [{ chainId: '56', address: '0xa03110800894b3ccf8723d991d80875561f96777' }],
+  },
+  {
+    tokenSymbol: 'SAFEMARS',
+    tokenName: 'Safemars',
+    tokenLogoUrl: '',
+    tokenAddresses: [{ chainId: '56', address: '0x3ad9594151886ce8538c1ff615efa2385a8c3a88' }],
+  },
+  {
+    tokenSymbol: 'OIL',
+    tokenName: 'Oiler',
+    tokenLogoUrl: '',
+    tokenAddresses: [{ chainId: '1', address: '0x0275e1001e293c46cfe158b3702aade0b99f88a5' }],
+  },
+  {
+    tokenSymbol: 'EDOGE',
+    tokenName: 'ElonDoge',
+    tokenLogoUrl: '',
+    tokenAddresses: [{ chainId: '56', address: '0x163f182c32d24a09d91eb75820cde9fd5832b329' }],
+  },
+  {
+    tokenSymbol: 'NFD',
+    tokenName: 'Feisty Doge NFT',
+    tokenLogoUrl: '',
+    tokenAddresses: [{ chainId: '1', address: '0xdfdb7f72c1f195c5951a234e8db9806eb0635346' }],
+  },
+  {
     tokenSymbol: 'RENBTC',
     tokenName: 'renBTC',
     tokenLogoUrl: 'https://assets.coingecko.com/coins/images/11370/large/Bitcoin.jpg?1628072791',
@@ -183,12 +231,6 @@ const blacklistedAssets: AddressMapping[] = [
     tokenAddresses: [{ chainId: '1', address: '0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9' }],
   },
   {
-    tokenSymbol: 'BNBX',
-    tokenName: 'Stader BNBx',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/26842/large/BNBx_Logo.png?1660387908',
-    tokenAddresses: [{ chainId: '56', address: '0x1bdd3cf7f79cfb8edbb955f20ad99211551ba275' }],
-  },
-  {
     tokenSymbol: 'aBNBc',
     tokenName: 'Ankr BNB Reward Bearing Certificate',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ABNBC.svg',
@@ -229,12 +271,6 @@ const blacklistedAssets: AddressMapping[] = [
     tokenName: 'Instadapp USDC',
     tokenLogoUrl: 'https://assets.coingecko.com/coins/images/25820/large/iUSDC_100x100.png?1654055475',
     tokenAddresses: [{ chainId: '1', address: '0xc8871267e07408b89aa5aecc58adca5e574557f8' }],
-  },
-  {
-    tokenSymbol: 'MIMATIC',
-    tokenName: 'MAI',
-    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/15264/large/mimatic-red.png?1620281018',
-    tokenAddresses: [{ chainId: '137', address: '0xa3fa99a148fa48d14ed51d610c367c61876997f1' }],
   },
   {
     tokenSymbol: 'MATICX',
