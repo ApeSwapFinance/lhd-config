@@ -13,7 +13,7 @@ Twitter Handle:
 
 ```
 Point of Contact Telegram:
-Did you add @__ as a contact?:
+Did you add @liquiditymonkey as a contact on Telegram?:
 Did you send a message to the Liquidity Monkey?:
 ```
 
