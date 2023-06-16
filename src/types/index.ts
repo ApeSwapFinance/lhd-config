@@ -4,7 +4,7 @@ export interface AddressMapping {
   tokenLogoUrl: string
   tokenAddresses: TokenAddress[]
   knownOwners?: string[]
-  tags?: [
+  tags?: (
     | 'DEX'
     | 'Bond'
     | 'Lending'
@@ -24,8 +24,8 @@ export interface AddressMapping {
     | 'Oracle'
     | 'Blockchains'
     | 'Gambling'
-    | 'Memecoins',
-  ]
+    | 'Memecoins'
+  )[]
   profileLinks?: TokenProfileLinks
   isHardAsset?: boolean
   isExempted?: boolean

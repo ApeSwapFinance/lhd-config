@@ -6,13 +6,15 @@ _Before creating a pull request, please make sure read our [instructions](https:
 
 ```
 Project Name:
-Project Website:
+Twitter Handle:
 ```
 
 **Contact Information:**
 
 ```
 Point of Contact Telegram:
+Did you add @liquiditymonkey as a contact on Telegram?:
+Did you send a message to the Liquidity Monkey?:
 ```
 
 **Additional Details (Optional):**

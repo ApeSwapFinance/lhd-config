@@ -9,14 +9,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Leave a comment
-      uses: actions/github-script@v4
-      with:
-        github-token: ${{secrets.PERSONAL_ACCESS_TOKEN}}
-        script: |
-          github.issues.createComment({
-            issue_number: context.issue.number,
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            body: 'Thank you for your pull request! We will review it as soon as possible.'
-          })
+      - name: Leave a comment
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{secrets.PERSONAL_ACCESS_TOKEN}}
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Thank you for submitting your pull request, last step is to send the link of your PR to the [liquidity Monkey](https://t.me/liquiditymonkey), that way we can review as quickly as possible! '
+            })
