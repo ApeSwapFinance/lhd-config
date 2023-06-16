@@ -1,6 +1,6 @@
 # Liquidity Health Dashboard Configuration Repo
 
-Welcome to the Liquidity Health Dashboard Config Repo! This repository is dedicated to the manual addition and curation of EVM-compatible projects for accurate listing on ApeSwap's Liquidity Health Dashboard (link coming soon).
+Welcome to the Liquidity Health Dashboard Configuration Repo! This repository is dedicated to the manual addition and curation of EVM-compatible projects for accurate listing on ApeSwap's Liquidity Health Dashboard (link coming soon).
 
 We're excited to have you on board as we strive to provide smooth and seamless liquidity health tracking for your project. Let's dive right in!
 
@@ -15,7 +15,7 @@ We're excited to have you on board as we strive to provide smooth and seamless l
 
 ## Overview
 
-At ApeSwap, we understand the importance of accurate and reliable liquidity tracking for projects. Our platform provides a comprehensive solution for tracking web3 projects' liquidity, ensuring that it's team can focus on what matters most - building and growing project. By following this guide, you'll be able to easily integrate your project with our platform and enjoy all the benefits that come with it.
+At ApeSwap, we understand the importance of accurate and reliable liquidity tracking for projects. Our platform provides a comprehensive solution for tracking web3 projects' liquidity, ensuring that its team can focus on what matters most: building and growing projects. By following this guide, you'll be able to easily integrate your project with our platform and enjoy all the benefits that come with it.
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ Before you dive into submitting a PR, ensure you have the following prerequisite
 
 2.  A local environment set up with `Node.js` and `yarn` installed.
 
-3.  Fork our repository to your own Github account.
+3.  Fork our repository into your own Github account.
 
 Now, you're ready to submit your PR!
 
@@ -45,13 +45,13 @@ Submitting a PR is as simple as following these steps:
 
 6. **Commit and push:** Commit your changes and push them to your forked repository.
 
-7. **Submit a PR:** Create a new pull request in our `main` repository, targeting the main branch.
+7. **Submit a PR:** Create a new pull request in our `staging` repository, targeting the staging branch.
 
 And voilà! Your PR is submitted, and our team will review and merge it as soon as possible.
 
 ## Deployment Example
 
-In that example, we'll add our native token BANANA to the repo! We'll need to go `src > constants` folder and open `addresMappingWhitelist.ts`. And you'll notice skeleton of code block looks like that:
+In that example, we'll add our native token, BANANA to the repo! We'll need to go to the `src > constants` folder and open `addresMappingWhitelist.ts`. And you'll notice the skeleton of the code block looks like this:
 
 ```typescript
 {
@@ -78,7 +78,7 @@ In that example, we'll add our native token BANANA to the repo! We'll need to go
 },
 ```
 
-Once you finish filling, it should look like that:
+Once you finish filling it, it should look like this:
 
 ```typescript
  {
@@ -94,7 +94,7 @@ Once you finish filling, it should look like that:
       '0xabd7853b79e488bc1bd9e238a870167b074eb714',
       '0x71c0c1001520e1568e17836cc8a19d0dbdb2bd5f',
     ],
-    tags: ['DEX', 'Yield'],
+    tags: ['DEX', 'Yield', 'Bond'],
     profileLinks: {
       siteUrl: 'https://apeswap.finance/',
       twitterUrl: 'https://twitter.com/ape_swap',
@@ -105,17 +105,15 @@ Once you finish filling, it should look like that:
   },
 ```
 
-Lastly upload your logo and locate it into `logos` folder and make sure it's 200 x 200 pixels,has less than 50 KB size and in the form of a circle. Please name your logo's image with all uppercase letters and update the last part of `tokenLogoUrl`.
+Lastly, upload your logo and locate it in the `logos` folder. Make sure it's at least 200 x 200 pixels, ideally has a size of less than 50 KB, and is in square or circular format. Please name your logo's image with all uppercase letters and update the last part of the  `tokenLogoUrl` parameter.
 
 ```typescript
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/YOURLOGONAME.svg',
 ```
 
-**Be Aware Of Those Importnat Details:**
+**Be Aware Of Those Important Details:**
 
 `tokenSymbol` has to be always uppercase.
-
-Logo image's name has to be always uppercase, 200 x 200 px, and less than 50 KB.
 
 All contract addresses should be lowercase at contract address needed variables such as `tokenAddresses`, `knownOwners`.
 
@@ -141,8 +139,9 @@ A: We aim to review and merge PRs as quickly as possible. Please allow our team 
 
 A: Congratulations! Your project is now integrated with our liquidity tracking product. You can start monitoring your liquidity and leveraging our tools to make informed decisions for your project.
 
-## Q:  Where do I find the ApeSwap tags to pick from? 
- A: You can see a complete list of tags with their definitions in our docs here and also at `src/types/index.ts`!
+## Q: Where do I find the ApeSwap tags to pick from?
+
+A: You can see a complete list of tags with their definitions in our docs here and also at `src/types/index.ts`!
 ## Support
 
 We're committed to providing you with the best support possible. If you have any questions, issues, or concerns, feel free to reach out to us through the following channels:

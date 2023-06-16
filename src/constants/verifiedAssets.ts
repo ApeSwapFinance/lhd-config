@@ -14,7 +14,7 @@ const verifiedAssets: AddressMapping[] = [
       '0xabd7853b79e488bc1bd9e238a870167b074eb714',
       '0x71c0c1001520e1568e17836cc8a19d0dbdb2bd5f',
     ],
-    tags: ['DEX', 'Yield'],
+    tags: ['DEX', 'Yield', 'Bond'],
     profileLinks: {
       siteUrl: 'https://apeswap.finance/',
       twitterUrl: 'https://twitter.com/ape_swap',
@@ -521,7 +521,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'LGX',
     tokenName: 'LegionX',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/STZ.svg',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LGX.svg',
     tokenAddresses: [{ address: '0x7fe378c5e0b5c32af2ecc8829bedf02245a0e4ef', chainId: '56' }],
   },
 ]
