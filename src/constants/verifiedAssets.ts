@@ -8,6 +8,10 @@ const verifiedAssets: AddressMapping[] = [
     tokenAddresses: [
       { address: '0x603c7f932ed1fc6575303d8fb018fdcbb0f39a95', chainId: '56' },
       { address: '0xd978f8489e1245568704407a479a71fcce2afe8f', chainId: '42161' },
+      { address: '0x5d47baba0d66083c52009271faf3f50dcc01023c', chainId: '137' },
+      { address: '0x667fd83e24ca1d935d36717d305d54fa0cac991c', chainId: '40' },
+      { address: '0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2', chainId: '1' },
+
     ],
     knownOwners: [
       '0x944694417a6ca0a70963d644a11d42c10e3af042',
