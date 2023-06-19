@@ -284,21 +284,6 @@
     ]
   },
   {
-    "tokenSymbol": "ONT",
-    "tokenName": "Ontology",
-    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/apeswap-token-lists/main/assets/ONT.svg",
-    "tokenAddresses": [
-      {
-        "address": "0xfd7b3a77848f1c2d67e05e54d78d174a0c850335",
-        "chainId": "56"
-      },
-      {
-        "address": "0xd4814770065f634003a8d8d70b4743e0c3f334ad",
-        "chainId": "137"
-      }
-    ]
-  },
-  {
     "tokenSymbol": "QTUM",
     "tokenName": "Qtum",
     "tokenLogoUrl": "https://assets.coingecko.com/coins/images/684/large/Qtum_Logo_blue_CG.png?1637155875",
