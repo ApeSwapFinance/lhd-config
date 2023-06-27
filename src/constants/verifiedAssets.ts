@@ -11,7 +11,6 @@ const verifiedAssets: AddressMapping[] = [
       { address: '0x5d47baba0d66083c52009271faf3f50dcc01023c', chainId: '137' },
       { address: '0x667fd83e24ca1d935d36717d305d54fa0cac991c', chainId: '40' },
       { address: '0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2', chainId: '1' },
-
     ],
     knownOwners: [
       '0x944694417a6ca0a70963d644a11d42c10e3af042',
@@ -534,6 +533,16 @@ const verifiedAssets: AddressMapping[] = [
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MAY.png',
     tokenAddresses: [{ address: '0xf9df075716b2d9b95616341dc6bc64c85e56645c', chainId: '42161' }],
     knownOwners: ['0x5c26953712ffab29ea7b2b416832d3724d26e6e2'],
+  },
+  {
+    tokenSymbol: 'GHNY',
+    tokenName: 'Grizzly Finance',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/GHNY.svg',
+    tokenAddresses: [
+      { address: '0xa045e37a0d1dd3a45fefb8803d22457abc0a728a', chainId: '56' },
+      { address: '0xfb4d8bee1840f3897d2344035f68ed594359c939', chainId: '1' },
+    ],
+    knownOwners: ['0x981b04cbdcee0c510d331fadc7d6836a77085030'],
   },
 ]
 
