@@ -1070,6 +1070,24 @@
     ]
   },
   {
+    "tokenSymbol": "GHNY",
+    "tokenName": "Grizzly Finance",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/GHNY.svg",
+    "tokenAddresses": [
+      {
+        "address": "0xa045e37a0d1dd3a45fefb8803d22457abc0a728a",
+        "chainId": "56"
+      },
+      {
+        "address": "0xfb4d8bee1840f3897d2344035f68ed594359c939",
+        "chainId": "1"
+      }
+    ],
+    "knownOwners": [
+      "0x981b04cbdcee0c510d331fadc7d6836a77085030"
+    ]
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",

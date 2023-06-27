@@ -129,7 +129,7 @@ And finally, please make sure to add `project-requests` label to your PR for mak
 
 #### Q: What if I encounter issues during the PR process?
 
-A: Don't worry! Our team is here to help. Feel free to reach out to us via our [Support](https://github.com/efeDaniels/lhd-readme-example#support) channels, and we'll be happy to assist you.
+A: Don't worry! Our team is here to help. Feel free to reach out to us via our [Support](https://github.com/ApeSwapFinance/lhd-config#support) channels, and we'll be happy to assist you.
 
 #### Q: How long does it take for my PR to be reviewed and merged?
 
