@@ -15,8 +15,7 @@ We're excited to have you on board as we strive to provide smooth and seamless l
 
 ## Overview
 
-At ApeSwap, we understand the importance of accurate and reliable liquidity tracking for projects. Our platform provides a comprehensive solution for tracking web3 projects' liquidity, ensuring that its team can focus on what matters most: building and growing projects. By following this guide, you'll be able to easily integrate your project with our platform and enjoy all the benefits that come with it.
-
+At ApeSwap, we understand the importance of accurate and reliable liquidity tracking for crypto projects. Our platform provides a comprehensive solution for tracking web3 projects' liquidity, ensuring that project leadership can focus on what matters most: building and growing. By following this guide, you'll be able to easily integrate your project with our platform and enjoy all the benefits that come with it.
 ## Getting Started
 
 Before you dive into submitting a PR, ensure you have the following prerequisites in place:
@@ -37,7 +36,7 @@ Submitting a PR is as simple as following these steps:
 
 2. **Install packages:** Navigate to the project folder and run `yarn` to install all applicable packages.
 
-3. **Edit the `.ts` file:** Locate and edit the applicable `.ts` file inside the `config` folder. Make sure to provide all the necessary information about your project.
+3. **Edit the `verifiedAssets.ts` file:** Edit and locate your code block at the bottom of the`verifiedAssets.ts` file inside the `config` folder. Make sure to provide all the necessary information about your project.
 
 4. **Add your logo** Add your token's logo in .svg or .png format. The size of your logo should be 200 x 200 pixels, less than 50 KB and in the form of a circle.
 
@@ -88,6 +87,9 @@ Once you finish filling it, it should look like this:
     tokenAddresses: [
       { address: '0x603c7f932ed1fc6575303d8fb018fdcbb0f39a95', chainId: '56' },
       { address: '0xd978f8489e1245568704407a479a71fcce2afe8f', chainId: '42161' },
+      { address: '0x5d47baba0d66083c52009271faf3f50dcc01023c', chainId: '137' },
+      { address: '0x667fd83e24ca1d935d36717d305d54fa0cac991c', chainId: '40' },
+      { address: '0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2', chainId: '1' },
     ],
     knownOwners: [
       '0x944694417a6ca0a70963d644a11d42c10e3af042',
@@ -139,7 +141,7 @@ A: We aim to review and merge PRs as quickly as possible. Please allow our team 
 
 A: Congratulations! Your project is now integrated with our liquidity tracking product. You can start monitoring your liquidity and leveraging our tools to make informed decisions for your project.
 
-## Q: Where do I find the ApeSwap tags to pick from?
+#### Q: Where do I find the ApeSwap tags to pick from?
 
 A: You can see a complete list of tags with their definitions in our docs here and also at `src/types/index.ts`!
 ## Support

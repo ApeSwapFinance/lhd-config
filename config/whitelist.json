@@ -1088,6 +1088,75 @@
     ]
   },
   {
+    "tokenSymbol": "NOOT",
+    "tokenName": "NOOT",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/NOOT.svg",
+    "tokenAddresses": [
+      {
+        "address": "0x98a2500a2c3b8877b0ed5ac3acc300c50bf7064b",
+        "chainId": "56"
+      }
+    ],
+    "knownOwners": [
+      "0x67c51db055ab177cdd1035857784481a9b4b90cb",
+      "0xe6737b7a8555709171c69483da570dec43f15c1c"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.noot.fun/",
+      "twitterUrl": "https://twitter.com/nootcoinbnb",
+      "telegramUrl": "https://t.me/nootnew",
+      "discordUrl": "https://discord.com/invite/cBbQZRyFrR",
+      "auditUrls": [
+        "https://techright.io/audit/nootcoin/"
+      ]
+    }
+  },
+  {
+    "tokenSymbol": "HYPC",
+    "tokenName": "HyperCycle",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/HYPC.svg",
+    "tokenAddresses": [
+      {
+        "address": "0x7881cd2b5724431372f57c50e91611352557a606",
+        "chainId": "56"
+      },
+      {
+        "address": "0xea7b7dc089c9a4a916b5a7a37617f59fd54e37e4",
+        "chainId": "1"
+      }
+    ],
+    "knownOwners": [
+      "0x257d4c4a401c180fba4eb686ad59a9d3eb7a02a3",
+      "0xff830b7720881656cd275e08a26695464823eac8"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.hypercycle.ai/",
+      "twitterUrl": "https://twitter.com/Hypercycle_AI",
+      "telegramUrl": "https://t.me/hypercycle_ai"
+    }
+  },
+  {
+    "tokenSymbol": "NOW",
+    "tokenName": "ChangeNOW",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/NOW.svg",
+    "tokenAddresses": [
+      {
+        "address": "0xe9a95d175a5f4c9369f3b74222402eb1b837693b",
+        "chainId": "1"
+      }
+    ],
+    "knownOwners": [
+      "0xf13b64a697015a24237aac8b5ee7d823d9f0e33e",
+      "0xa89d931e25e8ce82c492f03e1397e693c1c886ba"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://changenow.io/",
+      "twitterUrl": "https://twitter.com/ChangeNOW_io",
+      "telegramUrl": "https://t.me/CNAnnouncements",
+      "discordUrl": "https://discord.com/invite/NyegmK5vsS"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
