@@ -5,6 +5,12 @@ export interface AddressMapping {
   tokenAddresses: TokenAddress[]
   knownOwners?: string[]
   tags?: (
+    | 'Marketing_Solution'
+    | 'Infrastructure'
+    | 'AI'
+    | 'NFTs'
+    | 'Bridge'
+    | 'Launchpad'
     | 'DEX'
     | 'Bond'
     | 'Lending'
@@ -16,15 +22,15 @@ export interface AddressMapping {
     | 'Synthetics'
     | 'Insurance/Security'
     | 'Metaverse'
-    | 'GameFi_(Play_to_Earn)'
+    | 'GameFi'
     | 'X-2-Earn'
-    | 'Wallets'
-    | 'Indexes'
+    | 'Wallet'
+    | 'Index'
     | 'NFT_Marketplace'
     | 'Oracle'
-    | 'Blockchains'
+    | 'Blockchain'
     | 'Gambling'
-    | 'Memecoins'
+    | 'Memecoin'
   )[]
   profileLinks?: TokenProfileLinks
   isHardAsset?: boolean

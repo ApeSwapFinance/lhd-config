@@ -123,7 +123,7 @@ All contract addresses should be lowercase at contract address needed variables 
 
 Please don't forget to use `Prettier` before comitting your code.
 
-Once you finish the code, run `yarn configure` to convert your TypeScript entry into a consumable JSON file and create a new pull request in our main repository.
+Once you finish the code, run `yarn configure` to convert your TypeScript entry into a consumable JSON file and create a new pull request in our staging repository.
 
 And finally, please make sure to add `project-requests` label to your PR for making tracking progrees easier for us.
 
@@ -143,7 +143,7 @@ A: Congratulations! Your project is now integrated with our liquidity tracking p
 
 #### Q: Where do I find the ApeSwap tags to pick from?
 
-A: You can see a complete list of tags with their definitions in our docs here and also at `src/types/index.ts`!
+A: You can see a complete list of tags with their definitions in our docs [here](https://apeswap.gitbook.io/apeswap-finance/product-and-features/liquidity-health-dashboard/lhd-glossary-and-tags) and also at `src/types/index.ts`!
 ## Support
 
 We're committed to providing you with the best support possible. If you have any questions, issues, or concerns, feel free to reach out to us through the following channels:
