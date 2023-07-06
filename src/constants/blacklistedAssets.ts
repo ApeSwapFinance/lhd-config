@@ -2,6 +2,12 @@ import { AddressMapping } from '../types'
 
 const blacklistedAssets: AddressMapping[] = [
   {
+    tokenSymbol: 'GALA',
+    tokenName: 'GALA',
+    tokenLogoUrl: '',
+    tokenAddresses: [{ chainId: '1', address: '0x15d4c048f83bd7e37d49ea4c83a07267ec4203da' }],
+  },
+  {
     tokenSymbol: 'FTS',
     tokenName: 'FootballStars',
     tokenLogoUrl: '',
