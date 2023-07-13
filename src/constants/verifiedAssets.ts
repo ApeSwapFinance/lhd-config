@@ -593,6 +593,21 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/NyegmK5vsS',
     },
   },
+  {
+    tokenSymbol: 'UBXS',
+    tokenName: 'UBXS Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/UBXS.svg',
+    tokenAddresses: [{ address: '0x4f1960E29b2cA581a38c5c474e123f420F8092db', chainId: '56' }],
+    knownOwners: ['0x872f7DEB0bCA066416C327Dd3A66BF724c949fCd'],
+    tags: ['Blockchain', 'NFTs', 'Metaverse', 'GameFi'],
+    profileLinks: {
+      siteUrl: 'https://bixos.io',
+      twitterUrl: 'https://twitter.com/ubxstoken',
+      telegramUrl: 'https://t.me/ubxscommunity',
+      discordUrl: 'https://discord.com/invite/2JKmtjkYFt',
+      auditUrls: ['https://github.com/solidproof/projects/blob/main/Bixos/SmartContract_Audit_Solidproof_Bixos.pdf'],
+    },
+  },
 ]
 
 export default verifiedAssets
