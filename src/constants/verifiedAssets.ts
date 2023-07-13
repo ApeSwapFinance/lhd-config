@@ -597,12 +597,8 @@ const verifiedAssets: AddressMapping[] = [
     tokenSymbol: 'UBXS',
     tokenName: 'UBXS Token',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/UBXS.svg',
-    tokenAddresses: [
-      { address: '0x4f1960E29b2cA581a38c5c474e123f420F8092db', chainId: '56' },
-    ],
-    knownOwners: [
-      '0x872f7DEB0bCA066416C327Dd3A66BF724c949fCd',
-    ],
+    tokenAddresses: [{ address: '0x4f1960E29b2cA581a38c5c474e123f420F8092db', chainId: '56' }],
+    knownOwners: ['0x872f7DEB0bCA066416C327Dd3A66BF724c949fCd'],
     tags: ['Blockchain', 'NFTs', 'Metaverse', 'GameFi'],
     profileLinks: {
       siteUrl: 'https://bixos.io',

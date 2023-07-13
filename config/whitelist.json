@@ -1172,6 +1172,35 @@
     }
   },
   {
+    "tokenSymbol": "UBXS",
+    "tokenName": "UBXS Token",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/UBXS.svg",
+    "tokenAddresses": [
+      {
+        "address": "0x4f1960e29b2ca581a38c5c474e123f420f8092db",
+        "chainId": "56"
+      }
+    ],
+    "knownOwners": [
+      "0x872f7deb0bca066416c327dd3a66bf724c949fcd"
+    ],
+    "tags": [
+      "Blockchain",
+      "NFTs",
+      "Metaverse",
+      "GameFi"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://bixos.io",
+      "twitterUrl": "https://twitter.com/ubxstoken",
+      "telegramUrl": "https://t.me/ubxscommunity",
+      "discordUrl": "https://discord.com/invite/2JKmtjkYFt",
+      "auditUrls": [
+        "https://github.com/solidproof/projects/blob/main/Bixos/SmartContract_Audit_Solidproof_Bixos.pdf"
+      ]
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
