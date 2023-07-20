@@ -608,6 +608,37 @@ const verifiedAssets: AddressMapping[] = [
       auditUrls: ['https://github.com/solidproof/projects/blob/main/Bixos/SmartContract_Audit_Solidproof_Bixos.pdf'],
     },
   },
+  {
+    tokenSymbol: 'THX',
+    tokenName: 'THX Network',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/THX.png',
+    tokenAddresses: [
+      { address: '0x2934b36ca9A4B31E633C5BE670C8C8b28b6aA015', chainId: '137' },
+      { address: '0xe632ea2ef2cfd8fc4a2731c76f99078aef6a4b31', chainId: '1' },
+    ],
+    knownOwners: [
+      '0xc7637aABd63B3017A261e618BFF7431F7A6F13Ce',
+      '0xE98586B05f2C4e654172dE877ADA9C221A02d0bD',
+      '0x4a30c80A2c41312ce4ee79f730C8D84cAD9f7B31',
+      '0xDC4E86c5C99394132b13876Fc94a617Df84f0b9e',
+      '0xc02c205D08a640295fedB2Df45F654b69d7A222E',
+      '0x9758f2bf8e6f6ee89bd71fb434d92c699dc89e30',
+      '0x59429282A4e566373a1F2D5F20CF08184b46ee07',
+      '0xfdc25d605afeaaa4fe5a125bca524413957d18a4',
+      '0x476cf198afac0fb13576f664cb49e5e658fd4322',
+      '0xba12222222228d8ba445958a75a0704d566bf2c8',
+    ],
+    tags: ['Blockchain', 'Marketing_Solution', 'Wallet', 'NFTs', 'GameFi', 'Launchpad'],
+    profileLinks: {
+      siteUrl: 'https://thx.network',
+      twitterUrl: 'https://twitter.com/thxprotocol',
+      telegramUrl: 'https://t.me/thxnetwork',
+      discordUrl: 'https://discord.com/invite/u3DruB5pm5',
+      auditUrls: [
+        'https://github.com/pessimistic-io/audits/blob/main/THX%20Security%20Analysis%20by%20Pessimistic.pdf',
+      ],
+    },
+  },
 ]
 
 export default verifiedAssets
