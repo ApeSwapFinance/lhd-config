@@ -1201,6 +1201,50 @@
     }
   },
   {
+    "tokenSymbol": "THX",
+    "tokenName": "THX Network",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/THX.png",
+    "tokenAddresses": [
+      {
+        "address": "0x2934b36ca9a4b31e633c5be670c8c8b28b6aa015",
+        "chainId": "137"
+      },
+      {
+        "address": "0xe632ea2ef2cfd8fc4a2731c76f99078aef6a4b31",
+        "chainId": "1"
+      }
+    ],
+    "knownOwners": [
+      "0xc7637aabd63b3017a261e618bff7431f7a6f13ce",
+      "0xe98586b05f2c4e654172de877ada9c221a02d0bd",
+      "0x4a30c80a2c41312ce4ee79f730c8d84cad9f7b31",
+      "0xdc4e86c5c99394132b13876fc94a617df84f0b9e",
+      "0xc02c205d08a640295fedb2df45f654b69d7a222e",
+      "0x9758f2bf8e6f6ee89bd71fb434d92c699dc89e30",
+      "0x59429282a4e566373a1f2d5f20cf08184b46ee07",
+      "0xfdc25d605afeaaa4fe5a125bca524413957d18a4",
+      "0x476cf198afac0fb13576f664cb49e5e658fd4322",
+      "0xba12222222228d8ba445958a75a0704d566bf2c8"
+    ],
+    "tags": [
+      "Blockchain",
+      "Marketing_Solution",
+      "Wallet",
+      "NFTs",
+      "GameFi",
+      "Launchpad"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://thx.network",
+      "twitterUrl": "https://twitter.com/thxprotocol",
+      "telegramUrl": "https://t.me/thxnetwork",
+      "discordUrl": "https://discord.com/invite/u3DruB5pm5",
+      "auditUrls": [
+        "https://github.com/pessimistic-io/audits/blob/main/THX%20Security%20Analysis%20by%20Pessimistic.pdf"
+      ]
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
