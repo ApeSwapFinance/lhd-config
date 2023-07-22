@@ -50,6 +50,7 @@ const hardAssets: AddressMapping[] = [
       { address: '0x4e62882864fb8ce54affcaf8d899a286762b011b', chainId: '69' },
       { address: '0x07865c6e87b9f70255377e024ace6630c1eaa37f', chainId: '5' },
       { address: '0x7e07e15d2a87a24492740d16f5bdf58c16db0c4e', chainId: '420' },
+      { address: '0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4', chainId: '324' },
       {
         address: '0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::usdc',
         chainId: 'aptos',
@@ -357,6 +358,7 @@ const hardAssets: AddressMapping[] = [
         address: '0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::wethcoin',
         chainId: '12360001',
       },
+      { address: '0x000000000000000000000000000000000000800A', chainId: '324' },
     ],
   },
   {
