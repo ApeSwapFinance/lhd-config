@@ -358,7 +358,7 @@ const hardAssets: AddressMapping[] = [
         address: '0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::wethcoin',
         chainId: '12360001',
       },
-      { address: '0x000000000000000000000000000000000000800A', chainId: '324' },
+      { address: '0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91', chainId: '324' },
     ],
   },
   {
