@@ -1423,6 +1423,10 @@
         "chainId": "420"
       },
       {
+        "address": "0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4",
+        "chainId": "324"
+      },
+      {
         "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::usdc",
         "chainId": "aptos"
       },
@@ -2433,6 +2437,10 @@
       {
         "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::wethcoin",
         "chainId": "12360001"
+      },
+      {
+        "address": "0x000000000000000000000000000000000000800a",
+        "chainId": "324"
       }
     ]
   },
