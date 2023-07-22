@@ -1728,6 +1728,14 @@
       {
         "address": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
         "chainId": "137"
+      },
+      {
+        "address": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
+        "chainId": "324"
+      },
+      {
+        "address": "0x000000000000000000000000000000000000800A",
+        "chainId": "324"
       }
     ]
   }
