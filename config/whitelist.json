@@ -1351,6 +1351,10 @@
         "chainId": "42161"
       },
       {
+        "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "chainId": "42161"
+      },
+      {
         "address": "0x965f84d915a9efa2dd81b653e3ae736555d945f4",
         "chainId": "42220"
       },
