@@ -32,6 +32,7 @@ const hardAssets: AddressMapping[] = [
       { address: '0x11bbb41b3e8baf7f75773db7428d5acee25fec75', chainId: '10001' },
       { address: '0xdcb579aa78e35e34581c72c291d493105949ac27', chainId: '24734' },
       { address: '0xff970a61a04b1ca14834a43f5de4533ebddb5cc8', chainId: '42161' },
+      { address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831', chainId: '42161' },
       { address: '0x965f84d915a9efa2dd81b653e3ae736555d945f4', chainId: '42220' },
       { address: '0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664', chainId: '43114' },
       { address: '0x8d5e1225981359e2e09a3ab8f599a51486f53314', chainId: '47805' },
