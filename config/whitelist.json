@@ -1245,6 +1245,32 @@
     }
   },
   {
+    "tokenSymbol": "DCB",
+    "tokenName": "Decubate",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/DCB.svg",
+    "tokenAddresses": [
+      {
+        "address": "0xeac9873291ddaca754ea5642114151f3035c67a2",
+        "chainId": "56"
+      }
+    ],
+    "knownOwners": [
+      "0x0c89c0407775dd89b12918b9c0aa42bf96518820"
+    ],
+    "tags": [
+      "Infrastructure"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.decubate.com/",
+      "twitterUrl": "https://twitter.com/decubate",
+      "telegramUrl": "https://t.me/decubate",
+      "discordUrl": "https://discord.com/invite/Decubate",
+      "auditUrls": [
+        "https://github.com/Decubate-com/public-repository"
+      ]
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
