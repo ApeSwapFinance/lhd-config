@@ -1,6 +1,31 @@
 import { AddressMapping } from '../types'
 
 const verifiedAssets: AddressMapping[] = [
+    {
+    tokenSymbol: 'CGPT',
+    tokenName: 'ChainGPT',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/CGPT.svg',
+    tokenAddresses: [
+      { address: '0x9840652DC04fb9db2C43853633f0F62BE6f00f98', chainId: '56' },
+      { address: '0x25931894a86D47441213199621F1F2994e1c39Aa', chainId: '1' },
+    ],
+    knownOwners: [
+      '0x5930976FC5eaccCea648555cC12438a3278A9FBe',
+      '0xa2EEE3F392f1F0a9b6016A3286AbcaB3544f5E71',
+      '0xd9b4753Cd798Bc2F24F6FB6c325A7aEe89D46cB3',
+      '0x6B783614eD539183561806E575BdA2e8A5674094',
+      '0x944694417A6cA0a70963D644A11d42C10e3af042',
+      '0x46A15B0b27311cedF172AB29E4f4766fbE7F4364',
+    ],
+    tags: ['AI', 'Infrastructure', 'Bond', 'Yield'],
+    profileLinks: {
+      siteUrl: 'https://www.chaingpt.org/',
+      twitterUrl: 'https://twitter.com/chain_gpt',
+      telegramUrl: 'https://t.me/chaingpt',
+      discordUrl: 'https://discord.gg/chaingpt',
+      auditUrls: ['https://www.certik.com/projects/chaingpt', 'https://hacken.io/audits/chaingpt/'],
+    },
+  },
   {
     tokenSymbol: 'BANANA',
     tokenName: 'ApeSwap BANANA',
