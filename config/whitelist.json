@@ -1271,6 +1271,35 @@
     }
   },
   {
+    "tokenSymbol": "PLANET",
+    "tokenName": "PLANET",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/PLANET.svg",
+    "tokenAddresses": [
+      {
+        "address": "0x2ad9addd0d97ec3cdba27f92bf6077893b76ab0b",
+        "chainId": "1"
+      },
+      {
+        "address": "0xca6d678e74f553f0e59cccc03ae644a3c2c5ee7d",
+        "chainId": "56"
+      }
+    ],
+    "knownOwners": [
+      "0xc765bddb93b0d1c1a88282ba0fa6b2d00e3e0c83"
+    ],
+    "tags": [
+      "Memecoin"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://joinourplanet.com/",
+      "twitterUrl": "https://twitter.com/joinourplanet",
+      "telegramUrl": "https://telegram.me/JoinOurPlanet",
+      "auditUrls": [
+        "https://skynet.certik.com/projects/planet"
+      ]
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
