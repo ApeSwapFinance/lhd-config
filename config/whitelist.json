@@ -1300,6 +1300,29 @@
     }
   },
   {
+    "tokenSymbol": "WIN",
+    "tokenName": "Winston",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/WINSTON.svg",
+    "tokenAddresses": [
+      {
+        "address": "0x75578ebbefe274f240b8e1b5859ca34f342157d9",
+        "chainId": "56"
+      }
+    ],
+    "knownOwners": [
+      "0x75578ebbefe274f240b8e1b5859ca34f342157d9",
+      "0xf9b9ee3b0301b511cd5aa4b8d039f63df19c615a"
+    ],
+    "tags": [
+      "Blockchain",
+      "Infrastructure"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://github.com/Winston-Services/docs",
+      "discordUrl": "https://discord.gg/rickle-897546129108008960"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
