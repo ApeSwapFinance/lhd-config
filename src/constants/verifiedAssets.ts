@@ -681,6 +681,23 @@ const verifiedAssets: AddressMapping[] = [
       auditUrls: ['https://github.com/Decubate-com/public-repository'],
     },
   },
+  {
+    tokenSymbol: 'PLANET',
+    tokenName: 'PLANET',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/PLANET.svg',
+    tokenAddresses: [
+      { address: '0x2aD9adDD0d97EC3cDBA27F92bF6077893b76Ab0b', chainId: '1' },
+      { address: '0xCa6d678e74f553f0E59cccC03ae644a3c2c5EE7d', chainId: '56' },
+    ],
+    knownOwners: ['0xC765bddB93b0D1c1A88282BA0fa6B2d00E3e0c83'],
+    tags: ['Memecoin'],
+    profileLinks: {
+      siteUrl: 'https://joinourplanet.com/',
+      twitterUrl: 'https://twitter.com/joinourplanet',
+      telegramUrl: 'https://telegram.me/JoinOurPlanet',
+      auditUrls: ['https://skynet.certik.com/projects/planet'],
+    },
+  },
 ]
 
 export default verifiedAssets
