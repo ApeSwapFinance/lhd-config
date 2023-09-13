@@ -2,6 +2,33 @@ import { AddressMapping } from '../types'
 
 const verifiedAssets: AddressMapping[] = [
   {
+    tokenSymbol: 'CGPT',
+    tokenName: 'ChainGPT',
+    tokenLogoUrl: 'https://github.com/ApeSwapFinance/lhd-config/blob/staging/logos/CGPT.svg',
+    tokenAddresses: [
+      { address: '0x9840652DC04fb9db2C43853633f0F62BE6f00f98', chainId: '56' },
+      { address: '0x25931894a86D47441213199621F1F2994e1c39Aa', chainId: '1' },
+    ],
+    knownOwners: [
+      '0xd9b4753Cd798Bc2F24F6FB6c325A7aEe89D46cB3',
+      '0xa2EEE3F392f1F0a9b6016A3286AbcaB3544f5E71',
+      '0x0C89C0407775dd89b12918B9c0aa42Bf96518820',
+      '0x5930976FC5eaccCea648555cC12438a3278A9FBe',
+      '0x6B783614eD539183561806E575BdA2e8A5674094',
+      '0x944694417a6ca0a70963d644a11d42c10e3af042',
+      '0xabd7853b79e488bc1bd9e238a870167b074eb714',
+      '0x71c0c1001520e1568e17836cc8a19d0dbdb2bd5f',
+    ],
+    tags: ['AI', 'Infrastructure', 'Launchpad', 'NFTs'],
+    profileLinks: {
+      siteUrl: 'https://www.chaingpt.org/',
+      twitterUrl: 'https://twitter.com/Chain_GPT',
+      telegramUrl: 'https://t.me/ChainGPT',
+      discordUrl: 'https://discord.gg/chaingpt',
+      auditUrls: ['https://www.certik.com/projects/chaingpt', 'https://hacken.io/audits/chaingpt/'],
+    },
+  },
+  {
     tokenSymbol: 'BANANA',
     tokenName: 'ApeSwap BANANA',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BANANA.svg',
