@@ -693,7 +693,7 @@ const verifiedAssets: AddressMapping[] = [
       twitterUrl: 'https://twitter.com/chain_gpt',
       telegramUrl: 'https://t.me/chaingpt',
       discordUrl: 'https://discord.gg/chaingpt',
-      auditUrls: ['https://www.certik.com/projects/chaingpt', 'https://hacken.io/audits/chaingpt/CGPT.svg'],
+      auditUrls: ['https://www.certik.com/projects/chaingpt', 'https://hacken.io/audits/chaingpt/'],
     },
   },
   {
