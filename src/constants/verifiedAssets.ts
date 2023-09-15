@@ -1,31 +1,6 @@
 import { AddressMapping } from '../types'
 
 const verifiedAssets: AddressMapping[] = [
-    {
-    tokenSymbol: 'CGPT',
-    tokenName: 'ChainGPT',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/CGPT.svg',
-    tokenAddresses: [
-      { address: '0x9840652DC04fb9db2C43853633f0F62BE6f00f98', chainId: '56' },
-      { address: '0x25931894a86D47441213199621F1F2994e1c39Aa', chainId: '1' },
-    ],
-    knownOwners: [
-      '0x5930976FC5eaccCea648555cC12438a3278A9FBe',
-      '0xa2EEE3F392f1F0a9b6016A3286AbcaB3544f5E71',
-      '0xd9b4753Cd798Bc2F24F6FB6c325A7aEe89D46cB3',
-      '0x6B783614eD539183561806E575BdA2e8A5674094',
-      '0x944694417A6cA0a70963D644A11d42C10e3af042',
-      '0x46A15B0b27311cedF172AB29E4f4766fbE7F4364',
-    ],
-    tags: ['AI', 'Infrastructure', 'Bond', 'Yield'],
-    profileLinks: {
-      siteUrl: 'https://www.chaingpt.org/',
-      twitterUrl: 'https://twitter.com/chain_gpt',
-      telegramUrl: 'https://t.me/chaingpt',
-      discordUrl: 'https://discord.gg/chaingpt',
-      auditUrls: ['https://www.certik.com/projects/chaingpt', 'https://hacken.io/audits/chaingpt/'],
-    },
-  },
   {
     tokenSymbol: 'BANANA',
     tokenName: 'ApeSwap BANANA',
@@ -694,6 +669,80 @@ const verifiedAssets: AddressMapping[] = [
       twitterUrl: 'https://twitter.com/joinourplanet',
       telegramUrl: 'https://telegram.me/JoinOurPlanet',
       auditUrls: ['https://skynet.certik.com/projects/planet'],
+    },
+  },
+  {
+    tokenSymbol: 'CGPT',
+    tokenName: 'ChainGPT',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/CGPT.svg',
+    tokenAddresses: [
+      { address: '0x9840652DC04fb9db2C43853633f0F62BE6f00f98', chainId: '56' },
+      { address: '0x25931894a86D47441213199621F1F2994e1c39Aa', chainId: '1' },
+    ],
+    knownOwners: [
+      '0x5930976FC5eaccCea648555cC12438a3278A9FBe',
+      '0xa2EEE3F392f1F0a9b6016A3286AbcaB3544f5E71',
+      '0xd9b4753Cd798Bc2F24F6FB6c325A7aEe89D46cB3',
+      '0x6B783614eD539183561806E575BdA2e8A5674094',
+      '0x944694417A6cA0a70963D644A11d42C10e3af042',
+      '0x46A15B0b27311cedF172AB29E4f4766fbE7F4364',
+    ],
+    tags: ['AI', 'Infrastructure', 'Bond', 'Yield'],
+    profileLinks: {
+      siteUrl: 'https://www.chaingpt.org/',
+      twitterUrl: 'https://twitter.com/chain_gpt',
+      telegramUrl: 'https://t.me/chaingpt',
+      discordUrl: 'https://discord.gg/chaingpt',
+      auditUrls: ['https://www.certik.com/projects/chaingpt', 'https://hacken.io/audits/chaingpt/CGPT.svg'],
+    },
+  },
+  {
+    tokenSymbol: 'VEXT',
+    tokenName: 'Veloce',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/VEXT.svg',
+    tokenAddresses: [
+      { address: '0x27842334C55c01DDFE81Bf687425F906816c5141', chainId: '137' },
+      { address: '0xB2492E97a68a6E4B9E9a11B99F6C42E5aCCD38c7', chainId: '1' },
+    ],
+    knownOwners: ['0x3048f569CaC3b8AFB3049E269Cb5b66ecEd5D3B5', '0xE8d97452E4286D2c35C880D87B770a726327e90b'],
+    tags: ['GameFi', 'DEX'],
+    profileLinks: {
+      siteUrl: 'https://www.velocemediagroup.com/vext',
+      twitterUrl: 'https://twitter.com/vextoken',
+      telegramUrl: 'https://t.me/vextoken_community',
+      discordUrl: 'https://discord.com/invite/yVn3aRXUvv',
+    },
+  },
+  {
+    tokenSymbol: 'GHST',
+    tokenName: 'Aavegotchi',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/GHST.svg',
+    tokenAddresses: [
+      { address: '0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7', chainId: '137' },
+      { address: '0x4bd75f8c7e067ea9b6e2dfbecd99d805396bc5ff', chainId: '39797' },
+      { address: '0x3f382dbd960e3a9bbceae22651e88158d2791550', chainId: '1' },
+    ],
+    knownOwners: [
+      '0x854dfAAb274E756f8e792E42AdA416786548FA07',
+      '0x578580F4700A9721Eb965B151Ac0941fa2afcC6c',
+      '0xFFE6280ae4E864D9aF836B562359FD828EcE8020',
+      '0x53c3CA81EA03001a350166D2Cc0fcd9d4c1b7B62',
+      '0xb208f8BB431f580CC4b216826AFfB128cd1431aB',
+      '0x27DF5C6dcd360f372e23d5e63645eC0072D0C098',
+      '0x939b67F6F6BE63E09B0258621c5A24eecB92631c',
+      '0x62DE034b1A69eF853c9d0D8a33D26DF5cF26682E',
+      '0x48eA1d45142fC645fDcf78C133Ac082eF159Fe14',
+      '0x6fb7e0AAFBa16396Ad6c1046027717bcA25F821f',
+      '0xAbA69f6E893B18bE066a237f723F43315BBF9D9A',
+      '0xed7cb3973C7bFE4bf78dA8E5f52EB04c0dF53d3B',
+      '0xa8D00712abE7af3446cdC651c159737cCFB43255',
+    ],
+    tags: ['X-2-Earn', 'Metaverse', 'NFTs'],
+    profileLinks: {
+      siteUrl: 'https://www.aavegotchi.com/',
+      twitterUrl: 'https://twitter.com/aavegotchi',
+      auditUrls: ['https://skynet.certik.com/projects/aavegotchi'],
+      discordUrl: 'https://discord.com/invite/Aavegotchi',
     },
   },
 ]
