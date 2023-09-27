@@ -744,6 +744,23 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/Aavegotchi',
     },
   },
+  {
+    tokenSymbol: 'ITP',
+    tokenName: 'Interport Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ITP.png',
+    tokenAddresses: [{ address: '0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31', chainId: '1' }],
+    knownOwners: ['0x000000000000000000000000000000000000dEaD'],
+    tags: ['DEX'],
+    profileLinks: {
+      siteUrl: 'https://interport.fi/',
+      twitterUrl: 'https://twitter.com/InterportFi',
+      telegramUrl: 'https://t.me/interport_fi',
+      discordUrl: 'https://discord.com/invite/interport',
+      auditUrls: [
+        'https://hacken.io/audits/interport/?utm_medium=linktree&utm_source=twitter&utm_campaign=hacken+audit',
+      ],
+    },
+  },
 ]
 
 export default verifiedAssets
