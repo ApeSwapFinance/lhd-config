@@ -685,6 +685,8 @@ const verifiedAssets: AddressMapping[] = [
       '0xd9b4753Cd798Bc2F24F6FB6c325A7aEe89D46cB3',
       '0x6B783614eD539183561806E575BdA2e8A5674094',
       '0x944694417A6cA0a70963D644A11d42C10e3af042',
+      '0x3C2A50299800224d485D2E4c6c15DF6a67007480',
+      '0x0C89C0407775dd89b12918B9c0aa42Bf96518820',
     ],
     tags: ['AI', 'Infrastructure', 'Bond', 'Yield'],
     profileLinks: {
