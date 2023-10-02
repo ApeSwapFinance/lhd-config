@@ -763,6 +763,29 @@ const verifiedAssets: AddressMapping[] = [
       ],
     },
   },
+  {
+    tokenSymbol: 'PSP',
+    tokenName: 'ParaSwap',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/PSP.svg',
+    tokenAddresses: [
+      { address: '0xcAfE001067cDEF266AfB7Eb5A286dCFD277f3dE5', chainId: '1' },
+      { address: '0xcAfE001067cDEF266AfB7Eb5A286dCFD277f3dE5', chainId: '56' },
+      { address: '0xd3594E879B358F430E20F82bea61e83562d49D48', chainId: '137' },
+      { address: '0x42d61D766B85431666B39B89C43011f24451bFf6', chainId: '10' },
+    ],
+    knownOwners: ['0xB8313Eaf73AED8fEa1D9930dF199B3c1Bdb67b47', '0x6DF5e7b236a4F14e08C27E09202B4d1865905e9b'],
+    tags: ['DEX'],
+    profileLinks: {
+      siteUrl: 'https://www.paraswap.io/',
+      twitterUrl: 'https://twitter.com/paraswap',
+      telegramUrl: 'https://t.me/paraswap',
+      discordUrl: 'https://discord.com/invite/bfnkPRPRXG',
+      auditUrls: [
+        'https://skynet.certik.com/projects/paraswap',
+        'https://github.com/solidified-platform/audits/blob/master/Audit%20Report%20-%20ParaSwap%20%5B20.01.2021%5D.pdf',
+      ],
+    },
+  },
 ]
 
 export default verifiedAssets

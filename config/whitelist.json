@@ -1442,6 +1442,46 @@
     }
   },
   {
+    "tokenSymbol": "PSP",
+    "tokenName": "ParaSwap",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/PSP.svg",
+    "tokenAddresses": [
+      {
+        "address": "0xcafe001067cdef266afb7eb5a286dcfd277f3de5",
+        "chainId": "1"
+      },
+      {
+        "address": "0xcafe001067cdef266afb7eb5a286dcfd277f3de5",
+        "chainId": "56"
+      },
+      {
+        "address": "0xd3594e879b358f430e20f82bea61e83562d49d48",
+        "chainId": "137"
+      },
+      {
+        "address": "0x42d61d766b85431666b39b89c43011f24451bff6",
+        "chainId": "10"
+      }
+    ],
+    "knownOwners": [
+      "0xb8313eaf73aed8fea1d9930df199b3c1bdb67b47",
+      "0x6df5e7b236a4f14e08c27e09202b4d1865905e9b"
+    ],
+    "tags": [
+      "DEX"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.paraswap.io/",
+      "twitterUrl": "https://twitter.com/paraswap",
+      "telegramUrl": "https://t.me/paraswap",
+      "discordUrl": "https://discord.com/invite/bfnkPRPRXG",
+      "auditUrls": [
+        "https://skynet.certik.com/projects/paraswap",
+        "https://github.com/solidified-platform/audits/blob/master/Audit%20Report%20-%20ParaSwap%20%5B20.01.2021%5D.pdf"
+      ]
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
