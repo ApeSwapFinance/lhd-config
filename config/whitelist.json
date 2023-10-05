@@ -1482,6 +1482,84 @@
     }
   },
   {
+    "tokenSymbol": "DCK",
+    "tokenName": "DexCheck",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/DCK.png",
+    "tokenAddresses": [
+      {
+        "address": "0x16faf9daa401aa42506af503aa3d80b871c467a3",
+        "chainId": "56"
+      },
+      {
+        "address": "0x672f4fa517894496b8a958b4b3fca068ce513a39",
+        "chainId": "1"
+      }
+    ],
+    "knownOwners": [
+      "0xae413f1c8a12eaebbc10881784ed84c02b3e1390"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://dexcheck.ai/info",
+      "twitterUrl": "https://twitter.com/dexcheck_io",
+      "auditUrls": [
+        "https://skynet.certik.com/projects/dexcheck"
+      ],
+      "telegramUrl": "https://t.me/dexcheck"
+    }
+  },
+  {
+    "tokenSymbol": "HGPT",
+    "tokenName": "HYPERGPT",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/HGPT.svg",
+    "tokenAddresses": [
+      {
+        "address": "0x529c79f6918665ebe250f32eeeaa1d410a0798c6",
+        "chainId": "56"
+      }
+    ],
+    "knownOwners": [
+      "0x0681ef17b9e4fb7957b3ad34b494fd6679d6143e",
+      "0x2159c668888a1133e1a9320aa3ee9bd12cfc2a8c",
+      "0x8b0a89d63b2f54b6c1af6169ed1c0b5a8e0fc729",
+      "0x9f5e24e28d0b008c44f14184c905d78332408110",
+      "0xd4f9bc4804d6af8f3b7f3fcd6d78ca688007b51e",
+      "0xc095dd8368f15e4d6356c5f9872b38b2fa350406",
+      "0xe3418e94632491c171f780d64cf8fa1066ec4770",
+      "0x90575eb8f6f590196443dc127eb91c5e3f7b5248",
+      "0xca60ac62ecccfe0718e881831fd0e071846c1894",
+      "0x1569079a19d36e81553660db2bee61fdabf7872b",
+      "0xc615297e8e48c4272e3e245419fa3ea2f6b662e3",
+      "0x8ded1fcfb53e6d25d005dd8a373f6ba52f251b12",
+      "0x33affae7066aa1f5d3c4032b077db92dbba4f25f",
+      "0x7510013ec3c1d2ee6c8f3296d95ab3a2561eef8e",
+      "0x064ea4e15c8203d6d07bda5a08733c06a107635d",
+      "0x9e23196c7393617d4a52cb697efd62bc7d4fc2c6",
+      "0x4d29f94827ad662c886215fd68aec9f8a8021ba6",
+      "0xae13a5fd164c2bb86b88ca53d0900f7bf5350220",
+      "0xab7a80c45a8b1572e4b48093b72316b0e809da41",
+      "0x0949a66828a6e73b9b598a65e80f17e4c0c34e23",
+      "0x49ae940e8a220ff80f50bd5955ecabaa454576cc",
+      "0x80520ebb7d52a256ee5a6c8f9ec8eb59c0426a40",
+      "0x28cd3acd717927eb5bd88d5f56ce90999d7578d4",
+      "0x61153cb80ee769172108638a5c6d55e9bb88d625"
+    ],
+    "tags": [
+      "AI"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://hypergpt.ai/",
+      "twitterUrl": "https://twitter.com/hypergpt",
+      "auditUrls": [
+        "https://skynet.certik.com/projects/hypergpt"
+      ],
+      "discordUrl": "https://discord.com/invite/hypergpt",
+      "telegramUrl": "https://t.me/HyperGPTai"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
