@@ -1560,6 +1560,27 @@
     }
   },
   {
+    "tokenSymbol": "DUCKIES",
+    "tokenName": "Yellow Duckies",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/DUCKIES.svg",
+    "tokenAddresses": [
+      {
+        "address": "0x18e73a5333984549484348a94f4d219f4fab7b81",
+        "chainId": "137"
+      }
+    ],
+    "knownOwners": [
+      "0x046bbdd927fc635dd6de7cf4efdad3e767274074",
+      "0x801b684e7854493e3ada893343d3e288cfcee1ec"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.yellow.org/duckies",
+      "twitterUrl": "https://twitter.com/Yellow",
+      "discordUrl": "https://discord.com/invite/DKBjCg6rmT",
+      "telegramUrl": "https://t.me/yellow_org"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",

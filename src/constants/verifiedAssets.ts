@@ -843,6 +843,19 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/HyperGPTai',
     },
   },
+  {
+    tokenSymbol: 'DUCKIES',
+    tokenName: 'Yellow Duckies',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/DUCKIES.svg',
+    tokenAddresses: [{ address: '0x18e73A5333984549484348A94f4D219f4faB7b81', chainId: '137' }],
+    knownOwners: ['0x046bBDD927FC635DD6DE7Cf4eFDAD3E767274074', '0x801b684E7854493E3aDa893343D3E288CfcEE1Ec'],
+    profileLinks: {
+      siteUrl: 'https://www.yellow.org/duckies',
+      twitterUrl: 'https://twitter.com/Yellow',
+      discordUrl: 'https://discord.com/invite/DKBjCg6rmT',
+      telegramUrl: 'https://t.me/yellow_org',
+    },
+  },
 ]
 
 export default verifiedAssets
