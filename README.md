@@ -150,6 +150,6 @@ We're committed to providing you with the best support possible. If you have any
 
 - [Discord](https://discord.com/invite/ApeSwap)
 
-- [Telegram](https://t.me/liquiditymonkey)
+- [Telegram](https://t.me/JulianApeSwap)
 
 Thank you for choosing ApeSwap! We're looking forward to working with you and helping your project thrive.
