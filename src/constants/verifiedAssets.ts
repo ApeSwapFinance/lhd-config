@@ -806,7 +806,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'HGPT',
     tokenName: 'HYPERGPT',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/HGPT.svg',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/HGPT.png',
     tokenAddresses: [{ address: '0x529C79f6918665EBE250F32eeEAA1d410a0798C6', chainId: '56' }],
     knownOwners: [
       '0x0681Ef17B9E4fB7957b3AD34b494Fd6679d6143E',
@@ -846,7 +846,7 @@ const verifiedAssets: AddressMapping[] = [
   {
     tokenSymbol: 'DUCKIES',
     tokenName: 'Yellow Duckies',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/DUCKIES.svg',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/DUCKIES.png',
     tokenAddresses: [{ address: '0x18e73A5333984549484348A94f4D219f4faB7b81', chainId: '137' }],
     knownOwners: ['0x046bBDD927FC635DD6DE7Cf4eFDAD3E767274074', '0x801b684E7854493E3aDa893343D3E288CfcEE1Ec'],
     profileLinks: {
@@ -854,6 +854,21 @@ const verifiedAssets: AddressMapping[] = [
       twitterUrl: 'https://twitter.com/Yellow',
       discordUrl: 'https://discord.com/invite/DKBjCg6rmT',
       telegramUrl: 'https://t.me/yellow_org',
+    },
+  },
+  {
+    tokenSymbol: 'KNIGHT',
+    tokenName: 'Forest King',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/KNIGHT.png',
+    tokenAddresses: [{ address: '0x4455eF8B4B4A007a93DaA12DE63a47EEAC700D9D', chainId: '137' }],
+    knownOwners: ['0x519fced9ccceceb76e1a65194282f13f0deb3187'],
+    tags: ['GameFi'],
+    profileLinks: {
+      siteUrl: 'https://www.forestknight.io/',
+      twitterUrl: 'https://twitter.com/ForestKnight_io',
+      auditUrls: ['https://skynet.certik.com/projects/forest-knight?utm_source=CMC&utm_campaign=AuditByCertiKLink'],
+      discordUrl: 'https://discord.com/invite/2awyWYG',
+      telegramUrl: 'https://www.t.me/forestknight',
     },
   },
 ]

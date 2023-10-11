@@ -1513,7 +1513,7 @@
   {
     "tokenSymbol": "HGPT",
     "tokenName": "HYPERGPT",
-    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/HGPT.svg",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/HGPT.png",
     "tokenAddresses": [
       {
         "address": "0x529c79f6918665ebe250f32eeeaa1d410a0798c6",
@@ -1562,7 +1562,7 @@
   {
     "tokenSymbol": "DUCKIES",
     "tokenName": "Yellow Duckies",
-    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/DUCKIES.svg",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/DUCKIES.png",
     "tokenAddresses": [
       {
         "address": "0x18e73a5333984549484348a94f4d219f4fab7b81",
@@ -1578,6 +1578,32 @@
       "twitterUrl": "https://twitter.com/Yellow",
       "discordUrl": "https://discord.com/invite/DKBjCg6rmT",
       "telegramUrl": "https://t.me/yellow_org"
+    }
+  },
+  {
+    "tokenSymbol": "KNIGHT",
+    "tokenName": "Forest King",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/KNIGHT.png",
+    "tokenAddresses": [
+      {
+        "address": "0x4455ef8b4b4a007a93daa12de63a47eeac700d9d",
+        "chainId": "137"
+      }
+    ],
+    "knownOwners": [
+      "0x519fced9ccceceb76e1a65194282f13f0deb3187"
+    ],
+    "tags": [
+      "GameFi"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.forestknight.io/",
+      "twitterUrl": "https://twitter.com/ForestKnight_io",
+      "auditUrls": [
+        "https://skynet.certik.com/projects/forest-knight?utm_source=CMC&utm_campaign=AuditByCertiKLink"
+      ],
+      "discordUrl": "https://discord.com/invite/2awyWYG",
+      "telegramUrl": "https://www.t.me/forestknight"
     }
   },
   {
