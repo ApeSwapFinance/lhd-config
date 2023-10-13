@@ -881,7 +881,7 @@ const verifiedAssets: AddressMapping[] = [
       siteUrl: 'https://www.aitech.io/',
       twitterUrl: 'https://twitter.com/AITECHio',
       auditUrls: ['https://skynet.certik.com/projects/solidus-ai-tech'],
-      discordUrl: 'https://discord.com/invite/2awyWYG',
+      discordUrl: 'https://discord.com/invite/solidusai',
       telegramUrl: 'https://app.clickup.com/t/30r0aaz',
     },
   },
