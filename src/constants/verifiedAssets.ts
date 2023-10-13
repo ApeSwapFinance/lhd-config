@@ -871,6 +871,20 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://www.t.me/forestknight',
     },
   },
+  {
+    tokenSymbol: 'AITECH',
+    tokenName: 'AITECH',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/AITECH.png',
+    tokenAddresses: [{ address: '0x2D060Ef4d6BF7f9e5edDe373Ab735513c0e4F944', chainId: '56' }],
+    tags: ['AI'],
+    profileLinks: {
+      siteUrl: 'https://www.aitech.io/',
+      twitterUrl: 'https://twitter.com/AITECHio',
+      auditUrls: ['https://skynet.certik.com/projects/solidus-ai-tech'],
+      discordUrl: 'https://discord.com/invite/2awyWYG',
+      telegramUrl: 'https://app.clickup.com/t/30r0aaz',
+    },
+  },
 ]
 
 export default verifiedAssets

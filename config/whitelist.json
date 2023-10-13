@@ -1607,6 +1607,29 @@
     }
   },
   {
+    "tokenSymbol": "AITECH",
+    "tokenName": "AITECH",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/AITECH.png",
+    "tokenAddresses": [
+      {
+        "address": "0x2d060ef4d6bf7f9e5edde373ab735513c0e4f944",
+        "chainId": "56"
+      }
+    ],
+    "tags": [
+      "AI"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.aitech.io/",
+      "twitterUrl": "https://twitter.com/AITECHio",
+      "auditUrls": [
+        "https://skynet.certik.com/projects/solidus-ai-tech"
+      ],
+      "discordUrl": "https://discord.com/invite/2awyWYG",
+      "telegramUrl": "https://app.clickup.com/t/30r0aaz"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
