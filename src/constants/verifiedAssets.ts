@@ -886,7 +886,7 @@ const verifiedAssets: AddressMapping[] = [
     },
   },
   {
-    tokenSymbol: 'Meta FPS ',
+    tokenSymbol: 'Meta FPS',
     tokenName: 'MFPS',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MFPS.svg',
     tokenAddresses: [{ address: '0x37407D1CAbC422155A148bc7A3a0587C64225ea2', chainId: '56' }],
