@@ -898,6 +898,30 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/MetaPlayersGG',
     },
   },
+  {
+    tokenSymbol: 'WISE',
+    tokenName: 'WISE',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/WISE.png',
+    tokenAddresses: [{ address: '0x66a0f676479Cee1d7373f3DC2e2952778BfF5bd6', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://wisetoken.net/',
+      twitterUrl: 'https://twitter.com/Wise_Token',
+      discordUrl: 'https://discord.com/invite/keJUb4W',
+      telegramUrl: 'https://t.me/wisetoken',
+    },
+  },
+  {
+    tokenSymbol: 'LL',
+    tokenName: 'LightLink',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LL.png',
+    tokenAddresses: [{ address: '0xBb24C7a8e89eDa9f22842644df8D0524871257e5', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://lightlink.io/',
+      twitterUrl: 'https://twitter.com/lightlinkchain',
+      discordUrl: 'https://discord.com/invite/lightlinkchain',
+      telegramUrl: 'https://t.me/lightlinkLL',
+    },
+  }, 
 ]
 
 export default verifiedAssets
