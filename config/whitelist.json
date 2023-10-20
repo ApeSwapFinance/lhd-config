@@ -1630,6 +1630,26 @@
     }
   },
   {
+    "tokenSymbol": "Meta FPS ",
+    "tokenName": "MFPS",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MFPS.svg",
+    "tokenAddresses": [
+      {
+        "address": "0x37407d1cabc422155a148bc7a3a0587c64225ea2",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://metaplayers.gg/landing",
+      "twitterUrl": "https://twitter.com/MetaPlayersGG",
+      "auditUrls": [
+        "https://mfps.gg/assets/docs/mfps_audit.pdf"
+      ],
+      "discordUrl": "https://discord.com/invite/dDhdjQKyfH",
+      "telegramUrl": "https://t.me/MetaPlayersGG"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",

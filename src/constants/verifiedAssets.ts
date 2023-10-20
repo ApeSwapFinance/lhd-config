@@ -885,6 +885,19 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://app.clickup.com/t/30r0aaz',
     },
   },
+  {
+    tokenSymbol: 'Meta FPS ',
+    tokenName: 'MFPS',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MFPS.svg',
+    tokenAddresses: [{ address: '0x37407D1CAbC422155A148bc7A3a0587C64225ea2', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://metaplayers.gg/landing',
+      twitterUrl: 'https://twitter.com/MetaPlayersGG',
+      auditUrls: ['https://mfps.gg/assets/docs/mfps_audit.pdf'],
+      discordUrl: 'https://discord.com/invite/dDhdjQKyfH',
+      telegramUrl: 'https://t.me/MetaPlayersGG',
+    },
+  },
 ]
 
 export default verifiedAssets
