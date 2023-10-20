@@ -1630,7 +1630,7 @@
     }
   },
   {
-    "tokenSymbol": "Meta FPS ",
+    "tokenSymbol": "Meta FPS",
     "tokenName": "MFPS",
     "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MFPS.svg",
     "tokenAddresses": [

@@ -921,7 +921,7 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/lightlinkchain',
       telegramUrl: 'https://t.me/lightlinkLL',
     },
-  }, 
+  },
 ]
 
 export default verifiedAssets
