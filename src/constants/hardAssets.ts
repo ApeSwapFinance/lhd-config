@@ -548,6 +548,28 @@ const hardAssets: AddressMapping[] = [
       { address: '0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd', chainId: '137' },
     ],
   },
+  {
+    tokenSymbol: 'ANKRBNB',
+    tokenName: 'ANKRBNB',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/28451/large/ankrBNB.png?1696527446',
+    isHardAsset: true,
+    tokenAddresses: [{ address: '0x52F24a5e03aee338Da5fd9Df68D2b6FAe1178827', chainId: '56' }],
+  },
+  {
+    tokenSymbol: 'ANKRMATIC',
+    tokenName: 'ANKRMATIC',
+    tokenLogoUrl:
+      'https://assets.coingecko.com/coins/images/25742/large/a-matic-c-da4ec10dc9723e695700e25dbf8c8edf.png?1696524833',
+    isHardAsset: true,
+    tokenAddresses: [{ address: '0x0E9b89007eEE9c958c0EDA24eF70723C2C93dD58', chainId: '137' }],
+  },
+  {
+    tokenSymbol: 'ANKRETH',
+    tokenName: 'ANKRETH',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/13403/large/aETHc.png?1696513165',
+    isHardAsset: true,
+    tokenAddresses: [{ address: '0xe95a203b1a91a908f9b9ce46459d101078c2c3cb', chainId: '1' }],
+  },
 ]
 
 export default hardAssets
