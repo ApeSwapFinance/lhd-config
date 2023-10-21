@@ -1630,6 +1630,60 @@
     }
   },
   {
+    "tokenSymbol": "Meta FPS",
+    "tokenName": "MFPS",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MFPS.svg",
+    "tokenAddresses": [
+      {
+        "address": "0x37407d1cabc422155a148bc7a3a0587c64225ea2",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://metaplayers.gg/landing",
+      "twitterUrl": "https://twitter.com/MetaPlayersGG",
+      "auditUrls": [
+        "https://mfps.gg/assets/docs/mfps_audit.pdf"
+      ],
+      "discordUrl": "https://discord.com/invite/dDhdjQKyfH",
+      "telegramUrl": "https://t.me/MetaPlayersGG"
+    }
+  },
+  {
+    "tokenSymbol": "WISE",
+    "tokenName": "WISE",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/WISE.png",
+    "tokenAddresses": [
+      {
+        "address": "0x66a0f676479cee1d7373f3dc2e2952778bff5bd6",
+        "chainId": "1"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://wisetoken.net/",
+      "twitterUrl": "https://twitter.com/Wise_Token",
+      "discordUrl": "https://discord.com/invite/keJUb4W",
+      "telegramUrl": "https://t.me/wisetoken"
+    }
+  },
+  {
+    "tokenSymbol": "LL",
+    "tokenName": "LightLink",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LL.png",
+    "tokenAddresses": [
+      {
+        "address": "0xbb24c7a8e89eda9f22842644df8d0524871257e5",
+        "chainId": "1"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://lightlink.io/",
+      "twitterUrl": "https://twitter.com/lightlinkchain",
+      "discordUrl": "https://discord.com/invite/lightlinkchain",
+      "telegramUrl": "https://t.me/lightlinkLL"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
@@ -3370,6 +3424,42 @@
       {
         "address": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
         "chainId": "137"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "ANKRBNB",
+    "tokenName": "ANKRBNB",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/28451/large/ankrBNB.png?1696527446",
+    "isHardAsset": true,
+    "tokenAddresses": [
+      {
+        "address": "0x52f24a5e03aee338da5fd9df68d2b6fae1178827",
+        "chainId": "56"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "ANKRMATIC",
+    "tokenName": "ANKRMATIC",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/25742/large/a-matic-c-da4ec10dc9723e695700e25dbf8c8edf.png?1696524833",
+    "isHardAsset": true,
+    "tokenAddresses": [
+      {
+        "address": "0x0e9b89007eee9c958c0eda24ef70723c2c93dd58",
+        "chainId": "137"
+      }
+    ]
+  },
+  {
+    "tokenSymbol": "ANKRETH",
+    "tokenName": "ANKRETH",
+    "tokenLogoUrl": "https://assets.coingecko.com/coins/images/13403/large/aETHc.png?1696513165",
+    "isHardAsset": true,
+    "tokenAddresses": [
+      {
+        "address": "0xe95a203b1a91a908f9b9ce46459d101078c2c3cb",
+        "chainId": "1"
       }
     ]
   }
