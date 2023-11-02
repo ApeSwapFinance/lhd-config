@@ -926,7 +926,7 @@ const verifiedAssets: AddressMapping[] = [
     tokenSymbol: 'BFG',
     tokenName: 'BFG Token',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BFG.svg',
-    tokenAddresses: [{ address: '0xBb46693eBbEa1aC2070E59B4D043b47e2e095f86', chainId: '56s' }],
+    tokenAddresses: [{ address: '0xBb46693eBbEa1aC2070E59B4D043b47e2e095f86', chainId: '56' }],
     tags: ['Gambling'],
     profileLinks: {
       siteUrl: 'https://betfury.io/',
