@@ -922,6 +922,19 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/lightlinkLL',
     },
   },
+  {
+    tokenSymbol: 'BFG',
+    tokenName: 'BFG Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BFG.svg',
+    tokenAddresses: [{ address: '0xBb46693eBbEa1aC2070E59B4D043b47e2e095f86', chainId: '56s' }],
+    tags: ['Gambling'],
+    profileLinks: {
+      siteUrl: 'https://betfury.io/',
+      twitterUrl: 'https://twitter.com/betfury_gaming',
+      discordUrl: 'https://discord.com/invite/D2JNhSah55',
+      telegramUrl: 'https://t.me/Betfury',
+    },
+  },
 ]
 
 export default verifiedAssets
