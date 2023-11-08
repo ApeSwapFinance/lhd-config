@@ -935,6 +935,24 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/Betfury',
     },
   },
+  {
+    tokenSymbol: 'OLE',
+    tokenName: 'OpenLeverage',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/OLE.svg',
+    tokenAddresses: [
+      { address: '0xa865197A84E780957422237B5D152772654341F3', chainId: '56' },
+      { address: '0x92CfbEC26C206C90aeE3b7C66A9AE673754FaB7e', chainId: '1' },
+      { address: '0xD4d026322C88C2d49942A75DfF920FCfbC5614C1', chainId: '42161' },
+    ],
+    tags: ['Derivatives'],
+    profileLinks: {
+      siteUrl: 'https://openleverage.finance/',
+      twitterUrl: 'https://twitter.com/OpenLeverage',
+      discordUrl: 'https://discord.com/invite/OpenLeverage',
+      telegramUrl: 'https://t.me/openleverage',
+      auditUrls: ['https://skynet.certik.com/projects/openleverage?utm_source=CMC&utm_campaign=AuditByCertiKLink'],
+    },
+  },
 ]
 
 export default verifiedAssets
