@@ -1704,6 +1704,37 @@
     }
   },
   {
+    "tokenSymbol": "OLE",
+    "tokenName": "OpenLeverage",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/OLE.svg",
+    "tokenAddresses": [
+      {
+        "address": "0xa865197a84e780957422237b5d152772654341f3",
+        "chainId": "56"
+      },
+      {
+        "address": "0x92cfbec26c206c90aee3b7c66a9ae673754fab7e",
+        "chainId": "1"
+      },
+      {
+        "address": "0xd4d026322c88c2d49942a75dff920fcfbc5614c1",
+        "chainId": "42161"
+      }
+    ],
+    "tags": [
+      "Derivatives"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://openleverage.finance/",
+      "twitterUrl": "https://twitter.com/OpenLeverage",
+      "discordUrl": "https://discord.com/invite/OpenLeverage",
+      "telegramUrl": "https://t.me/openleverage",
+      "auditUrls": [
+        "https://skynet.certik.com/projects/openleverage?utm_source=CMC&utm_campaign=AuditByCertiKLink"
+      ]
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
