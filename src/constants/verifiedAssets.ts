@@ -27,6 +27,29 @@ const verifiedAssets: AddressMapping[] = [
     },
   },
   {
+    tokenSymbol: 'ABOND',
+    tokenName: 'ABOND Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ABOND.svg',
+    tokenAddresses: [
+      { address: '0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd', chainId: '56' },
+      { address: '0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1', chainId: '137' },
+      { address: '0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1', chainId: '1' },
+    ],
+    knownOwners: [
+      '0x944694417a6ca0a70963d644a11d42c10e3af042',
+      '0xabd7853b79e488bc1bd9e238a870167b074eb714',
+      '0x71c0c1001520e1568e17836cc8a19d0dbdb2bd5f',
+    ],
+    tags: ['DEX', 'Yield', 'Bond'],
+    profileLinks: {
+      siteUrl: 'https://ape.bond/',
+      twitterUrl: 'https://twitter.com/ApeBond',
+      telegramUrl: 'https://t.me/ape_bonds',
+      discordUrl: 'https://discord.com/invite/g3A5T6VSFr',
+      auditUrls: ['https://paladinsec.co/projects/apeswap/', 'https://de.fi/audit-database/ApeSwap%20Finance'],
+    },
+  },
+  {
     tokenSymbol: 'TLOS',
     tokenName: 'Telos',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/TLOS.svg',
