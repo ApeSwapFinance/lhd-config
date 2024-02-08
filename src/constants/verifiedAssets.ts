@@ -959,6 +959,19 @@ const verifiedAssets: AddressMapping[] = [
     },
   },
   {
+    tokenSymbol: 'DCB',
+    tokenName: 'Decubate Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/DCB.png',
+    tokenAddresses: [{ address: '0xEAc9873291dDAcA754EA5642114151f3035c67A2', chainId: '56' }],
+    tags: ['Launchpad'],
+    profileLinks: {
+      siteUrl: 'https://www.decubate.com/',
+      twitterUrl: 'https://twitter.com/decubate',
+      discordUrl: 'https://discord.com/invite/decubate',
+      telegramUrl: 'https://t.me/Decubateann',
+    },
+  },
+  {
     tokenSymbol: 'OLE',
     tokenName: 'OpenLeverage',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/OLE.svg',
