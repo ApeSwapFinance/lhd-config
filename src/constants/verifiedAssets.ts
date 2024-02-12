@@ -989,6 +989,22 @@ const verifiedAssets: AddressMapping[] = [
       auditUrls: ['https://skynet.certik.com/projects/openleverage?utm_source=CMC&utm_campaign=AuditByCertiKLink'],
     },
   },
+  {
+    tokenSymbol: 'INJ',
+    tokenName: 'Injective',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/INJ.png',
+    tokenAddresses: [
+      { address: '0xa2B726B1145A4773F68593CF171187d8EBe4d495', chainId: '56' },
+      { address: '0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30', chainId: '1' },
+    ],
+    tags: ['DEX'],
+    profileLinks: {
+      siteUrl: 'https://injective.com/',
+      twitterUrl: 'https://twitter.com/Injective_',
+      discordUrl: 'https://discord.com/invite/NK4qdbv',
+      telegramUrl: 'https://t.me/joininjective',
+    },
+  },
 ]
 
 export default verifiedAssets
