@@ -1794,6 +1794,30 @@
     }
   },
   {
+    "tokenSymbol": "INJ",
+    "tokenName": "Injective",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/INJ.png",
+    "tokenAddresses": [
+      {
+        "address": "0xa2b726b1145a4773f68593cf171187d8ebe4d495",
+        "chainId": "56"
+      },
+      {
+        "address": "0xe28b3b32b6c345a34ff64674606124dd5aceca30",
+        "chainId": "1"
+      }
+    ],
+    "tags": [
+      "DEX"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://injective.com/",
+      "twitterUrl": "https://twitter.com/Injective_",
+      "discordUrl": "https://discord.com/invite/NK4qdbv",
+      "telegramUrl": "https://t.me/joininjective"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
