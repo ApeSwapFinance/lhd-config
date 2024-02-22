@@ -1021,6 +1021,21 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'hhttps://t.me/+UoTgLIswp3szM2I0',
     },
   },
+  {
+    tokenSymbol: 'FBX',
+    tokenName: 'Firebot Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/FBX.png',
+    tokenAddresses: [
+      { address: '0xD125443F38A69d776177c2B9c041f462936F8218', chainId: '137' },
+    ],
+    tags: ['AI'],
+    profileLinks: {
+      siteUrl: 'https://firebot.gg/',
+      twitterUrl: 'https://twitter.com/FireBotDAO',
+      discordUrl: 'https://discord.com/invite/9Gd6ZfjVaw',
+      telegramUrl: 'https://t.me/+1vgltKEIVHczNjI8',
+    },
+  },
 ]
 
 export default verifiedAssets

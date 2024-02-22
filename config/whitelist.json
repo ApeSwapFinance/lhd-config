@@ -1842,6 +1842,26 @@
     }
   },
   {
+    "tokenSymbol": "FBX",
+    "tokenName": "Firebot Token",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/FBX.png",
+    "tokenAddresses": [
+      {
+        "address": "0xd125443f38a69d776177c2b9c041f462936f8218",
+        "chainId": "137"
+      }
+    ],
+    "tags": [
+      "AI"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://firebot.gg/",
+      "twitterUrl": "https://twitter.com/FireBotDAO",
+      "discordUrl": "https://discord.com/invite/9Gd6ZfjVaw",
+      "telegramUrl": "https://t.me/+1vgltKEIVHczNjI8"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
