@@ -1005,6 +1005,22 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/joininjective',
     },
   },
+  {
+    tokenSymbol: 'A3A',
+    tokenName: '3A',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/A3A.png',
+    tokenAddresses: [
+      { address: '0x58c7b2828e7f2b2caa0cc7feef242fa3196d03df', chainId: '137' },
+      { address: '0x3f817b28da4940f018c6b5c0a11c555ebb1264f9', chainId: '1' },
+    ],
+    tags: ['Lending'],
+    profileLinks: {
+      siteUrl: 'https://3adao.org/',
+      twitterUrl: 'https://twitter.com/3aaaDAO',
+      discordUrl: 'https://discord.com/invite/YyQhWnwGVA',
+      telegramUrl: 'hhttps://t.me/+UoTgLIswp3szM2I0',
+    },
+  },
 ]
 
 export default verifiedAssets
