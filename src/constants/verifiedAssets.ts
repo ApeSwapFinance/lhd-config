@@ -1025,15 +1025,40 @@ const verifiedAssets: AddressMapping[] = [
     tokenSymbol: 'FBX',
     tokenName: 'Firebot Token',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/FBX.png',
-    tokenAddresses: [
-      { address: '0xD125443F38A69d776177c2B9c041f462936F8218', chainId: '137' },
-    ],
+    tokenAddresses: [{ address: '0xD125443F38A69d776177c2B9c041f462936F8218', chainId: '137' }],
     tags: ['AI'],
     profileLinks: {
       siteUrl: 'https://firebot.gg/',
       twitterUrl: 'https://twitter.com/FireBotDAO',
       discordUrl: 'https://discord.com/invite/9Gd6ZfjVaw',
       telegramUrl: 'https://t.me/+1vgltKEIVHczNjI8',
+    },
+  },
+  {
+    tokenSymbol: 'CGV',
+    tokenName: 'Cogito',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/CGV.svg',
+    tokenAddresses: [
+      { address: '0xaef420fd77477d9dc8b46d704d44dd09d6c27866', chainId: '1' },
+      { address: '0x1bdaf9ddd7658d8049391971d1fd48c0484f66ec', chainId: '56' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://www.cogito.finance/',
+      twitterUrl: 'https://twitter.com/CogitoProtocol',
+      discordUrl: 'https://discord.com/invite/8xMJeGQayG',
+      telegramUrl: 'https://t.me/joincogito',
+    },
+  },
+  {
+    tokenSymbol: 'GRAPE',
+    tokenName: 'Grape Coin',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/GRAPE.png',
+    tokenAddresses: [{ address: '0x555296de6A86E72752e5C5DC091FE49713Aa145C', chainId: '56' }],
+    tags: ['NFTs'],
+    profileLinks: {
+      siteUrl: 'https://www.joingrapes.com/',
+      twitterUrl: 'https://twitter.com/JoinGrapes',
+      discordUrl: 'https://discord.com/invite/joingrapes',
     },
   },
 ]
