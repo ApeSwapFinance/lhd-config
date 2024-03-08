@@ -1902,6 +1902,22 @@
     }
   },
   {
+    "tokenSymbol": "SHU",
+    "tokenName": "Shutter Token",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SHU.png",
+    "tokenAddresses": [
+      {
+        "address": "0xe485e2f1bab389c08721b291f6b59780fec83fd7",
+        "chainId": "1"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://shutter.network/",
+      "twitterUrl": "https://twitter.com/project_shutter",
+      "telegramUrl": "https://t.me/+wsTahoNJyToyZjY6"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
