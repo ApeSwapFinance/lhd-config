@@ -1061,6 +1061,17 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/joingrapes',
     },
   },
+  {
+    tokenSymbol: 'SHU',
+    tokenName: 'Shutter Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SHU.png',
+    tokenAddresses: [{ address: '0xe485E2f1bab389C08721B291f6b59780feC83Fd7', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://shutter.network/',
+      twitterUrl: 'https://twitter.com/project_shutter',
+      telegramUrl: 'https://t.me/+wsTahoNJyToyZjY6',
+    },
+  },
 ]
 
 export default verifiedAssets
