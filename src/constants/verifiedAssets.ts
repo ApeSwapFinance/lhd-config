@@ -1072,6 +1072,18 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/+wsTahoNJyToyZjY6',
     },
   },
+  {
+    tokenSymbol: 'EVO',
+    tokenName: 'Devomon',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/EVO.png',
+    tokenAddresses: [{ address: '0xF2B688b2201979d44FdF18d1d8C641305Cf560Ba', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://www.devomon.io/',
+      twitterUrl: 'https://twitter.com/OfficialDevomon',
+      telegramUrl: 'https://t.me/officialdevomon',
+      discordUrl: 'https://discord.com/invite/9rhFY2GGut',
+    },
+  },
 ]
 
 export default verifiedAssets
