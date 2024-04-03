@@ -1084,6 +1084,18 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/9rhFY2GGut',
     },
   },
+  {
+    tokenSymbol: 'GPT',
+    tokenName: 'GPT Protocol',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/GPT.png',
+    tokenAddresses: [{ address: '0xCdb4A8742ed7D0259b51E3454C46C9D6C48d5e88', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://gptprotocol.org/',
+      twitterUrl: 'https://twitter.com/gpt_protocol',
+      telegramUrl: 'https://t.me/gpt_protocol',
+      discordUrl: 'https://discord.com/invite/gptprotocol',
+    },
+  },
 ]
 
 export default verifiedAssets

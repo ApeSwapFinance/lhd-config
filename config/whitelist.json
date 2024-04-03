@@ -1935,6 +1935,23 @@
     }
   },
   {
+    "tokenSymbol": "GPT",
+    "tokenName": "GPT Protocol",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/GPT.png",
+    "tokenAddresses": [
+      {
+        "address": "0xcdb4a8742ed7d0259b51e3454c46c9d6c48d5e88",
+        "chainId": "1"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://gptprotocol.org/",
+      "twitterUrl": "https://twitter.com/gpt_protocol",
+      "telegramUrl": "https://t.me/gpt_protocol",
+      "discordUrl": "https://discord.com/invite/gptprotocol"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
