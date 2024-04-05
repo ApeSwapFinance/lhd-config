@@ -1096,6 +1096,18 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/gptprotocol',
     },
   },
+  {
+    tokenSymbol: 'BEFI',
+    tokenName: 'Befi Labs',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BEFI.png',
+    tokenAddresses: [{ address: '0x8b9b95292f890DF47fFf5aC9Cbe93d5fC242bd51', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://befilabs.com/',
+      twitterUrl: 'https://twitter.com/BefiLabs',
+      telegramUrl: 'https://t.me/BeFi_Labs',
+      discordUrl: 'https://discord.com/invite/asvrdMp9e8',
+    },
+  },
 ]
 
 export default verifiedAssets

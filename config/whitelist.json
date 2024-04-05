@@ -1952,6 +1952,23 @@
     }
   },
   {
+    "tokenSymbol": "BEFI",
+    "tokenName": "Befi Labs",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BEFI.png",
+    "tokenAddresses": [
+      {
+        "address": "0x8b9b95292f890df47fff5ac9cbe93d5fc242bd51",
+        "chainId": "1"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://befilabs.com/",
+      "twitterUrl": "https://twitter.com/BefiLabs",
+      "telegramUrl": "https://t.me/BeFi_Labs",
+      "discordUrl": "https://discord.com/invite/asvrdMp9e8"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
