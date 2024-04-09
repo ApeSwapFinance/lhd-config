@@ -1108,6 +1108,18 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/asvrdMp9e8',
     },
   },
+  {
+    tokenSymbol: 'ECLD',
+    tokenName: 'Ethernity Cloud',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ECLD.png',
+    tokenAddresses: [{ address: '0xc6920888988cAcEeA7ACCA0c96f2D65b05eE22Ba', chainId: '137' }],
+    profileLinks: {
+      siteUrl: 'https://ethernity.cloud/',
+      twitterUrl: 'https://twitter.com/Ethernity_cloud',
+      telegramUrl: 'https://t.me/ethernitycloud',
+      discordUrl: 'https://discord.com/invite/W74JcFPGcb',
+    },
+  },
 ]
 
 export default verifiedAssets

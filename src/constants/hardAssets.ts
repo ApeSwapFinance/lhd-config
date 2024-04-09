@@ -18,7 +18,7 @@ const hardAssets: AddressMapping[] = [
       { address: '0xc1be9a4d5d45beeacae296a7bd5fadbfc14602c4', chainId: '61' },
       { address: '0xc946daf81b08146b1c7a8da2a851ddf2b3eaaf85', chainId: '66' },
       { address: '0x80a16016cc4a2e6a2caca8a4a498b1699ff0f844', chainId: '106' },
-      { address: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174', chainId: '137' },
+      { address: '0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359', chainId: '137' },
       { address: '0x04068da6c83afcfa0e13ba15a6696662335d5b75', chainId: '250' },
       { address: '0x639a647fbe20b6c8ac19e48e2de44ea792c62c5c', chainId: '269' },
       { address: '0xce37d81713a25373e92475c5b9bd2c4980dfab76', chainId: '288' },
@@ -569,6 +569,13 @@ const hardAssets: AddressMapping[] = [
     tokenLogoUrl: 'https://assets.coingecko.com/coins/images/13403/large/aETHc.png?1696513165',
     isHardAsset: true,
     tokenAddresses: [{ address: '0xe95a203b1a91a908f9b9ce46459d101078c2c3cb', chainId: '1' }],
+  },
+  {
+    tokenSymbol: 'USDC.e',
+    tokenName: 'USDC.e',
+    tokenLogoUrl: 'https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024',
+    isHardAsset: true,
+    tokenAddresses: [{ address: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174', chainId: '137' }],
   },
 ]
 
