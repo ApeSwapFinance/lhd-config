@@ -1986,6 +1986,38 @@
     }
   },
   {
+    "tokenSymbol": "A51",
+    "tokenName": "A51 Finance",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/A51.png",
+    "tokenAddresses": [
+      {
+        "address": "0xe9e7c09e82328c3107d367f6c617cf9977e63ed0",
+        "chainId": "137"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://a51.finance/",
+      "twitterUrl": "https://twitter.com/A51_Fi",
+      "telegramUrl": "https://t.me/a51_fi"
+    }
+  },
+  {
+    "tokenSymbol": "BOM",
+    "tokenName": "Borderless Money",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BOM.png",
+    "tokenAddresses": [
+      {
+        "address": "0xc59132fbdf8de8fbe510f568a5d831c991b4fc38",
+        "chainId": "137"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.borderless.money/",
+      "twitterUrl": "https://twitter.com/borderless_refi",
+      "telegramUrl": "https://t.me/borderlessmoney"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
