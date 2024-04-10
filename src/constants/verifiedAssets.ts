@@ -1120,6 +1120,28 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/W74JcFPGcb',
     },
   },
+  {
+    tokenSymbol: 'A51',
+    tokenName: 'A51 Finance',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/A51.png',
+    tokenAddresses: [{ address: '0xe9E7c09e82328c3107d367f6c617cF9977e63ED0', chainId: '137' }],
+    profileLinks: {
+      siteUrl: 'https://a51.finance/',
+      twitterUrl: 'https://twitter.com/A51_Fi',
+      telegramUrl: 'https://t.me/a51_fi',
+    },
+  },
+  {
+    tokenSymbol: 'BOM',
+    tokenName: 'Borderless Money',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BOM.png',
+    tokenAddresses: [{ address: '0xc59132FBdF8dE8fbE510F568a5D831C991B4fC38', chainId: '137' }],
+    profileLinks: {
+      siteUrl: 'https://www.borderless.money/',
+      twitterUrl: 'https://twitter.com/borderless_refi',
+      telegramUrl: 'https://t.me/borderlessmoney',
+    },
+  },
 ]
 
 export default verifiedAssets
