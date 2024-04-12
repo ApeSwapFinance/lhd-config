@@ -2018,6 +2018,22 @@
     }
   },
   {
+    "tokenSymbol": "ICNX",
+    "tokenName": "IconX World",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ICNX.png",
+    "tokenAddresses": [
+      {
+        "address": "0x91f3b9366801c1fca6184c3bd99d5ab0c43a9033",
+        "chainId": "137"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.iconx.world/",
+      "twitterUrl": "https://twitter.com/IconxWorld",
+      "telegramUrl": "https://t.me/IconXworldChat"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
