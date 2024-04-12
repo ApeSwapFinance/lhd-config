@@ -1142,6 +1142,17 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/borderlessmoney',
     },
   },
+  {
+    tokenSymbol: 'ICNX',
+    tokenName: 'IconX World',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ICNX.png',
+    tokenAddresses: [{ address: '0x91f3B9366801C1fCa6184C3bD99d5Ab0C43A9033', chainId: '137' }],
+    profileLinks: {
+      siteUrl: 'https://www.iconx.world/',
+      twitterUrl: 'https://twitter.com/IconxWorld',
+      telegramUrl: 'https://t.me/IconXworldChat',
+    },
+  },
 ]
 
 export default verifiedAssets
