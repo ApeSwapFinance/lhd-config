@@ -1161,7 +1161,7 @@ const verifiedAssets: AddressMapping[] = [
     profileLinks: {
       siteUrl: 'https://www.k9finance.com/',
       twitterUrl: 'https://twitter.com/K9finance',
-      telegramUrl: 'https://twitter.com/K9finance',
+      telegramUrl: 'https://t.me/k9finance',
     },
   },
 ]
