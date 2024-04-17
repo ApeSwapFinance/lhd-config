@@ -2034,6 +2034,22 @@
     }
   },
   {
+    "tokenSymbol": "KNINE",
+    "tokenName": "K9 Finance",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/K9.png",
+    "tokenAddresses": [
+      {
+        "address": "0x91fbb2503ac69702061f1ac6885759fc853e6eae",
+        "chainId": "1"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.k9finance.com/",
+      "twitterUrl": "https://twitter.com/K9finance",
+      "telegramUrl": "https://t.me/k9finance"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",

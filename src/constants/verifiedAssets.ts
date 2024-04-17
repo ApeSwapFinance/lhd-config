@@ -1153,6 +1153,17 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/IconXworldChat',
     },
   },
+  {
+    tokenSymbol: 'KNINE',
+    tokenName: 'K9 Finance',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/K9.png',
+    tokenAddresses: [{ address: '0x91fbB2503AC69702061f1AC6885759Fc853e6EaE', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://www.k9finance.com/',
+      twitterUrl: 'https://twitter.com/K9finance',
+      telegramUrl: 'https://t.me/k9finance',
+    },
+  },
 ]
 
 export default verifiedAssets
