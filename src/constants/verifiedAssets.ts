@@ -1164,6 +1164,42 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/k9finance',
     },
   },
+  {
+    tokenSymbol: 'NOTES',
+    tokenName: 'Backstage Pass Notes',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/NOTES.png',
+    tokenAddresses: [{ address: '0x2d66953fC2eb650F0fD992Dbe1e71D743a4e9fee', chainId: '137' }],
+    profileLinks: {
+      siteUrl: 'https://www.anotemusic.com/backstage-pass',
+      twitterUrl: 'https://twitter.com/anotemusic',
+      telegramUrl: 'https://t.me/anotemusic',
+      discordUrl:'https://discord.com/invite/9ZWfskUPuc',
+    },
+  },
+  {
+    tokenSymbol: 'LOE',
+    tokenName: 'Legends of Elysium',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LOE.png',
+    tokenAddresses: [{ address: '0x8b78927048de67b9e8c8F834359F15C3822eD871', chainId: '137' }],
+    profileLinks: {
+      siteUrl: 'https://legendsofelysium.io/',
+      twitterUrl: 'https://twitter.com/LegendsElysium',
+      telegramUrl: 'https://t.me/legendsofelysium_ann',
+      discordUrl:'https://discord.com/invite/TnbyVTyYjv',
+    },
+  },
+  {
+    tokenSymbol: 'FORA',
+    tokenName: 'UFORIKA',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/FORA.png',
+    tokenAddresses: [{ address: '0x081c280cD5C1c934DbAfc97A2aB2e596FfE7DFC4', chainId: '137' }],
+    profileLinks: {
+      siteUrl: 'https://www.uforika.io/',
+      twitterUrl: 'https://twitter.com/Planet_UFORIKA',
+      telegramUrl: 'https://t.me/uforika',
+      discordUrl:'https://discord.com/invite/uforika',
+    },
+  },
 ]
 
 export default verifiedAssets

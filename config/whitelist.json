@@ -2050,6 +2050,57 @@
     }
   },
   {
+    "tokenSymbol": "NOTES",
+    "tokenName": "Backstage Pass Notes",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/NOTES.png",
+    "tokenAddresses": [
+      {
+        "address": "0x2d66953fc2eb650f0fd992dbe1e71d743a4e9fee",
+        "chainId": "137"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.anotemusic.com/backstage-pass",
+      "twitterUrl": "https://twitter.com/anotemusic",
+      "telegramUrl": "https://t.me/anotemusic",
+      "discordUrl": "https://discord.com/invite/9ZWfskUPuc"
+    }
+  },
+  {
+    "tokenSymbol": "LOE",
+    "tokenName": "Legends of Elysium",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LOE.png",
+    "tokenAddresses": [
+      {
+        "address": "0x8b78927048de67b9e8c8f834359f15c3822ed871",
+        "chainId": "137"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://legendsofelysium.io/",
+      "twitterUrl": "https://twitter.com/LegendsElysium",
+      "telegramUrl": "https://t.me/legendsofelysium_ann",
+      "discordUrl": "https://discord.com/invite/TnbyVTyYjv"
+    }
+  },
+  {
+    "tokenSymbol": "FORA",
+    "tokenName": "UFORIKA",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/FORA.png",
+    "tokenAddresses": [
+      {
+        "address": "0x081c280cd5c1c934dbafc97a2ab2e596ffe7dfc4",
+        "chainId": "137"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.uforika.io/",
+      "twitterUrl": "https://twitter.com/Planet_UFORIKA",
+      "telegramUrl": "https://t.me/uforika",
+      "discordUrl": "https://discord.com/invite/uforika"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
