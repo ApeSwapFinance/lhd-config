@@ -1200,6 +1200,17 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl:'https://discord.com/invite/uforika',
     },
   },
+  {
+    tokenSymbol: 'CORE',
+    tokenName: 'Core Markets',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/CORE.png',
+    tokenAddresses: [{ address: '0x233b23de890a8c21f6198d03425a2b986ae05536', chainId: '81457' }],
+    profileLinks: {
+      siteUrl: 'https://www.core.markets/',
+      twitterUrl: 'https://twitter.com/core_markets',
+      discordUrl: 'https://discord.com/invite/coremarkets',
+    },
+  },
 ]
 
 export default verifiedAssets
