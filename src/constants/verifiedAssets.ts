@@ -1211,6 +1211,21 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/coremarkets',
     },
   },
+  {
+    tokenSymbol: 'PRNT',
+    tokenName: 'Prime Numbers Ecosystem',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/PRNT.png',
+    tokenAddresses: [
+      { address: '0x7cfea0dd176651e7b5a1ced9c4faf8ee295315fd', chainId: '1' },
+      { address: '0x9f402f44684574f3535ea6f1bb5cfbffef42ee28', chainId: '56' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://www.primenumbers.xyz/',
+      twitterUrl: 'https://twitter.com/PrimeNumbersFi',
+      discordUrl: 'https://discord.com/invite/GSgkEbZyd2',
+      telegramUrl: 'https://t.me/PrimeNumbersFi',
+    },
+  },
 ]
 
 export default verifiedAssets
