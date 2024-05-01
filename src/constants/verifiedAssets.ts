@@ -1158,6 +1158,9 @@ const verifiedAssets: AddressMapping[] = [
     tokenName: 'K9 Finance',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/K9.png',
     tokenAddresses: [{ address: '0x91fbB2503AC69702061f1AC6885759Fc853e6EaE', chainId: '1' }],
+    knownOwners: [
+      '0xDA4Df6E2121eDaB7c33Ed7FE0f109350939eDA84',
+    ],
     profileLinks: {
       siteUrl: 'https://www.k9finance.com/',
       twitterUrl: 'https://twitter.com/K9finance',
@@ -1252,6 +1255,17 @@ const verifiedAssets: AddressMapping[] = [
       siteUrl: 'https://velocore.xyz/',
       twitterUrl: 'https://twitter.com/velocorexyz',
       discordUrl: 'https://discord.com/invite/2Af2c6E5Sk',
+    },
+  },
+  {
+    tokenSymbol: 'MENDI',
+    tokenName: 'Mendi Finance',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MENDI.png',
+    tokenAddresses: [{ address: '0x43e8809ea748eff3204ee01f08872f063e44065f', chainId: '59144' }],
+    profileLinks: {
+      siteUrl: 'https://mendi.finance/',
+      twitterUrl: 'https://twitter.com/MendiFinance',
+      discordUrl: 'https://discord.com/invite/G3vWy8cbnK',
     },
   },
 ]
