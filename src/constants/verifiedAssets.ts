@@ -1226,6 +1226,34 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/PrimeNumbersFi',
     },
   },
+  {
+    tokenSymbol: 'TRADE',
+    tokenName: 'Polytrade',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/TRADE.png',
+    tokenAddresses: [
+      { address: '0x6e5970DBd6fc7eb1f29C6D2eDF2bC4c36124C0C1', chainId: '1' },
+      { address: '0x6Ba7a8f9063c712C1c8CabC776B1dA7126805f3b', chainId: '56' },
+      { address: '0x692AC1e363ae34b6B489148152b12e2785a3d8d6', chainId: '137' },
+      { address: '0xE22c452bd2AdE15DfC8ad98286bc6bDF0c9219b7', chainId: '42161' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://www.polytrade.finance/',
+      twitterUrl: 'https://twitter.com/Polytrade_fin',
+      discordUrl: 'https://discord.com/invite/5Zk94wRDrs',
+      telegramUrl: 'https://t.me/polytrade',
+    },
+  },
+  {
+    tokenSymbol: 'LVC',
+    tokenName: 'Linea Velocore',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LVC.png',
+    tokenAddresses: [{ address: '0xcc22f6aa610d1b2a0e89ef228079cb3e1831b1d1', chainId: '59144' }],
+    profileLinks: {
+      siteUrl: 'https://velocore.xyz/',
+      twitterUrl: 'https://twitter.com/velocorexyz',
+      discordUrl: 'https://discord.com/invite/2Af2c6E5Sk',
+    },
+  },
 ]
 
 export default verifiedAssets
