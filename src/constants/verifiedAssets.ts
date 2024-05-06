@@ -1268,6 +1268,41 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/G3vWy8cbnK',
     },
   },
+  {
+    tokenSymbol: 'O4DX',
+    tokenName: 'OrangeDX',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/O4DX.png',
+    tokenAddresses: [{ address: '0x062ca2d2F1aF8C203FA3Ad5298FD6fAa4E44E897', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://orangedx.com/',
+      twitterUrl: 'https://twitter.com/OrangDx_BRC20',
+      telegramUrl: 'https://t.me/Orangedx_Official',
+    },
+  },
+  {
+    tokenSymbol: 'TX20',
+    tokenName: 'Trex20',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/TX20.png',
+    tokenAddresses: [{ address: '0x29838b8C8b7CD6F0698c2fd6feAf0363d2CB6dA1', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://trex20.xyz/',
+      twitterUrl: 'https://twitter.com/trex20_official',
+      telegramUrl: 'https://t.me/trex20OfficialChat',
+    },
+  },
+  {
+    tokenSymbol: 'RTF',
+    tokenName: 'Ready to Fight',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/RTF.png',
+    tokenAddresses: [
+      { address: '0xa89e2871A850E0e6fD8F0018eC1fc62FA75440d4', chainId: '1' },
+      { address: '0xa89e2871a850e0e6fd8f0018ec1fc62fa75440d4', chainId: '56' },
+    ],
+    profileLinks: {
+      twitterUrl: 'https://twitter.com/RTFight_App',
+      siteUrl: 'https://rtfight.com/',
+      telegramUrl: 'https://t.me/rtfight_com',
+    },
+  },
 ]
-
 export default verifiedAssets
