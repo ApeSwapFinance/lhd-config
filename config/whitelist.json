@@ -2202,6 +2202,58 @@
     }
   },
   {
+    "tokenSymbol": "O4DX",
+    "tokenName": "OrangeDX",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/O4DX.png",
+    "tokenAddresses": [
+      {
+        "address": "0x062ca2d2f1af8c203fa3ad5298fd6faa4e44e897",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://orangedx.com/",
+      "twitterUrl": "https://twitter.com/OrangDx_BRC20",
+      "telegramUrl": "https://t.me/Orangedx_Official"
+    }
+  },
+  {
+    "tokenSymbol": "TX20",
+    "tokenName": "Trex20",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/TX20.png",
+    "tokenAddresses": [
+      {
+        "address": "0x29838b8c8b7cd6f0698c2fd6feaf0363d2cb6da1",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://trex20.xyz/",
+      "twitterUrl": "https://twitter.com/trex20_official",
+      "telegramUrl": "https://t.me/trex20OfficialChat"
+    }
+  },
+  {
+    "tokenSymbol": "RTF",
+    "tokenName": "Ready to Fight",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/RTF.png",
+    "tokenAddresses": [
+      {
+        "address": "0xa89e2871a850e0e6fd8f0018ec1fc62fa75440d4",
+        "chainId": "1"
+      },
+      {
+        "address": "0xa89e2871a850e0e6fd8f0018ec1fc62fa75440d4",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "twitterUrl": "https://twitter.com/RTFight_App",
+      "siteUrl": "https://rtfight.com/",
+      "telegramUrl": "https://t.me/rtfight_com"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
