@@ -1304,5 +1304,50 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/rtfight_com',
     },
   },
+  {
+    tokenSymbol: 'RAM',
+    tokenName: 'Ramses',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/RAM.png',
+    tokenAddresses: [{ address: '0xAAA6C1E32C55A7Bfa8066A6FAE9b42650F262418', chainId: '42161' }],
+    knownOwners: ['0x20D630cF1f5628285BfB91DfaC8C89eB9087BE1A'],
+    profileLinks: {
+      siteUrl: 'https://ramses.exchange',
+      twitterUrl: 'https://twitter.com/ramsesexchange',
+      telegramUrl: 'https://t.me/ExchangeRamses',
+    },
+  },
+  {
+    tokenSymbol: 'NILE',
+    tokenName: 'NILE Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/NILE.png',
+    tokenAddresses: [{ address: '0xAAAac83751090C6ea42379626435f805DDF54DC8', chainId: '59144' }],
+    knownOwners: ['0x44376f8F52407ed66E6D3356535410A7DCd4652B'],
+    profileLinks: {
+      siteUrl: 'https://thenile.exchange',
+      twitterUrl: 'https://twitter.com/nileexchange',
+    },
+  },
+  {
+    tokenSymbol: 'CLEO',
+    tokenName: 'Cleopatra',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/CLEO.png',
+    tokenAddresses: [{ address: '0xC1E0C8C30F251A07a894609616580ad2CEb547F2', chainId: '5000' }],
+    knownOwners: ['0xAA37591bF6b347bAdf7bF8E291e3d4cDFE27FF8B'],
+    profileLinks: {
+      siteUrl: 'https://cleo.exchange',
+      twitterUrl: 'https://twitter.com/CleopatraDEX',
+    },
+  },
+  {
+    tokenSymbol: 'PHAR',
+    tokenName: 'Pharaoh',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/PHAR.png',
+    tokenAddresses: [{ address: '0xAAAB9D12A30504559b0C5a9A5977fEE4A6081c6b', chainId: '43114' }],
+    knownOwners: ['0x244A4a90e148Ec318a85f8C138A274e16FFE3032'],
+    profileLinks: {
+      siteUrl: 'https://pharaoh.exchange',
+      twitterUrl: 'https://twitter.com/PharaohExchange',
+    },
+  },
 ]
 export default verifiedAssets
