@@ -1304,5 +1304,17 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/rtfight_com',
     },
   },
+  {
+    tokenSymbol: 'FRIC',
+    tokenName: 'Frictionless',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/FRIC.png',
+    tokenAddresses: [{ address: '0x23fa3aa82858e7ad1f0f04352f4bb7f5e1bbfb68', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://frictionless.network/',
+      twitterUrl: 'https://twitter.com/FrictionlessX',
+      telegramUrl: 'https://t.me/FrictionlessX',
+      discordUrl: 'https://discord.com/invite/2qrXvWcXVA'
+    },
+  },
 ]
 export default verifiedAssets
