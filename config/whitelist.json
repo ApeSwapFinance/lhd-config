@@ -2254,6 +2254,79 @@
     }
   },
   {
+    "tokenSymbol": "RAM",
+    "tokenName": "Ramses",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/RAM.png",
+    "tokenAddresses": [
+      {
+        "address": "0xaaa6c1e32c55a7bfa8066a6fae9b42650f262418",
+        "chainId": "42161"
+      }
+    ],
+    "knownOwners": [
+      "0x20d630cf1f5628285bfb91dfac8c89eb9087be1a"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://ramses.exchange",
+      "twitterUrl": "https://twitter.com/ramsesexchange",
+      "telegramUrl": "https://t.me/ExchangeRamses"
+    }
+  },
+  {
+    "tokenSymbol": "NILE",
+    "tokenName": "NILE Token",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/NILE.png",
+    "tokenAddresses": [
+      {
+        "address": "0xaaaac83751090c6ea42379626435f805ddf54dc8",
+        "chainId": "59144"
+      }
+    ],
+    "knownOwners": [
+      "0x44376f8f52407ed66e6d3356535410a7dcd4652b"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://thenile.exchange",
+      "twitterUrl": "https://twitter.com/nileexchange"
+    }
+  },
+  {
+    "tokenSymbol": "CLEO",
+    "tokenName": "Cleopatra",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/CLEO.png",
+    "tokenAddresses": [
+      {
+        "address": "0xc1e0c8c30f251a07a894609616580ad2ceb547f2",
+        "chainId": "5000"
+      }
+    ],
+    "knownOwners": [
+      "0xaa37591bf6b347badf7bf8e291e3d4cdfe27ff8b"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://cleo.exchange",
+      "twitterUrl": "https://twitter.com/CleopatraDEX"
+    }
+  },
+  {
+    "tokenSymbol": "PHAR",
+    "tokenName": "Pharaoh",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/PHAR.png",
+    "tokenAddresses": [
+      {
+        "address": "0xaaab9d12a30504559b0c5a9a5977fee4a6081c6b",
+        "chainId": "43114"
+      }
+    ],
+    "knownOwners": [
+      "0x244a4a90e148ec318a85f8c138a274e16ffe3032"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://pharaoh.exchange",
+      "twitterUrl": "https://twitter.com/PharaohExchange"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
