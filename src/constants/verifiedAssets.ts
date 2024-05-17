@@ -1361,5 +1361,16 @@ const verifiedAssets: AddressMapping[] = [
       twitterUrl: 'https://twitter.com/PharaohExchange',
     },
   },
+  {
+    tokenSymbol: 'FARMS',
+    tokenName: 'Farmsent',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/FARMS.png',
+    tokenAddresses: [{ address: '0xf2da37643c25ca14291c2a69f51423ed9b7ff4b0', chainId: '137' }],
+    profileLinks: {
+      siteUrl: 'https://www.farmsent.io/',
+      twitterUrl: 'https://twitter.com/farmsent_io',
+      telegramUrl: 'https://t.me/farmsent',
+    },
+  },
 ]
 export default verifiedAssets
