@@ -1372,5 +1372,50 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/farmsent',
     },
   },
+  {
+    tokenSymbol: 'CERE',
+    tokenName: 'Cere Network',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/CERE.png',
+    tokenAddresses: [{ address: '0x2da719db753dfa10a62e140f436e1d67f2ddb0d6', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://www.cere.network/',
+      twitterUrl: 'https://x.com/cereofficial',
+      telegramUrl: 'https://t.me/thisiscere',
+      discordUrl: 'https://discord.com/invite/cYVKUYHWhp'
+    },
+  },
+  {
+    tokenSymbol: 'GDT',
+    tokenName: 'Gradient Protocol',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/GDT.png',
+    tokenAddresses: [{ address: '0x396c95abe154b3b2ed204cf45c8726aa7ad47a4d', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://gradientprotocol.io/',
+      twitterUrl: 'https://x.com/Gradient_GDT',
+      telegramUrl: 'https://t.me/Gradient_Entry',
+    },
+  },
+  {
+    tokenSymbol: 'HAIPERAI',
+    tokenName: 'HaiperAI',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/HAIPERAI.png',
+    tokenAddresses: [{ address: '0x1317d2a56520e64bfe3c2ecd89b6a8b3fb1d6a08', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://haiperai.me/',
+      twitterUrl: 'https://x.com/Haiper_ai_',
+      telegramUrl: 'https://t.me/HaiperAIChat',
+    },
+  },
+  {
+    tokenSymbol: 'EGO',
+    tokenName: 'Paysenger EGO',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/EGO.png',
+    tokenAddresses: [{ address: '0x44a21B3577924DCD2e9C81A3347D204C36a55466', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://egoco.in/',
+      twitterUrl: 'https://x.com/Ego_Paysenger',
+      telegramUrl: 'https://t.me/ego_paysenger_en',
+    },
+  },
 ]
 export default verifiedAssets
