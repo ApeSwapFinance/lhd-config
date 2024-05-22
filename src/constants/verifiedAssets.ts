@@ -1417,5 +1417,17 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/ego_paysenger_en',
     },
   },
+  {
+    tokenSymbol: 'ROBO',
+    tokenName: 'RoboHero',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ROBO.png',
+    tokenAddresses: [{ address: '0xb3886b3aaa6087b3d185daeb89ac113d195b5eb9', chainId: '137' }],
+    profileLinks: {
+      siteUrl: 'https://robohero.io/',
+      twitterUrl: 'https://x.com/RoboHero_io',
+      telegramUrl: 'https://t.me/robohero',
+      discordUrl: 'https://discord.com/invite/5UVPuBWZat',
+    },
+  },
 ]
 export default verifiedAssets
