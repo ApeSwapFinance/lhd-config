@@ -1396,17 +1396,6 @@ const verifiedAssets: AddressMapping[] = [
     },
   },
   {
-    tokenSymbol: 'HAIPERAI',
-    tokenName: 'HaiperAI',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/HAIPERAI.png',
-    tokenAddresses: [{ address: '0x1317d2a56520e64bfe3c2ecd89b6a8b3fb1d6a08', chainId: '1' }],
-    profileLinks: {
-      siteUrl: 'https://haiperai.me/',
-      twitterUrl: 'https://x.com/Haiper_ai_',
-      telegramUrl: 'https://t.me/HaiperAIChat',
-    },
-  },
-  {
     tokenSymbol: 'EGO',
     tokenName: 'Paysenger EGO',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/EGO.png',
@@ -1427,6 +1416,17 @@ const verifiedAssets: AddressMapping[] = [
       twitterUrl: 'https://x.com/RoboHero_io',
       telegramUrl: 'https://t.me/robohero',
       discordUrl: 'https://discord.com/invite/5UVPuBWZat',
+    },
+  },
+  {
+    tokenSymbol: 'HAI',
+    tokenName: 'HapticAI',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/HAI.png',
+    tokenAddresses: [{ address: '0x89deb6c8918a42457bd6ddbcaaf979216c4d774c', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://www.hapticai.dev/',
+      twitterUrl: 'https://x.com/haptic_ai',
+      telegramUrl: 'https://t.me/hapticai',
     },
   },
 ]
