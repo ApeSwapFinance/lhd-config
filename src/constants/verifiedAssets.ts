@@ -1429,5 +1429,32 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/hapticai',
     },
   },
+  {
+    tokenSymbol: 'FLASH',
+    tokenName: 'Flash Protocol',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/FLASH.png',
+    tokenAddresses: [{ address: '0xCa95A6B21A8101d8e34c153d31dc563Ff897EbEF', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://flashprotocol.xyz/',
+      twitterUrl: 'https://x.com/flashprotocol',
+      telegramUrl: 'https://t.me/flashprotocol',
+    },
+  },
+  {
+    tokenSymbol: 'SKR',
+    tokenName: 'Saakuru',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SKR.png',
+    tokenAddresses: [
+      { address: '0xe2dca969624795985f2f083bcd0b674337ba130a', chainId: '1' },
+      { address: '0xe2dca969624795985f2f083bcd0b674337ba130a', chainId: '56' },
+      { address: '0xe2dca969624795985f2f083bcd0b674337ba130a', chainId: '10' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://saakuru.com/',
+      twitterUrl: 'https://x.com/saakuru_labs',
+      discordUrl: 'https://discord.com/invite/saakuruprotocol',
+      telegramUrl: 'https://t.me/aagventures',
+    },
+  },
 ]
 export default verifiedAssets
