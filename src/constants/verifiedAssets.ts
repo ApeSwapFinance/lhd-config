@@ -1456,5 +1456,17 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/aagventures',
     },
   },
+  {
+    tokenSymbol: 'CLASH',
+    tokenName: 'Clashub',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/CLASH.png',
+    tokenAddresses: [{ address: '0x8DC0F602696De3fF03B37e19A172e5080f049C15', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://www.clashub.io/',
+      twitterUrl: 'https://x.com/theclashub',
+      telegramUrl: 'https://t.me/+0URvLBsVdLo2Yzg0',
+      discordUrl: 'https://discord.com/invite/theclashub',
+    },
+  },
 ]
 export default verifiedAssets
