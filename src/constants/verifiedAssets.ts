@@ -1468,5 +1468,17 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/theclashub',
     },
   },
+  {
+    tokenSymbol: 'THG',
+    tokenName: 'Thetan World',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/THG.png',
+    tokenAddresses: [{ address: '0x9fD87aEfe02441B123c3c32466cD9dB4c578618f', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://thetanworld.com/#mission',
+      twitterUrl: 'https://x.com/thetan_world',
+      telegramUrl: 'https://t.me/thetanworldofficial',
+      discordUrl: 'https://discord.com/invite/thetanworld',
+    },
+  },
 ]
 export default verifiedAssets

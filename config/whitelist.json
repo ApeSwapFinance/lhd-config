@@ -2500,6 +2500,23 @@
     }
   },
   {
+    "tokenSymbol": "THG",
+    "tokenName": "Thetan World",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/THG.png",
+    "tokenAddresses": [
+      {
+        "address": "0x9fd87aefe02441b123c3c32466cd9db4c578618f",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://thetanworld.com/#mission",
+      "twitterUrl": "https://x.com/thetan_world",
+      "telegramUrl": "https://t.me/thetanworldofficial",
+      "discordUrl": "https://discord.com/invite/thetanworld"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
