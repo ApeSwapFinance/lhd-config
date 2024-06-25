@@ -1480,5 +1480,20 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/thetanworld',
     },
   },
+  {
+    tokenSymbol: 'ENO',
+    tokenName: 'ENO',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ENO.png',
+    tokenAddresses: [
+      { address: '0x1c3d163219bb74f430411b95d66b72056f366ec1', chainId: '1' },
+      { address: '0x2b41806cbf1ffb3d9e31a9ece6b738bf9d6f645f', chainId: '42161'},
+    ],
+    profileLinks: {
+      siteUrl: 'https://enotoken.io/',
+      twitterUrl: 'https://x.com/Enotoken',
+      discordUrl: 'https://discord.com/invite/3eZewHzJU5',
+      telegramUrl: 'https://t.me/EnoToken',
+    },
+  },
 ]
 export default verifiedAssets
