@@ -2724,6 +2724,14 @@
         "chainId": "324"
       },
       {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "chainId": "8453"
+      },
+      {
+        "address": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
+        "chainId": "8453"
+      },
+      {
         "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::usdc",
         "chainId": "aptos"
       },
