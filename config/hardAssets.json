@@ -806,6 +806,10 @@
         "chainId": "8453"
       },
       {
+        "address": "0x4af15ec2a0bd43db75dd04e62faa3b8ef36b00d5",
+        "chainId": "59144"
+      },
+      {
         "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::daicoin",
         "chainId": "12360001"
       }

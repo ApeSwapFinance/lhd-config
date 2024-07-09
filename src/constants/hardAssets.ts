@@ -240,6 +240,7 @@ const hardAssets: AddressMapping[] = [
       { address: '0x11fe4b6ae13d2a6055c8d9cf65c55bac32b5d844', chainId: '5' },
       { address: 'a.231cc0dbbcffc4b7.cedai.vault', chainId: '12340001' },
       { address: '0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb', chainId: '8453' },
+      { address: '0x4AF15ec2A0BD43Db75dd04E62FAA3B8EF36b00d5', chainId: '59144' },
       {
         address: '0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::daicoin',
         chainId: '12360001',
