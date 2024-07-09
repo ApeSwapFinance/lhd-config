@@ -186,6 +186,22 @@
         "chainId": "324"
       },
       {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "chainId": "8453"
+      },
+      {
+        "address": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
+        "chainId": "8453"
+      },
+      {
+        "address": "0x176211869ca2b568f2a7d4ee941e073a821ee1ff",
+        "chainId": "59144"
+      },
+      {
+        "address": "0xfbda5f676cb37624f28265a144a48b0d6e87d3b6",
+        "chainId": "8822"
+      },
+      {
         "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::usdc",
         "chainId": "aptos"
       },
@@ -432,6 +448,14 @@
       {
         "address": "0x853eb4ba5d0ba2b77a0a5329fd2110d5ce149ece",
         "chainId": "420"
+      },
+      {
+        "address": "0xa219439258ca9da29e9cc4ce5596924745e12b93",
+        "chainId": "59144"
+      },
+      {
+        "address": "0xc1b8045a6ef2934cf0f78b0dbd489969fa9be7e4",
+        "chainId": "8822"
       },
       {
         "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::usdtcoin",
@@ -778,6 +802,14 @@
         "chainId": "12340001"
       },
       {
+        "address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
+        "chainId": "8453"
+      },
+      {
+        "address": "0x4af15ec2a0bd43db75dd04e62faa3b8ef36b00d5",
+        "chainId": "59144"
+      },
+      {
         "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::daicoin",
         "chainId": "12360001"
       }
@@ -1006,6 +1038,10 @@
         "chainId": "12340001"
       },
       {
+        "address": "0x3aab2285ddcddad8edf438c1bab47e1a9d05a9b4",
+        "chainId": "59144"
+      },
+      {
         "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::wbtccoin",
         "chainId": "12360001"
       }
@@ -1190,8 +1226,20 @@
         "chainId": "1"
       },
       {
+        "address": "0x4200000000000000000000000000000000000006",
+        "chainId": "8453"
+      },
+      {
         "address": "a.231cc0dbbcffc4b7.ceweth.vault",
         "chainId": "12340001"
+      },
+      {
+        "address": "0xe5d7c2a44ffddf6b295a15c148167daaaf5cf34f",
+        "chainId": "59144"
+      },
+      {
+        "address": "0x160345fc359604fc6e70e3c5facbde5f7a9342d8",
+        "chainId": "8822"
       },
       {
         "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::wethcoin",
