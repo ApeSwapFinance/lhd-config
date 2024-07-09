@@ -54,6 +54,8 @@ const hardAssets: AddressMapping[] = [
       { address: '0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4', chainId: '324' },
       { address: '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913', chainId: '8453' },
       { address: '0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA', chainId: '8453' },
+      { address: '0x176211869cA2b568f2A7D4EE941E073a821EE1ff', chainId: '59144' },
+      { address: '0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6', chainId: '8822' },
       {
         address: '0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::usdc',
         chainId: 'aptos',
@@ -131,6 +133,8 @@ const hardAssets: AddressMapping[] = [
       { address: '0x7f5c764cbc14f9669b88837ca1490cca17c31607', chainId: '69' },
       { address: '0xc2c527c0cacf457746bd31b2a698fe89de2b6d49', chainId: '5' },
       { address: '0x853eb4ba5d0ba2b77a0a5329fd2110d5ce149ece', chainId: '420' },
+      { address: '0xA219439258ca9da29E9Cc4cE5596924745e12B93', chainId: '59144' },
+      { address: '0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4', chainId: '8822' },
       {
         address: '0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::usdtcoin',
         chainId: '12360001',
@@ -235,6 +239,7 @@ const hardAssets: AddressMapping[] = [
       { address: '0x4f96fe3b7a6cf9725f59d353f723c1bdb64ca6aa', chainId: '42' },
       { address: '0x11fe4b6ae13d2a6055c8d9cf65c55bac32b5d844', chainId: '5' },
       { address: 'a.231cc0dbbcffc4b7.cedai.vault', chainId: '12340001' },
+      { address: '0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb', chainId: '8453' },
       {
         address: '0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::daicoin',
         chainId: '12360001',
@@ -301,6 +306,7 @@ const hardAssets: AddressMapping[] = [
       { address: '0x5d9ab5522c64e1f6ef5e3627eccc093f56167818', chainId: '42262' },
       { address: '0x152b9d0fdc40c096757f570a51e494bd4b943e50', chainId: '43114' },
       { address: 'a.231cc0dbbcffc4b7.cewbtc.vault', chainId: '12340001' },
+      { address: '0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4', chainId: '59144' },
       {
         address: '0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::wbtccoin',
         chainId: '12360001',
@@ -356,7 +362,10 @@ const hardAssets: AddressMapping[] = [
       { address: '0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab', chainId: '43114' },
       { address: '0x2bf9b864cdc97b08b6d79ad4663e71b8ab65c45c', chainId: '1666600000' },
       { address: '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee', chainId: '1' },
+      { address: '0x4200000000000000000000000000000000000006', chainId: '8453' },
       { address: 'a.231cc0dbbcffc4b7.ceweth.vault', chainId: '12340001' },
+      { address: '0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f', chainId: '59144' },
+      { address: '0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8', chainId: '8822' },
       {
         address: '0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::wethcoin',
         chainId: '12360001',
