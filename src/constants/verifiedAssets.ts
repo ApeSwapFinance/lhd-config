@@ -13,6 +13,7 @@ const verifiedAssets: AddressMapping[] = [
       { address: '0x92df60c51c710a1b1c20e42d85e221f3a1bfc7f2', chainId: '1' },
     ],
     knownOwners: [
+      '0x90274f67F02f555031f3Eb99b47213CE0A06D5B1',
       '0x944694417a6ca0a70963d644a11d42c10e3af042',
       '0xabd7853b79e488bc1bd9e238a870167b074eb714',
       '0x71c0c1001520e1568e17836cc8a19d0dbdb2bd5f',
