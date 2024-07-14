@@ -367,6 +367,7 @@ const hardAssets: AddressMapping[] = [
       { address: 'a.231cc0dbbcffc4b7.ceweth.vault', chainId: '12340001' },
       { address: '0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f', chainId: '59144' },
       { address: '0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8', chainId: '8822' },
+      { address: '0x93f4d0ab6a8b4271f4a28db399b5e30612d21116', chainId: '59144' },
       {
         address: '0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::wethcoin',
         chainId: '12360001',

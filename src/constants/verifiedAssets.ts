@@ -1496,5 +1496,20 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/EnoToken',
     },
   },
+  {
+    tokenSymbol: 'LYNX',
+    tokenName: 'Lynex',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LYNX.png',
+    tokenAddresses: [{ address: '0x1a51b19ce03dbe0cb44c1528e34a7edd7771e9af', chainId: '59144' }],
+    knownOwners: [
+      '0xFd876E309B7e323DC93099548e516945B32f5036'
+    ],
+    profileLinks: {
+      siteUrl: 'https://www.lynex.fi/',
+      twitterUrl: 'https://x.com/LynexFi',
+      telegramUrl: 'https://t.me/lynexfi',
+      discordUrl: 'https://discord.com/invite/czvHe8svHy',
+    },
+  },
 ]
 export default verifiedAssets
