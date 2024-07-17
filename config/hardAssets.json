@@ -1242,6 +1242,10 @@
         "chainId": "8822"
       },
       {
+        "address": "0x93f4d0ab6a8b4271f4a28db399b5e30612d21116",
+        "chainId": "59144"
+      },
+      {
         "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::wethcoin",
         "chainId": "12360001"
       },

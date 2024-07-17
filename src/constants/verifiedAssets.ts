@@ -36,6 +36,7 @@ const verifiedAssets: AddressMapping[] = [
       { address: '0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1', chainId: '1' },
     ],
     knownOwners: [
+      '0x90274f67F02f555031f3Eb99b47213CE0A06D5B1',
       '0x944694417a6ca0a70963d644a11d42c10e3af042',
       '0xabd7853b79e488bc1bd9e238a870167b074eb714',
       '0x71c0c1001520e1568e17836cc8a19d0dbdb2bd5f',
@@ -1493,6 +1494,21 @@ const verifiedAssets: AddressMapping[] = [
       twitterUrl: 'https://x.com/Enotoken',
       discordUrl: 'https://discord.com/invite/3eZewHzJU5',
       telegramUrl: 'https://t.me/EnoToken',
+    },
+  },
+  {
+    tokenSymbol: 'LYNX',
+    tokenName: 'Lynex',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LYNX.png',
+    tokenAddresses: [{ address: '0x1a51b19ce03dbe0cb44c1528e34a7edd7771e9af', chainId: '59144' }],
+    knownOwners: [
+      '0xFd876E309B7e323DC93099548e516945B32f5036'
+    ],
+    profileLinks: {
+      siteUrl: 'https://www.lynex.fi/',
+      twitterUrl: 'https://x.com/LynexFi',
+      telegramUrl: 'https://t.me/lynexfi',
+      discordUrl: 'https://discord.com/invite/czvHe8svHy',
     },
   },
 ]
