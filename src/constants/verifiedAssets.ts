@@ -1511,5 +1511,20 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/czvHe8svHy',
     },
   },
+  {
+    tokenSymbol: 'GMX',
+    tokenName: 'GMX',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/GMX.png',
+    tokenAddresses: [
+      { address: '0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a', chainId: '42161' },
+      { address: '0x62edc0692bd897d2295872a9ffcac5425011c661', chainId: '43114' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://gmx.io/#/',
+      twitterUrl: 'https://x.com/GMX_IO',
+      discordUrl: 'https://discord.com/invite/H5PeQru3Aa',
+      telegramUrl: 'https://t.me/GMX_IO',
+    },
+  },
 ]
 export default verifiedAssets
