@@ -1537,5 +1537,20 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/launchblock',
     },
   },
+  {
+    tokenSymbol: 'LDY',
+    tokenName: 'Ledgity Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LDY.png',
+    tokenAddresses: [
+      { address: '0x482df7483a52496f4c65ab499966dfcdf4ddfdbc', chainId: '1' },
+      { address: '0x999FAF0AF2fF109938eeFE6A7BF91CA56f0D07e1', chainId: '42161' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://ledgity.finance/~',
+      twitterUrl: 'https://x.com/LedgityYield',
+      discordUrl: 'https://discord.com/invite/ledgityyield',
+      telegramUrl: 'https://t.me/ledgityapp',
+    },
+  },
 ]
 export default verifiedAssets
