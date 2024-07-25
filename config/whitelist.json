@@ -2580,6 +2580,22 @@
     }
   },
   {
+    "tokenSymbol": "LBP",
+    "tokenName": "LaunchBlock",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LBP.png",
+    "tokenAddresses": [
+      {
+        "address": "0xa23c1194d421f252b4e6d5edcc3205f7650a4ebe",
+        "chainId": "1"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://launchblock.com/",
+      "twitterUrl": "https://x.com/launchblockcom",
+      "telegramUrl": "https://t.me/launchblock"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",

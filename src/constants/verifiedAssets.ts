@@ -1526,5 +1526,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/GMX_IO',
     },
   },
+  {
+    tokenSymbol: 'LBP',
+    tokenName: 'LaunchBlock',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LBP.png',
+    tokenAddresses: [{ address: '0xa23C1194d421F252b4e6D5edcc3205F7650a4eBE', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://launchblock.com/',
+      twitterUrl: 'https://x.com/launchblockcom',
+      telegramUrl: 'https://t.me/launchblock',
+    },
+  },
 ]
 export default verifiedAssets
