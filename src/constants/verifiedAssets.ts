@@ -1552,5 +1552,17 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/ledgityapp',
     },
   },
+  {
+    tokenSymbol: 'RUM',
+    tokenName: 'Arrland RUM',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/RUM.png',
+    tokenAddresses: [{ address: '0x14e5386f47466a463f85d151653e1736c0c50fc3', chainId: '137' }],
+    profileLinks: {
+      siteUrl: 'https://arrland.com/',
+      twitterUrl: 'https://x.com/ArrlandNFT',
+      discordUrl: 'https://discord.com/invite/zsDQzKh73p',
+      telegramUrl: 'https://t.me/ArrlandNFT',
+    },
+  },
 ]
 export default verifiedAssets
