@@ -1565,5 +1565,16 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/layer3',
     },
   },
+  {
+    tokenSymbol: 'RECORD',
+    tokenName: 'Music Protocol',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/RECORD.png',
+    tokenAddresses: [{ address: '0xe642657e4f43e6dcf0bd73ef24008394574dee28', chainId: '8453' }],
+    profileLinks: {
+      siteUrl: 'https://www.musicprotocol.io/',
+      twitterUrl: 'https://x.com/MusicProtocolX',
+      telegramUrl: 'https://t.me/officialmusicprotocol',
+    },
+  },
 ]
 export default verifiedAssets
