@@ -500,16 +500,6 @@ const verifiedAssets: AddressMapping[] = [
     knownOwners: ['0xb867ea3bbc909954d737019fef5ab25dfdb38cb9'],
   },
   {
-    tokenSymbol: 'GMX',
-    tokenName: 'GMX',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/GMX.png',
-    tokenAddresses: [
-      { address: '0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a', chainId: '42161' },
-      { address: '0x62edc0692bd897d2295872a9ffcac5425011c661', chainId: '43114' },
-    ],
-    knownOwners: ['0x4e29d2ee6973e5bd093df40ef9d0b28bd56c9e4e'],
-  },
-  {
     tokenSymbol: 'APE',
     tokenName: 'ApeCoin',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/APE.svg',
@@ -1562,6 +1552,17 @@ const verifiedAssets: AddressMapping[] = [
       twitterUrl: 'https://x.com/ArrlandNFT',
       discordUrl: 'https://discord.com/invite/zsDQzKh73p',
       telegramUrl: 'https://t.me/ArrlandNFT',
+    },
+  },
+  {
+    tokenSymbol: 'L3',
+    tokenName: 'Layer3',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/L3.png',
+    tokenAddresses: [{ address: '0x88909d489678dd17aa6d9609f89b0419bf78fd9a', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://layer3.xyz/',
+      twitterUrl: 'https://x.com/layer3xyz',
+      discordUrl: 'https://discord.com/invite/layer3',
     },
   },
 ]
