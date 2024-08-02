@@ -1576,5 +1576,15 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/officialmusicprotocol',
     },
   },
+  {
+    tokenSymbol: 'Moonboots DAO',
+    tokenName: 'MBDAO',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MBDAO.png',
+    tokenAddresses: [{ address: '0x0dd7913197bfb6d2b1f03f9772ced06298f1a644', chainId: '8453' }],
+    profileLinks: {
+      twitterUrl: 'https://x.com/MoonbootsDao',
+      telegramUrl: 'https://t.me/MoonBootsCommunity',
+    },
+  },
 ]
 export default verifiedAssets
