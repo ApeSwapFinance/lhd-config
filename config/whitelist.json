@@ -2632,6 +2632,22 @@
     }
   },
   {
+    "tokenSymbol": "RECORD",
+    "tokenName": "Music Protocol",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/RECORD.png",
+    "tokenAddresses": [
+      {
+        "address": "0xe642657e4f43e6dcf0bd73ef24008394574dee28",
+        "chainId": "8453"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.musicprotocol.io/",
+      "twitterUrl": "https://x.com/MusicProtocolX",
+      "telegramUrl": "https://t.me/officialmusicprotocol"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
