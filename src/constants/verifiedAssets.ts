@@ -1586,5 +1586,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/MoonBootsCommunity',
     },
   },
+  {
+    tokenSymbol: 'MAG',
+    tokenName: 'Magnify Cash',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MAG.png',
+    tokenAddresses: [{ address: '0x71da932ccda723ba3ab730c976bc66daaf9c598c', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://www.magnify.cash/',
+      twitterUrl: 'https://x.com/MagnifyCash',
+      discordUrl: 'https://discord.gg/magnifycash',
+    },
+  },
 ]
 export default verifiedAssets

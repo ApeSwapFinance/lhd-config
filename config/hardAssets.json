@@ -202,6 +202,10 @@
         "chainId": "8822"
       },
       {
+        "address": "0x870a8f46b62b8bdeda4c02530c1750cddf2ed32e",
+        "chainId": "81457"
+      },
+      {
         "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::usdc",
         "chainId": "aptos"
       },
@@ -1252,6 +1256,10 @@
       {
         "address": "0x5aea5775959fbc2557cc8789bc1bf90a239d9a91",
         "chainId": "324"
+      },
+      {
+        "address": "0x4300000000000000000000000000000000000004",
+        "chainId": "81457"
       }
     ]
   },
