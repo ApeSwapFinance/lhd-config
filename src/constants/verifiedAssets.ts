@@ -1597,5 +1597,20 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.gg/magnifycash',
     },
   },
+  {
+    tokenSymbol: 'TRUF',
+    tokenName: 'Truflation',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/TRUF.png',
+    tokenAddresses: [
+      { address: '0x38c2a4a7330b22788374b8ff70bba513c8d848ca', chainId: '1' },
+      { address: '0xb59c8912c83157a955f9d715e556257f432c35d7', chainId: '42161'},
+      { address: '0xb59c8912c83157a955f9d715e556257f432c35d7', chainId: '8453'},
+    ],
+    profileLinks: {
+      siteUrl: 'https://truflation.com/',
+      twitterUrl: 'https://x.com/truflation',
+      telegramUrl: 'https://t.me/truflation',
+    },
+  },
 ]
 export default verifiedAssets
