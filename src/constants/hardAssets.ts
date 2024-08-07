@@ -56,7 +56,6 @@ const hardAssets: AddressMapping[] = [
       { address: '0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA', chainId: '8453' },
       { address: '0x176211869cA2b568f2A7D4EE941E073a821EE1ff', chainId: '59144' },
       { address: '0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6', chainId: '8822' },
-      { address: '0x870a8F46b62B8BDeda4c02530C1750CddF2ED32e', chainId: '81457' },
       {
         address: '0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::usdc',
         chainId: 'aptos',
