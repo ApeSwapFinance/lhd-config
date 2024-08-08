@@ -1612,5 +1612,29 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/truflation',
     },
   },
+  {
+    tokenSymbol: 'VDA',
+    tokenName: 'Verida',
+    tokenLogoUrl: 'https://assets.verida.io/branding/Verida/verida+logo+color.svg',
+    tokenAddresses: [
+      { address: '0x683565196C3EAb450003C964D4bad1fd3068D4cC', chainId: '137' },
+    ],
+    knownOwners: [
+      '0xeD29e063DBac06e19C4867DC2F50f46801f9e707',
+      '0x39BD36c10Fa38F6C309fd73007504D2f275AEaE9',
+      '0xFD7565994F9A867b3836801433AAAF50f614B0cE',
+      '0x8FEB74242b4578881aD5F25Ad33bB8642be1b274',
+      '0x6fB879b66c705068F6c3a0944CbEFF000B23dcA5',
+      '0x634E50dd6dA75c1f62E29a40AD5eC12E24D15972',
+    ],
+    tags: ['AI', 'Infrastructure'],
+    profileLinks: {
+      siteUrl: 'https://www.verida.network/',
+      twitterUrl: 'https://x.com/Verida_io',
+      telegramUrl: 'https://t.me/verida_community',
+      discordUrl: 'https://discord.verida.io/',
+      auditUrls: ['https://www.verida.network/data-security'],
+    },
+},
 ]
 export default verifiedAssets

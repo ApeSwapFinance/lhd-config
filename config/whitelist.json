@@ -2703,6 +2703,38 @@
     }
   },
   {
+    "tokenSymbol": "VDA",
+    "tokenName": "Verida",
+    "tokenLogoUrl": "https://assets.verida.io/branding/Verida/verida+logo+color.svg",
+    "tokenAddresses": [
+      {
+        "address": "0x683565196c3eab450003c964d4bad1fd3068d4cc",
+        "chainId": "137"
+      }
+    ],
+    "knownOwners": [
+      "0xed29e063dbac06e19c4867dc2f50f46801f9e707",
+      "0x39bd36c10fa38f6c309fd73007504d2f275aeae9",
+      "0xfd7565994f9a867b3836801433aaaf50f614b0ce",
+      "0x8feb74242b4578881ad5f25ad33bb8642be1b274",
+      "0x6fb879b66c705068f6c3a0944cbeff000b23dca5",
+      "0x634e50dd6da75c1f62e29a40ad5ec12e24d15972"
+    ],
+    "tags": [
+      "AI",
+      "Infrastructure"
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.verida.network/",
+      "twitterUrl": "https://x.com/Verida_io",
+      "telegramUrl": "https://t.me/verida_community",
+      "discordUrl": "https://discord.verida.io/",
+      "auditUrls": [
+        "https://www.verida.network/data-security"
+      ]
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
