@@ -2699,6 +2699,39 @@
     }
   },
   {
+    "tokenSymbol": "LRDS",
+    "tokenName": "BLOCKLORDS",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LRDS.png",
+    "tokenAddresses": [
+      {
+        "address": "0xd0a6053f087e87a25dc60701ba6e663b1a548e85",
+        "chainId": "1"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://blocklords.com/",
+      "twitterUrl": "https://x.com/blocklords",
+      "telegramUrl": "https://t.me/blocklordsgame",
+      "discordUrl": "https://discord.com/invite/GvAgknxQRv"
+    }
+  },
+  {
+    "tokenSymbol": "BONSAI",
+    "tokenName": "Bonsai",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BONSAI.png",
+    "tokenAddresses": [
+      {
+        "address": "0x79ead7a012d97ed8deece279f9bc39e264d7eef9",
+        "chainId": "42161"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.bonsaidao.xyz/",
+      "twitterUrl": "https://x.com/bonsai_dao",
+      "discordUrl": "https://discord.com/invite/bonsaidao"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
