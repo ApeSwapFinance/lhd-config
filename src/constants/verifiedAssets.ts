@@ -1149,9 +1149,7 @@ const verifiedAssets: AddressMapping[] = [
     tokenName: 'K9 Finance',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/K9.png',
     tokenAddresses: [{ address: '0x91fbB2503AC69702061f1AC6885759Fc853e6EaE', chainId: '1' }],
-    knownOwners: [
-      '0xDA4Df6E2121eDaB7c33Ed7FE0f109350939eDA84',
-    ],
+    knownOwners: ['0xDA4Df6E2121eDaB7c33Ed7FE0f109350939eDA84'],
     profileLinks: {
       siteUrl: 'https://www.k9finance.com/',
       twitterUrl: 'https://twitter.com/K9finance',
@@ -1167,7 +1165,7 @@ const verifiedAssets: AddressMapping[] = [
       siteUrl: 'https://www.anotemusic.com/backstage-pass',
       twitterUrl: 'https://twitter.com/anotemusic',
       telegramUrl: 'https://t.me/anotemusic',
-      discordUrl:'https://discord.com/invite/9ZWfskUPuc',
+      discordUrl: 'https://discord.com/invite/9ZWfskUPuc',
     },
   },
   {
@@ -1179,7 +1177,7 @@ const verifiedAssets: AddressMapping[] = [
       siteUrl: 'https://legendsofelysium.io/',
       twitterUrl: 'https://twitter.com/LegendsElysium',
       telegramUrl: 'https://t.me/legendsofelysium_ann',
-      discordUrl:'https://discord.com/invite/TnbyVTyYjv',
+      discordUrl: 'https://discord.com/invite/TnbyVTyYjv',
     },
   },
   {
@@ -1191,7 +1189,7 @@ const verifiedAssets: AddressMapping[] = [
       siteUrl: 'https://www.uforika.io/',
       twitterUrl: 'https://twitter.com/Planet_UFORIKA',
       telegramUrl: 'https://t.me/uforika',
-      discordUrl:'https://discord.com/invite/uforika',
+      discordUrl: 'https://discord.com/invite/uforika',
     },
   },
   {
@@ -1304,7 +1302,7 @@ const verifiedAssets: AddressMapping[] = [
       siteUrl: 'https://frictionless.network/',
       twitterUrl: 'https://twitter.com/FrictionlessX',
       telegramUrl: 'https://t.me/FrictionlessX',
-      discordUrl: 'https://discord.com/invite/2qrXvWcXVA'
+      discordUrl: 'https://discord.com/invite/2qrXvWcXVA',
     },
   },
   {
@@ -1372,7 +1370,7 @@ const verifiedAssets: AddressMapping[] = [
       siteUrl: 'https://www.cere.network/',
       twitterUrl: 'https://x.com/cereofficial',
       telegramUrl: 'https://t.me/thisiscere',
-      discordUrl: 'https://discord.com/invite/cYVKUYHWhp'
+      discordUrl: 'https://discord.com/invite/cYVKUYHWhp',
     },
   },
   {
@@ -1477,7 +1475,7 @@ const verifiedAssets: AddressMapping[] = [
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ENO.png',
     tokenAddresses: [
       { address: '0x1c3d163219bb74f430411b95d66b72056f366ec1', chainId: '1' },
-      { address: '0x2b41806cbf1ffb3d9e31a9ece6b738bf9d6f645f', chainId: '42161'},
+      { address: '0x2b41806cbf1ffb3d9e31a9ece6b738bf9d6f645f', chainId: '42161' },
     ],
     profileLinks: {
       siteUrl: 'https://enotoken.io/',
@@ -1491,9 +1489,7 @@ const verifiedAssets: AddressMapping[] = [
     tokenName: 'Lynex',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LYNX.png',
     tokenAddresses: [{ address: '0x1a51b19ce03dbe0cb44c1528e34a7edd7771e9af', chainId: '59144' }],
-    knownOwners: [
-      '0xFd876E309B7e323DC93099548e516945B32f5036'
-    ],
+    knownOwners: ['0xFd876E309B7e323DC93099548e516945B32f5036'],
     profileLinks: {
       siteUrl: 'https://www.lynex.fi/',
       twitterUrl: 'https://x.com/LynexFi',
@@ -1603,7 +1599,7 @@ const verifiedAssets: AddressMapping[] = [
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/TRUF.png',
     tokenAddresses: [
       { address: '0x38c2a4a7330b22788374b8ff70bba513c8d848ca', chainId: '1' },
-      { address: '0xb59c8912c83157a955f9d715e556257f432c35d7', chainId: '42161'},
+      { address: '0xb59c8912c83157a955f9d715e556257f432c35d7', chainId: '42161' },
     ],
     profileLinks: {
       siteUrl: 'https://truflation.com/',
@@ -1632,6 +1628,28 @@ const verifiedAssets: AddressMapping[] = [
       siteUrl: 'https://www.bonsaidao.xyz/',
       twitterUrl: 'https://x.com/bonsai_dao',
       discordUrl: 'https://discord.com/invite/bonsaidao',
+    },
+  },
+  {
+    tokenSymbol: 'VDA',
+    tokenName: 'Verida',
+    tokenLogoUrl: 'https://assets.verida.io/branding/Verida/verida+logo+color.svg',
+    tokenAddresses: [{ address: '0x683565196C3EAb450003C964D4bad1fd3068D4cC', chainId: '137' }],
+    knownOwners: [
+      '0xeD29e063DBac06e19C4867DC2F50f46801f9e707',
+      '0x39BD36c10Fa38F6C309fd73007504D2f275AEaE9',
+      '0xFD7565994F9A867b3836801433AAAF50f614B0cE',
+      '0x8FEB74242b4578881aD5F25Ad33bB8642be1b274',
+      '0x6fB879b66c705068F6c3a0944CbEFF000B23dcA5',
+      '0x634E50dd6dA75c1f62E29a40AD5eC12E24D15972',
+    ],
+    tags: ['AI', 'Infrastructure'],
+    profileLinks: {
+      siteUrl: 'https://www.verida.network/',
+      twitterUrl: 'https://x.com/Verida_io',
+      telegramUrl: 'https://t.me/verida_community',
+      discordUrl: 'https://discord.verida.io/',
+      auditUrls: ['https://www.verida.network/data-security'],
     },
   },
 ]
