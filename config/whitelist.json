@@ -30,20 +30,13 @@
       "0xabd7853b79e488bc1bd9e238a870167b074eb714",
       "0x71c0c1001520e1568e17836cc8a19d0dbdb2bd5f"
     ],
-    "tags": [
-      "DEX",
-      "Yield",
-      "Bond"
-    ],
+    "tags": ["DEX", "Yield", "Bond"],
     "profileLinks": {
       "siteUrl": "https://apeswap.finance/",
       "twitterUrl": "https://twitter.com/ape_swap",
       "telegramUrl": "https://t.me/ape_swap",
       "discordUrl": "https://discord.com/invite/ape-swap",
-      "auditUrls": [
-        "https://paladinsec.co/projects/apeswap/",
-        "https://de.fi/audit-database/ApeSwap%20Finance"
-      ]
+      "auditUrls": ["https://paladinsec.co/projects/apeswap/", "https://de.fi/audit-database/ApeSwap%20Finance"]
     }
   },
   {
@@ -70,20 +63,13 @@
       "0xabd7853b79e488bc1bd9e238a870167b074eb714",
       "0x71c0c1001520e1568e17836cc8a19d0dbdb2bd5f"
     ],
-    "tags": [
-      "DEX",
-      "Yield",
-      "Bond"
-    ],
+    "tags": ["DEX", "Yield", "Bond"],
     "profileLinks": {
       "siteUrl": "https://ape.bond/",
       "twitterUrl": "https://twitter.com/ApeBond",
       "telegramUrl": "https://t.me/ape_bonds",
       "discordUrl": "https://discord.com/invite/g3A5T6VSFr",
-      "auditUrls": [
-        "https://paladinsec.co/projects/apeswap/",
-        "https://de.fi/audit-database/ApeSwap%20Finance"
-      ]
+      "auditUrls": ["https://paladinsec.co/projects/apeswap/", "https://de.fi/audit-database/ApeSwap%20Finance"]
     }
   },
   {
@@ -104,10 +90,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042",
-      "0x6c905b4108a87499ced1e0498721f2b831c6ab13"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042", "0x6c905b4108a87499ced1e0498721f2b831c6ab13"]
   },
   {
     "tokenSymbol": "CAKE",
@@ -180,10 +163,7 @@
         "chainId": "42161"
       }
     ],
-    "knownOwners": [
-      "0x06a77eb094ef4e0ca19729770b6b115b57e188f8",
-      "0x225d3822de44e58ee935440e0c0b829c4232086e"
-    ]
+    "knownOwners": ["0x06a77eb094ef4e0ca19729770b6b115b57e188f8", "0x225d3822de44e58ee935440e0c0b829c4232086e"]
   },
   {
     "tokenSymbol": "SNX",
@@ -235,9 +215,7 @@
         "chainId": "10"
       }
     ],
-    "knownOwners": [
-      "0x99f4176ee457afedffcb1839c7ab7a030a5e4a92"
-    ]
+    "knownOwners": ["0x99f4176ee457afedffcb1839c7ab7a030a5e4a92"]
   },
   {
     "tokenSymbol": "UNI",
@@ -289,9 +267,7 @@
         "chainId": "69"
       }
     ],
-    "knownOwners": [
-      "0x25431341a5800759268a6ac1d3cd91c029d7d9ca"
-    ]
+    "knownOwners": ["0x25431341a5800759268a6ac1d3cd91c029d7d9ca"]
   },
   {
     "tokenSymbol": "LINK",
@@ -347,10 +323,7 @@
         "chainId": "420"
       }
     ],
-    "knownOwners": [
-      "0x99f4176ee457afedffcb1839c7ab7a030a5e4a92",
-      "0x17080b589cdcbd10ebeaa24cb0096f4bb29eb52b"
-    ]
+    "knownOwners": ["0x99f4176ee457afedffcb1839c7ab7a030a5e4a92", "0x17080b589cdcbd10ebeaa24cb0096f4bb29eb52b"]
   },
   {
     "tokenSymbol": "BETS",
@@ -381,18 +354,13 @@
       "0xf14c79a7fa22c1f97c779f573c9bf39b6b43381c",
       "0x099290d5792c58b01581e50514aecacb232791ab"
     ],
-    "tags": [
-      "Gambling",
-      "Yield"
-    ],
+    "tags": ["Gambling", "Yield"],
     "profileLinks": {
       "siteUrl": "https://www.betswirl.com/",
       "twitterUrl": "https://twitter.com/BetSwirl",
       "telegramUrl": "https://t.me/betswirl",
       "discordUrl": "https://discord.com/invite/4BxtJV7fbZ",
-      "auditUrls": [
-        "https://github.com/BetSwirl/Smart-Contracts"
-      ]
+      "auditUrls": ["https://github.com/BetSwirl/Smart-Contracts"]
     }
   },
   {
@@ -435,10 +403,7 @@
         "chainId": "1"
       }
     ],
-    "knownOwners": [
-      "0xe2fe530c047f2d85298b07d9333c05737f1435fb",
-      "0xcd496d70411e98a9b69c572f6ee53086528fa3bc"
-    ]
+    "knownOwners": ["0xe2fe530c047f2d85298b07d9333c05737f1435fb", "0xcd496d70411e98a9b69c572f6ee53086528fa3bc"]
   },
   {
     "tokenSymbol": "ALGB",
@@ -450,9 +415,7 @@
         "chainId": "137"
       }
     ],
-    "knownOwners": [
-      "0x1d8b6fa722230153be08c4fa4aa4b4c7cd01a95a"
-    ]
+    "knownOwners": ["0x1d8b6fa722230153be08c4fa4aa4b4c7cd01a95a"]
   },
   {
     "tokenSymbol": "SAVG",
@@ -464,9 +427,7 @@
         "chainId": "137"
       }
     ],
-    "knownOwners": [
-      "0xcbd081cf30e2de8df209365a478055104ecda9d9"
-    ]
+    "knownOwners": ["0xcbd081cf30e2de8df209365a478055104ecda9d9"]
   },
   {
     "tokenSymbol": "ARRAY",
@@ -482,9 +443,7 @@
         "chainId": "324"
       }
     ],
-    "knownOwners": [
-      "0x5c26953712ffab29ea7b2b416832d3724d26e6e2"
-    ]
+    "knownOwners": ["0x5c26953712ffab29ea7b2b416832d3724d26e6e2"]
   },
   {
     "tokenSymbol": "RADAR",
@@ -496,9 +455,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "CGG",
@@ -514,10 +471,7 @@
         "chainId": "137"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042",
-      "0x60dc928548b92b681beba07fc2551c5e5967a8e6"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042", "0x60dc928548b92b681beba07fc2551c5e5967a8e6"]
   },
   {
     "tokenSymbol": "LGC",
@@ -529,9 +483,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "OATH",
@@ -543,9 +495,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "TOKO",
@@ -557,9 +507,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "CVL",
@@ -571,9 +519,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "TRIVIA",
@@ -585,9 +531,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "XTAL",
@@ -599,9 +543,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "WCFLT",
@@ -613,9 +555,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "AVAN",
@@ -627,9 +567,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "MONSTA",
@@ -641,9 +579,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "LEAP",
@@ -655,9 +591,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "3AIR",
@@ -669,9 +603,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "CHRP",
@@ -683,9 +615,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "LIQ",
@@ -697,9 +627,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "IHC",
@@ -711,9 +639,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "PSTN",
@@ -725,9 +651,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "GQ",
@@ -739,9 +663,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "NFTY",
@@ -753,9 +675,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "MOONLIGHT",
@@ -778,9 +698,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "GMR",
@@ -792,9 +710,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "XCUR",
@@ -806,9 +722,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x7c138583a199b30693173c3c62f104a658dc5c42"
-    ]
+    "knownOwners": ["0x7c138583a199b30693173c3c62f104a658dc5c42"]
   },
   {
     "tokenSymbol": "XWIN",
@@ -820,9 +734,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x7e81f91b2c3ba470c9e603a744cd6d53573b2511"
-    ]
+    "knownOwners": ["0x7e81f91b2c3ba470c9e603a744cd6d53573b2511"]
   },
   {
     "tokenSymbol": "FROYO",
@@ -834,9 +746,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x9ff2db8821bd61ba348975c3ebe04acdefd0ae4b"
-    ]
+    "knownOwners": ["0x9ff2db8821bd61ba348975c3ebe04acdefd0ae4b"]
   },
   {
     "tokenSymbol": "BLID",
@@ -848,9 +758,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0xc9f833b514825dec2d11d291fb3d960054e0e169"
-    ]
+    "knownOwners": ["0xc9f833b514825dec2d11d291fb3d960054e0e169"]
   },
   {
     "tokenSymbol": "HEC",
@@ -862,10 +770,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042",
-      "0x11587da834e3d9f25ad14fc28f6dd670e22f08f9"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042", "0x11587da834e3d9f25ad14fc28f6dd670e22f08f9"]
   },
   {
     "tokenSymbol": "FLOKI",
@@ -877,9 +782,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "STARS",
@@ -891,9 +794,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "CEEK",
@@ -905,9 +806,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "HOTCROSS",
@@ -919,9 +818,7 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x944694417a6ca0a70963d644a11d42c10e3af042"
-    ]
+    "knownOwners": ["0x944694417a6ca0a70963d644a11d42c10e3af042"]
   },
   {
     "tokenSymbol": "AXN",
@@ -933,9 +830,7 @@
         "chainId": "137"
       }
     ],
-    "knownOwners": [
-      "0x60dc928548b92b681beba07fc2551c5e5967a8e6"
-    ]
+    "knownOwners": ["0x60dc928548b92b681beba07fc2551c5e5967a8e6"]
   },
   {
     "tokenSymbol": "TRAXX",
@@ -947,9 +842,7 @@
         "chainId": "137"
       }
     ],
-    "knownOwners": [
-      "0x60dc928548b92b681beba07fc2551c5e5967a8e6"
-    ]
+    "knownOwners": ["0x60dc928548b92b681beba07fc2551c5e5967a8e6"]
   },
   {
     "tokenSymbol": "DOGIRA",
@@ -961,9 +854,7 @@
         "chainId": "137"
       }
     ],
-    "knownOwners": [
-      "0x60dc928548b92b681beba07fc2551c5e5967a8e6"
-    ]
+    "knownOwners": ["0x60dc928548b92b681beba07fc2551c5e5967a8e6"]
   },
   {
     "tokenSymbol": "UNI",
@@ -994,9 +885,7 @@
         "chainId": "42161"
       }
     ],
-    "knownOwners": [
-      "0xb867ea3bbc909954d737019fef5ab25dfdb38cb9"
-    ]
+    "knownOwners": ["0xb867ea3bbc909954d737019fef5ab25dfdb38cb9"]
   },
   {
     "tokenSymbol": "APE",
@@ -1102,9 +991,7 @@
         "chainId": "42161"
       }
     ],
-    "knownOwners": [
-      "0x5c26953712ffab29ea7b2b416832d3724d26e6e2"
-    ]
+    "knownOwners": ["0x5c26953712ffab29ea7b2b416832d3724d26e6e2"]
   },
   {
     "tokenSymbol": "GHNY",
@@ -1120,9 +1007,7 @@
         "chainId": "1"
       }
     ],
-    "knownOwners": [
-      "0x981b04cbdcee0c510d331fadc7d6836a77085030"
-    ]
+    "knownOwners": ["0x981b04cbdcee0c510d331fadc7d6836a77085030"]
   },
   {
     "tokenSymbol": "NOOT",
@@ -1134,18 +1019,13 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x67c51db055ab177cdd1035857784481a9b4b90cb",
-      "0xe6737b7a8555709171c69483da570dec43f15c1c"
-    ],
+    "knownOwners": ["0x67c51db055ab177cdd1035857784481a9b4b90cb", "0xe6737b7a8555709171c69483da570dec43f15c1c"],
     "profileLinks": {
       "siteUrl": "https://www.noot.fun/",
       "twitterUrl": "https://twitter.com/nootcoinbnb",
       "telegramUrl": "https://t.me/nootnew",
       "discordUrl": "https://discord.com/invite/cBbQZRyFrR",
-      "auditUrls": [
-        "https://techright.io/audit/nootcoin/"
-      ]
+      "auditUrls": ["https://techright.io/audit/nootcoin/"]
     }
   },
   {
@@ -1162,10 +1042,7 @@
         "chainId": "1"
       }
     ],
-    "knownOwners": [
-      "0x257d4c4a401c180fba4eb686ad59a9d3eb7a02a3",
-      "0xff830b7720881656cd275e08a26695464823eac8"
-    ],
+    "knownOwners": ["0x257d4c4a401c180fba4eb686ad59a9d3eb7a02a3", "0xff830b7720881656cd275e08a26695464823eac8"],
     "profileLinks": {
       "siteUrl": "https://www.hypercycle.ai/",
       "twitterUrl": "https://twitter.com/Hypercycle_AI",
@@ -1182,10 +1059,7 @@
         "chainId": "1"
       }
     ],
-    "knownOwners": [
-      "0xf13b64a697015a24237aac8b5ee7d823d9f0e33e",
-      "0xa89d931e25e8ce82c492f03e1397e693c1c886ba"
-    ],
+    "knownOwners": ["0xf13b64a697015a24237aac8b5ee7d823d9f0e33e", "0xa89d931e25e8ce82c492f03e1397e693c1c886ba"],
     "profileLinks": {
       "siteUrl": "https://changenow.io/",
       "twitterUrl": "https://twitter.com/ChangeNOW_io",
@@ -1203,23 +1077,14 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x872f7deb0bca066416c327dd3a66bf724c949fcd"
-    ],
-    "tags": [
-      "Blockchain",
-      "NFTs",
-      "Metaverse",
-      "GameFi"
-    ],
+    "knownOwners": ["0x872f7deb0bca066416c327dd3a66bf724c949fcd"],
+    "tags": ["Blockchain", "NFTs", "Metaverse", "GameFi"],
     "profileLinks": {
       "siteUrl": "https://bixos.io",
       "twitterUrl": "https://twitter.com/ubxstoken",
       "telegramUrl": "https://t.me/ubxscommunity",
       "discordUrl": "https://discord.com/invite/2JKmtjkYFt",
-      "auditUrls": [
-        "https://github.com/solidproof/projects/blob/main/Bixos/SmartContract_Audit_Solidproof_Bixos.pdf"
-      ]
+      "auditUrls": ["https://github.com/solidproof/projects/blob/main/Bixos/SmartContract_Audit_Solidproof_Bixos.pdf"]
     }
   },
   {
@@ -1248,14 +1113,7 @@
       "0x476cf198afac0fb13576f664cb49e5e658fd4322",
       "0xba12222222228d8ba445958a75a0704d566bf2c8"
     ],
-    "tags": [
-      "Blockchain",
-      "Marketing_Solution",
-      "Wallet",
-      "NFTs",
-      "GameFi",
-      "Launchpad"
-    ],
+    "tags": ["Blockchain", "Marketing_Solution", "Wallet", "NFTs", "GameFi", "Launchpad"],
     "profileLinks": {
       "siteUrl": "https://thx.network",
       "twitterUrl": "https://twitter.com/thxprotocol",
@@ -1276,20 +1134,14 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0x0c89c0407775dd89b12918b9c0aa42bf96518820"
-    ],
-    "tags": [
-      "Infrastructure"
-    ],
+    "knownOwners": ["0x0c89c0407775dd89b12918b9c0aa42bf96518820"],
+    "tags": ["Infrastructure"],
     "profileLinks": {
       "siteUrl": "https://www.decubate.com/",
       "twitterUrl": "https://twitter.com/decubate",
       "telegramUrl": "https://t.me/decubate",
       "discordUrl": "https://discord.com/invite/Decubate",
-      "auditUrls": [
-        "https://github.com/Decubate-com/public-repository"
-      ]
+      "auditUrls": ["https://github.com/Decubate-com/public-repository"]
     }
   },
   {
@@ -1306,19 +1158,13 @@
         "chainId": "56"
       }
     ],
-    "knownOwners": [
-      "0xc765bddb93b0d1c1a88282ba0fa6b2d00e3e0c83"
-    ],
-    "tags": [
-      "Memecoin"
-    ],
+    "knownOwners": ["0xc765bddb93b0d1c1a88282ba0fa6b2d00e3e0c83"],
+    "tags": ["Memecoin"],
     "profileLinks": {
       "siteUrl": "https://joinourplanet.com/",
       "twitterUrl": "https://twitter.com/joinourplanet",
       "telegramUrl": "https://telegram.me/JoinOurPlanet",
-      "auditUrls": [
-        "https://skynet.certik.com/projects/planet"
-      ]
+      "auditUrls": ["https://skynet.certik.com/projects/planet"]
     }
   },
   {
@@ -1344,21 +1190,13 @@
       "0x3c2a50299800224d485d2e4c6c15df6a67007480",
       "0x0c89c0407775dd89b12918b9c0aa42bf96518820"
     ],
-    "tags": [
-      "AI",
-      "Infrastructure",
-      "Bond",
-      "Yield"
-    ],
+    "tags": ["AI", "Infrastructure", "Bond", "Yield"],
     "profileLinks": {
       "siteUrl": "https://www.chaingpt.org/",
       "twitterUrl": "https://twitter.com/chain_gpt",
       "telegramUrl": "https://t.me/chaingpt",
       "discordUrl": "https://discord.gg/chaingpt",
-      "auditUrls": [
-        "https://www.certik.com/projects/chaingpt",
-        "https://hacken.io/audits/chaingpt/"
-      ]
+      "auditUrls": ["https://www.certik.com/projects/chaingpt", "https://hacken.io/audits/chaingpt/"]
     }
   },
   {
@@ -1375,14 +1213,8 @@
         "chainId": "1"
       }
     ],
-    "knownOwners": [
-      "0x3048f569cac3b8afb3049e269cb5b66eced5d3b5",
-      "0xe8d97452e4286d2c35c880d87b770a726327e90b"
-    ],
-    "tags": [
-      "GameFi",
-      "DEX"
-    ],
+    "knownOwners": ["0x3048f569cac3b8afb3049e269cb5b66eced5d3b5", "0xe8d97452e4286d2c35c880d87b770a726327e90b"],
+    "tags": ["GameFi", "DEX"],
     "profileLinks": {
       "siteUrl": "https://www.velocemediagroup.com/vext",
       "twitterUrl": "https://twitter.com/vextoken",
@@ -1423,17 +1255,11 @@
       "0xed7cb3973c7bfe4bf78da8e5f52eb04c0df53d3b",
       "0xa8d00712abe7af3446cdc651c159737ccfb43255"
     ],
-    "tags": [
-      "X-2-Earn",
-      "Metaverse",
-      "NFTs"
-    ],
+    "tags": ["X-2-Earn", "Metaverse", "NFTs"],
     "profileLinks": {
       "siteUrl": "https://www.aavegotchi.com/",
       "twitterUrl": "https://twitter.com/aavegotchi",
-      "auditUrls": [
-        "https://skynet.certik.com/projects/aavegotchi"
-      ],
+      "auditUrls": ["https://skynet.certik.com/projects/aavegotchi"],
       "discordUrl": "https://discord.com/invite/Aavegotchi"
     }
   },
@@ -1447,12 +1273,8 @@
         "chainId": "1"
       }
     ],
-    "knownOwners": [
-      "0x000000000000000000000000000000000000dead"
-    ],
-    "tags": [
-      "DEX"
-    ],
+    "knownOwners": ["0x000000000000000000000000000000000000dead"],
+    "tags": ["DEX"],
     "profileLinks": {
       "siteUrl": "https://interport.fi/",
       "twitterUrl": "https://twitter.com/InterportFi",
@@ -1485,13 +1307,8 @@
         "chainId": "10"
       }
     ],
-    "knownOwners": [
-      "0xb8313eaf73aed8fea1d9930df199b3c1bdb67b47",
-      "0x6df5e7b236a4f14e08c27e09202b4d1865905e9b"
-    ],
-    "tags": [
-      "DEX"
-    ],
+    "knownOwners": ["0xb8313eaf73aed8fea1d9930df199b3c1bdb67b47", "0x6df5e7b236a4f14e08c27e09202b4d1865905e9b"],
+    "tags": ["DEX"],
     "profileLinks": {
       "siteUrl": "https://www.paraswap.io/",
       "twitterUrl": "https://twitter.com/paraswap",
@@ -1517,18 +1334,12 @@
         "chainId": "1"
       }
     ],
-    "knownOwners": [
-      "0xae413f1c8a12eaebbc10881784ed84c02b3e1390"
-    ],
-    "tags": [
-      "AI"
-    ],
+    "knownOwners": ["0xae413f1c8a12eaebbc10881784ed84c02b3e1390"],
+    "tags": ["AI"],
     "profileLinks": {
       "siteUrl": "https://dexcheck.ai/info",
       "twitterUrl": "https://twitter.com/dexcheck_io",
-      "auditUrls": [
-        "https://skynet.certik.com/projects/dexcheck"
-      ],
+      "auditUrls": ["https://skynet.certik.com/projects/dexcheck"],
       "telegramUrl": "https://t.me/dexcheck"
     }
   },
@@ -1568,15 +1379,11 @@
       "0x28cd3acd717927eb5bd88d5f56ce90999d7578d4",
       "0x61153cb80ee769172108638a5c6d55e9bb88d625"
     ],
-    "tags": [
-      "AI"
-    ],
+    "tags": ["AI"],
     "profileLinks": {
       "siteUrl": "https://hypergpt.ai/",
       "twitterUrl": "https://twitter.com/hypergpt",
-      "auditUrls": [
-        "https://skynet.certik.com/projects/hypergpt"
-      ],
+      "auditUrls": ["https://skynet.certik.com/projects/hypergpt"],
       "discordUrl": "https://discord.com/invite/hypergpt",
       "telegramUrl": "https://t.me/HyperGPTai"
     }
@@ -1591,10 +1398,7 @@
         "chainId": "137"
       }
     ],
-    "knownOwners": [
-      "0x046bbdd927fc635dd6de7cf4efdad3e767274074",
-      "0x801b684e7854493e3ada893343d3e288cfcee1ec"
-    ],
+    "knownOwners": ["0x046bbdd927fc635dd6de7cf4efdad3e767274074", "0x801b684e7854493e3ada893343d3e288cfcee1ec"],
     "profileLinks": {
       "siteUrl": "https://www.yellow.org/duckies",
       "twitterUrl": "https://twitter.com/Yellow",
@@ -1612,18 +1416,12 @@
         "chainId": "137"
       }
     ],
-    "knownOwners": [
-      "0x519fced9ccceceb76e1a65194282f13f0deb3187"
-    ],
-    "tags": [
-      "GameFi"
-    ],
+    "knownOwners": ["0x519fced9ccceceb76e1a65194282f13f0deb3187"],
+    "tags": ["GameFi"],
     "profileLinks": {
       "siteUrl": "https://www.forestknight.io/",
       "twitterUrl": "https://twitter.com/ForestKnight_io",
-      "auditUrls": [
-        "https://skynet.certik.com/projects/forest-knight?utm_source=CMC&utm_campaign=AuditByCertiKLink"
-      ],
+      "auditUrls": ["https://skynet.certik.com/projects/forest-knight?utm_source=CMC&utm_campaign=AuditByCertiKLink"],
       "discordUrl": "https://discord.com/invite/2awyWYG",
       "telegramUrl": "https://www.t.me/forestknight"
     }
@@ -1638,15 +1436,11 @@
         "chainId": "56"
       }
     ],
-    "tags": [
-      "AI"
-    ],
+    "tags": ["AI"],
     "profileLinks": {
       "siteUrl": "https://www.aitech.io/",
       "twitterUrl": "https://twitter.com/AITECHio",
-      "auditUrls": [
-        "https://skynet.certik.com/projects/solidus-ai-tech"
-      ],
+      "auditUrls": ["https://skynet.certik.com/projects/solidus-ai-tech"],
       "discordUrl": "https://discord.com/invite/solidusai",
       "telegramUrl": "https://app.clickup.com/t/30r0aaz"
     }
@@ -1664,9 +1458,7 @@
     "profileLinks": {
       "siteUrl": "https://metaplayers.gg/landing",
       "twitterUrl": "https://twitter.com/MetaPlayersGG",
-      "auditUrls": [
-        "https://mfps.gg/assets/docs/mfps_audit.pdf"
-      ],
+      "auditUrls": ["https://mfps.gg/assets/docs/mfps_audit.pdf"],
       "discordUrl": "https://discord.com/invite/dDhdjQKyfH",
       "telegramUrl": "https://t.me/MetaPlayersGG"
     }
@@ -1715,9 +1507,7 @@
         "chainId": "56"
       }
     ],
-    "tags": [
-      "Gambling"
-    ],
+    "tags": ["Gambling"],
     "profileLinks": {
       "siteUrl": "https://betfury.io/",
       "twitterUrl": "https://twitter.com/betfury_gaming",
@@ -1735,9 +1525,7 @@
         "chainId": "56"
       }
     ],
-    "tags": [
-      "Launchpad"
-    ],
+    "tags": ["Launchpad"],
     "profileLinks": {
       "siteUrl": "https://www.decubate.com/",
       "twitterUrl": "https://twitter.com/decubate",
@@ -1763,17 +1551,13 @@
         "chainId": "42161"
       }
     ],
-    "tags": [
-      "Derivatives"
-    ],
+    "tags": ["Derivatives"],
     "profileLinks": {
       "siteUrl": "https://openleverage.finance/",
       "twitterUrl": "https://twitter.com/OpenLeverage",
       "discordUrl": "https://discord.com/invite/OpenLeverage",
       "telegramUrl": "https://t.me/openleverage",
-      "auditUrls": [
-        "https://skynet.certik.com/projects/openleverage?utm_source=CMC&utm_campaign=AuditByCertiKLink"
-      ]
+      "auditUrls": ["https://skynet.certik.com/projects/openleverage?utm_source=CMC&utm_campaign=AuditByCertiKLink"]
     }
   },
   {
@@ -1790,9 +1574,7 @@
         "chainId": "1"
       }
     ],
-    "tags": [
-      "DEX"
-    ],
+    "tags": ["DEX"],
     "profileLinks": {
       "siteUrl": "https://injective.com/",
       "twitterUrl": "https://twitter.com/Injective_",
@@ -1814,9 +1596,7 @@
         "chainId": "1"
       }
     ],
-    "tags": [
-      "Lending"
-    ],
+    "tags": ["Lending"],
     "profileLinks": {
       "siteUrl": "https://3adao.org/",
       "twitterUrl": "https://twitter.com/3aaaDAO",
@@ -1834,9 +1614,7 @@
         "chainId": "137"
       }
     ],
-    "tags": [
-      "AI"
-    ],
+    "tags": ["AI"],
     "profileLinks": {
       "siteUrl": "https://firebot.gg/",
       "twitterUrl": "https://twitter.com/FireBotDAO",
@@ -1875,9 +1653,7 @@
         "chainId": "56"
       }
     ],
-    "tags": [
-      "NFTs"
-    ],
+    "tags": ["NFTs"],
     "profileLinks": {
       "siteUrl": "https://www.joingrapes.com/",
       "twitterUrl": "https://twitter.com/JoinGrapes",
@@ -2026,9 +1802,7 @@
         "chainId": "1"
       }
     ],
-    "knownOwners": [
-      "0xda4df6e2121edab7c33ed7fe0f109350939eda84"
-    ],
+    "knownOwners": ["0xda4df6e2121edab7c33ed7fe0f109350939eda84"],
     "profileLinks": {
       "siteUrl": "https://www.k9finance.com/",
       "twitterUrl": "https://twitter.com/K9finance",
@@ -2263,9 +2037,7 @@
         "chainId": "42161"
       }
     ],
-    "knownOwners": [
-      "0x20d630cf1f5628285bfb91dfac8c89eb9087be1a"
-    ],
+    "knownOwners": ["0x20d630cf1f5628285bfb91dfac8c89eb9087be1a"],
     "profileLinks": {
       "siteUrl": "https://ramses.exchange",
       "twitterUrl": "https://twitter.com/ramsesexchange",
@@ -2282,9 +2054,7 @@
         "chainId": "59144"
       }
     ],
-    "knownOwners": [
-      "0x44376f8f52407ed66e6d3356535410a7dcd4652b"
-    ],
+    "knownOwners": ["0x44376f8f52407ed66e6d3356535410a7dcd4652b"],
     "profileLinks": {
       "siteUrl": "https://thenile.exchange",
       "twitterUrl": "https://twitter.com/nileexchange"
@@ -2300,9 +2070,7 @@
         "chainId": "5000"
       }
     ],
-    "knownOwners": [
-      "0xaa37591bf6b347badf7bf8e291e3d4cdfe27ff8b"
-    ],
+    "knownOwners": ["0xaa37591bf6b347badf7bf8e291e3d4cdfe27ff8b"],
     "profileLinks": {
       "siteUrl": "https://cleo.exchange",
       "twitterUrl": "https://twitter.com/CleopatraDEX"
@@ -2318,9 +2086,7 @@
         "chainId": "43114"
       }
     ],
-    "knownOwners": [
-      "0x244a4a90e148ec318a85f8c138a274e16ffe3032"
-    ],
+    "knownOwners": ["0x244a4a90e148ec318a85f8c138a274e16ffe3032"],
     "profileLinks": {
       "siteUrl": "https://pharaoh.exchange",
       "twitterUrl": "https://twitter.com/PharaohExchange"
@@ -2530,9 +2296,7 @@
         "chainId": "59144"
       }
     ],
-    "knownOwners": [
-      "0xfd876e309b7e323dc93099548e516945b32f5036"
-    ],
+    "knownOwners": ["0xfd876e309b7e323dc93099548e516945b32f5036"],
     "profileLinks": {
       "siteUrl": "https://www.lynex.fi/",
       "twitterUrl": "https://x.com/LynexFi",
@@ -2729,6 +2493,33 @@
       "siteUrl": "https://www.bonsaidao.xyz/",
       "twitterUrl": "https://x.com/bonsai_dao",
       "discordUrl": "https://discord.com/invite/bonsaidao"
+    }
+  },
+  {
+    "tokenSymbol": "VDA",
+    "tokenName": "Verida",
+    "tokenLogoUrl": "https://assets.verida.io/branding/Verida/verida+logo+color.svg",
+    "tokenAddresses": [
+      {
+        "address": "0x683565196c3eab450003c964d4bad1fd3068d4cc",
+        "chainId": "137"
+      }
+    ],
+    "knownOwners": [
+      "0xed29e063dbac06e19c4867dc2f50f46801f9e707",
+      "0x39bd36c10fa38f6c309fd73007504d2f275aeae9",
+      "0xfd7565994f9a867b3836801433aaaf50f614b0ce",
+      "0x8feb74242b4578881ad5f25ad33bb8642be1b274",
+      "0x6fb879b66c705068f6c3a0944cbeff000b23dca5",
+      "0x634e50dd6da75c1f62e29a40ad5ec12e24d15972"
+    ],
+    "tags": ["AI", "Infrastructure"],
+    "profileLinks": {
+      "siteUrl": "https://www.verida.network/",
+      "twitterUrl": "https://x.com/Verida_io",
+      "telegramUrl": "https://t.me/verida_community",
+      "discordUrl": "https://discord.verida.io/",
+      "auditUrls": ["https://www.verida.network/data-security"]
     }
   },
   {
