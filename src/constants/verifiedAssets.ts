@@ -1652,5 +1652,17 @@ const verifiedAssets: AddressMapping[] = [
       auditUrls: ['https://www.verida.network/data-security'],
     },
   },
+  {
+    tokenSymbol: 'SAFLE',
+    tokenName: 'Safle',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SAFLE.png',
+    tokenAddresses: [{ address: '0x04b33078ea1aef29bf3fb29c6ab7b200c58ea126', chainId: '137' }],
+    profileLinks: {
+      siteUrl: 'https://www.safle.com/',
+      twitterUrl: 'https://x.com/GetSafle',
+      telegramUrl: 'https://t.me/saflechat',
+      discordUrl: 'https://discord.com/invite/safle',
+    },
+  },
 ]
 export default verifiedAssets
