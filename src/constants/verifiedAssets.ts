@@ -1664,5 +1664,45 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/safle',
     },
   },
+{
+  tokenSymbol: 'BXT',
+  tokenName: 'BaseX Token',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BXT.png',
+  tokenAddresses: [{ address: '0xb97008ca4f8d72c81489d6728c0036c0c4187ce8', chainId: '8453' }],
+  profileLinks: {
+    siteUrl: 'https://www.basex.fi/',
+    twitterUrl: 'https://x.com/basex_fi',
+    telegramUrl: 'https://t.me/basex_fi',
+    discordUrl: 'https://discord.com/invite/63QCJtzXRk',
+  },
+},
+{
+  tokenSymbol: 'GOON',
+  tokenName: 'GOON',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/GOON.png',
+  tokenAddresses: [{ address: '0x433cde5a82b5e0658da3543b47a375dffd126eb6', chainId: '137' }],
+  profileLinks: {
+    siteUrl: 'https://www.0xgoon.com/',
+    twitterUrl: 'https://x.com/0xGOON_morning',
+    telegramUrl: 'https://t.me/GOON_morning',
+    discordUrl: 'https://discord.com/invite/haN8Y4BHak',
+  },
+},
+{
+  tokenSymbol: 'KAP',
+  tokenName: 'KAP Games',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/KAP.png',
+  tokenAddresses: [
+    { address: '0x9625ce7753ace1fa1865a47aae2c5c2ce4418569', chainId: '1' },
+    { address: '0x965d00aa7abc62ca10132e641d08593435ac811d', chainId: '42161' },
+    { address: '0xc27158bb8e08899d38765752f91d7d778e16ab8e', chainId: '137' },
+    { address: '0x15d24de366f69b835be19f7cf9447e770315dd80', chainId: '81457' },
+  ],
+  profileLinks: {
+    siteUrl: 'https://www.kap.gg/',
+    twitterUrl: 'https://x.com/KAPGamesGG',
+    discordUrl: 'https://discord.com/invite/KAPGamesGG',
+  },
+},
 ]
 export default verifiedAssets
