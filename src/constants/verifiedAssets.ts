@@ -1704,5 +1704,17 @@ const verifiedAssets: AddressMapping[] = [
     discordUrl: 'https://discord.com/invite/KAPGamesGG',
   },
 },
+{
+  tokenSymbol: 'JOJO',
+  tokenName: 'JOJO',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/JOJO.png',
+  tokenAddresses: [{ address: '0x0645bc5cdff2376089323ac20df4119e48e4bcc4', chainId: '8453' }],
+  profileLinks: {
+    siteUrl: 'https://app.jojo.exchange/',
+    twitterUrl: 'https://x.com/jojo_exchange',
+    telegramUrl: 'https://t.me/jojoexchange',
+    discordUrl: 'https://discord.com/invite/jojoexchange',
+  },
+},
 ]
 export default verifiedAssets
