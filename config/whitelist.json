@@ -2860,6 +2860,30 @@
     }
   },
   {
+    "tokenSymbol": "OPUL",
+    "tokenName": "Opulous",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/OPUL.png",
+    "tokenAddresses": [
+      {
+        "address": "0x80d55c03180349fff4a229102f62328220a96444",
+        "chainId": "1"
+      },
+      {
+        "address": "0x686318000d982bc8dcc1cdcf8ffd22322f0960ed",
+        "chainId": "56"
+      },
+      {
+        "address": "0x0c5fa0e07949f941a6c2c29a008252db1527d6ee",
+        "chainId": "42161"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://opulous.org/",
+      "twitterUrl": "https://x.com/opulousapp",
+      "telegramUrl": "https://t.me/opulousapp"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
