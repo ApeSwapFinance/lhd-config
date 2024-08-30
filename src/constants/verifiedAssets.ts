@@ -1731,5 +1731,15 @@ const verifiedAssets: AddressMapping[] = [
     telegramUrl: 'https://t.me/opulousapp',
   },
 },
+{
+  tokenSymbol: 'GLE',
+  tokenName: 'Green Life Energy',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/GLE.png',
+  tokenAddresses: [{ address: '0xecd8bcc95be6aebcae272ee388c9037b24ab28da', chainId: '8453' }],
+  profileLinks: {
+    siteUrl: 'https://gle.holdings/',
+    discordUrl: 'https://discord.com/invite/4H49yJWa7Z',
+  },
+},
 ]
 export default verifiedAssets
