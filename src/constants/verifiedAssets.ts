@@ -1741,5 +1741,27 @@ const verifiedAssets: AddressMapping[] = [
     discordUrl: 'https://discord.com/invite/4H49yJWa7Z',
   },
 },
+{
+  tokenSymbol: 'WEEBS',
+  tokenName: 'WEEBS',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/WEEBS.png',
+  tokenAddresses: [{ address: '0x317ae555dd3d474c4427699a7841891d398fa5a0', chainId: '56' }],
+  profileLinks: {
+    siteUrl: 'https://weebs.app/en',
+    twitterUrl: 'https://x.com/Weebs_app',
+    telegramUrl: 'https://t.me/weebsgroup',
+  },
+},
+{
+  tokenSymbol: 'BASEX',
+  tokenName: 'Base Terminal',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BASEX.png',
+  tokenAddresses: [{ address: '0xb8e564b206032bbcda2c3978bc371da52152f72e', chainId: '8453' }],
+  profileLinks: {
+    siteUrl: 'https://baseterminal.org/',
+    twitterUrl: 'https://x.com/thebaseterminal',
+    telegramUrl: 'https://t.me/BaseTerminalPortal',
+  },
+},
 ]
 export default verifiedAssets
