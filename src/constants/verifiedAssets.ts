@@ -1763,5 +1763,16 @@ const verifiedAssets: AddressMapping[] = [
     telegramUrl: 'https://t.me/BaseTerminalPortal',
   },
 },
+{
+  tokenSymbol: 'ORFY',
+  tokenName: 'Ordify',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ORFY.png',
+  tokenAddresses: [{ address: '0x39f0F4c64c7Ad1Ebb25cfEaFdd221cDEe3084441', chainId: '56' }],
+  profileLinks: {
+    siteUrl: 'https://ordify.world/',
+    twitterUrl: 'https://x.com/ordifyworld',
+    telegramUrl: 'https://t.me/ordifyann',
+  },
+},
 ]
 export default verifiedAssets

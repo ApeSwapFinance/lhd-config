@@ -2931,6 +2931,22 @@
     }
   },
   {
+    "tokenSymbol": "ORFY",
+    "tokenName": "Ordify",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ORFY.png",
+    "tokenAddresses": [
+      {
+        "address": "0x39f0f4c64c7ad1ebb25cfeafdd221cdee3084441",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://ordify.world/",
+      "twitterUrl": "https://x.com/ordifyworld",
+      "telegramUrl": "https://t.me/ordifyann"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
