@@ -1774,5 +1774,28 @@ const verifiedAssets: AddressMapping[] = [
     telegramUrl: 'https://t.me/ordifyann',
   },
 },
+{
+  tokenSymbol: 'MEE',
+  tokenName: 'Medieval Empires',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MEE.png',
+  tokenAddresses: [{ address: '0xeb7eab87837f4dad1bb80856db9e4506fc441f3d', chainId: '137' }],
+  profileLinks: {
+    siteUrl: 'https://www.medievalempires.com/',
+    twitterUrl: 'https://x.com/MedievalEmpires',
+    telegramUrl: 'https://t.me/Medievalempireschat',
+  },
+},
+{
+  tokenSymbol: 'DRINK',
+  tokenName: 'DRINK',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/DRINK.png',
+  tokenAddresses: [{ address: '0x2dc90fa3a0f178ba4bee16cac5d6c9a5a7b4c6cb', chainId: '8453' }],
+  profileLinks: {
+    siteUrl: 'https://degendistillery.com/',
+    twitterUrl: 'https://x.com/DegenDistillery',
+    telegramUrl: 'https://t.me/+pXnhWGuRqsM4NTU0',
+    discordUrl: 'https://discord.com/invite/degendistillery',
+  },
+},
 ]
 export default verifiedAssets
