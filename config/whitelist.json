@@ -2980,6 +2980,72 @@
     }
   },
   {
+    "tokenSymbol": "LAY3R",
+    "tokenName": "Autolayer",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LAY3R.png",
+    "tokenAddresses": [
+      {
+        "address": "0xf06ce11836851d71e74e4ffefa7b73fcc8a27786",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://autolayer.io/",
+      "twitterUrl": "https://x.com/AutoLayer",
+      "telegramUrl": "https://t.me/+DlInSb5slQUwOWI0",
+      "discordUrl": "https://discord.com/invite/autolayer"
+    }
+  },
+  {
+    "tokenSymbol": "NOTAI",
+    "tokenName": "NOTAI",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/NOTAI.png",
+    "tokenAddresses": [
+      {
+        "address": "0xcf10117b30c7a5fc7c77b611bfc2555610dd4b3a",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.notai.com/",
+      "twitterUrl": "https://x.com/thenotai",
+      "telegramUrl": "https://t.me/NOTAI_ann"
+    }
+  },
+  {
+    "tokenSymbol": "ORBI",
+    "tokenName": "Orbital7",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ORBI.png",
+    "tokenAddresses": [
+      {
+        "address": "0xefa4cda666c6a1c03a38e4885266b019dec57662",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://orbital7.io/",
+      "twitterUrl": "https://x.com/Orbital7BTC",
+      "telegramUrl": "https://t.me/Orbital7Ann"
+    }
+  },
+  {
+    "tokenSymbol": "AGENT",
+    "tokenName": "AgentLayer",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/AGENT.png",
+    "tokenAddresses": [
+      {
+        "address": "0xf5bc3439f53a45607ccad667abc7daf5a583633f",
+        "chainId": "8453"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.agentlayer.xyz/home",
+      "twitterUrl": "https://x.com/Agent_Layer",
+      "telegramUrl": "https://t.me/agentlayer",
+      "discordUrl": "https://discord.com/invite/agentlayer"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
