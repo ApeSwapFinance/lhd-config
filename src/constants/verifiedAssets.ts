@@ -1843,5 +1843,92 @@ const verifiedAssets: AddressMapping[] = [
     discordUrl: 'https://discord.com/invite/agentlayer',
   },
 },
+{
+  tokenSymbol: 'WRUNI',
+  tokenName: 'Wrapped RUNI',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/WRUNI.png',
+  tokenAddresses: [{ address: '0xec56840be7c495cbf98c0157b458cd207ff85da1', chainId: '1' }],
+  profileLinks: {
+    siteUrl: 'https://www.btcterminal.io/',
+    twitterUrl: 'https://x.com/btcterminal_',
+    telegramUrl: 'https://t.me/runesterminal_official',
+    discordUrl: 'https://discord.com/invite/RunesTerminal',
+  },
+},
+{
+  tokenSymbol: 'COOKIE',
+  tokenName: 'Cookie',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/COOKIE.png',
+  tokenAddresses: [
+    { address: '0xc0041ef357b183448b235a8ea73ce4e4ec8c265f', chainId: '56' },
+    { address: '0xc0041ef357b183448b235a8ea73ce4e4ec8c265f', chainId: '1' },
+    { address: '0xc0041ef357b183448b235a8ea73ce4e4ec8c265f', chainId: '8453' },
+  ],
+  profileLinks: {
+    siteUrl: 'https://www.cookie3.com/',
+    twitterUrl: 'https://x.com/cookie3_com',
+    telegramUrl: 'https://t.me/cookie3_co',
+    discordUrl: 'https://discord.com/invite/cookie3com',
+  },
+},
+{
+  tokenSymbol: 'F3',
+  tokenName: 'Friend3',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/F3.png',
+  tokenAddresses: [{ address: '0x9e57e83ad79ac5312ba82940ba037ed30600e167', chainId: '56' }],
+  profileLinks: {
+    siteUrl: 'https://friend3.group/',
+    twitterUrl: 'https://x.com/Friend3AI',
+    telegramUrl: 'https://t.me/Friend3Fam',
+  },
+},
+{
+  tokenSymbol: 'WORK',
+  tokenName: 'Work X',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/WORK.png',
+  tokenAddresses: [{ address: '0x8888888837f84a7a82668e0320ac454f5945d0b9', chainId: '56' }],
+  profileLinks: {
+    siteUrl: 'https://workx.io/',
+    twitterUrl: 'https://x.com/WorkX_official',
+    telegramUrl: 'https://t.me/WorkX_Telegram',
+    discordUrl: 'https://discord.com/invite/workx',
+  },
+},
+{
+  tokenSymbol: 'EXVG',
+  tokenName: 'Exverse',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/EXVG.png',
+  tokenAddresses: [{ address: '0xbb7d61d2511fd2e63f02178ca9b663458af9fc63', chainId: '56' }],
+  profileLinks: {
+    siteUrl: 'https://exv.io/',
+    twitterUrl: 'https://x.com/exverse_io',
+    telegramUrl: 'https://t.me/exverse',
+    discordUrl: 'https://discord.com/invite/exverse',
+  },
+},
+{
+  tokenSymbol: 'WSDM',
+  tokenName: 'Wisdomise AI',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/WSDM.png',
+  tokenAddresses: [{ address: '0x5f2f8818002dc64753daedf4a6cb2ccb757cd220', chainId: '137' }],
+  profileLinks: {
+    siteUrl: 'https://wisdomise.com/en',
+    twitterUrl: 'https://x.com/wisdomise',
+    telegramUrl: 'https://t.me/+eV_bqtiJbHo5NmI0',
+    discordUrl: 'https://discord.com/invite/dK9hsZtKUk',
+  },
+},
+{
+  tokenSymbol: 'GMRX',
+  tokenName: 'Gaimin',
+  tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/GMRX.png',
+  tokenAddresses: [{ address: '0x998305efdc264b9674178899fffbb44a47134a76', chainId: '56' }],
+  profileLinks: {
+    siteUrl: 'https://www.gaimin.io/',
+    twitterUrl: 'https://x.com/GaiminIo',
+    telegramUrl: 'https://t.me/gaimin_official',
+    discordUrl: 'https://discord.com/invite/gaiminarena',
+  },
+},
 ]
 export default verifiedAssets
