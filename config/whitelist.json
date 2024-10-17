@@ -3172,6 +3172,91 @@
     }
   },
   {
+    "tokenSymbol": "B4FWX",
+    "tokenName": "Be For FWX",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/B4FWX.png",
+    "tokenAddresses": [
+      {
+        "address": "0x13b1f0579bc895b2ffb835f295fd9b63fef36da0",
+        "chainId": "43114"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://fwx.finance/",
+      "twitterUrl": "https://x.com/fwxfinance",
+      "telegramUrl": "https://t.me/fwxcommunity",
+      "discordUrl": "https://discord.com/invite/68HqYPP9TZ"
+    }
+  },
+  {
+    "tokenSymbol": "SFL",
+    "tokenName": "Sunflower Land",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SFL.png",
+    "tokenAddresses": [
+      {
+        "address": "0xd1f9c58e33933a993a3891f8acfe05a68e1afc05",
+        "chainId": "137"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://sunflower-land.com/",
+      "twitterUrl": "https://x.com/0xSunflowerLand",
+      "discordUrl": "https://discord.com/invite/sunflowerland"
+    }
+  },
+  {
+    "tokenSymbol": "DSC",
+    "tokenName": "DSFS Coin",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/DSC.png",
+    "tokenAddresses": [
+      {
+        "address": "0xa86a86b8acdc55812bec2971a2fc8a989455858c",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://dsclab.io/",
+      "twitterUrl": "https://x.com/dsc_lab",
+      "telegramUrl": "https://t.me/dsc_lab"
+    }
+  },
+  {
+    "tokenSymbol": "XFIT",
+    "tokenName": "XFai",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/XFIT.png",
+    "tokenAddresses": [
+      {
+        "address": "0x4aa41bc1649c9c3177ed16caaa11482295fc7441",
+        "chainId": "1"
+      },
+      {
+        "address": "0x8c56017b172226fe024dea197748fc1eaccc82b1",
+        "chainId": "59144"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://xfai.com/",
+      "twitterUrl": "https://x.com/xfai_official",
+      "telegramUrl": "https://t.me/xfaiofficial"
+    }
+  },
+  {
+    "tokenSymbol": "TRKX",
+    "tokenName": "Trakx",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/TRKX.png",
+    "tokenAddresses": [
+      {
+        "address": "0x61bf130d973d59c69d3227f1668d534d83119860",
+        "chainId": "137"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://trakx.io/",
+      "twitterUrl": "https://x.com/official_trakx",
+      "telegramUrl": "https://t.me/TrakxFr"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
