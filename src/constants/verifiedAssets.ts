@@ -1955,7 +1955,7 @@ const verifiedAssets: AddressMapping[] = [
   },
   {
     tokenSymbol: 'DSC',
-    tokenName: 'DSC',
+    tokenName: 'DSFS Coin',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/DSC.png',
     tokenAddresses: [{ address: '0xa86a86b8acdc55812bec2971a2fc8a989455858c', chainId: '56' }],
     profileLinks: {
@@ -1976,6 +1976,17 @@ const verifiedAssets: AddressMapping[] = [
       siteUrl: 'https://xfai.com/',
       twitterUrl: 'https://x.com/xfai_official',
       telegramUrl: 'https://t.me/xfaiofficial',
+    },
+  },
+  {
+    tokenSymbol: 'TRKX',
+    tokenName: 'Trakx',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/TRKX.png',
+    tokenAddresses: [{ address: '0x61bf130d973d59c69d3227f1668d534d83119860', chainId: '137' }],
+    profileLinks: {
+      siteUrl: 'https://trakx.io/',
+      twitterUrl: 'https://x.com/official_trakx',
+      telegramUrl: 'https://t.me/TrakxFr',
     },
   },
 ]
