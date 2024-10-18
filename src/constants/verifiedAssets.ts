@@ -1989,5 +1989,31 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/TrakxFr',
     },
   },
+  {
+    tokenSymbol: 'NAI',
+    tokenName: 'Nuklai',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/NAI.png',
+    tokenAddresses: [{ address: '0x5Ac34C53A04B9aaA0BF047e7291fb4e8A48f2A18', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://www.nukl.ai/',
+      twitterUrl: 'https://x.com/NuklaiData',
+      telegramUrl: 'https://t.me/NuklaiOfficial',
+      discordUrl: 'https://discord.com/invite/nuklai',
+    },
+  },
+  {
+    tokenSymbol: 'PATEX',
+    tokenName: 'Patex Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/PATEX.png',
+    tokenAddresses: [
+      { address: '0xfd4f2caf941b6d737382dce420b368de3fc7f2d4', chainId: '1' },
+      { address: '0xfd4f2caf941b6d737382dce420b368de3fc7f2d4', chainId: '56' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://patex.io/',
+      twitterUrl: 'https://x.com/patex_ecosystem',
+      telegramUrl: 'https://t.me/cpatexexchange',
+    },
+  },
 ]
 export default verifiedAssets

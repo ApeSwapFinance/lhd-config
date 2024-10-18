@@ -3257,6 +3257,43 @@
     }
   },
   {
+    "tokenSymbol": "NAI",
+    "tokenName": "Nuklai",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/NAI.png",
+    "tokenAddresses": [
+      {
+        "address": "0x5ac34c53a04b9aaa0bf047e7291fb4e8a48f2a18",
+        "chainId": "1"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.nukl.ai/",
+      "twitterUrl": "https://x.com/NuklaiData",
+      "telegramUrl": "https://t.me/NuklaiOfficial",
+      "discordUrl": "https://discord.com/invite/nuklai"
+    }
+  },
+  {
+    "tokenSymbol": "PATEX",
+    "tokenName": "Patex Token",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/PATEX.png",
+    "tokenAddresses": [
+      {
+        "address": "0xfd4f2caf941b6d737382dce420b368de3fc7f2d4",
+        "chainId": "1"
+      },
+      {
+        "address": "0xfd4f2caf941b6d737382dce420b368de3fc7f2d4",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://patex.io/",
+      "twitterUrl": "https://x.com/patex_ecosystem",
+      "telegramUrl": "https://t.me/cpatexexchange"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
