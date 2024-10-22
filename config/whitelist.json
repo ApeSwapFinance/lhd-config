@@ -3294,6 +3294,39 @@
     }
   },
   {
+    "tokenSymbol": "WMINIMA",
+    "tokenName": "Wrapped Minima",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/WMINIMA.png",
+    "tokenAddresses": [
+      {
+        "address": "0x669c01caf0edcad7c2b8dc771474ad937a7ca4af",
+        "chainId": "1"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.minima.global/",
+      "twitterUrl": "https://x.com/Minima_Global",
+      "telegramUrl": "https://t.me/Minima_Global",
+      "discordUrl": "https://discord.com/invite/minimaglobal"
+    }
+  },
+  {
+    "tokenSymbol": "TYLER",
+    "tokenName": "Tyler",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/TYLER.png",
+    "tokenAddresses": [
+      {
+        "address": "0x65e570b560027f493f2b1907e8e8e3b9546053bd",
+        "chainId": "8453"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.basedtyler.com/",
+      "twitterUrl": "https://x.com/TylerOnBase",
+      "telegramUrl": "https://t.me/basedtyler"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
