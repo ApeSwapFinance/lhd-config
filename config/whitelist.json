@@ -3327,6 +3327,22 @@
     }
   },
   {
+    "tokenSymbol": "PIXEL",
+    "tokenName": "Pixels",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/PIXEL.png",
+    "tokenAddresses": [
+      {
+        "address": "0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae31",
+        "chainId": "1"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.pixels.xyz/",
+      "twitterUrl": "https://x.com/pixels_online",
+      "discordUrl": "https://discord.com/invite/pixels"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
