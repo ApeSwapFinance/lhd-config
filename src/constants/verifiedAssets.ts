@@ -2060,5 +2060,15 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/DioneProtocol',
     },
   },
+  {
+    tokenSymbol: 'ALPINE',
+    tokenName: 'Alpine F1 Team Fan Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ALPINE.png',
+    tokenAddresses: [{ address: '0x287880ea252b52b63cc5f40a2d3e5a44aa665a76', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://www.alpinecars.com/',
+      twitterUrl: 'https://x.com/AlpineF1Team',
+    },
+  },
 ]
 export default verifiedAssets
