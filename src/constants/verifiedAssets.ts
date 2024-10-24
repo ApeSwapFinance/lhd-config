@@ -2049,5 +2049,16 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/pixels',
     },
   },
+  {
+    tokenSymbol: 'DIONE',
+    tokenName: 'Dione',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/DIONE.png',
+    tokenAddresses: [{ address: '0x89b69f2d1adffa9a253d40840b6baa7fc903d697', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://www.dioneprotocol.com/',
+      twitterUrl: 'https://x.com/DioneProtocol',
+      telegramUrl: 'https://t.me/DioneProtocol',
+    },
+  },
 ]
 export default verifiedAssets
