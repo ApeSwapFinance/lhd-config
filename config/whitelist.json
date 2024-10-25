@@ -3374,6 +3374,51 @@
     }
   },
   {
+    "tokenSymbol": "ELK",
+    "tokenName": "Elk Finance",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ELK.png",
+    "tokenAddresses": [
+      {
+        "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
+        "chainId": "1"
+      },
+      {
+        "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
+        "chainId": "56"
+      },
+      {
+        "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
+        "chainId": "137"
+      },
+      {
+        "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
+        "chainId": "250"
+      },
+      {
+        "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
+        "chainId": "1285"
+      },
+      {
+        "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
+        "chainId": "25"
+      },
+      {
+        "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
+        "chainId": "40"
+      },
+      {
+        "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
+        "chainId": "100"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://elk.finance/",
+      "twitterUrl": "https://x.com/elk_finance",
+      "discordUrl": "https://discord.com/invite/4BMRV6mB",
+      "telegramUrl": "https://t.me/elk_finance_chat"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
