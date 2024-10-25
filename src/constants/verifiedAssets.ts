@@ -2081,7 +2081,6 @@ const verifiedAssets: AddressMapping[] = [
       { address: '0xeeeeeb57642040be42185f49c52f7e9b38f8eeee', chainId: '250' },
       { address: '0xeeeeeb57642040be42185f49c52f7e9b38f8eeee', chainId: '1285' },
       { address: '0xeeeeeb57642040be42185f49c52f7e9b38f8eeee', chainId: '25' },
-      { address: '0xeeeeeb57642040be42185f49c52f7e9b38f8eeee', chainId: '40' },
       { address: '0xeeeeeb57642040be42185f49c52f7e9b38f8eeee', chainId: '100' },
     ],
     profileLinks: {
