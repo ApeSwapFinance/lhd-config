@@ -3452,6 +3452,35 @@
     }
   },
   {
+    "tokenSymbol": "LIF3",
+    "tokenName": "Lif3",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LIF3.png",
+    "tokenAddresses": [
+      {
+        "address": "0x7138eb0d563f3f6722500936a11dcae99d738a2c",
+        "chainId": "1"
+      },
+      {
+        "address": "0x336f374198c872ba760e85af9c6331c3c5a535d3",
+        "chainId": "56"
+      },
+      {
+        "address": "0x110b25d2b21ee73eb401f3ae7833f7072912a0bf",
+        "chainId": "137"
+      },
+      {
+        "address": "0x5e074c28149cc35c1e5fbc79d8a6ea688dba2314",
+        "chainId": "250"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://lif3.com/",
+      "twitterUrl": "https://x.com/Official_LIF3",
+      "discordUrl": "https://discord.com/invite/lif3",
+      "telegramUrl": "https://t.me/Lif3_Official"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
