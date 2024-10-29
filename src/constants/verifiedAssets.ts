@@ -2126,5 +2126,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/Lif3_Official',
     },
   },
+  {
+    tokenSymbol: 'BST',
+    tokenName: 'Blocksquare Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BST.png',
+    tokenAddresses: [{ address: '0x509a38b7a1cc0dcd83aa9d06214663d9ec7c7f4a', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://blocksquare.io/',
+      twitterUrl: 'https://x.com/blocksquare_io',
+      telegramUrl: 'https://t.me/blocksquare',
+    },
+  },
 ]
 export default verifiedAssets
