@@ -2137,5 +2137,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/blocksquare',
     },
   },
+  {
+    tokenSymbol: '$TD',
+    tokenName: 'The Big Red',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/$TD.png',
+    tokenAddresses: [{ address: '0x87bbfc9dcb66caa8ce7582a3f17b60a25cd8a248', chainId: '43114' }],
+    profileLinks: {
+      siteUrl: 'https://thebigredcrypto.com/',
+      twitterUrl: 'https://x.com/BigRed_TD',
+      telegramUrl: 'https://t.me/TheBigRedTD',
+    },
+  },
 ]
 export default verifiedAssets
