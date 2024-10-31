@@ -3513,6 +3513,43 @@
     }
   },
   {
+    "tokenSymbol": "TKN",
+    "tokenName": "Token Name Service",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/TKN.png",
+    "tokenAddresses": [
+      {
+        "address": "0x82d09e30d5d682d69b4a5d97c61b7ba651457625",
+        "chainId": "1"
+      },
+      {
+        "address": "0x78b3c724a2f663d11373c4a1978689271895256f",
+        "chainId": "8453"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://tkn.xyz/",
+      "twitterUrl": "https://x.com/TokenDao_",
+      "telegramUrl": "https://t.me/+z8V5aiSMx0tjMTIx"
+    }
+  },
+  {
+    "tokenSymbol": "TES",
+    "tokenName": "Titan Trading Token",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/TES.png",
+    "tokenAddresses": [
+      {
+        "address": "0x87e154e86fb691ab8a27116e93ed8d54e2b8c18c",
+        "chainId": "81457"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://titantrading.io/",
+      "twitterUrl": "https://x.com/TitanSmartTrade",
+      "telegramUrl": "https://t.me/titanboteng",
+      "discordUrl": "https://discord.com/invite/QPw3DJUY7W"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
