@@ -2189,5 +2189,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/KinetixFi',
     },
   },
+  {
+    tokenSymbol: 'SPECTRE',
+    tokenName: 'Spectre AI',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SPECTRE.png',
+    tokenAddresses: [{ address: '0x9cf0ed013e67db12ca3af8e7506fe401aa14dad6', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://spectrebot.ai/',
+      twitterUrl: 'https://x.com/Spectre__AI',
+      telegramUrl: 'https://t.me/AI_SPECTRE',
+    },
+  },
 ]
 export default verifiedAssets
