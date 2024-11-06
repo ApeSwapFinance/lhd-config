@@ -2174,5 +2174,20 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/QPw3DJUY7W',
     },
   },
+  {
+    tokenSymbol: 'KAI',
+    tokenName: 'Kinetix Finance Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/KAI.png',
+    tokenAddresses: [
+      { address: '0x0bbcefa5f3630cae34842cb9d9b36bc0d4257a0d', chainId: '1' },
+      { address: '0x3c3860d89b81c91974fc1f8a41aeeef604c17058', chainId: '8453' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://kinetix.finance/home',
+      twitterUrl: 'https://x.com/KinetixFi',
+      discordUrl: 'https://discord.com/invite/kinetixfinance',
+      telegramUrl: 'https://t.me/KinetixFi',
+    },
+  },
 ]
 export default verifiedAssets
