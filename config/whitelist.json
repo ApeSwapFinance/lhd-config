@@ -3587,6 +3587,70 @@
     }
   },
   {
+    "tokenSymbol": "UP",
+    "tokenName": "Unlock Protocol Token",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/UP.png",
+    "tokenAddresses": [
+      {
+        "address": "0xac27fa800955849d6d17cc8952ba9dd6eaa66187",
+        "chainId": "8453"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://unlock-protocol.com/",
+      "twitterUrl": "https://x.com/UnlockProtocol",
+      "telegramUrl": "https://t.me/unlockprotocol"
+    }
+  },
+  {
+    "tokenSymbol": "LEMON",
+    "tokenName": "Lemonrocks",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LEMON.png",
+    "tokenAddresses": [
+      {
+        "address": "0x898843fb909e3562c82f2b96f4e3d0693af041df",
+        "chainId": "1"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.lemonrocks.com/",
+      "twitterUrl": "https://x.com/lemonrockscom",
+      "telegramUrl": "https://t.me/lemonrocks"
+    }
+  },
+  {
+    "tokenSymbol": "FNX",
+    "tokenName": "Fenix",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/FNX.png",
+    "tokenAddresses": [
+      {
+        "address": "0x52f847356b38720b55ee18cb3e094ca11c85a192",
+        "chainId": "81457"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.fenixfinance.io/",
+      "twitterUrl": "https://x.com/FenixFinance",
+      "discordUrl": "https://discord.com/invite/fenixfi"
+    }
+  },
+  {
+    "tokenSymbol": "QTLX",
+    "tokenName": "Quantlytica",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/QTLX.png",
+    "tokenAddresses": [
+      {
+        "address": "0x4d840b741bc05fde325d4ec0b4cfcd0cea237e4e",
+        "chainId": "42161"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.quantlytica.com/",
+      "twitterUrl": "https://x.com/quantlytica",
+      "telegramUrl": "https://t.me/quantlytica"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
