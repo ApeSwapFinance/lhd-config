@@ -2244,5 +2244,39 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/quantlytica',
     },
   },
+  {
+    tokenSymbol: 'SXCH',
+    tokenName: 'SolarX',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SXCH.png',
+    tokenAddresses: [{ address: '0xe58c3a44b74362048e202cb7c8036d4b0b28af50', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://solarx.ai/',
+      twitterUrl: 'https://x.com/solarxchain',
+      telegramUrl: 'https://t.me/solarxofficial',
+      discordUrl: 'https://discord.com/invite/solarxcoin',
+    },
+  },
+  {
+    tokenSymbol: 'QWAN',
+    tokenName: 'The QWAN',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/QWAN.png',
+    tokenAddresses: [{ address: '0xeee0fe52299f2de8e2ed5111cd521ab67dcf0faf', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://theqwan.io/',
+      twitterUrl: 'https://x.com/theqwan_io',
+      telegramUrl: 'https://t.me/QWANDao',
+    },
+  },
+  {
+    tokenSymbol: 'FAN',
+    tokenName: 'Film.io',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/FAN.png',
+    tokenAddresses: [{ address: '0x3b9e9100db1389c518d47c635d80a90ad4c4f41b', chainId: '137' }],
+    profileLinks: {
+      siteUrl: 'https://film.io/',
+      twitterUrl: 'https://x.com/Filmio_Official',
+      telegramUrl: 'https://t.me/officialfilmio',
+    },
+  },
 ]
 export default verifiedAssets
