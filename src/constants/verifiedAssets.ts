@@ -2278,5 +2278,17 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/officialfilmio',
     },
   },
+  {
+    tokenSymbol: 'NOOB',
+    tokenName: 'NOOB',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/NOOB.png',
+    tokenAddresses: [{ address: '0x06561dc5cedcc012a4ea68609b17d41499622e4c', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://www.blastroyale.com/',
+      twitterUrl: 'https://x.com/blastroyale',
+      telegramUrl: 'https://t.me/blastroyale',
+      discordUrl: 'https://discord.com/invite/blastroyale',
+    },
+  },
 ]
 export default verifiedAssets
