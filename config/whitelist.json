@@ -3717,6 +3717,31 @@
     }
   },
   {
+    "tokenSymbol": "STZ",
+    "tokenName": "99Starz",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/STZ.png",
+    "tokenAddresses": [
+      {
+        "address": "0x3f5294df68f871241c4b18fcf78ebd8ac18ab654",
+        "chainId": "1"
+      },
+      {
+        "address": "0x7fe378c5e0b5c32af2ecc8829bedf02245a0e4ef",
+        "chainId": "56"
+      },
+      {
+        "address": "0x2c92a8a41f4b806a6f6f1f7c9d9dec78dcd8c18e",
+        "chainId": "137"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://99starz.io/",
+      "twitterUrl": "https://x.com/99Starz_",
+      "discordUrl": "https://discord.com/invite/eGZUpKp6sr",
+      "telegramUrl": "https://t.me/Starz99STZ"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
