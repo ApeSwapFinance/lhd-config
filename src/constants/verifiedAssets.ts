@@ -2333,5 +2333,18 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/joinbloodloop',
     },
   },
+  {
+    tokenSymbol: 'CRS',
+    tokenName: 'Ceranos',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/CRS.png',
+    tokenAddresses: [
+      { address: '0x3E51783FEf3Cb3e807cff7Fcb660d3e51c6127F6', chainId: '56' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://www.ceranos.finance/',
+      twitterUrl: 'https://x.com/CeranosFinance',
+      telegramUrl: 'https://t.me/ceranosfinance',
+    },
+  },
 ]
 export default verifiedAssets

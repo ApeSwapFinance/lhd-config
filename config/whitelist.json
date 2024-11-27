@@ -3778,6 +3778,22 @@
     }
   },
   {
+    "tokenSymbol": "CRS",
+    "tokenName": "Ceranos",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/CRS.png",
+    "tokenAddresses": [
+      {
+        "address": "0x3e51783fef3cb3e807cff7fcb660d3e51c6127f6",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.ceranos.finance/",
+      "twitterUrl": "https://x.com/CeranosFinance",
+      "telegramUrl": "https://t.me/ceranosfinance"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
