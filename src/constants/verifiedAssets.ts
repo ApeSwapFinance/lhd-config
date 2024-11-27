@@ -2320,5 +2320,18 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/winkyverse1',
     },
   },
+  {
+    tokenSymbol: 'BLS',
+    tokenName: 'BloodLoop',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BLS.png',
+    tokenAddresses: [
+      { address: '0x46b9144771cb3195d66e4eda643a7493fadcaf9d', chainId: '43114' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://www.bloodloop.com/',
+      twitterUrl: 'https://x.com/BloodLoopGAME',
+      telegramUrl: 'https://t.me/joinbloodloop',
+    },
+  },
 ]
 export default verifiedAssets
