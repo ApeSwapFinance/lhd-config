@@ -2306,5 +2306,19 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/Starz99STZ',
     },
   },
+  {
+    tokenSymbol: 'WNK',
+    tokenName: 'Winkies',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/WNK.png',
+    tokenAddresses: [
+      { address: '0xe1bda0c3bfa2be7f740f0119b6a34f057bd58eba', chainId: '1' },
+      { address: '0xb160a5f19ebccd8e0549549327e43ddd1d023526', chainId: '56' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://www.winkyverse.io/',
+      twitterUrl: 'https://x.com/TheWinkyverse_',
+      telegramUrl: 'https://t.me/winkyverse1',
+    },
+  },
 ]
 export default verifiedAssets
