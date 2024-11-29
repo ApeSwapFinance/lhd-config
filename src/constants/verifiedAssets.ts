@@ -537,16 +537,10 @@ const verifiedAssets: AddressMapping[] = [
     tokenAddresses: [{ address: '0xb84cbbf09b3ed388a45cd875ebba41a20365e6e7', chainId: '56' }],
   },
   {
-    tokenSymbol: 'STZ',
-    tokenName: '99Starz',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/STZ.svg',
-    tokenAddresses: [{ address: '0x7fe378c5e0b5c32af2ecc8829bedf02245a0e4ef', chainId: '56' }],
-  },
-  {
     tokenSymbol: 'LGX',
     tokenName: 'LegionX',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LGX.svg',
-    tokenAddresses: [{ address: '0x7fe378c5e0b5c32af2ecc8829bedf02245a0e4ef', chainId: '56' }],
+    tokenAddresses: [{ address: '0x9096b4309224d751fcb43d7eb178dcffc122ad15', chainId: '56' }],
   },
   {
     tokenSymbol: 'MAY',
@@ -2344,6 +2338,32 @@ const verifiedAssets: AddressMapping[] = [
       siteUrl: 'https://www.ceranos.finance/',
       twitterUrl: 'https://x.com/CeranosFinance',
       telegramUrl: 'https://t.me/ceranosfinance',
+    },
+  },
+  {
+    tokenSymbol: 'WOLF',
+    tokenName: 'LandWolf',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/WOLF.png',
+    tokenAddresses: [
+      { address: '0x67466be17df832165f8c80a5a120ccc652bd7e69', chainId: '1' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://landwolf.com/',
+      twitterUrl: 'https://x.com/Wolf0x67',
+      telegramUrl: 'https://t.me/BoysClubwolf',
+    },
+  },
+  {
+    tokenSymbol: 'PEPE',
+    tokenName: 'BasedPepe',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/PEPE.png',
+    tokenAddresses: [
+      { address: '0x52b492a33e447cdb854c7fc19f1e57e8bfa1777d', chainId: '8453' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://basedpepe.vip/',
+      twitterUrl: 'https://x.com/0x52BasedPepe',
+      telegramUrl: 'https://t.me/BasedPepe0x52Portal',
     },
   },
 ]
