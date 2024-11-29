@@ -2340,5 +2340,31 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/ceranosfinance',
     },
   },
+  {
+    tokenSymbol: 'WOLF',
+    tokenName: 'LandWolf',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/WOLF.png',
+    tokenAddresses: [
+      { address: '0x67466be17df832165f8c80a5a120ccc652bd7e69', chainId: '1' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://landwolf.com/',
+      twitterUrl: 'https://x.com/Wolf0x67',
+      telegramUrl: 'https://t.me/BoysClubwolf',
+    },
+  },
+  {
+    tokenSymbol: 'PEPE',
+    tokenName: 'BasedPepe',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/PEPE.png',
+    tokenAddresses: [
+      { address: '0x52b492a33e447cdb854c7fc19f1e57e8bfa1777d', chainId: '8453' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://basedpepe.vip/',
+      twitterUrl: 'https://x.com/0x52BasedPepe',
+      telegramUrl: 'https://t.me/BasedPepe0x52Portal',
+    },
+  },
 ]
 export default verifiedAssets
