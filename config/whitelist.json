@@ -3815,6 +3815,23 @@
     }
   },
   {
+    "tokenSymbol": "REWARD",
+    "tokenName": "Rewardable",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/REWARD.png",
+    "tokenAddresses": [
+      {
+        "address": "0x1986cc18d8ec757447254310d2604f85741aa732",
+        "chainId": "8453"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.rewardable.app/",
+      "twitterUrl": "https://x.com/rewardable_app",
+      "telegramUrl": "https://t.me/rewardable_app",
+      "discordUrl": "https://discord.com/invite/rewardable"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",

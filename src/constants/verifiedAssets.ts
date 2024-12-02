@@ -2366,5 +2366,17 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/BasedPepe0x52Portal',
     },
   },
+  {
+    tokenSymbol: 'REWARD',
+    tokenName: 'Rewardable',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/REWARD.png',
+    tokenAddresses: [{ address: '0x1986Cc18D8eC757447254310D2604f85741aA732', chainId: '8453' }],
+    profileLinks: {
+      siteUrl: 'https://www.rewardable.app/',
+      twitterUrl: 'https://x.com/rewardable_app',
+      telegramUrl: 'https://t.me/rewardable_app',
+      discordUrl: 'https://discord.com/invite/rewardable',
+    },
+  },
 ]
 export default verifiedAssets
