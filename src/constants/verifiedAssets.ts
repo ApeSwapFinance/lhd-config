@@ -2426,7 +2426,7 @@ const verifiedAssets: AddressMapping[] = [
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/QUO.png',
     tokenAddresses: [
       { address: '0x08b450e4a48C04CDF6DB2bD4cf24057f7B9563fF', chainId: '56' },
-      { address: '0x08b450e4a48C04CDF6DB2bD4cf24057f7B9563fF', chainId: '42161' },
+      { address: '0xf00D8790A76ee5A5Dbc10eaCac39151aa2af0331', chainId: '42161' },
     ],
     profileLinks: {
       siteUrl: 'https://quoll.finance/',
