@@ -2378,5 +2378,55 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/rewardable',
     },
   },
+  {
+    tokenSymbol: 'SPARKLET',
+    tokenName: 'Upland',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SPARKLET.png',
+    tokenAddresses: [{ address: '0x0bc37bea9068a86c221b8bd71ea6228260dad5a2', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://upland.me/',
+      twitterUrl: 'https://x.com/UplandMe',
+      telegramUrl: 'https://t.me/Upland',
+      discordUrl: 'https://discord.com/invite/upland',
+    },
+  },
+  {
+    tokenSymbol: 'SDM',
+    tokenName: 'Shieldeum',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SDM.png',
+    tokenAddresses: [{ address: '0x516f8a1fb458ebdcfd0f544ff85c69c1c0ebc31d', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://shieldeum.net/',
+      twitterUrl: 'https://x.com/Shieldeum',
+      telegramUrl: 'https://t.me/shieldeumnet',
+    },
+  },
+  {
+    tokenSymbol: 'STYLE',
+    tokenName: 'STYLE Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/STYLE.png',
+    tokenAddresses: [
+      { address: '0x9e91F79070926A191e41367d40aD582686f9e66D', chainId: '1' },
+      { address: '0x9500ba777560daf9d3ab148ea1cf1ed39df9ebdb', chainId: '42161' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://labs.style/',
+      twitterUrl: 'https://x.com/STYLEProtocol',
+      discordUrl: 'https://discord.com/invite/styleprotocol',
+      telegramUrl: 'https://t.me/StyleToken',
+    },
+  },
+  {
+    tokenSymbol: 'MUNITY',
+    tokenName: 'Metahorse Unity Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MUNITY.png',
+    tokenAddresses: [{ address: '0xe97F6dDE78b11B58cB3e394F15ab592Cb2ACd290', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://www.metahorseunity.io/',
+      twitterUrl: 'https://x.com/metahorseunity',
+      telegramUrl: 'https://t.me/MetahorseUnity',
+      discordUrl: 'https://discord.com/invite/metahorseunity',
+    },
+  },
 ]
 export default verifiedAssets
