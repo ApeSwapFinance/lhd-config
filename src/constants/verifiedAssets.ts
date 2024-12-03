@@ -2318,9 +2318,7 @@ const verifiedAssets: AddressMapping[] = [
     tokenSymbol: 'BLS',
     tokenName: 'BloodLoop',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BLS.png',
-    tokenAddresses: [
-      { address: '0x46b9144771cb3195d66e4eda643a7493fadcaf9d', chainId: '43114' },
-    ],
+    tokenAddresses: [{ address: '0x46b9144771cb3195d66e4eda643a7493fadcaf9d', chainId: '43114' }],
     profileLinks: {
       siteUrl: 'https://www.bloodloop.com/',
       twitterUrl: 'https://x.com/BloodLoopGAME',
@@ -2331,9 +2329,7 @@ const verifiedAssets: AddressMapping[] = [
     tokenSymbol: 'CRS',
     tokenName: 'Ceranos',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/CRS.png',
-    tokenAddresses: [
-      { address: '0x3E51783FEf3Cb3e807cff7Fcb660d3e51c6127F6', chainId: '56' },
-    ],
+    tokenAddresses: [{ address: '0x3E51783FEf3Cb3e807cff7Fcb660d3e51c6127F6', chainId: '56' }],
     profileLinks: {
       siteUrl: 'https://www.ceranos.finance/',
       twitterUrl: 'https://x.com/CeranosFinance',
@@ -2344,9 +2340,7 @@ const verifiedAssets: AddressMapping[] = [
     tokenSymbol: 'WOLF',
     tokenName: 'LandWolf',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/WOLF.png',
-    tokenAddresses: [
-      { address: '0x67466be17df832165f8c80a5a120ccc652bd7e69', chainId: '1' },
-    ],
+    tokenAddresses: [{ address: '0x67466be17df832165f8c80a5a120ccc652bd7e69', chainId: '1' }],
     profileLinks: {
       siteUrl: 'https://landwolf.com/',
       twitterUrl: 'https://x.com/Wolf0x67',
@@ -2357,9 +2351,7 @@ const verifiedAssets: AddressMapping[] = [
     tokenSymbol: 'PEPE',
     tokenName: 'BasedPepe',
     tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/PEPE.png',
-    tokenAddresses: [
-      { address: '0x52b492a33e447cdb854c7fc19f1e57e8bfa1777d', chainId: '8453' },
-    ],
+    tokenAddresses: [{ address: '0x52b492a33e447cdb854c7fc19f1e57e8bfa1777d', chainId: '8453' }],
     profileLinks: {
       siteUrl: 'https://basedpepe.vip/',
       twitterUrl: 'https://x.com/0x52BasedPepe',
@@ -2426,6 +2418,21 @@ const verifiedAssets: AddressMapping[] = [
       twitterUrl: 'https://x.com/metahorseunity',
       telegramUrl: 'https://t.me/MetahorseUnity',
       discordUrl: 'https://discord.com/invite/metahorseunity',
+    },
+  },
+  {
+    tokenSymbol: 'QUO',
+    tokenName: 'Quoll Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/QUO.png',
+    tokenAddresses: [
+      { address: '0x08b450e4a48C04CDF6DB2bD4cf24057f7B9563fF', chainId: '56' },
+      { address: '0x08b450e4a48C04CDF6DB2bD4cf24057f7B9563fF', chainId: '42161' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://quoll.finance/',
+      twitterUrl: 'https://x.com/QuollFinance',
+      discordUrl: 'https://discord.com/invite/TAu9HKSu3g',
+      telegramUrl: 'https://t.me/quollfinance',
     },
   },
 ]
