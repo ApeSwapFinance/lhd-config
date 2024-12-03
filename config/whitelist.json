@@ -3924,6 +3924,22 @@
     }
   },
   {
+    "tokenSymbol": "AI",
+    "tokenName": "Mindpalace",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/AI.png",
+    "tokenAddresses": [
+      {
+        "address": "0x367473e150487e5cdc14d331550ed909b7b2192d",
+        "chainId": "81457"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://mindpalace.dev/",
+      "twitterUrl": "https://x.com/MindPalaceNFT",
+      "discordUrl": "https://discord.com/invite/mindpalace"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",

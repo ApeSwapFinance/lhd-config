@@ -2435,5 +2435,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/quollfinance',
     },
   },
+  {
+    tokenSymbol: 'AI',
+    tokenName: 'Mindpalace',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/AI.png',
+    tokenAddresses: [{ address: '0x367473E150487e5cDC14D331550ed909b7B2192D', chainId: '81457' }],
+    profileLinks: {
+      siteUrl: 'https://mindpalace.dev/',
+      twitterUrl: 'https://x.com/MindPalaceNFT',
+      discordUrl: 'https://discord.com/invite/mindpalace',
+    },
+  },
 ]
 export default verifiedAssets
