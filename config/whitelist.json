@@ -3903,6 +3903,27 @@
     }
   },
   {
+    "tokenSymbol": "QUO",
+    "tokenName": "Quoll Token",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/QUO.png",
+    "tokenAddresses": [
+      {
+        "address": "0x08b450e4a48c04cdf6db2bd4cf24057f7b9563ff",
+        "chainId": "56"
+      },
+      {
+        "address": "0x08b450e4a48c04cdf6db2bd4cf24057f7b9563ff",
+        "chainId": "42161"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://quoll.finance/",
+      "twitterUrl": "https://x.com/QuollFinance",
+      "discordUrl": "https://discord.com/invite/TAu9HKSu3g",
+      "telegramUrl": "https://t.me/quollfinance"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
