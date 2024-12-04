@@ -2435,5 +2435,28 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/quollfinance',
     },
   },
+  {
+    tokenSymbol: 'AI',
+    tokenName: 'Mindpalace',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/AI.png',
+    tokenAddresses: [{ address: '0x367473E150487e5cDC14D331550ed909b7B2192D', chainId: '81457' }],
+    profileLinks: {
+      siteUrl: 'https://mindpalace.dev/',
+      twitterUrl: 'https://x.com/MindPalaceNFT',
+      discordUrl: 'https://discord.com/invite/mindpalace',
+    },
+  },
+  {
+    tokenSymbol: 'SKAI',
+    tokenName: 'Skillful AI',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SKAI.png',
+    tokenAddresses: [{ address: '0xcf078da6e85389de507ceede0e3d217e457b9d49', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://www.skillfulai.io/',
+      twitterUrl: 'https://x.com/SkillfulAI',
+      telegramUrl: 'https://t.me/+oNknk6vJj-0wODgx',
+      discordUrl: 'https://discord.com/invite/WhAYqkXYkg',
+    },
+  },
 ]
 export default verifiedAssets
