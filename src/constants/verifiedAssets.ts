@@ -2469,5 +2469,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/basedbrett',
     },
   },
+  {
+    tokenSymbol: 'HILO',
+    tokenName: 'Hilo',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/HILO.png',
+    tokenAddresses: [{ address: '0x6c3fE25a4de7FA243c653cfE1F165bf11D99704E', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://www.hilomarket.com/',
+      twitterUrl: 'https://x.com/hilotoken',
+      telegramUrl: 'https://t.me/hilotoken',
+    },
+  },
 ]
 export default verifiedAssets
