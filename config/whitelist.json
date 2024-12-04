@@ -3973,6 +3973,22 @@
     }
   },
   {
+    "tokenSymbol": "HILO",
+    "tokenName": "Hilo",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/HILO.png",
+    "tokenAddresses": [
+      {
+        "address": "0x6c3fe25a4de7fa243c653cfe1f165bf11d99704e",
+        "chainId": "1"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.hilomarket.com/",
+      "twitterUrl": "https://x.com/hilotoken",
+      "telegramUrl": "https://t.me/hilotoken"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
