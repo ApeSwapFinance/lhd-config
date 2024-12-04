@@ -2458,5 +2458,16 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/WhAYqkXYkg',
     },
   },
+  {
+    tokenSymbol: 'BRETT',
+    tokenName: 'Brett',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BRETT.png',
+    tokenAddresses: [{ address: '0x532f27101965dd16442e59d40670faf5ebb142e4', chainId: '8453' }],
+    profileLinks: {
+      siteUrl: 'https://www.basedbrett.com/',
+      twitterUrl: 'https://x.com/BasedBrett',
+      telegramUrl: 'https://t.me/basedbrett',
+    },
+  },
 ]
 export default verifiedAssets
