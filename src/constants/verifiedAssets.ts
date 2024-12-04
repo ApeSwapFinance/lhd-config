@@ -2446,5 +2446,17 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/mindpalace',
     },
   },
+  {
+    tokenSymbol: 'SKAI',
+    tokenName: 'Skillful AI',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SKAI.png',
+    tokenAddresses: [{ address: '0xcf078da6e85389de507ceede0e3d217e457b9d49', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://www.skillfulai.io/',
+      twitterUrl: 'https://x.com/SkillfulAI',
+      telegramUrl: 'https://t.me/+oNknk6vJj-0wODgx',
+      discordUrl: 'https://discord.com/invite/WhAYqkXYkg',
+    },
+  },
 ]
 export default verifiedAssets
