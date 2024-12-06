@@ -2496,5 +2496,27 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/+nLYr_ITGTzVhOGFl',
     },
   },
+  {
+    tokenSymbol: 'RGOAT',
+    tokenName: 'RealGoat',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/RGOAT.png',
+    tokenAddresses: [{ address: '0xf0268c5f9aa95baf5c25d646aabb900ac12f0800', chainId: '8453' }],
+    profileLinks: {
+      siteUrl: 'https://www.realgoat.org/',
+      twitterUrl: 'https://x.com/Realgoat_token',
+      telegramUrl: 'https://t.me/RealGOAT_official',
+    },
+  },
+  {
+    tokenSymbol: 'LUMIA',
+    tokenName: 'Lumia',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LUMIA.png',
+    tokenAddresses: [{ address: '0xD9343a049D5DBd89CD19DC6BcA8c48fB3a0a42a7', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://lumia.org/',
+      twitterUrl: 'https://x.com/buildonlumia',
+      telegramUrl: 'https://t.me/lumia_community',
+    },
+  },
 ]
 export default verifiedAssets
