@@ -3989,6 +3989,31 @@
     }
   },
   {
+    "tokenSymbol": "MLN",
+    "tokenName": "Enzyme",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MLN.png",
+    "tokenAddresses": [
+      {
+        "address": "0xec67005c4e498ec7f55e092bd1d35cbc47c91892",
+        "chainId": "1"
+      },
+      {
+        "address": "0xa9f37d84c856fda3812ad0519dad44fa0a3fe207",
+        "chainId": "137"
+      },
+      {
+        "address": "0x8f5c1a99b1df736ad685006cb6adca7b7ae4b514",
+        "chainId": "42161"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://enzyme.finance/",
+      "twitterUrl": "https://x.com/enzymefinance",
+      "discordUrl": "https://discord.com/invite/MTS6Vzhy67",
+      "telegramUrl": "https://t.me/+nLYr_ITGTzVhOGFl"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
