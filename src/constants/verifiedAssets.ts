@@ -2518,5 +2518,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/lumia_community',
     },
   },
+  {
+    tokenSymbol: 'SHIRO',
+    tokenName: 'Shiro Neko',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SHIRO.png',
+    tokenAddresses: [{ address: '0xb0ac2b5a73da0e67a8e5489ba922b3f8d582e058', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://www.shironeko.gg/',
+      twitterUrl: 'https://x.com/shiro',
+      telegramUrl: 'https://t.me/Shiro_Community',
+    },
+  },
 ]
 export default verifiedAssets
