@@ -2529,5 +2529,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/Shiro_Community',
     },
   },
+  {
+    tokenSymbol: 'MFT',
+    tokenName: 'MetaFight Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MFT.png',
+    tokenAddresses: [{ address: '0xb372dc09d8d84e1246760ee9d279e504a89f5684', chainId: '8453' }],
+    profileLinks: {
+      siteUrl: 'https://metafight.com/',
+      twitterUrl: 'https://x.com/MetaFightOff',
+      telegramUrl: 'https://t.me/Metafight_Punch_Bot',
+    },
+  },
 ]
 export default verifiedAssets
