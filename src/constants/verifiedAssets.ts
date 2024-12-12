@@ -2540,5 +2540,20 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/Metafight_Punch_Bot',
     },
   },
+  {
+    tokenSymbol: 'SOCIAL',
+    tokenName: 'Phavercoin',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SOCIAL.png',
+    tokenAddresses: [
+      { address: '0xd3c68968137317a57a9babeacc7707ec433548b4', chainId: '1' },
+      { address: '0xd3c68968137317a57a9babeacc7707ec433548b4', chainId: '8453' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://phaver.com/',
+      twitterUrl: 'https://x.com/phaverapp',
+      discordUrl: 'https://discord.com/invite/phaver',
+      telegramUrl: 'https://t.me/phaverdao',
+    },
+  },
 ]
 export default verifiedAssets
