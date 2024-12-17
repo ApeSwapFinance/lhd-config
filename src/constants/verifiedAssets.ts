@@ -2555,5 +2555,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/phaverdao',
     },
   },
+  {
+    tokenSymbol: 'RDX',
+    tokenName: 'RandomDEX',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/RDX.png',
+    tokenAddresses: [{ address: '0x2659631cfbe9b1b6dcbc1384a3864509356e7b4d', chainId: '8453' }],
+    profileLinks: {
+      siteUrl: 'https://random.trading/',
+      twitterUrl: 'https://x.com/RandomDEXRDX',
+      telegramUrl: 'https://x.com/RandomDEXRDX',
+    },
+  },
 ]
 export default verifiedAssets
