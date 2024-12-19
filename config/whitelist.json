@@ -4115,6 +4115,39 @@
     }
   },
   {
+    "tokenSymbol": "ALTT",
+    "tokenName": "Altcoinist Token",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ALTT.png",
+    "tokenAddresses": [
+      {
+        "address": "0x1b5ce2a593a840e3ad3549a34d7b3dec697c114d",
+        "chainId": "8453"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.altcoinist.com/",
+      "twitterUrl": "https://x.com/Altcoinist_com",
+      "telegramUrl": "https://t.me/altcoinist_com",
+      "discordUrl": "https://discord.com/invite/altcoinist"
+    }
+  },
+  {
+    "tokenSymbol": "ACTIVE",
+    "tokenName": "Active Token",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ACTIVE.png",
+    "tokenAddresses": [
+      {
+        "address": "0xd9a9b4d466747e1ebcb7aeb42784452f40452367",
+        "chainId": "137"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://theactivetoken.com/",
+      "twitterUrl": "https://x.com/YayPalio",
+      "telegramUrl": "https://t.me/yaypalofficial"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
