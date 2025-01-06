@@ -2589,5 +2589,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/yaypalofficial',
     },
   },
+  {
+    tokenSymbol: 'DNA',
+    tokenName: 'Muhdo Hub',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/DNA.png',
+    tokenAddresses: [{ address: '0x7d3e4165fd7d8590fb2a415a550f7bdece5c4f52', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://www.muhdohub.xyz/',
+      twitterUrl: 'https://x.com/Muhdohealth',
+      telegramUrl: 'https://x.com/Muhdohealth',
+    },
+  },
 ]
 export default verifiedAssets
