@@ -2600,5 +2600,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://x.com/Muhdohealth',
     },
   },
+  {
+    tokenSymbol: 'ABDS',
+    tokenName: 'ABDS Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ABDS.png',
+    tokenAddresses: [{ address: '0xb56aaac80c931161548a49181c9e000a19489c44', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://www.abdstoken.com/',
+      twitterUrl: 'https://x.com/ABDSystems',
+      telegramUrl: 'https://t.me/+ZH_JDImdyGYxNTcx',
+    },
+  },
 ]
 export default verifiedAssets
