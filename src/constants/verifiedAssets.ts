@@ -2611,5 +2611,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/+ZH_JDImdyGYxNTcx',
     },
   },
+  {
+    tokenSymbol: 'QAAGAI',
+    tokenName: 'QAAGAI',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/QAAGAI.png',
+    tokenAddresses: [{ address: '0x7f22a8Af38BCF14b92cD65Ae8B19260FC0bEeFDf', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://qaagai.com/',
+      twitterUrl: 'https://x.com/qaagai',
+      telegramUrl: 'https://t.me/qaagai',
+    },
+  },
 ]
 export default verifiedAssets

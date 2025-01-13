@@ -4180,6 +4180,22 @@
     }
   },
   {
+    "tokenSymbol": "QAAGAI",
+    "tokenName": "QAAGAI",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/QAAGAI.png",
+    "tokenAddresses": [
+      {
+        "address": "0x7f22a8af38bcf14b92cd65ae8b19260fc0beefdf",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://qaagai.com/",
+      "twitterUrl": "https://x.com/qaagai",
+      "telegramUrl": "https://t.me/qaagai"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
