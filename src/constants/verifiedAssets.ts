@@ -2622,5 +2622,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/qaagai',
     },
   },
+  {
+    tokenSymbol: 'ANDY',
+    tokenName: 'Andy BSC',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ANDY.png',
+    tokenAddresses: [{ address: '0x01ca78a2b5f1a9152d8a3a625bd7df5765eee1d8', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://www.andytoken.com/',
+      twitterUrl: 'https://x.com/andybsctoken',
+      telegramUrl: 'https://t.me/andyonbsctoken',
+    },
+  },
 ]
 export default verifiedAssets
