@@ -2633,5 +2633,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/andyonbsctoken',
     },
   },
+  {
+    tokenSymbol: 'ALVA',
+    tokenName: 'Alvara Protocol',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ALVA.png',
+    tokenAddresses: [{ address: '0x8e729198d1c59b82bd6bba579310c40d740a11c2', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://alvara.xyz/',
+      twitterUrl: 'https://x.com/AlvaraProtocol',
+      telegramUrl: 'https://t.me/AlvaraProtocol',
+    },
+  },
 ]
 export default verifiedAssets
