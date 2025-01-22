@@ -2644,5 +2644,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/AlvaraProtocol',
     },
   },
+  {
+    tokenSymbol: 'ANZ',
+    tokenName: 'Anzen Finance',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ANZ.png',
+    tokenAddresses: [{ address: '0xeec468333ccc16d4bf1cef497a56cf8c0aae4ca3', chainId: '8453' }],
+    profileLinks: {
+      siteUrl: 'https://anzen.finance/',
+      twitterUrl: 'https://x.com/anzenfinance',
+      telegramUrl: 'https://t.me/AnzenCommunity',
+    },
+  },
 ]
 export default verifiedAssets
