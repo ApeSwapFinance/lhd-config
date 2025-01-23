@@ -2655,5 +2655,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/AnzenCommunity',
     },
   },
+  {
+    tokenSymbol: 'XAVI',
+    tokenName: 'XAVI by Virtuals',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/XAVI.png',
+    tokenAddresses: [{ address: '0xacf80a4e55f5f28e1e7d261a221ca495db5bcbb3', chainId: '8453' }],
+    profileLinks: {
+      siteUrl: 'https://www.agentxavi.ai/',
+      twitterUrl: 'https://x.com/AgentXAVI',
+      discordUrl: 'https://discord.com/invite/RingfenceAI',
+    },
+  },
 ]
 export default verifiedAssets
