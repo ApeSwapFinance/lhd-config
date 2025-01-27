@@ -2666,16 +2666,5 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/RingfenceAI',
     },
   },
-  {
-    tokenSymbol: 'EMT',
-    tokenName: 'EMAIL Token',
-    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/EMT.png',
-    tokenAddresses: [{ address: '0xe2c86869216ac578bd62a4b8313770d9ee359a05', chainId: '8453' }],
-    profileLinks: {
-      siteUrl: 'https://ethermail.io/',
-      twitterUrl: 'https://x.com/ethermail_io',
-      telegramUrl: 'https://t.me/ethermail_official',
-    },
-  },
 ]
 export default verifiedAssets
