@@ -2677,5 +2677,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/ethermail_official',
     },
   },
+  {
+    tokenSymbol: 'SPN',
+    tokenName: 'Sapiens AI',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SPN.png',
+    tokenAddresses: [{ address: '0x035098c2a3bea5e03b1e08e7140a5369d47bd349', chainId: '8453' }],
+    profileLinks: {
+      siteUrl: 'https://spns.ai/',
+      twitterUrl: 'https://x.com/spns_ai',
+      telegramUrl: 'https://t.me/officialsapiens',
+    },
+  },
 ]
 export default verifiedAssets
