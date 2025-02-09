@@ -2688,5 +2688,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/officialsapiens',
     },
   },
+  {
+    tokenSymbol: 'ZAI',
+    tokenName: 'ZAYA AI',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ZAI.png',
+    tokenAddresses: [{ address: '0x9959413ec3eb6cee73ad16e6cd531352c9ce816f', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://zayablockchain.com/',
+      twitterUrl: 'https://x.com/ZayaAI_PathDx',
+      telegramUrl: 'https://t.me/ZayaAI_EN',
+    },
+  },
 ]
 export default verifiedAssets
