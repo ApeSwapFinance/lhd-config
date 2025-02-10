@@ -2699,5 +2699,27 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/ZayaAI_EN',
     },
   },
+  {
+    tokenSymbol: 'MDOGAI',
+    tokenName: 'MoonDog AI',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MDOGAI.png',
+    tokenAddresses: [{ address: '0xd81cb23a4690f7fdf54e583f221d2c01882604f8', chainId: '8453' }],
+    profileLinks: {
+      siteUrl: 'https://www.basedmoondog.com/',
+      twitterUrl: 'https://x.com/MoonDogAI',
+      telegramUrl: 'https://t.me/MoonDogNews',
+    },
+  },
+  {
+    tokenSymbol: 'EMYC',
+    tokenName: 'E Money Network',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/EMYC.png',
+    tokenAddresses: [{ address: '0xe3f53c0d48360de764ddc2a1a82c3e6db5d4624d', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://emoney.io/',
+      twitterUrl: 'https://x.com/emoney_network',
+      telegramUrl: 'https://t.me/Emoney_io',
+    },
+  },
 ]
 export default verifiedAssets
