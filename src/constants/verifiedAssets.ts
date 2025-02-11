@@ -2721,5 +2721,28 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/Emoney_io',
     },
   },
+  {
+    tokenSymbol: 'DYOR',
+    tokenName: 'Do Your Own Research',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/DYOR.png',
+    tokenAddresses: [{ address: '0xa001dcc9a7974dae133a11d2800a7abf7b8f5f3c', chainId: '8453' }],
+    profileLinks: {
+      siteUrl: 'https://dyor.exchange/',
+      twitterUrl: 'https://x.com/dyorexchange',
+      telegramUrl: 'https://t.me/dyorexchange',
+      discordUrl: 'https://discord.com/invite/dyorexchange',
+    },
+  },
+  {
+    tokenSymbol: 'TREB',
+    tokenName: 'Treble',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/TREB.png',
+    tokenAddresses: [{ address: '0xB96450dCB16e4a30b999Cb5F4087bae9c0ffAc4e', chainId: '8453' }],
+    profileLinks: {
+      siteUrl: 'https://trebleswap.com/',
+      twitterUrl: 'https://x.com/TrebleSwap',
+      telegramUrl: 'https://t.me/TrebleSwapPortal',
+    },
+  },
 ]
 export default verifiedAssets
