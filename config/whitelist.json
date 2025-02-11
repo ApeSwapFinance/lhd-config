@@ -4340,6 +4340,39 @@
     }
   },
   {
+    "tokenSymbol": "DYOR",
+    "tokenName": "Do Your Own Research",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/DYOR.png",
+    "tokenAddresses": [
+      {
+        "address": "0xa001dcc9a7974dae133a11d2800a7abf7b8f5f3c",
+        "chainId": "8453"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://dyor.exchange/",
+      "twitterUrl": "https://x.com/dyorexchange",
+      "telegramUrl": "https://t.me/dyorexchange",
+      "discordUrl": "https://discord.com/invite/dyorexchange"
+    }
+  },
+  {
+    "tokenSymbol": "TREB",
+    "tokenName": "Treble",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/TREB.png",
+    "tokenAddresses": [
+      {
+        "address": "0xb96450dcb16e4a30b999cb5f4087bae9c0ffac4e",
+        "chainId": "8453"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://trebleswap.com/",
+      "twitterUrl": "https://x.com/TrebleSwap",
+      "telegramUrl": "https://t.me/TrebleSwapPortal"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
