@@ -4373,6 +4373,22 @@
     }
   },
   {
+    "tokenSymbol": "LYP",
+    "tokenName": "Lympid Token",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LYP.png",
+    "tokenAddresses": [
+      {
+        "address": "0x4837b18a6d7af6159c8665505b90a2ed393255e0",
+        "chainId": "8453"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.lympid.io/",
+      "twitterUrl": "https://x.com/lympid_official",
+      "telegramUrl": "https://t.me/lympid_io"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
