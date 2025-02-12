@@ -2744,5 +2744,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/TrebleSwapPortal',
     },
   },
+  {
+    tokenSymbol: 'LYP',
+    tokenName: 'Lympid Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LYP.png',
+    tokenAddresses: [{ address: '0x4837b18a6d7aF6159c8665505B90a2ed393255E0', chainId: '8453' }],
+    profileLinks: {
+      siteUrl: 'https://www.lympid.io/',
+      twitterUrl: 'https://x.com/lympid_official',
+      telegramUrl: 'https://t.me/lympid_io',
+    },
+  },
 ]
 export default verifiedAssets
