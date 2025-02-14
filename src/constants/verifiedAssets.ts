@@ -2755,5 +2755,25 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/lympid_io',
     },
   },
+  {
+    tokenSymbol: 'SAGE',
+    tokenName: 'Sage Market',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SAGE.png',
+    tokenAddresses: [{ address: '0xa71261c2b51cb8030700f5601ca597c522dc232e', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://sagestudios.ai',
+      twitterUrl: 'https://x.com/sagestudiosai',
+    },
+  },
+  {
+    tokenSymbol: 'RYO',
+    tokenName: 'RYO Coin',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/RYO.png',
+    tokenAddresses: [{ address: '0x4c7fe8f97db97cbccc76989ab742afc66ca6e75c', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://ryocoin.com',
+      twitterUrl: 'https://x.com/ryodigital',
+    },
+  },
 ]
 export default verifiedAssets
