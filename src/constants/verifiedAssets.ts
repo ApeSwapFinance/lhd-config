@@ -2775,5 +2775,16 @@ const verifiedAssets: AddressMapping[] = [
       twitterUrl: 'https://x.com/ryodigital',
     },
   },
+  {
+    tokenSymbol: 'BNBAI',
+    tokenName: 'BNB Agents',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BNBAI.png',
+    tokenAddresses: [{ address: '0x2aabe2ef9ee8ab04c6f27c4284c3f268769b35ec', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://www.bnbagents.ai',
+      twitterUrl: 'https://x.com/BNBAgents_AI',
+      telegramUrl: 'https://t.me/BNBAgents',
+    },
+  },
 ]
 export default verifiedAssets
