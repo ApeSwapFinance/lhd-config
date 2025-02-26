@@ -2797,5 +2797,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/MindAIGroup',
     },
   },
+  {
+    tokenSymbol: 'ZND',
+    tokenName: 'ZND Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ZND.png',
+    tokenAddresses: [{ address: '0x2d8ea194902bc55431420bd26be92b0782dce91d', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://znd.co/',
+      twitterUrl: 'https://x.com/ZND_co',
+      telegramUrl: 'https://t.me/ZND_Official',
+    },
+  },
 ]
 export default verifiedAssets
