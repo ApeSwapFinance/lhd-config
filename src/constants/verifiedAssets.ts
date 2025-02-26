@@ -2786,5 +2786,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/BNBAgents',
     },
   },
+  {
+    tokenSymbol: 'MA',
+    tokenName: 'Mind AI',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MA.png',
+    tokenAddresses: [{ address: '0xb5ab5cf2e2c686ae43f01f23859f3a55a8629c1c', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://www.mind-ai.io/',
+      twitterUrl: 'https://x.com/MindAI_io',
+      telegramUrl: 'https://t.me/MindAIGroup',
+    },
+  },
 ]
 export default verifiedAssets
