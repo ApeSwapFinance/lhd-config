@@ -2822,5 +2822,21 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://t.co/BwAgkgiHd5',
     },
   },
+  {
+    tokenSymbol: 'WGC',
+    tokenName: 'Wild Goat Coin',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/WGC.png',
+    tokenAddresses: [
+      { address: '0x6acb9ac319bafe509af9e96be642ead00526b9fa', chainId: '1' },
+      { address: '0x67631ff69130ea1a6c4feaa4a0abf0a1e0148be7', chainId: '10' },
+      { address: '0x04565fe9aa3ae571ada8e1bebf8282c4e5247b2a', chainId: '137' },
+      { address: '0xfb18511f1590a494360069f3640c27d55c2b5290', chainId: '8453'},
+    ],
+    profileLinks: {
+      siteUrl: 'https://wildgoatcoin.com/',
+      twitterUrl: 'https://x.com/wildgoatcoin',
+      discordUrl: 'https://discord.com/invite/jG7fSs6W8w',
+    },
+  },
 ]
 export default verifiedAssets
