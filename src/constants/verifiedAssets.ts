@@ -2808,5 +2808,19 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/ZND_Official',
     },
   },
+  {
+    tokenSymbol: 'GMRT',
+    tokenName: 'The Game Company',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/GMRT.png',
+    tokenAddresses: [
+      { address: '0x6967f0974d76d34e140cae27efea32cdf546b58e', chainId: '8453' },
+      { address: '0x6967f0974d76d34e140cae27efea32cdf546b58e', chainId: '1' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://www.gmrtag.io/',
+      twitterUrl: 'https://x.com/TheGame_Company',
+      discordUrl: 'https://t.co/BwAgkgiHd5',
+    },
+  },
 ]
 export default verifiedAssets
