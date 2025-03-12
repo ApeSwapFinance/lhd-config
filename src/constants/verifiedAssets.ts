@@ -2838,5 +2838,20 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/jG7fSs6W8w',
     },
   },
+  {
+    tokenSymbol: 'FTRB',
+    tokenName: 'Faith Tribe',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/FTRB.png',
+    tokenAddresses: [
+      { address: '0x2596825a84888e8f24b747df29e11b5dd03c81d7', chainId: '1' },
+      { address: '0xc3f56d567e7663e8932e65d85ae4be7eb5575ca7', chainId: '137' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://www.faithtribe.io/',
+      twitterUrl: 'https://x.com/realfaithtribe',
+      discordUrl: 'https://discord.com/invite/QeBQPdB335',
+      telegramUrl: 'https://t.me/faithtribe',
+    },
+  },
 ]
 export default verifiedAssets
