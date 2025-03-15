@@ -598,7 +598,17 @@ const hardAssets: AddressMapping[] = [
     tokenName: 'USDC.e',
     tokenLogoUrl: 'https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024',
     isHardAsset: true,
-    tokenAddresses: [{ address: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174', chainId: '137' }],
+    tokenAddresses: [
+      { address: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174', chainId: '137' },
+      { address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894', chainId: '146' },
+    ],
+  },
+  {
+    tokenSymbol: 'wS',
+    tokenName: 'Wrapped Sonic',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/38108/large/200x200_Sonic_Logo.png?1734679256',
+    isHardAsset: true,
+    tokenAddresses: [{ address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38', chainId: '146' }],
   },
 ]
 
