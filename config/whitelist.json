@@ -4536,6 +4536,23 @@
     }
   },
   {
+    "tokenSymbol": "OS",
+    "tokenName": "Origin Sonic",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/OS.png",
+    "tokenAddresses": [
+      {
+        "address": "0xb1e25689d55734fd3fffc939c4c3eb52dff8a794",
+        "chainId": "146"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.originprotocol.com/",
+      "twitterUrl": "https://x.com/OriginProtocol",
+      "telegramUrl": "https://t.me/originprotocol",
+      "discordUrl": "https://discord.com/invite/ogn"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
