@@ -2865,5 +2865,20 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/ogn',
     },
   },
+  {
+    tokenSymbol: 'APEX',
+    tokenName: 'ApeX',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/APEX.png',
+    tokenAddresses: [
+      { address: '0x52a8845df664d76c69d2eea607cd793565af42b8', chainId: '1' },
+      { address: '0x61a1ff55c5216b636a294a07d77c6f4df10d3b56', chainId: '42161' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://apex.exchange/',
+      twitterUrl: 'https://x.com/OfficialApeXdex',
+      discordUrl: 'https://discord.com/invite/366Puqavwx',
+      telegramUrl: 'https://t.me/ApeXdex',
+    },
+  },
 ]
 export default verifiedAssets
