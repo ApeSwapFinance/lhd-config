@@ -4574,6 +4574,64 @@
     }
   },
   {
+    "tokenSymbol": "FULA",
+    "tokenName": "Functionland",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/FULA.png",
+    "tokenAddresses": [
+      {
+        "address": "0x92217ccaedbdbc54c76c15fea18823db1558fdc9",
+        "chainId": "1"
+      },
+      {
+        "address": "0x9e12735d77c72c5c3670636d428f2f3815d8a4cb",
+        "chainId": "8453"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://fx.land/",
+      "twitterUrl": "https://x.com/functionland",
+      "discordUrl": "https://discord.com/invite/k9UybUBdBB",
+      "telegramUrl": "https://t.me/functionland"
+    }
+  },
+  {
+    "tokenSymbol": "ITHACA",
+    "tokenName": "Ithaca Protocol",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ITHACA.png",
+    "tokenAddresses": [
+      {
+        "address": "0x1095ae55b62174d9ea3bc6a4136acacad461d7ce",
+        "chainId": "1"
+      },
+      {
+        "address": "0x49f1d4db3ea1a64390e990c6debeac88eac007ca",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.ithacaprotocol.io/",
+      "twitterUrl": "https://x.com/IthacaProtocol",
+      "discordUrl": "https://discord.com/invite/ithaca",
+      "telegramUrl": "https://t.me/Ithaca_protocol"
+    }
+  },
+  {
+    "tokenSymbol": "VPT",
+    "tokenName": "Veritas",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/VPT.png",
+    "tokenAddresses": [
+      {
+        "address": "0x00096697dc24bd10423690126d91546a20ccb3f0",
+        "chainId": "8453"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.veritasprotocol.com/",
+      "twitterUrl": "https://x.com/veritas_web3",
+      "telegramUrl": "https://t.me/Veritas_Protocol"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
