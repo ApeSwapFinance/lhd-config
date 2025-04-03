@@ -2921,5 +2921,17 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/Veritas_Protocol',
     },
   },
+  {
+    tokenSymbol: 'MMA',
+    tokenName: 'Meme Alliance',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MMA.png',
+    tokenAddresses: [{ address: '0x9b3a8159e119eb09822115ae08ee1526849e1116', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://www.meme-alliance.com/',
+      twitterUrl: 'https://x.com/MemesAtWar',
+      telegramUrl: 'https://t.me/MemeAllianceFPS',
+      discordUrl: 'https://discord.com/invite/ZuUy9d5XRn',
+    },
+  },
 ]
 export default verifiedAssets
