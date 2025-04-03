@@ -135,6 +135,7 @@ const hardAssets: AddressMapping[] = [
       { address: '0x853eb4ba5d0ba2b77a0a5329fd2110d5ce149ece', chainId: '420' },
       { address: '0xA219439258ca9da29E9Cc4cE5596924745e12B93', chainId: '59144' },
       { address: '0xC1B8045A6ef2934Cf0f78B0dbD489969Fa9Be7E4', chainId: '8822' },
+      { address: '0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2', chainId: '8453' },
       {
         address: '0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::usdtcoin',
         chainId: '12360001',

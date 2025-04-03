@@ -458,6 +458,10 @@
         "chainId": "8822"
       },
       {
+        "address": "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2",
+        "chainId": "8453"
+      },
+      {
         "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::usdtcoin",
         "chainId": "12360001"
       }
