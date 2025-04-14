@@ -13,8 +13,8 @@ Twitter Handle:
 
 ```
 Point of Contact Telegram:
-Did you add @JulianApeSwap as a contact on Telegram?:
-Did you send a message to Julian?:
+Did you add @Adam_MBiz as a contact on Telegram?:
+Did you send a message to Adam?:
 ```
 
 **Additional Details (Optional):**

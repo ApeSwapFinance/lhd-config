@@ -18,5 +18,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: 'Thank you for submitting your pull request, last step is to send the link of your PR to [Julian](https://t.me/JulianApeSwap), that way we can review as quickly as possible! '
+              body: 'Thank you for submitting your pull request, last step is to send the link of your PR to [Adam](https://t.me/Adam_MBiz), that way we can review as quickly as possible! '
             })
