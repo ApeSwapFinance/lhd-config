@@ -4649,6 +4649,55 @@
     }
   },
   {
+    "tokenSymbol": "YEL",
+    "tokenName": "Yel.Finance",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/YEL.png",
+    "tokenAddresses": [
+      {
+        "address": "0x949185d3be66775ea648f4a306740ea9eff9c567",
+        "chainId": "1"
+      },
+      {
+        "address": "0x949185d3be66775ea648f4a306740ea9eff9c567",
+        "chainId": "56"
+      },
+      {
+        "address": "0x949185d3be66775ea648f4a306740ea9eff9c567",
+        "chainId": "146"
+      },
+      {
+        "address": "0x949185d3be66775ea648f4a306740ea9eff9c567",
+        "chainId": "8453"
+      },
+      {
+        "address": "0x949185d3be66775ea648f4a306740ea9eff9c567",
+        "chainId": "137"
+      },
+      {
+        "address": "0x949185d3be66775ea648f4a306740ea9eff9c567",
+        "chainId": "42161"
+      },
+      {
+        "address": "0x949185d3be66775ea648f4a306740ea9eff9c567",
+        "chainId": "10"
+      },
+      {
+        "address": "0x949185d3be66775ea648f4a306740ea9eff9c567",
+        "chainId": "81457"
+      },
+      {
+        "address": "0x949185d3be66775ea648f4a306740ea9eff9c567",
+        "chainId": "43114"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://yel.finance/",
+      "twitterUrl": "https://x.com/yel_finance",
+      "discordUrl": "https://discord.com/invite/5HRAprgaGV",
+      "telegramUrl": "https://t.me/yelfinance"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
