@@ -2969,5 +2969,16 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/echelonfnd',
     },
   },
+  {
+    tokenSymbol: 'WHITE',
+    tokenName: 'WhiteRock',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/WHITE.png',
+    tokenAddresses: [{ address: '0x9cdf242ef7975d8c68d5c1f5b6905801699b1940', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://whiterock.fi/',
+      twitterUrl: 'https://x.com/WhiteRock_Fi',
+      telegramUrl: 'https://t.me/whiterock_finance',
+    },
+  },
 ]
 export default verifiedAssets
