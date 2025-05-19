@@ -2955,5 +2955,30 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/yelfinance',
     },
   },
+  {
+    tokenSymbol: 'PRIME',
+    tokenName: 'Echelon Prime',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/PRIME.png',
+    tokenAddresses: [
+      { address: '0xb23d80f5fefcddaa212212f028021b41ded428cf', chainId: '1' },
+      { address: '0xfa980ced6895ac314e7de34ef1bfae90a5add21b', chainId: '8453' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://echelon.io/',
+      twitterUrl: 'https://x.com/EchelonFND',
+      discordUrl: 'https://discord.com/invite/echelonfnd',
+    },
+  },
+  {
+    tokenSymbol: 'WHITE',
+    tokenName: 'WhiteRock',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/WHITE.png',
+    tokenAddresses: [{ address: '0x9cdf242ef7975d8c68d5c1f5b6905801699b1940', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://whiterock.fi/',
+      twitterUrl: 'https://x.com/WhiteRock_Fi',
+      telegramUrl: 'https://t.me/whiterock_finance',
+    },
+  },
 ]
 export default verifiedAssets
