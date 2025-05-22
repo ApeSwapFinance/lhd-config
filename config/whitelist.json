@@ -4734,6 +4734,26 @@
     }
   },
   {
+    "tokenSymbol": "BR",
+    "tokenName": "Bedrock",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BR.png",
+    "tokenAddresses": [
+      {
+        "address": "0xd352dc6e5f0c45e2f2b38eb5565eb286a1ea4087",
+        "chainId": "80094"
+      },
+      {
+        "address": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.bedrockdao.com/",
+      "twitterUrl": "https://x.com/Bedrock_DeFi",
+      "telegramUrl": "https://t.me/Bedrock_Official"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
