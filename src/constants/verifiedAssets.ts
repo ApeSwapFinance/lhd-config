@@ -2994,5 +2994,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/Bedrock_Official',
     },
   },
+  {
+    tokenSymbol: 'EDN',
+    tokenName: 'Eden',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/EDN.png',
+    tokenAddresses: [{ address: '0xe7875e08e3c85dd49d4ff52a7d4c3a9c75c8a6a1', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://oureden.io/',
+      twitterUrl: 'https://x.com/EdenApp_EDN',
+      telegramUrl: 'https://t.me/edenchateng',
+    },
+  },
 ]
 export default verifiedAssets

@@ -611,6 +611,13 @@ const hardAssets: AddressMapping[] = [
     isHardAsset: true,
     tokenAddresses: [{ address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38', chainId: '146' }],
   },
+  {
+    tokenSymbol: 'WBERA',
+    tokenName: 'Wrapped Bera',
+    tokenLogoUrl: 'https://assets.coingecko.com/coins/images/54219/large/BERA_%282%29.png?1738848488',
+    isHardAsset: true,
+    tokenAddresses: [{ address: '0x6969696969696969696969696969696969696969', chainId: '80094' }],
+  },
 ]
 
 export default hardAssets
