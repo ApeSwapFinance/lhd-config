@@ -3016,5 +3016,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/fmtcommunity',
     },
   },
+  {
+    tokenSymbol: 'ENF',
+    tokenName: 'Enfineo',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/ENF.png',
+    tokenAddresses: [{ address: '0x418f9e4976f467efdb31b2009ac69a7e30ef58b7', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://enfineo.com/',
+      twitterUrl: 'https://x.com/enfineoapp',
+      telegramUrl: 'https://t.me/+FPZUQVyI_u05YzE0',
+    },
+  },
 ]
 export default verifiedAssets
