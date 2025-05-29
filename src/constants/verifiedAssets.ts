@@ -3005,5 +3005,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/edenchateng',
     },
   },
+  {
+    tokenSymbol: 'FMT',
+    tokenName: 'Finger Monkeys',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/FMT.png',
+    tokenAddresses: [{ address: '0x5ba9e0ce610927c1915c9d9de4bdaf2b8a1dee7e', chainId: '8453' }],
+    profileLinks: {
+      siteUrl: 'https://www.fingermonkeys.com/',
+      twitterUrl: 'https://x.com/fingermonkeysio',
+      telegramUrl: 'https://t.me/fmtcommunity',
+    },
+  },
 ]
 export default verifiedAssets
