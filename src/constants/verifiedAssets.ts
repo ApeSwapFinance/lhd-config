@@ -3027,5 +3027,21 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/+FPZUQVyI_u05YzE0',
     },
   },
+  {
+    tokenSymbol: 'RIZ',
+    tokenName: 'Rivalz Network',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/RIZ.png',
+    tokenAddresses: [
+      { address: '0x058d411ab9911f90c74f471bdc9d2bb4cf9b309c', chainId: '1' },
+      { address: '0x67543cf0304c19ca62ac95ba82fd4f4b40788dc1', chainId: '8453' },
+      { address: '0x083fb956333f9c1568f66fc0d0be451f31f8c46c', chainId: '42161' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://rivalz.ai/',
+      twitterUrl: 'https://x.com/Rivalz_AI',
+      discordUrl: 'https://discord.com/invite/rivalzai',
+      telegramUrl: 'https://t.me/RivalzAI_Ann',
+    },
+  },
 ]
 export default verifiedAssets
