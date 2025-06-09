@@ -3043,5 +3043,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/RivalzAI_Ann',
     },
   },
+  {
+    tokenSymbol: 'MBX',
+    tokenName: 'MARBLEX',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MBX.png',
+    tokenAddresses: [{ address: '0xf95a5532d67c944dfa7eddd2f8c358fe0dc7fac2', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://www.marblex.io/en',
+      twitterUrl: 'https://x.com/MARBLEXofficial',
+      telegramUrl: 'https://t.me/MARBLEX_official_ENG',
+    },
+  },
 ]
 export default verifiedAssets
