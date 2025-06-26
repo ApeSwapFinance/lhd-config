@@ -3054,5 +3054,28 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/MARBLEX_official_ENG',
     },
   },
+  {
+    tokenSymbol: 'UDS',
+    tokenName: 'Undeads Games',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/UDS.png',
+    tokenAddresses: [{ address: '0x712bd4Beb54C6B958267d9dB0259abdBb0BFF606', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://undeads.com/',
+      twitterUrl: 'https://x.com/undeadscom',
+      telegramUrl: 'https://t.me/undeads',
+    },
+  },
+  {
+    tokenSymbol: 'FURY',
+    tokenName: 'Engines of Fury',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/FURY.png',
+    tokenAddresses: [{ address: '0x0203d275d2a65030889af45ed91d472be3948b92', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://www.eof.gg/',
+      twitterUrl: 'https://x.com/EnginesOfFury',
+      telegramUrl: 'https://t.me/EnginesOfFury',
+      discordUrl: 'https://discord.com/invite/eof',
+    },
+  },
 ]
 export default verifiedAssets
