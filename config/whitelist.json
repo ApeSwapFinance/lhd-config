@@ -4843,6 +4843,39 @@
     }
   },
   {
+    "tokenSymbol": "UDS",
+    "tokenName": "Undeads Games",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/UDS.png",
+    "tokenAddresses": [
+      {
+        "address": "0x712bd4beb54c6b958267d9db0259abdbb0bff606",
+        "chainId": "1"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://undeads.com/",
+      "twitterUrl": "https://x.com/undeadscom",
+      "telegramUrl": "https://t.me/undeads"
+    }
+  },
+  {
+    "tokenSymbol": "FURY",
+    "tokenName": "Engines of Fury",
+    "tokenLogoUrl": "https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/FURY.png",
+    "tokenAddresses": [
+      {
+        "address": "0x0203d275d2a65030889af45ed91d472be3948b92",
+        "chainId": "56"
+      }
+    ],
+    "profileLinks": {
+      "siteUrl": "https://www.eof.gg/",
+      "twitterUrl": "https://x.com/EnginesOfFury",
+      "telegramUrl": "https://t.me/EnginesOfFury",
+      "discordUrl": "https://discord.com/invite/eof"
+    }
+  },
+  {
     "tokenSymbol": "USDC",
     "tokenLogoUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=024",
     "tokenName": "USD Coin",
