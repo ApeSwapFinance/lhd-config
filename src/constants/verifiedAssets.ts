@@ -3077,5 +3077,16 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/eof',
     },
   },
+  {
+    tokenSymbol: 'SEED',
+    tokenName: 'SEED NFT Marketplace',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SEED.png',
+    tokenAddresses: [{ address: '0x6730f7A6BbB7b9C8e60843948f7FEB4B6a17B7F7', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://seed.photo/',
+      twitterUrl: 'https://x.com/seedphoto',
+      telegramUrl: 'https://t.me/seedphoto',
+    },
+  },
 ]
 export default verifiedAssets
