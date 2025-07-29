@@ -3088,5 +3088,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/seedphoto',
     },
   },
+  {
+    tokenSymbol: 'MAIV',
+    tokenName: 'Multi Asset Investment Vehicle',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MAIV.png',
+    tokenAddresses: [{ address: '0x39903a1a6f289a67e0de94096915c4ccd506ab2a', chainId: '1' }],
+    profileLinks: {
+      siteUrl: 'https://maiv.io/',
+      twitterUrl: 'https://x.com/MAIV_FINANCE',
+      telegramUrl: 'https://t.me/MAIV_FINANCE',
+    },
+  },
 ]
 export default verifiedAssets
