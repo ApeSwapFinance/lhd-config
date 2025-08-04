@@ -3099,5 +3099,17 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/MAIV_FINANCE',
     },
   },
+  {
+    tokenSymbol: 'BDCA',
+    tokenName: 'BitDCA',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/BDCA.png',
+    tokenAddresses: [{ address: '0x0c8382719ef242cae2247e4decb2891fbf699818', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://www.littlebit.net/',
+      twitterUrl: 'https://x.com/bitdcaOFFICIAL',
+      telegramUrl: 'https://t.me/bitdca',
+      discordUrl: 'https://discord.com/invite/bitdca',
+    },
+  },
 ]
 export default verifiedAssets
