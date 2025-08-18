@@ -3111,5 +3111,19 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://discord.com/invite/bitdca',
     },
   },
+  {
+    tokenSymbol: 'RLC',
+    tokenName: 'iExec RLC',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/RLC.png',
+    tokenAddresses: [
+      { address: '0x607f4c5bb672230e8672085532f7e901544a7375', chainId: '1' },
+      { address: '0xe649e6a1f2afc63ca268c2363691cecaf75cf47c', chainId: '42161' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://www.iex.ec/',
+      twitterUrl: 'https://x.com/iEx_ec',
+      discordUrl: 'https://t.me/iexec_rlc_official',
+    },
+  },
 ]
 export default verifiedAssets
