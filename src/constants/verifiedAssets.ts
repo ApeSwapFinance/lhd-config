@@ -3125,5 +3125,20 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://t.me/iexec_rlc_official',
     },
   },
+  {
+    tokenSymbol: 'LGCT',
+    tokenName: 'Legacy Token',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/LGCT.png',
+    tokenAddresses: [
+      { address: '0xd38b305cac06990c0887032a02c03d6839f770a8', chainId: '1' },
+      { address: '0xd38b305cac06990c0887032a02c03d6839f770a8', chainId: '56' },
+      { address: '0xd38b305cac06990c0887032a02c03d6839f770a8', chainId: '8453'},
+    ],
+    profileLinks: {
+      siteUrl: 'https://www.legacynetwork.io/',
+      twitterUrl: 'https://x.com/LegacyNetworkio',
+      discordUrl: 'https://t.me/legacynetworkofficial',
+    },
+  },
 ]
 export default verifiedAssets
