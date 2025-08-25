@@ -3140,5 +3140,23 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://t.me/legacynetworkofficial',
     },
   },
+  {
+    tokenSymbol: 'SPUSD',
+    tokenName: 'SoulPeg USD',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SPUSD.png',
+    tokenAddresses: [
+      { address: '0x40ff3dea2eec93a7b71879874dc4407918da77a6', chainId: '56' }, // BSC
+    ],
+    knownOwners: [
+      '0x18259cc6cb60221a3a7ad97d664e759bf49df312', // Wrapper
+      '0xf683ab3ac7dcb195a8df52d7f5fd796e81a75075', // Owner
+    ],
+    tags: ['Stablecoin'],
+    profileLinks: {
+      siteUrl: 'https://soulpeg.io',
+      twitterUrl: 'https://x.com/soulpeglabs',
+      telegramUrl: 'https://t.me/soulpeg',
+    },
+  }
 ]
 export default verifiedAssets
