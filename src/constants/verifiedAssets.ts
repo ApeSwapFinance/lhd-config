@@ -3140,5 +3140,20 @@ const verifiedAssets: AddressMapping[] = [
       discordUrl: 'https://t.me/legacynetworkofficial',
     },
   },
+  {
+    tokenSymbol: 'HELLO',
+    tokenName: 'HELLO',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/HELLO.png',
+    tokenAddresses: [
+      { address: '0x411099c0b413f4feddb10edf6a8be63bd321311c', chainId: '1' },
+      { address: '0x0f1cbed8efa0e012adbccb1638d0ab0147d5ac00', chainId: '56' },
+    ],
+    profileLinks: {
+      siteUrl: 'https://www.hello.one/',
+      twitterUrl: 'https://x.com/thehellolabs',
+      discordUrl: 'https://discord.com/invite/hellolabs',
+      telegramUrl: 'https://t.me/HELLOLabs',
+    },
+  },
 ]
 export default verifiedAssets
