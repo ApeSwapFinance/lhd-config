@@ -3155,5 +3155,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/HELLOLabs',
     },
   },
+  {
+    tokenSymbol: 'SUP',
+    tokenName: 'Superp',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/SUP.png',
+    tokenAddresses: [{ address: '0x19ed254efa5e061d28d84650891a3db2a9940c16', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://www.superp.xyz/en',
+      twitterUrl: 'https://x.com/Superp_xyz',
+      telegramUrl: 'https://t.me/officialvanillafinance2',
+    },
+  },
 ]
 export default verifiedAssets
