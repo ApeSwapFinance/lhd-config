@@ -3166,5 +3166,16 @@ const verifiedAssets: AddressMapping[] = [
       telegramUrl: 'https://t.me/officialvanillafinance2',
     },
   },
+  {
+    tokenSymbol: 'MAIGA',
+    tokenName: 'Maiga',
+    tokenLogoUrl: 'https://raw.githubusercontent.com/ApeSwapFinance/lhd-config/main/logos/MAIGA.png',
+    tokenAddresses: [{ address: '0xcd1679f117e81defc4f0009311ddc23fc1ae4a5e', chainId: '56' }],
+    profileLinks: {
+      siteUrl: 'https://www.maiga.ai/',
+      twitterUrl: 'https://x.com/Maiga_AI',
+      telegramUrl: 'https://t.me/MAIGAAI',
+    },
+  },
 ]
 export default verifiedAssets
